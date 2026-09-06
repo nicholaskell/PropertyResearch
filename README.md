@@ -1,10 +1,10 @@
 # PropertyResearch
 
-A Git-backed property research system designed for ChatGPT. It separates **property facts**, **buyer/use-case preferences**, and **portfolio rankings** so listings can be researched consistently and compared later.
+A Git-backed property research system designed for ChatGPT. It separates **property facts**, **buyer/use-case preferences**, **buyer finance assumptions**, and **portfolio rankings** so listings can be researched consistently and compared later.
 
 The normal user experience is intentionally simple:
 
-**Paste listing link → Property Investigator researches it → normalized Markdown is saved to GitHub → Property Portfolio compares it with everything else.**
+**Paste listing link → Property Investigator researches it → normalized Markdown is saved to GitHub → Property Portfolio compares it with everything else, including realistic financing/capital allocation.**
 
 ## Architecture
 
@@ -19,6 +19,7 @@ Property Investigator
 GitHub PropertyResearch
   |-- criteria.md
   |-- personas/
+  |-- finance/
   |-- properties/
   |-- reports/
         |
@@ -26,7 +27,7 @@ GitHub PropertyResearch
 Property Portfolio
         |
         v
-Rank / Compare / Shortlist / Re-evaluate
+Rank / Compare / Finance / Shortlist / Re-evaluate
 ```
 
 ### Separation of responsibilities
@@ -34,7 +35,8 @@ Rank / Compare / Shortlist / Re-evaluate
 - **Framework files = reusable system.** Research rules, templates, Project instructions and portfolio logic.
 - **Property files = user data/facts.** Listing history, acreage, taxes, broadband, zoning, access, OGM/mineral rights, house condition, market access, unresolved research, etc.
 - **Persona files = user preferences.** A persona can represent a person, household member, animal, business, lifestyle, or use case.
-- **Reports = derived user analysis.** Rankings and scores can be regenerated whenever a persona or property changes.
+- **Finance files = buyer financial assumptions.** Home-sale proceeds, down-payment preferences, reserves, target payment and capital-allocation scenarios.
+- **Reports = derived user analysis.** Rankings, persona scores and Financial Fit can be regenerated whenever a persona, property or finance assumption changes.
 - **Chat = research notebook.** GitHub is the durable source of truth.
 
 ## Repository Structure
@@ -51,6 +53,13 @@ PropertyResearch/
 │   ├── active/               # Personas currently scored
 │   └── inactive/             # Saved personas excluded from scoring
 │
+├── finance/                  # PERSONALIZE
+│   ├── buyer-finance.md      # Sale proceeds, reserves, payment targets, etc.
+│   └── scenarios/
+│       ├── conservative.md
+│       ├── balanced.md
+│       └── aggressive.md
+│
 ├── properties/               # USER DATA — researched properties
 │   ├── WI/
 │   ├── PA/
@@ -62,7 +71,7 @@ PropertyResearch/
 
 # Quick Start for a New User
 
-If you are adopting/forking this repository from someone else, **do not use their property records or personas as if they were yours**.
+If you are adopting/forking this repository from someone else, **do not use their property records, personas or finance assumptions as if they were yours**.
 
 The reusable framework and the original user's data are intentionally separated.
 
@@ -76,9 +85,12 @@ criteria.md
 project-instructions.md
 property-template.md
 portfolio-rules.md
+finance/scenarios/conservative.md
+finance/scenarios/balanced.md
+finance/scenarios/aggressive.md
 ```
 
-These define how the system works and are intended to be portable between users.
+The finance scenario files are reusable logic. The actual numbers in `finance/buyer-finance.md` are personal and should be replaced.
 
 ## Delete the Previous User's Property Data
 
@@ -88,34 +100,28 @@ Delete the contents of:
 properties/
 ```
 
-The property Markdown files are the previous user's researched listings and should not become part of your portfolio.
-
 Keep the `properties/` directory itself. New state directories will be created as you research properties.
 
 ## Delete or Replace the Previous User's Personas
 
-Persona files are personal preferences and use cases. Delete the previous user's persona `.md` files from:
+Delete the previous user's persona `.md` files from:
 
 ```text
 personas/active/
 personas/inactive/
 ```
 
-Then create your own personas.
+Then create your own personas. You may intentionally retain a previous persona as a template, but do not assume its priorities apply to you.
 
-You may keep a previous persona **only if you intentionally want to use it as a template or scoring lens**. Do not assume its priorities or weights apply to you.
+## Replace the Previous User's Finance Profile
 
-Examples of personas you might create:
+Replace the personal values in:
 
 ```text
-personas/active/me.md
-personas/active/spouse.md
-personas/active/kids.md
-personas/active/dogs.md
-personas/active/homestead.md
-personas/active/business.md
-personas/active/investment.md
+finance/buyer-finance.md
 ```
+
+Do not copy another buyer's sale proceeds, reserve requirements, down-payment targets or monthly-payment limits.
 
 ## Delete Generated Reports
 
@@ -125,46 +131,43 @@ Delete generated files under:
 reports/
 ```
 
-Reports are derived from the previous user's properties and personas. Your Property Portfolio can regenerate them after you add your own data.
+Reports are derived from the previous user's properties, personas and finance assumptions.
 
 ## Clean-Fork Rule
 
-For a clean adoption, think of the repository this way:
-
 ```text
-KEEP
+KEEP / REUSE
 ├── README.md
 ├── criteria.md
 ├── project-instructions.md
 ├── property-template.md
-└── portfolio-rules.md
+├── portfolio-rules.md
+└── finance/scenarios/
 
 REPLACE WITH YOUR OWN
 ├── personas/
+├── finance/buyer-finance.md
 ├── properties/
 └── reports/
 ```
 
-After cleaning those three data areas, the repository is ready for a new user without modifying the core framework.
-
 ## Ask ChatGPT to Clean a Fork
-
-If your GitHub connection allows file changes, you can ask ChatGPT:
 
 ```text
 I forked this PropertyResearch repository for my own use.
 
-Preserve the reusable framework files, but remove the previous user's personal data:
+Preserve the reusable framework and finance scenario files, but remove or reset the previous user's personal data:
 - Delete all property records under properties/
 - Delete all generated reports under reports/
 - Delete all persona .md files under personas/active/ and personas/inactive/
+- Reset finance/buyer-finance.md so no previous user's personal finance numbers remain
+- Preserve README.md, criteria.md, project-instructions.md, property-template.md, portfolio-rules.md and finance/scenarios/
 - Preserve the directory structure
-- Do not delete README.md, criteria.md, project-instructions.md, property-template.md or portfolio-rules.md
 
-Then help me create my own active personas.
+Then help me create my own active personas and buyer finance profile.
 ```
 
-Review the requested deletions before authorizing them. If you want to preserve example personas, move or copy them somewhere intentionally rather than leaving them active.
+Review requested deletions before authorizing them.
 
 # ChatGPT Setup
 
@@ -173,16 +176,6 @@ Create **two ChatGPT Projects** and connect both to this GitHub repository.
 ## Project 1 — Property Investigator
 
 Purpose: research **one property at a time**.
-
-Recommended organization:
-
-```text
-PROPERTY INVESTIGATOR
-├── 54170 Mount Zion Rd
-├── N3328 Meade St
-├── 213 E Turnpike Rd
-└── ...
-```
 
 Create a **new chat for each property**. A bare Zillow/listing URL or property address is enough to start the workflow.
 
@@ -196,10 +189,12 @@ When I provide a Zillow/listing URL or property address:
 1. Read the current research framework from the PropertyResearch GitHub repository.
 2. Follow criteria.md and project-instructions.md.
 3. Read every persona in personas/active/.
-4. Research the property using Zillow/listing data plus authoritative external sources.
-5. Score every active persona.
-6. Create or update the normalized property Markdown record in properties/<STATE>/.
-7. Report the Property Card, fatal-flaw risks, major findings and important unknowns.
+4. Read finance/buyer-finance.md and active finance scenarios when populated.
+5. Research the property using Zillow/listing data plus authoritative external sources.
+6. Score every active persona.
+7. When enough finance data exists, estimate Financial Fit, Cash to Goal, realistic payment and useful down-payment/improvement-capital structures.
+8. Create or update the normalized property Markdown record in properties/<STATE>/.
+9. Report the Property Card, fatal-flaw risks, major findings and important unknowns.
 
 GitHub is the durable source of truth. Do not rely on prior chats for property facts when a current repository record exists.
 
@@ -210,11 +205,9 @@ The Investigator should research beyond the listing. Depending on the property, 
 
 ## Project 2 — Property Portfolio
 
-Purpose: compare **all researched properties**.
+Purpose: compare **all researched properties** and model realistic purchase structures.
 
 Unlike Investigator, Portfolio normally does **not** receive listing links. It reads the normalized records already stored in GitHub.
-
-Create one main chat such as **Master Property Comparison**.
 
 Suggested Project instructions:
 
@@ -227,21 +220,94 @@ For portfolio questions:
 
 1. Read portfolio-rules.md.
 2. Read every active persona in personas/active/.
-3. Read the relevant property records under properties/.
-4. Recalculate persona scores/rankings when criteria or personas have changed.
-5. Compare properties using both intrinsic characteristics and effective cost-to-goal.
-6. Never rank solely by one overall score.
-7. Highlight fatal flaws, unresolved research items, price/value differences and properties dominated by better alternatives.
+3. Read finance/buyer-finance.md and active files under finance/scenarios/.
+4. Read the relevant property records under properties/.
+5. Recalculate persona scores, Financial Fit and rankings when personas, finance assumptions or properties change.
+6. Compare properties using intrinsic characteristics, effective cost-to-goal, Cash to Goal, monthly carry and capital allocation.
+7. Never rank solely by one overall score.
+8. Highlight fatal flaws, unresolved research items, price/value differences and properties dominated by better alternatives.
 
 GitHub property records are the durable source of truth.
 ```
+
+# Finance Layer
+
+The finance layer answers a different question than personas:
+
+- **Personas:** Who/what likes this property and why?
+- **Finance:** Can the purchase be structured sensibly, and where should available capital go?
+
+Configure:
+
+```text
+finance/buyer-finance.md
+```
+
+Typical inputs include:
+
+- Conservative / expected / optimistic net home-sale proceeds
+- Cash available outside the sale
+- Minimum cash reserve
+- Preferred and maximum down payment
+- Target and maximum monthly housing cost
+- Loan term
+- Improvement-capital target
+- Closing-cost reserve
+
+Until the current home sale is complete, use three sale-proceeds scenarios rather than pretending the final number is known.
+
+## Financial Metrics
+
+**Effective Property Cost = Purchase Price + Required Improvements + Desired Improvements**
+
+**Cash to Goal = Cash required before the property reaches the selected acceptable/desired state**
+
+These are intentionally different. A lower-priced property can require more cash if it needs a large shop, road, well/septic, fencing or other improvements.
+
+## Capital Allocation
+
+For serious contenders, compare alternatives such as:
+
+```text
+More down payment
+vs.
+Retain cash for shop/improvements
+vs.
+Buy the more expensive property with the feature already built
+```
+
+Do not assume all home-sale proceeds should become down payment.
+
+A useful question for Portfolio is:
+
+```text
+Where does the next $50,000 or $100,000 create the most value across my current contenders: additional down payment, retained reserves, or specific improvements?
+```
+
+Track cash and equity separately. Down payment creates equity, but equity is not the same thing as liquid cash. Future HELOC/home-equity borrowing can be modeled as an optional strategy, never assumed as guaranteed or preferable.
+
+## Financial Fit
+
+Financial Fit is a **derived score/assessment, not a persona**. It should consider:
+
+- Estimated monthly payment versus target/max
+- Cash required at closing
+- Reserve remaining after closing
+- Immediate improvement capital
+- Effective Property Cost
+- Cash to Goal
+- Taxes, insurance and carrying costs
+- Financing flexibility
+- Value/equity cushion
+
+If finance inputs are incomplete, report **Not Yet Scored** rather than inventing numbers.
 
 # Initialize the Portfolio
 
 A useful first prompt in **Master Property Comparison** is:
 
 ```text
-Read the current PropertyResearch GitHub repository, including portfolio-rules.md, all active personas, and every property record.
+Read the current PropertyResearch GitHub repository, including portfolio-rules.md, all active personas, finance/buyer-finance.md, active finance scenarios and every property record.
 
 Build my current Master Property Portfolio.
 
@@ -253,13 +319,17 @@ For each property show:
 - Research confidence
 - Fatal-flaw risks
 - Every active persona score
-- Effective cost when available
+- Effective Property Cost
+- Cash to Goal
+- Estimated monthly carry when finance inputs allow
+- Financial Fit
 - Overall opportunity assessment
 
-Then rank the properties overall and separately for each active persona.
+Rank the properties overall and separately for each active persona.
 
-Identify:
+Also identify:
 - Best overall opportunity
+- Best Financial Fit
 - Best value
 - Best land value
 - Best move-in-ready property
@@ -267,13 +337,14 @@ Identify:
 - Best business property
 - Best homestead
 - Best for each household persona
+- Best use of available home-sale proceeds
 - Properties with unresolved dealbreakers
 - The 5 most important unanswered research questions across the portfolio
 
 Do not rely on previous conversation context for property facts. Use the current GitHub records as the source of truth.
 ```
 
-After initialization, normal Portfolio prompts can be short:
+After initialization, useful Portfolio prompts include:
 
 ```text
 Update the rankings.
@@ -288,61 +359,32 @@ Compare Mount Zion against Meade.
 ```
 
 ```text
-Rank everything for Nicholas only.
-```
-
-```text
-Which property is best for Thomas if a future homesite is a hard requirement?
-```
-
-```text
 Which property gives me the most usable acreage per $100,000 of effective cost?
 ```
 
 ```text
-Which properties should I eliminate?
+If my net home-sale proceeds are $150,000, how should I structure each of my top three purchases?
 ```
 
 ```text
-If Property A dropped to $475,000, how would the rankings change?
+For this property, compare $50k down + $100k shop versus $150k down and financing the shop later.
+```
+
+```text
+Which property leaves me with the strongest cash reserve after reaching my target setup?
 ```
 
 # Personas
 
 Every `.md` file in `personas/active/` is an independent scoring lens. The system should discover them dynamically rather than hard-coding specific people.
 
-Personas can represent almost anything:
+Personas can represent household members, pets, businesses, homesteading, firewood/lumber, investment, retirement, recreation, farming or any future use case.
 
-- Individual household members
-- Dogs/pets
-- A business
-- Homesteading
-- Firewood/lumber operations
-- Resale/investment
-- Retirement
-- Hunting/recreation
-- Farming
-- Any future use case
+To deactivate a persona without losing it, move its Markdown file from `personas/active/` to `personas/inactive/`. Move it back to reactivate it.
 
-To deactivate a persona without losing it, move its Markdown file from:
-
-```text
-personas/active/
-```
-
-to:
-
-```text
-personas/inactive/
-```
-
-Move it back to reactivate it.
-
-Persona scores are **derived data**. Changing a persona should allow the Portfolio to rescore existing properties without rewriting the underlying property facts.
+Persona scores are **derived data**. Changing a persona should allow Portfolio to rescore existing properties without rewriting underlying property facts.
 
 ## Adding a Persona
-
-Use a structure similar to:
 
 ```markdown
 ---
@@ -367,7 +409,6 @@ status: rough-draft
 
 ## Evaluation Notes
 - Explain how ambiguous situations should be judged.
-- Explain what should receive bonuses or penalties.
 ```
 
 Weights within a persona should normally total 100. `default_weight` is for optional aggregate scenarios; individual persona scores should always remain visible.
@@ -383,8 +424,6 @@ A property record should emphasize durable facts and clearly distinguish:
 - **Estimate** — reasoned planning estimate
 - **Unknown** — unresolved; never assume favorable
 
-Important concepts include:
-
 ## Land
 
 Do not equate acreage with value:
@@ -392,10 +431,6 @@ Do not equate acreage with value:
 **Total Acres → Constrained Acres → Usable Acres → Prime/Operational Acres**
 
 ## Cost-to-Goal
-
-Do not simply penalize missing features:
-
-**Purchase Price + Required Improvements + Desired Improvements = Effective Property Cost**
 
 Classify important features as:
 
@@ -405,31 +440,13 @@ Always distinguish **“doesn't have it” from “can't have it.”**
 
 ## Fatal Flaws
 
-A high numeric score should not hide a hard failure. Examples include:
-
-- Inadequate wired broadband where it is required
-- No satisfactory legal access
-- Zoning that prohibits the intended use
-- Severe land constraints
-- Unacceptable deed/HOA restrictions
-- OGM/surface-right conflicts
-- Uninhabitable house or impractical homesite
+A high numeric score should not hide a hard failure. Examples include inadequate wired broadband, no satisfactory legal access, prohibited intended use, severe land constraints, unacceptable restrictions, OGM/surface-right conflicts, or an impractical house/homesite.
 
 Use **CLEAR / INVESTIGATE / FAIL** before relying on the final score.
 
 # Research Lifecycle
 
-A property record is not necessarily finished after the first pass. Revisit it when:
-
-- Price changes
-- Listing status changes
-- It goes under contract or returns to market
-- Broadband availability changes
-- New zoning/access/OGM/title information is found
-- Inspection/disclosure information becomes available
-- Another property changes its relative attractiveness
-
-Unresolved items should remain explicit so the next research pass knows exactly what still needs verification.
+Revisit a property when price/listing status changes, broadband changes, new zoning/access/OGM/title information appears, inspection/disclosure information becomes available, finance assumptions materially change, the current home sale becomes more certain, or another property changes its relative attractiveness.
 
 # Recommended Daily Workflow
 
@@ -444,13 +461,13 @@ Unresolved items should remain explicit so the next research pass knows exactly 
         ↓
 5. Investigator researches + writes GitHub record
         ↓
-6. Continue property-specific due diligence in that chat if needed
+6. Continue property-specific due diligence if needed
         ↓
 7. Open Property Portfolio
         ↓
 8. Say "Update the rankings"
         ↓
-9. Compare / shortlist / eliminate
+9. Compare / finance / shortlist / eliminate
 ```
 
 # Optional Portfolio Report
@@ -461,15 +478,16 @@ The Portfolio can maintain a generated summary at:
 reports/portfolio.md
 ```
 
-This should be treated as a **snapshot**, not the authoritative property database. It can contain the current leaderboard, persona winners, unresolved dealbreakers and shortlist. Rankings should still be recalculated from current property/persona files when needed.
+Treat it as a **snapshot**, not the authoritative property database.
 
 # Design Principles
 
-1. **Portable:** The system should work for properties in any U.S. state.
+1. **Portable:** Work for properties in any U.S. state.
 2. **Evidence-driven:** Research beyond listing claims.
-3. **Persona-driven:** Different people/use cases can legitimately score the same property very differently.
-4. **Facts separate from preferences:** Property records should survive changes in buyer priorities.
-5. **Permanent characteristics matter most:** Location, usable land, access, zoning, broadband, rights and restrictions generally matter more than easy cosmetic improvements.
-6. **Unknown is not favorable:** Missing evidence lowers confidence.
-7. **GitHub is durable:** Chats are working sessions; Markdown is the reusable dataset.
-8. **Keep adoption simple:** A new user should be able to fork/connect the repo, remove the previous user's data, create their personas, create the two Projects, and start by pasting a listing URL.
+3. **Persona-driven:** Different people/use cases can score the same property differently.
+4. **Finance-aware:** Price alone is not affordability; model cash, payment, reserves and improvements.
+5. **Facts separate from preferences and finance:** Property records survive changes in personas or buyer capital.
+6. **Permanent characteristics matter most:** Location, usable land, access, zoning, broadband, rights and restrictions generally matter more than easy cosmetic improvements.
+7. **Unknown is not favorable:** Missing evidence lowers confidence.
+8. **GitHub is durable:** Chats are working sessions; Markdown is the reusable dataset.
+9. **Keep adoption simple:** A new user should be able to fork/connect the repo, remove personal data, configure personas/finance, create the two Projects, and start by pasting a listing URL.
