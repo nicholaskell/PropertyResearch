@@ -31,44 +31,146 @@ Rank / Compare / Shortlist / Re-evaluate
 
 ### Separation of responsibilities
 
-- **Property files = facts.** Listing history, acreage, taxes, broadband, zoning, access, OGM/mineral rights, house condition, market access, unresolved research, etc.
-- **Persona files = preferences.** A persona can represent a person, household member, animal, business, lifestyle, or use case.
-- **Reports = derived analysis.** Rankings and scores can be recalculated whenever a persona or property changes.
+- **Framework files = reusable system.** Research rules, templates, Project instructions and portfolio logic.
+- **Property files = user data/facts.** Listing history, acreage, taxes, broadband, zoning, access, OGM/mineral rights, house condition, market access, unresolved research, etc.
+- **Persona files = user preferences.** A persona can represent a person, household member, animal, business, lifestyle, or use case.
+- **Reports = derived user analysis.** Rankings and scores can be regenerated whenever a persona or property changes.
 - **Chat = research notebook.** GitHub is the durable source of truth.
 
 ## Repository Structure
 
 ```text
 PropertyResearch/
-├── README.md
-├── criteria.md
-├── project-instructions.md
-├── property-template.md
-├── portfolio-rules.md
-├── personas/
-│   ├── active/
-│   │   ├── nicholas.md
-│   │   ├── brittany.md
-│   │   ├── thomas.md
-│   │   ├── dogs.md
-│   │   ├── kell-and-son.md
-│   │   ├── homestead.md
-│   │   ├── firewood-lumber.md
-│   │   └── resale-investment.md
-│   └── inactive/
-├── properties/
+├── README.md                 # KEEP — setup/adoption documentation
+├── criteria.md               # KEEP — reusable research framework
+├── project-instructions.md   # KEEP — Investigator behavior
+├── property-template.md      # KEEP — normalized property schema
+├── portfolio-rules.md        # KEEP — comparison framework
+│
+├── personas/                 # PERSONALIZE
+│   ├── active/               # Personas currently scored
+│   └── inactive/             # Saved personas excluded from scoring
+│
+├── properties/               # USER DATA — researched properties
 │   ├── WI/
 │   ├── PA/
 │   ├── OH/
 │   └── ...
+│
+└── reports/                  # GENERATED USER DATA
+```
+
+# Quick Start for a New User
+
+If you are adopting/forking this repository from someone else, **do not use their property records or personas as if they were yours**.
+
+The reusable framework and the original user's data are intentionally separated.
+
+## Keep These Framework Files
+
+Keep these files when making the repository your own:
+
+```text
+README.md
+criteria.md
+project-instructions.md
+property-template.md
+portfolio-rules.md
+```
+
+These define how the system works and are intended to be portable between users.
+
+## Delete the Previous User's Property Data
+
+Delete the contents of:
+
+```text
+properties/
+```
+
+The property Markdown files are the previous user's researched listings and should not become part of your portfolio.
+
+Keep the `properties/` directory itself. New state directories will be created as you research properties.
+
+## Delete or Replace the Previous User's Personas
+
+Persona files are personal preferences and use cases. Delete the previous user's persona `.md` files from:
+
+```text
+personas/active/
+personas/inactive/
+```
+
+Then create your own personas.
+
+You may keep a previous persona **only if you intentionally want to use it as a template or scoring lens**. Do not assume its priorities or weights apply to you.
+
+Examples of personas you might create:
+
+```text
+personas/active/me.md
+personas/active/spouse.md
+personas/active/kids.md
+personas/active/dogs.md
+personas/active/homestead.md
+personas/active/business.md
+personas/active/investment.md
+```
+
+## Delete Generated Reports
+
+Delete generated files under:
+
+```text
+reports/
+```
+
+Reports are derived from the previous user's properties and personas. Your Property Portfolio can regenerate them after you add your own data.
+
+## Clean-Fork Rule
+
+For a clean adoption, think of the repository this way:
+
+```text
+KEEP
+├── README.md
+├── criteria.md
+├── project-instructions.md
+├── property-template.md
+└── portfolio-rules.md
+
+REPLACE WITH YOUR OWN
+├── personas/
+├── properties/
 └── reports/
 ```
 
-## ChatGPT Setup
+After cleaning those three data areas, the repository is ready for a new user without modifying the core framework.
+
+## Ask ChatGPT to Clean a Fork
+
+If your GitHub connection allows file changes, you can ask ChatGPT:
+
+```text
+I forked this PropertyResearch repository for my own use.
+
+Preserve the reusable framework files, but remove the previous user's personal data:
+- Delete all property records under properties/
+- Delete all generated reports under reports/
+- Delete all persona .md files under personas/active/ and personas/inactive/
+- Preserve the directory structure
+- Do not delete README.md, criteria.md, project-instructions.md, property-template.md or portfolio-rules.md
+
+Then help me create my own active personas.
+```
+
+Review the requested deletions before authorizing them. If you want to preserve example personas, move or copy them somewhere intentionally rather than leaving them active.
+
+# ChatGPT Setup
 
 Create **two ChatGPT Projects** and connect both to this GitHub repository.
 
-### Project 1 — Property Investigator
+## Project 1 — Property Investigator
 
 Purpose: research **one property at a time**.
 
@@ -106,7 +208,7 @@ A bare listing URL means: research this property using the full workflow.
 
 The Investigator should research beyond the listing. Depending on the property, this can include GIS/parcel records, assessor/tax data, zoning, ordinances, broadband, wetlands/floodplain/soils, access, easements, OGM/mineral rights, utilities, sales/comps and market access.
 
-### Project 2 — Property Portfolio
+## Project 2 — Property Portfolio
 
 Purpose: compare **all researched properties**.
 
@@ -134,7 +236,7 @@ For portfolio questions:
 GitHub property records are the durable source of truth.
 ```
 
-## Initialize the Portfolio
+# Initialize the Portfolio
 
 A useful first prompt in **Master Property Comparison** is:
 
@@ -205,7 +307,7 @@ Which properties should I eliminate?
 If Property A dropped to $475,000, how would the rankings change?
 ```
 
-## Personas
+# Personas
 
 Every `.md` file in `personas/active/` is an independent scoring lens. The system should discover them dynamically rather than hard-coding specific people.
 
@@ -246,7 +348,7 @@ Use a structure similar to:
 ---
 name: Example Persona
 type: person
-a​​ctive: true
+active: true
 default_weight: 0.7
 status: rough-draft
 ---
@@ -270,7 +372,7 @@ status: rough-draft
 
 Weights within a persona should normally total 100. `default_weight` is for optional aggregate scenarios; individual persona scores should always remain visible.
 
-## Property Records
+# Property Records
 
 Use `property-template.md` as the normalized format.
 
@@ -283,13 +385,13 @@ A property record should emphasize durable facts and clearly distinguish:
 
 Important concepts include:
 
-### Land
+## Land
 
 Do not equate acreage with value:
 
 **Total Acres → Constrained Acres → Usable Acres → Prime/Operational Acres**
 
-### Cost-to-Goal
+## Cost-to-Goal
 
 Do not simply penalize missing features:
 
@@ -301,7 +403,7 @@ Classify important features as:
 
 Always distinguish **“doesn't have it” from “can't have it.”**
 
-### Fatal Flaws
+## Fatal Flaws
 
 A high numeric score should not hide a hard failure. Examples include:
 
@@ -315,7 +417,7 @@ A high numeric score should not hide a hard failure. Examples include:
 
 Use **CLEAR / INVESTIGATE / FAIL** before relying on the final score.
 
-## Research Lifecycle
+# Research Lifecycle
 
 A property record is not necessarily finished after the first pass. Revisit it when:
 
@@ -329,7 +431,7 @@ A property record is not necessarily finished after the first pass. Revisit it w
 
 Unresolved items should remain explicit so the next research pass knows exactly what still needs verification.
 
-## Recommended Daily Workflow
+# Recommended Daily Workflow
 
 ```text
 1. Find interesting listing
@@ -351,7 +453,7 @@ Unresolved items should remain explicit so the next research pass knows exactly 
 9. Compare / shortlist / eliminate
 ```
 
-## Optional Portfolio Report
+# Optional Portfolio Report
 
 The Portfolio can maintain a generated summary at:
 
@@ -361,7 +463,7 @@ reports/portfolio.md
 
 This should be treated as a **snapshot**, not the authoritative property database. It can contain the current leaderboard, persona winners, unresolved dealbreakers and shortlist. Rankings should still be recalculated from current property/persona files when needed.
 
-## Design Principles
+# Design Principles
 
 1. **Portable:** The system should work for properties in any U.S. state.
 2. **Evidence-driven:** Research beyond listing claims.
@@ -370,4 +472,4 @@ This should be treated as a **snapshot**, not the authoritative property databas
 5. **Permanent characteristics matter most:** Location, usable land, access, zoning, broadband, rights and restrictions generally matter more than easy cosmetic improvements.
 6. **Unknown is not favorable:** Missing evidence lowers confidence.
 7. **GitHub is durable:** Chats are working sessions; Markdown is the reusable dataset.
-8. **Keep adoption simple:** A new user should be able to connect the repo, create the two Projects, and start by pasting a listing URL.
+8. **Keep adoption simple:** A new user should be able to fork/connect the repo, remove the previous user's data, create their personas, create the two Projects, and start by pasting a listing URL.
