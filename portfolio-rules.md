@@ -1,15 +1,20 @@
 # Portfolio Comparison Rules
 
-Property records are the durable facts. Cross-property rankings are recalculated from the current repository rather than treated as permanent facts.
+Property records contain durable facts. Persona scores and cross-property rankings are **derived** and should be recalculated from the current repository.
 
-## Comparison dimensions
+## Persona Discovery
 
-Compare candidates on:
+Read every `.md` file in `personas/active/`. Each file is an independent scoring lens and may represent a person, animal, business, lifestyle or other use case.
 
-- Intrinsic Nicholas score
-- Intrinsic Brittany score
-- Fatal-flaw status
-- Research confidence
+Ignore `personas/inactive/` unless explicitly requested. Moving a persona between these directories activates/deactivates it without deleting its history.
+
+For every property, report a score for every active persona. Do not assume equal importance; preserve individual scores and use `default_weight` only when an aggregate scenario needs a default weighting.
+
+## Comparison Dimensions
+
+Use both raw property facts and persona-specific priorities. Common dimensions include:
+
+- Fatal-flaw status and research confidence
 - Effective property cost
 - Total / usable / prime acreage
 - Prime usable acres per $100k of effective cost
@@ -20,39 +25,32 @@ Compare candidates on:
 - Privacy
 - Market reach
 - Distance to Green Bay, WI
-- House readiness
+- House/homesite readiness
 - Shop/garage readiness
-- Cost and difficulty of missing features
+- Cost/difficulty of missing features
 - Resale/improvement potential
+- Every active persona score
 
-## Relative analysis
+## Relative Analysis
 
-Do not simply rank by `overall_score`.
+Do not simply rank by one overall score.
 
 Identify:
 
-- Best overall opportunity
-- Best Nicholas property
-- Best Brittany property
+- Best overall opportunity under the selected weighting scenario
+- Best property for each active persona
 - Best value
 - Best usable-land value
-- Best ready-to-use shop/property
-- Best build-your-own opportunity
+- Best ready-to-use property
+- Best build-your-own/value-add opportunity
 - Best market access
 - Lowest carrying cost
 - Highest-confidence candidate
-- High-score properties with unresolved fatal-flaw risks
+- High-scoring properties with unresolved fatal-flaw risks
 - Properties dominated by another candidate (more expensive and worse on most important dimensions)
 
-When useful, run sensitivity scenarios such as Nicholas/Brittany weighting changes or treating broadband, access or zoning as absolute gates.
+Support alternate scenarios by changing persona weights without modifying the underlying property records.
 
-## Status changes
+## Status Changes
 
-A property record should be rechecked when:
-
-- Price changes materially
-- Listing status changes
-- It goes under contract or returns to market
-- Broadband availability changes
-- New zoning/rights/access evidence appears
-- A competing property materially changes the ranking
+Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, or a competing property materially changes its relative position.
