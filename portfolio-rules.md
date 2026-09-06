@@ -1,6 +1,6 @@
 # Portfolio Comparison Rules
 
-Property records contain durable facts. Persona scores and cross-property rankings are **derived** and should be recalculated from the current repository.
+Property records contain durable facts. Persona scores, Financial Fit and cross-property rankings are **derived** and should be recalculated from the current repository.
 
 ## Persona Discovery
 
@@ -10,12 +10,35 @@ Ignore `personas/inactive/` unless explicitly requested. Moving a persona betwee
 
 For every property, report a score for every active persona. Do not assume equal importance; preserve individual scores and use `default_weight` only when an aggregate scenario needs a default weighting.
 
+## Finance Discovery
+
+Read `finance/buyer-finance.md` and active files under `finance/scenarios/` when populated.
+
+Finance is not a persona. It answers whether a purchase structure is realistic and how available capital should be allocated.
+
+For serious contenders, compare where useful:
+
+- Conservative sale-proceeds scenario
+- Expected/balanced sale-proceeds scenario
+- Optimistic sale-proceeds scenario
+- Smaller down payment + retained improvement capital
+- Larger down payment + lower monthly payment
+- Buying a property with an expensive feature already present versus buying cheaper and adding it
+
+Never assume all available cash should become down payment.
+
 ## Comparison Dimensions
 
-Use both raw property facts and persona-specific priorities. Common dimensions include:
+Use raw property facts, persona-specific priorities and finance assumptions. Common dimensions include:
 
 - Fatal-flaw status and research confidence
-- Effective property cost
+- Effective Property Cost
+- Cash to Goal
+- Estimated purchase cash required
+- Estimated loan amount
+- Estimated monthly housing cost
+- Cash reserve remaining
+- Financial Fit
 - Total / usable / prime acreage
 - Prime usable acres per $100k of effective cost
 - Annual tax burden
@@ -31,14 +54,46 @@ Use both raw property facts and persona-specific priorities. Common dimensions i
 - Resale/improvement potential
 - Every active persona score
 
+## Financial Fit
+
+Financial Fit is a derived assessment, not a stakeholder preference. Consider:
+
+- Monthly payment versus target/max
+- Cash required at closing
+- Cash/reserve remaining
+- Immediate capital needs
+- Effective Property Cost
+- Taxes, insurance and recurring carrying costs
+- Cost to reach desired functionality
+- Financing flexibility
+- Value/equity cushion
+
+Use current financing assumptions for live calculations and clearly label estimated rates, insurance, closing costs or other uncertain inputs.
+
+## Capital Allocation
+
+For serious contenders, answer:
+
+**Where does the next available dollar create the most value?**
+
+Compare additional down payment against retained capital for improvements/reserves. Important examples include shops, barns, access, fencing, homesite infrastructure, renovations and other high-value additions.
+
+Do not treat equity as cash. Track:
+
+- Cash used at closing
+- Equity created by down payment
+- Cash retained after closing
+- Future financing/equity-borrowing potential only as an optional strategy, never as guaranteed capital
+
 ## Relative Analysis
 
 Do not simply rank by one overall score.
 
 Identify:
 
-- Best overall opportunity under the selected weighting scenario
+- Best overall opportunity under the selected weighting/finance scenario
 - Best property for each active persona
+- Best Financial Fit
 - Best value
 - Best usable-land value
 - Best ready-to-use property
@@ -46,11 +101,12 @@ Identify:
 - Best market access
 - Lowest carrying cost
 - Highest-confidence candidate
+- Best use of available cash/equity
 - High-scoring properties with unresolved fatal-flaw risks
 - Properties dominated by another candidate (more expensive and worse on most important dimensions)
 
-Support alternate scenarios by changing persona weights without modifying the underlying property records.
+Support alternate scenarios by changing persona weights or finance assumptions without modifying the underlying property facts.
 
 ## Status Changes
 
-Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, or a competing property materially changes its relative position.
+Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, finance assumptions change materially, the current home sale becomes more certain, or a competing property materially changes its relative position.
