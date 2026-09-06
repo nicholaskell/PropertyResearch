@@ -1,5 +1,5 @@
 ---
-record_version: 1
+record_version: 2
 address:
 city:
 state:
@@ -26,9 +26,6 @@ broadband_status:
 ogm_status:
 legal_access_status:
 market_access_rating:
-nicholas_score:
-brittany_score:
-overall_score:
 research_confidence:
 verdict:
 reviewed_date:
@@ -128,19 +125,56 @@ Material nearby risks and positive location features.
 - Purchase:
 - Immediate work:
 - Desired improvements:
-- Effective cost:
+- Effective Property Cost:
+- Cash to Goal:
 - Missing features classified as Existing / Easy / Major / Difficult / Impossible:
 
-## Scores
+## Purchase Structure
 
-### Nicholas — XX/100
-Reasoning.
+Complete when `finance/buyer-finance.md` has enough data. Use current rate assumptions and label estimates.
 
-### Brittany — XX/100
-Reasoning.
+- Finance scenario:
+- Purchase price:
+- Suggested down payment:
+- Estimated loan amount:
+- Estimated cash at closing:
+- Cash remaining after closing:
+- Immediate improvement capital:
+- Remaining reserve:
 
-### Overall — XX/100
-Reasoning.
+## Estimated Monthly Carry
+
+- Principal + interest:
+- Property tax:
+- Homeowners insurance:
+- PMI:
+- HOA/required fees:
+- Other material recurring costs:
+- Estimated PITI:
+- Estimated total property carry:
+
+## Capital Allocation
+
+Compare when useful:
+
+- Additional down payment and estimated payment savings
+- Retaining cash for high-value improvements
+- Buying required features already built versus constructing later
+- Optional future equity financing, without assuming it is available or preferable
+
+## Persona Scores
+
+Read every active persona dynamically and list each score with concise reasoning.
+
+| Persona | Score | Key reason |
+|---|---:|---|
+| | /100 | |
+
+## Financial Fit
+
+**Financial Fit:** XX/100 or Not Yet Scored
+
+Explain monthly affordability, cash-to-close, reserve remaining, improvement capital needs, effective cost and financing flexibility. Do not score when key buyer-finance inputs are missing; identify what is needed instead.
 
 ## Property Card
 
@@ -153,12 +187,16 @@ Reasoning.
 **Status:**  
 **DOM:**  
 **Taxes:** $/yr  
-**Nicholas:** XX/100  
-**Brittany:** XX/100  
-**OVERALL:** XX/100  
 **Research Confidence:** High / Medium / Low  
 
+**Persona Scores:** list every active persona dynamically.  
+**Financial Fit:** XX/100 or Not Yet Scored  
+
 **Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Taxes | Market Access | Value
+
+**Effective Property Cost:**  
+**Cash to Goal:**  
+**Estimated Monthly Carry:**  
 
 **Best Feature:**  
 **Biggest Weakness:**  
@@ -173,6 +211,12 @@ Reasoning.
 **Suggested Offer:**  
 **At Asking:** GREAT / GOOD / FAIR / OVERPRICED / POOR  
 **Strong-Contender Price:**  
+
+## Open Research Tasks
+
+Track unresolved items that materially affect ranking, financing or purchase confidence.
+
+- [ ]
 
 ## Sources
 
