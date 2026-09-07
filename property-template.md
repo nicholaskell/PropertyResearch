@@ -1,5 +1,5 @@
 ---
-record_version: 3
+record_version: 4
 address:
 city:
 state:
@@ -27,6 +27,9 @@ annual_property_tax:
 broadband_rating:
 broadband_status:
 ogm_status:
+rights_exercise_likelihood:
+rights_surface_impact:
+rights_disturbance_risk:
 legal_access_status:
 market_access_rating:
 research_confidence:
@@ -85,12 +88,34 @@ Dogs, chickens/roosters, goats, sheep, horses/livestock and nuisance/fencing/set
 
 ## Rights & Restrictions
 
+If this property is in a region where mineral/OGM/coal or similar rights are commonly severed, explicitly state near the top of the chat that these rights **must not be assumed to convey** until deed/title evidence confirms them.
+
 - OGM/minerals: Convey / Partial / Reserved / Unknown
+- Coal rights:
 - Timber rights:
-- Surface-use concerns:
+- Pore-space/other subsurface rights where relevant:
+- Current rightsholder/operator if known:
+- Active leases/units/permits:
+- Surface-use rights:
+- Surface-use agreement/protections:
 - Easements/ROW:
 - HOA/covenants:
-- Pipelines/wells/leases:
+- Pipelines/wells/mines/infrastructure:
+
+### Rights Disturbance Risk
+
+Required when material OGM/mineral/coal/timber or similar rights do not convey; use provisionally when status is unknown but regional severance risk is material.
+
+- **Exercise Likelihood:** LOW / MODERATE / HIGH / UNKNOWN
+- **Surface/Lifestyle Impact if Exercised:** LOW / MODERATE / HIGH / SEVERE / UNKNOWN
+- **Overall Rights Disturbance Risk:** 🟢 LOW / 🟡 MODERATE / 🔴 HIGH / ⚫ UNKNOWN
+- Evidence for likelihood:
+- Plausible physical disturbance:
+- Effect on homesites/buildings/privacy/dogs/homestead/business:
+- Existing protections/mitigations:
+- Most important missing deed/lease/title evidence:
+
+Assess practical risk using active leases/permits, nearby wells/mines, geology/resource economics, operator/rightsholder activity, existing infrastructure, parcel geometry, access routes and recorded surface-use language. Do not call risk LOW merely because no current surface activity is visible. Distinguish likelihood from consequence: a low-probability right may still have severe consequences if exercised.
 
 ## Taxes & Carrying Cost
 
@@ -199,8 +224,9 @@ Explain monthly affordability, cash-to-close, reserve remaining, improvement cap
 **Persona Scores:** list every active persona dynamically.  
 **Financial Fit:** XX/100 or Not Yet Scored  
 
-**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Taxes | Market Access | Value
+**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Value
 
+**Rights Disturbance:** Exercise Likelihood | Surface/Lifestyle Impact | Overall Risk  
 **Effective Property Cost:**  
 **Cash to Goal:**  
 **Estimated Monthly Carry:**  
