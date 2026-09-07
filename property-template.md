@@ -1,15 +1,21 @@
 ---
-record_version: 4
+record_version: 5
 address:
 city:
 state:
 zip:
 county:
+parcel_id:
 listing_url:
 zillow_url:
 primary_photo_url:
 primary_photo_source:
 primary_photo_checked_date:
+parcel_map_source:
+parcel_map_url:
+parcel_boundary_source:
+parcel_boundary_confidence:
+parcel_map_checked_date:
 listing_status:
 active_offer_status:
 asking_price:
@@ -44,6 +50,20 @@ last_updated:
 
 Display the actual primary/hero listing image near the top of the Investigator's first chat analysis when available. Prefer the supplied listing source. `primary_photo_url` is a reference only; do not download or commit third-party listing images by default. If a stable direct image URL is unavailable, leave it blank and record the source/listing page instead.
 
+## Parcel Map / Aerial
+
+Display a satellite/aerial view with the subject parcel boundary whenever reliable parcel geometry can be established.
+
+- **Boundary preference:** county/municipal GIS → assessor/parcel GIS → state/authoritative cadastral source → listing/Zillow only as fallback.
+- **Address-less parcels:** identify the parcel using APN/parcel ID, legal description, official GIS, listing coordinates, road frontage and adjoining parcels. Do not assume the listing pin is the parcel.
+- Label the chat image **PARCEL MAP — NOT A SURVEY**.
+- State the boundary source and imagery source when known.
+- `parcel_boundary_confidence`: HIGH / MEDIUM / LOW / UNVERIFIED.
+- Zillow/listing parcel lines are evidence, not authoritative boundaries; explicitly label them listing-derived when used.
+- Never invent or hand-draw a boundary when parcel identity/geometry is uncertain.
+- If an accurate satellite overlay cannot be produced, show/link the best authoritative parcel map available and explain the limitation rather than creating false precision.
+- Store source/reference metadata, not copied third-party imagery, by default.
+
 ## Fatal-Flaw Screen
 
 | Item | Result | Notes |
@@ -64,6 +84,8 @@ Current status, active-offer status, price history, DOM, tax/assessment, comps, 
 ## Broadband
 
 Classify: **At House / Along Road / Nearby / Planned / Possible / Unknown**.
+
+For vacant/no-address parcels, provide a clearly labeled **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS** using the closest confirmed neighboring residential/serviceable address when practical. Broadband at the proxy does not prove availability at the subject parcel.
 
 ## Land Reality
 
@@ -219,6 +241,7 @@ Explain monthly affordability, cash-to-close, reserve remaining, improvement cap
 **Status:**  
 **DOM:**  
 **Taxes:** $/yr  
+**Parcel Boundary Confidence:** High / Medium / Low / Unverified  
 **Research Confidence:** High / Medium / Low  
 
 **Persona Scores:** list every active persona dynamically.  
