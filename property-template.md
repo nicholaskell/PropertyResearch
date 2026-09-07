@@ -1,5 +1,5 @@
 ---
-record_version: 2
+record_version: 3
 address:
 city:
 state:
@@ -7,6 +7,9 @@ zip:
 county:
 listing_url:
 zillow_url:
+primary_photo_url:
+primary_photo_source:
+primary_photo_checked_date:
 listing_status:
 active_offer_status:
 asking_price:
@@ -33,6 +36,10 @@ last_updated:
 ---
 
 # Property Summary
+
+## Listing Photo
+
+Display the actual primary/hero listing image near the top of the Investigator's first chat analysis when available. Prefer the supplied listing source. `primary_photo_url` is a reference only; do not download or commit third-party listing images by default. If a stable direct image URL is unavailable, leave it blank and record the source/listing page instead.
 
 ## Fatal-Flaw Screen
 
