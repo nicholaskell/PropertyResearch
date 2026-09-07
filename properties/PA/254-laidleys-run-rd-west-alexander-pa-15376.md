@@ -1,5 +1,5 @@
 ---
-record_version: 5
+record_version: 6
 address: 254 Laidleys Run Rd
 city: West Alexander
 state: PA
@@ -30,16 +30,16 @@ house_sqft: 2504
 beds: 3
 baths: 1
 annual_property_tax: 2620
-broadband_rating: INVESTIGATE
-broadband_status: 300+ Mbps wired not address-confirmed
+broadband_rating: CLEAR-PROVISIONAL
+broadband_status: User reports FCC shows 2 Gbps wired service at neighboring house; exact subject-address qualification still recommended
 ogm_status: Oil, gas, minerals and coal reserved by seller; do not convey
 rights_exercise_likelihood: HIGH
 rights_surface_impact: HIGH
 rights_disturbance_risk: RED HIGH
 legal_access_status: Established asphalt-road access; title/heavy-equipment details pending
 market_access_rating: GREEN
-research_confidence: Medium-High
-verdict: MAYBE
+research_confidence: High on listing/rights; Medium on land/zoning specifics
+verdict: CONTENDER WITH MAJOR RIGHTS/HOUSE CONDITIONS
 reviewed_date: 2026-09-06
 last_updated: 2026-09-06
 ---
@@ -48,118 +48,122 @@ last_updated: 2026-09-06
 
 140± acre West Finley Township farm/recreational holding with open fields, extensive woods, marketable timber, a large metal pole barn and an additional farm barn. The 1890 residence is explicitly described by the listing as deteriorated and strictly as-is. This is primarily a land/barn opportunity rather than a move-in-ready farm.
 
-**CRITICAL RIGHTS WARNING:** The signed seller OGM disclosure confirms that **oil, gas, minerals and coal are all reserved by the seller and will not convey**. It also states the seller owns surface rights **except land within railroad and gas-line rights-of-way**. This is materially worse than a generic Pennsylvania mineral-rights unknown because an existing gas-line ROW is expressly acknowledged and the township has extensive horizontal-well activity.
+**CRITICAL RIGHTS WARNING:** Oil, gas, minerals and coal are reserved and do not convey. The seller disclosure also acknowledges railroad and gas-line rights-of-way. Under the updated project framework, this requires a practical disturbance assessment, not merely an OGM title flag. West Finley is an actively developed unconventional-gas township, so the severed-rights burden is material.
+
+**BROADBAND UPDATE:** User manually checked the FCC map and reports **2 Gbps wired service at the neighboring house**. This is strong evidence that Nicholas's 300+ Mbps wired requirement is likely satisfiable. It is now treated as **CLEAR-PROVISIONAL**, with direct qualification at 254 Laidleys Run still recommended before closing.
 
 ## Fatal-Flaw Screen
 
 | Item | Result | Notes |
 |---|---|---|
-| Wired broadband | INVESTIGATE | ZIP-level cable/fiber exists, but exact-address 300+ Mbps wired service is not confirmed. Nicholas hard requirement remains unresolved. |
+| Wired broadband | CLEAR-PROVISIONAL | User FCC check shows 2 Gbps wired at neighboring house. Exact subject-address qualification remains prudent, but broadband is no longer a primary kill switch. |
 | Legal/practical access | INVESTIGATE | Established asphalt-road access; confirm legal frontage, culverts, grades and semi/equipment access. |
-| Buildability/zoning | INVESTIGATE | West Finley adopted its first zoning ordinance Feb. 9, 2026; parcel-specific district/use table still needs confirmation. |
-| Land constraints | INVESTIGATE | Listing aerial shows large usable-looking fields/woods but exact slopes, floodplain, wetlands, soils and mining effects remain unquantified. |
+| Buildability/zoning | INVESTIGATE | West Finley now has zoning and a zoning officer; permit system expressly supports agricultural buildings, garages and outbuildings, but parcel district/use table and business uses still need confirmation. |
+| Land constraints | INVESTIGATE | Large usable-looking fields/woods; exact slopes, floodplain, wetlands, soils and mining effects remain unquantified. |
 | Restrictions | INVESTIGATE | Gas-line and railroad ROWs are disclosed; full easement/title language not yet obtained. |
 | House/homesite | FAIL for move-in-ready use | Listing calls house deteriorated and strictly as-is. Major rehab/replacement risk. |
-| OGM/surface rights | FAIL / material permanent burden | Oil, gas, minerals and coal reserved; existing gas-line/railroad ROW areas excluded from seller-owned surface rights. |
+| OGM/surface rights | FAIL / material permanent burden | Oil, gas, minerals and coal reserved; existing gas-line/railroad ROW areas are acknowledged. |
 | Carrying costs | CLEAR | Listing reports $2,620/yr taxes, subject to reassessment/program verification. |
 
 ## Listing & Value
 
-Asking $549,000; listed in August 2026. MLS/listing ID 115198. 140± acres (disclosure identifies 140.5 acres) with parcel 680-004-00-00-0012-00. Preliminary fair value remains approximately **$475,000-$525,000** until timber, house, usable-acreage and title/rights burdens are quantified. The reserved OGM/coal and known ROW burden argue against paying a premium merely for nominal acreage.
+Current asking price is **$549,000** for 140± acres, parcel 680-004-00-00-0012-00. Listing sources describe open fields, wooded acreage, marketable timber, a large metal pole barn, another farm barn and a deteriorated as-is house. Preliminary fair value is **$475,000-$525,000** pending timber cruise, house/barn inspection, usable-acre calculation and title/rights review.
 
-**Preliminary offer posture:** roughly **$450,000-$490,000** if broadband clears and title review shows acceptable surface protections. Above ~$500k, the combination of deteriorated residence plus permanently excluded OGM/coal becomes harder to justify unless timber/barns/prime acreage prove unusually valuable.
+**Offer posture:** approximately **$460,000-$495,000** if direct broadband qualification and title/surface protections are acceptable. Broadband improvement raises confidence, but it does not erase the deteriorated residence or permanent OGM/coal burden.
 
 ## Broadband
 
-**INVESTIGATE.** Third-party ZIP-level data reports Xfinity cable and Kinetic fiber footprints with gigabit-class advertised service in 15376, but this does not prove service at 254 Laidleys Run Rd. Direct ISP qualification/FCC address-level confirmation of reliable >=300 Mbps wired service is required before Nicholas can clear the property.
+**CLEAR-PROVISIONAL.** User reports the FCC Broadband Map shows **2 Gbps wired service at the neighboring residence**. This materially changes the evaluation: broadband plant is evidently very near the subject property and the 300+ Mbps Nicholas requirement is likely achievable. Before purchase, directly qualify 254 Laidleys Run Rd with the provider and obtain any construction/extension quote if the house is not already serviceable.
 
 ## Land Reality
 
-- Total: 140± acres / seller disclosure 140.5 acres.
-- Listing aerial shows a split/irregular configuration straddling Laidleys Run Rd, with substantial wooded acreage and multiple open fields.
-- Laidleys Run crosses/follows the road corridor through the holding; drainage/flood impacts need authoritative GIS review.
-- Listing claims marketable timber throughout.
-- Existing barns and open areas materially improve operational utility.
+- Total: 140± acres; assessor/listing data indicate about 140.5 acres.
+- Large mixed holding with open fields and substantial woods.
+- Listing claims marketable timber.
+- Existing pole barn and farm barn provide immediate equipment/storage utility.
+- Laidleys Run/drainage corridor warrants flood/wetland review.
 - Exact constrained, usable and prime/operational acreage remains uncalculated.
 
 ## Parcel Map / Aerial
 
-**PARCEL MAP — NOT A SURVEY.** Current map is the listing-provided Land id aerial. Boundary confidence is **MEDIUM** because the outline is listing-derived and has not yet been reconciled to Washington County GIS/survey geometry. The map is useful for layout understanding but must not be treated as a legal boundary.
+**PARCEL MAP — NOT A SURVEY.** The current saved map is the listing-provided Land id aerial. Boundary confidence remains **MEDIUM** until reconciled against authoritative Washington County cadastral/GIS geometry.
 
 ## Access
 
-Listing reports asphalt road access and established residence/farm improvements. Confirm frontage, driveway ownership, bridge/culvert capacity, any access shared through ROWs and maneuvering for semis, dump trailers, tractors and construction equipment.
+Established residence and farm buildings have asphalt-road access. Still verify frontage, driveway/culvert ownership and capacity, winter maintenance, grades and turning/maneuvering for semis, dump trailers, tractors and construction equipment.
 
 ## Zoning & Buildability
 
-West Finley Township adopted its first zoning ordinance on Feb. 9, 2026. Reporting states most of the township is Residential/Agricultural. Confirm this parcel's adopted district and current rules for accessory structures, additional dwelling/subdivision, home occupation, firewood processing/sales, sawmilling, outdoor storage, customer traffic and vehicle/equipment work before purchase.
+West Finley Township now operates zoning and lists K2 Engineering as zoning officer/building-code inspector. The township permit page expressly contemplates agricultural-excluded buildings, accessory structures, garages over 1,000 sq ft and outbuildings. This is encouraging for shop/homestead expansion. However, the adopted parcel district and rules for home business, customer traffic, firewood processing/sales, sawmilling, outdoor storage, truck/project work and a second dwelling still need written confirmation.
 
 ## Animals & Homestead
 
-Physical suitability is excellent: very large acreage, fields, woods and agricultural buildings. Chickens, goats, sheep and large-dog containment should be practical, subject to the new zoning ordinance, nuisance/kennel rules and ROW conflicts. Avoid placing critical fencing/buildings where pipeline or other dominant rights could require access.
+Physical suitability is excellent: acreage, fields, woods, privacy and farm buildings create substantial room for dogs, chickens, goats/sheep, gardens, orchard and equipment. Avoid placing permanent improvements/fencing across pipeline or other dominant ROW areas until the easement documents are mapped and understood.
 
 ## Rights & Restrictions
 
-- **Oil:** Reserved by seller; does not convey.
-- **Gas:** Reserved by seller; does not convey.
-- **Minerals:** Reserved by seller; does not convey.
-- **Coal:** Reserved by seller; does not convey.
-- **Surface rights:** Seller disclosure says all surface rights owned **except land within railroad and gas-line rights-of-way**.
-- **Surface damages:** Disclosure marks seller as not currently entitled to/receiving surface damages under the current lease question; exact lease/ROW documents remain necessary.
-- **Gas-line ROW:** Explicitly acknowledged.
-- **Railroad ROW:** Explicitly acknowledged; current physical/operational status needs confirmation.
-- **Current lease/operator/rightsholder:** Not established from available disclosure.
-- **Title warranty:** Disclosure states seller will not defend title to reserved OGM interests.
+- **Oil:** Reserved; does not convey.
+- **Gas:** Reserved; does not convey.
+- **Minerals:** Reserved; does not convey.
+- **Coal:** Reserved; does not convey.
+- **Surface rights:** Seller disclosure indicates exceptions associated with railroad and gas-line rights-of-way.
+- **Gas-line ROW:** Known/disclosed.
+- **Railroad ROW:** Known/disclosed; operational/current status needs confirmation.
+- **Current lease/unit/operator affecting this parcel:** Unknown from current evidence.
+- **Surface-use protections/no-surface clause:** Unknown.
 
 ### Rights Disturbance Risk
 
-- **Exercise Likelihood: HIGH.** West Finley Township had 74 eligible horizontal unconventional wells in 2025 Act 13 reporting, and the property disclosure itself identifies a gas-line ROW. The township's Sept. 2, 2026 Planning Commission agenda also included review of a modified CNX Gas Company permit. This does not prove a new well/pad is planned on this parcel, but resource-development activity is demonstrably active locally.
-- **Surface/Lifestyle Impact if Exercised: HIGH.** Plausible effects include pipeline access/maintenance, clearing, truck traffic, temporary construction, noise, loss of privacy, restrictions around ROWs, and—depending on deed/lease language—future well/pad/access activity or coal/mining impacts. Modern horizontal drilling may allow extraction from an off-site pad, which can reduce direct disturbance but does not eliminate ROW/pipeline/mineral-estate risk.
-- **Overall Rights Disturbance Risk: 🔴 HIGH.** This is provisional pending title, lease, ROW and PA DEP well/pipeline mapping. The combination of fully reserved oil/gas/minerals/coal, known gas-line/railroad ROW exceptions and active township gas development is enough to treat rights as a serious permanent purchase risk rather than a paperwork footnote.
-- **Most important mitigation:** Require a mineral/title attorney to review the deed chain, reservation language, gas/railroad ROW instruments, any lease/unit, surface-use rights, no-surface-operations language, compensation/remediation rights, coal support/subsidence rights and operator access rights before the inspection/due-diligence contingency expires.
+**Exercise Likelihood: HIGH.** This is not based merely on regional reputation. Current evidence shows active unconventional-gas development in West Finley Township: Pennsylvania Act 13 reporting lists 74 eligible horizontal wells for 2025; current well databases report more than 100 permitted wells across roughly 15 sites; CNX's WFN12 pad in West Finley has nine Marcellus wells, with the final four entering production in April 2026; and WFN13 received new permits in 2026. The subject property itself already acknowledges a gas-line ROW. This does not prove a new well pad will be placed on this parcel, but it makes future exercise of severed gas-related rights materially plausible.
+
+**Surface/Lifestyle Impact if Exercised: HIGH.** Plausible impacts include pipeline inspection/maintenance or replacement, clearing, temporary construction, access roads, trucks, noise/light, restrictions on buildings or fencing within ROWs, and potentially well/pad/access activity if the controlling instruments allow it. Coal rights add a separate subsidence/support/mining question. Horizontal drilling can allow minerals beneath the parcel to be produced from an off-site pad, which may substantially reduce direct surface disturbance, but this cannot be assumed without deed/lease/unit language.
+
+**Overall Rights Disturbance Risk: 🔴 HIGH — PROVISIONAL.** The rating reflects the combination of fully reserved OGM/coal, a known gas-line ROW and demonstrably active local gas development. It is not a legal conclusion and should be revised if title documents establish strong no-surface-operations protections or otherwise materially limit disturbance.
+
+**Required mitigation before purchase:** mineral/title attorney review of deed chain, reservation language, current lease/unit status, pipeline and railroad ROW instruments, surface-use rights, no-surface-operations clauses, compensation/restoration terms, coal support/subsidence rights, and operator access rights. Map every ROW against intended house/shop/Thomas homesite/garden/animal areas.
 
 ## Taxes & Carrying Cost
 
-Listing reports $2,620/year. Verify assessment, Clean and Green/agricultural enrollment, reassessment after sale and rollback exposure. Low current taxes are a strong feature but should not be assumed to persist unchanged.
+Listing reports **$2,620/year**, an unusually favorable carrying-cost feature for 140 acres. Verify assessment, Clean and Green/agricultural enrollment, reassessment after sale and rollback exposure.
 
 ## House / Homesite
 
-2,504 sqft, 3 bed, 1 bath, built 1890; listing explicitly describes it as deteriorated and strictly as-is. Classify foreseeable work as **MAJOR** until inspections prove otherwise. Underwrite the property as if the house may require six-figure rehabilitation or replacement.
+2,504 sq ft, 3 bed, 1 bath, built 1890. Listing explicitly calls it **deteriorated** and **strictly as-is**. Foreseeable work remains **MAJOR** until inspections prove otherwise. Underwrite as though six-figure rehabilitation or replacement may be necessary.
 
 ## Utilities
 
-Well water confirmed by listing. Septic, electrical capacity, heating, service amperage and 3-phase potential remain unconfirmed.
+Well water is listing-reported. Septic, electric-service capacity, heating and 3-phase potential remain unconfirmed. Broadband plant is now strongly evidenced nearby by the user's FCC check.
 
 ## Location / Market Access
 
-Rural West Finley setting with good I-70 regional positioning. Wheeling and Washington are realistic near markets; Pittsburgh provides a major metro market at roughly an hour-class drive. Green Bay, WI is roughly 480 road miles / about 7.5-8 hours. Market access for firewood, lumber, equipment/property services and rural business is a strength.
+Rural West Finley setting with useful access to Wheeling and Washington and an approximately hour-class reach to Pittsburgh. Green Bay, WI is roughly 480 road miles / about 7.5-8 hours. For firewood, lumber, equipment/property services and rural business, access to several population centers is a significant strength.
 
 ## Cost to Goal
 
 - Purchase: $549,000 ask.
 - Immediate work: potentially major house stabilization/rehab/replacement.
-- Existing value-add: pole barn, second farm barn, fields, timber and established access.
-- Desired improvements: shop power/layout, fencing, gardens/animals, possible second homesite if zoning/septic permit.
-- Effective Property Cost: likely materially above purchase; **$650k+ is plausible** if the house needs comprehensive rehabilitation/replacement.
+- Existing high-value features: pole barn, second farm barn, fields, timber, road access and nearby gigabit-class broadband plant.
+- Desired improvements: shop power/layout, fencing, gardens/animals, possible second homesite if permitted.
+- Effective Property Cost: **$650k+ remains plausible** if the house requires comprehensive rehabilitation/replacement.
 - Cash to Goal: unknown until house scope and buyer-finance inputs are populated.
-- Permanent difficult/impossible item: OGM/coal rights do not convey; buyer cannot assume they can be reacquired later.
+- Difficult/impossible permanent item: OGM/coal do not convey and cannot be assumed reacquirable.
 
 ## Persona Scores
 
 | Persona | Score | Key reason |
 |---|---:|---|
 | Brittany | 25/100 | Deteriorated as-is residence directly conflicts with move-in readiness. |
-| Dogs | 84/100 | Exceptional space/privacy; ROWs, road safety and kennel rules need confirmation. |
-| Firewood and Lumber | 82/100 | Timber, barns, acreage and markets are excellent; zoning/ROW/heavy-access details remain. |
-| Homestead | 85/100 | Excellent scale and farm infrastructure, reduced by house condition and rights/ROW uncertainty. |
-| Kell and Son Limited Co. | 81/100 | Strong operational base; business zoning, power, access and rights conflicts remain unresolved. |
-| Nicholas | 62/100 provisional | Land/barns/privacy are excellent, but broadband is an unresolved hard requirement and fully reserved OGM/coal plus known ROWs are a major permanent negative. Broadband failure makes this a FAIL. |
-| Resale and Investment | 57/100 | Scarce acreage/barns help, but deteriorated house and fully reserved OGM/coal materially narrow future buyer appeal. |
-| Thomas | 74/100 | Strong truck/project/future-homesite potential; broadband and second-dwelling/subdivision legality unresolved. |
+| Dogs | 86/100 | Exceptional space/privacy and containment potential; ROW and road details remain. |
+| Firewood and Lumber | 84/100 | Timber, barns, acreage, separation and regional markets are excellent; zoning/ROW details remain. |
+| Homestead | 87/100 | Exceptional scale and farm infrastructure; house and rights burden are the main deductions. |
+| Kell and Son Limited Co. | 84/100 | Strong operational base with barns/land/markets; business zoning, power and ROW conflicts remain. |
+| Nicholas | 78/100 | Broadband risk is largely de-risked by 2 Gbps FCC service next door; excellent acreage/barns/privacy, but house condition and high OGM/ROW disturbance risk are major permanent negatives. |
+| Resale and Investment | 61/100 | Broadband improves future appeal, but deteriorated house and severed OGM/coal constrain buyer pool/value. |
+| Thomas | 81/100 | Strong broadband, truck/project space and potential future homesite; second-dwelling/subdivision legality and ROW layout remain. |
 
 ## Financial Fit
 
-**Not Yet Scored.** Buyer finance profile remains unpopulated, so no defensible buyer-specific down payment, cash reserve or PITI comparison can be calculated.
+**Not Yet Scored.** `finance/buyer-finance.md` remains unpopulated, so buyer-specific cash-to-close, reserve and PITI scenarios cannot be scored defensibly.
 
 ## Property Card
 
@@ -170,38 +174,38 @@ Rural West Finley setting with good I-70 regional positioning. Wheeling and Wash
 **House:** 2,504 sqft | 3 bed | 1 bath | 1890 | deteriorated/as-is  
 **Setting:** Rural  
 **Status:** Active / New Listing  
-**DOM:** ~18 days as of 2026-09-06  
 **Taxes:** $2,620/yr reported  
-**Parcel Boundary Confidence:** Medium — listing-derived, not survey/GIS confirmed  
-**Research Confidence:** Medium-High  
+**Broadband:** CLEAR-PROVISIONAL — user FCC check shows 2 Gbps wired at neighboring house  
+**Research Confidence:** High on listing/rights; Medium on exact land/zoning details  
 
-**Persona Scores:** Brittany 25 | Dogs 84 | Firewood/Lumber 82 | Homestead 85 | Kell and Son 81 | Nicholas 62 provisional | Resale/Investment 57 | Thomas 74  
+**Persona Scores:** Brittany 25 | Dogs 86 | Firewood/Lumber 84 | Homestead 87 | Kell and Son 84 | Nicholas 78 | Resale/Investment 61 | Thomas 81  
 **Financial Fit:** Not Yet Scored  
 
-**Quick Ratings:** Broadband 🟡 INVESTIGATE | Move-In 🔴 | Shop 🟢 | Build Freedom 🟡 | Usable Land 🟢/exact unknown | Access 🟡 | Animals 🟢 | Privacy 🟢 | Zoning 🟡 | Wetlands/Flood 🟡 | OGM/Rights 🔴 | Rights Disturbance 🔴 | Taxes 🟢 | Market Access 🟢 | Value 🟡
+**Quick Ratings:** Broadband 🟢 | Move-In 🔴 | Shop 🟢 | Build Freedom 🟡/🟢 | Usable Land 🟢/exact unknown | Access 🟡 | Animals 🟢 | Privacy 🟢 | Zoning 🟡 | Wetlands/Flood 🟡 | OGM/Rights 🔴 | Rights Disturbance 🔴 | Taxes 🟢 | Market Access 🟢 | Value 🟡
 
-**Rights Disturbance:** HIGH exercise likelihood | HIGH potential impact | 🔴 HIGH overall  
+**Rights Disturbance:** HIGH exercise likelihood | HIGH potential impact | 🔴 HIGH overall, provisional pending instruments  
 **Effective Property Cost:** Unknown; $650k+ plausible with major house work  
 **Cash to Goal:** Unknown  
 
-**Best Feature:** 140 acres plus substantial barns, timber and open land at $549k.  
-**Biggest Weakness:** Deteriorated residence combined with permanently excluded OGM/coal rights.  
-**Dealbreaker Risk:** Broadband hard requirement; unacceptable deed/lease/ROW surface-use language is the second major kill switch.  
-**Best Value-Add:** Use/upgrade the existing pole barn as the equipment/shop/business base rather than immediately building new.  
-**Most Important Unknown:** Exact surface-use/ROW/mineral documents, followed closely by address-level broadband and house rehabilitation scope.  
+**Best Feature:** 140 acres plus substantial barns, timber, open land and now strong evidence of gigabit-class wired broadband nearby.  
+**Biggest Weakness:** Deteriorated residence plus permanently excluded OGM/coal rights.  
+**Dealbreaker Risk:** Unacceptable surface-use/ROW/mineral language; house rehabilitation scope is the major economic risk.  
+**Best Value-Add:** Stabilize/replace the residence intelligently while using the existing pole barn as the equipment/shop/business base.  
+**Most Important Unknown:** Exact deed/lease/ROW surface-use protections and mapped interference with intended uses.  
 
-**VERDICT: MAYBE**  
+**VERDICT: CONTENDER — WITH MAJOR RIGHTS/HOUSE CONDITIONS**  
 
-**Bottom Line:** This is compelling acreage and infrastructure, but the new OGM disclosure makes the risk materially clearer: you would buy the surface while the seller retains oil, gas, minerals and coal, and the parcel already acknowledges gas-line and railroad ROW exceptions. Treat it as land + barns + timber + a questionable house with a significant severed-rights burden—not as an unrestricted 140-acre homestead.  
+**Bottom Line:** The broadband update materially improves this property. The land/barns/privacy/market-access combination is unusually aligned with Nicholas, Thomas, homestead and Kell-and-Son uses. The reason it is not a strong contender yet is no longer internet; it is the combination of a deteriorated house and a real, evidence-backed severed-rights disturbance risk in an actively developed gas township. If title review reveals strong surface protections/no-surface operations and the house can be rehabilitated economically, this could move into strong-contender territory.  
 
 **Fair Value:** Preliminary $475k-$525k  
-**Suggested Offer:** Preliminary $450k-$490k if broadband and title/surface protections clear  
-**At Asking:** FAIR-TO-WEAK given house + rights burden  
-**Strong-Contender Price:** approximately $450k-$475k unless inspections/title research materially improve the risk picture
+**Suggested Offer:** Preliminary $460k-$495k subject to house/title diligence  
+**At Asking:** FAIR  
+**Strong-Contender Price:** approximately $460k-$490k unless title/house findings materially improve the risk picture
 
 ## Open Research Tasks
 
-- [ ] Exact-address FCC/direct ISP confirmation of >=300 Mbps wired broadband.
+- [x] Neighbor FCC broadband check: user reports 2 Gbps wired service.
+- [ ] Direct provider qualification at 254 Laidleys Run Rd and any extension/construction quote.
 - [ ] Obtain adopted West Finley zoning ordinance/map and confirm parcel district/use table.
 - [ ] County GIS boundary reconciliation; calculate usable/prime acres.
 - [ ] FEMA/NWI/NRCS/topography/septic review.
@@ -215,4 +219,4 @@ Rural West Finley setting with good I-70 regional positioning. Wheeling and Wash
 
 ## Sources
 
-Checked 2026-09-06: Zillow current search index; Mossy Oak Properties listing/REALSTACK MLS 115198; seller-signed Pennsylvania OGM Disclosure dated 2026-08-17; listing Land id aerial; Pennsylvania PUC Act 13 West Finley 2025 statistics; West Finley Township 2026 planning materials; current third-party broadband footprint sources. Listing/aerial boundaries are not a survey and broadband footprints are not address qualification.
+Re-run 2026-09-06 using current repository criteria/project instructions and all active personas. Current sources include Zillow search/listing index; Mossy Oak Properties/REALSTACK MLS 115198; LandSearch listing and attached OGM disclosure references; West Finley Township permits/zoning/planning materials; Pennsylvania PUC Act 13 statistics; CNX WFN12 current development information; current West Finley well-permit reporting; and user-reported FCC Broadband Map result showing 2 Gbps wired service at the neighboring house. Listing/aerial boundaries remain not-a-survey and neighboring broadband does not by itself constitute a provider service commitment for the subject address.
