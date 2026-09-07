@@ -11,10 +11,10 @@ zillow_url: https://www.zillow.com/homedetails/16-Eckert-Ln-Pleasant-Shade-TN-37
 primary_photo_url:
 primary_photo_source: Zillow / RealTracs MLS 3250345
 primary_photo_checked_date: 2026-09-07
-parcel_map_source: Smith County Planning/GIS; parcel identity cross-checked against MLS/public-record APN
+parcel_map_source: Zillow/listing boundary graphic supplied by user; Smith County Planning/GIS still preferred for authoritative confirmation
 parcel_map_url: https://smithcotn.com/planning-office/
-parcel_boundary_source: Smith County assessor/GIS intended; geometry not independently extracted in this pass
-parcel_boundary_confidence: UNVERIFIED
+parcel_boundary_source: Listing-derived measured boundary graphic; authoritative county geometry still pending
+parcel_boundary_confidence: MEDIUM
 parcel_map_checked_date: 2026-09-07
 listing_status: Active listing, under contract with 72-hour kick-out clause
 active_offer_status: Under contract with 72-hour kick-out clause
@@ -24,14 +24,14 @@ days_on_market: ~45-73 depending portal/list-date convention
 property_type: Single Family Residence / log home
 total_acres: 56.31
 constrained_acres_est: Unknown; substantial slope/topography constraints likely
-usable_acres_est: Unknown; likely materially below nominal acreage
-prime_acres_est: Unknown
+usable_acres_est: Provisional 20-30+ acres pending topo/slope confirmation
+prime_acres_est: Provisional 6-12 acres pending topo/slope confirmation
 house_sqft: 2921
 beds: 1 current; previously configured as 4
 baths: 3 MLS total (1 full + 2 half shown by current Zillow fields; listing narrative inconsistently says 2 full + 2 half)
 annual_property_tax: 1554
-broadband_rating: INVESTIGATE
-broadband_status: NCTC fiber is widespread in Pleasant Shade and address checker exists, but exact 16 Eckert Ln service was not confirmed
+broadband_rating: CLEAR
+broadband_status: FCC Broadband Map screenshot supplied by user shows 16 Eckert Ln served by North Central Telephone Cooperative Fiber to the Premises at 1000/1000 Mbps
 ogm_status: Unknown
 rights_exercise_likelihood: UNKNOWN
 rights_surface_impact: UNKNOWN
@@ -39,14 +39,14 @@ rights_disturbance_risk: "⚫ UNKNOWN"
 legal_access_status: INVESTIGATE; existing driveway/access, but legal public-road frontage and Eckert Ln status need confirmation
 market_access_rating: GOOD regional reach, weaker immediate local market
 research_confidence: Medium
-verdict: MAYBE
+verdict: CONTENDER
 reviewed_date: 2026-09-07
 last_updated: 2026-09-07
 ---
 
 # Property Summary
 
-Large private 56.31-acre Smith County property with a custom 2006 log home and detached two-car garage. The permanent positives are acreage, privacy, low taxes, public water, no HOA, and a rural location with reasonable access to Lebanon/Nashville. The principal concerns are the steep/hilly land, exact usable/operational acreage, exact zoning classification, wired broadband at the house, access/frontage status, mineral/OGM title, and the very aggressive resale markup following the September 2025 $335,500 sale.
+Large private 56.31-acre Smith County property with a custom 2006 log home and detached two-car garage. The permanent positives are acreage, privacy, low taxes, public water, no HOA, confirmed gigabit fiber, and a rural location with reasonable access to Lebanon/Nashville. User-supplied listing imagery also shows a more favorable parcel configuration than initially assumed, with a substantial open/semi-open area around the house and a long eastern parcel leg that may improve future access or subdivision flexibility if confirmed by county GIS/title. The principal concerns are topography, exact usable/operational acreage, exact zoning classification, access/frontage status, mineral/OGM title, and the aggressive resale markup following the September 2025 $335,500 sale.
 
 ## Listing Photo
 
@@ -54,16 +54,16 @@ Primary/hero listing photo was available on Zillow on 2026-09-07 and shows the t
 
 ## Parcel Map / Aerial
 
-**PARCEL MAP — NOT A SURVEY.** Parcel APN 012 00501 000 is consistently reported by current MLS/public-record aggregators. Smith County Planning maintains GIS mapping, but authoritative parcel geometry was not independently extracted during this pass; boundary remains UNVERIFIED. The listing coordinates are approximately 36.3856, -85.9631.
+**PARCEL MAP — NOT A SURVEY.** User supplied a Zillow/listing-style aerial boundary graphic with measured line segments around the apparent 56.31-acre tract. It shows the house centrally located within the western/main body of the property, a sizable cleared/open area around and north/northwest of the residence, extensive wooded acreage to the west/south, and a long narrow southeastern/eastern leg extending toward Hart Creek Rd. This materially improves confidence in the general parcel configuration but remains listing-derived and must not be treated as a recorded survey. Smith County GIS/deed geometry should still be used to verify the parcel finger, frontage, and whether the eastern leg provides actual road frontage/access rights.
 
 ## Fatal-Flaw Screen
 
 | Item | Result | Notes |
 |---|---|---|
-| Wired broadband | INVESTIGATE | NCTC reports extensive Pleasant Shade fiber coverage and has an address checker; exact service at 16 Eckert Ln not confirmed. Nicholas requires 300+ Mbps wired. |
-| Legal/practical access | INVESTIGATE | Existing driveway and residence prove practical historical access, but county-road frontage/legal access and Eckert Ln maintenance status need confirmation. |
+| Wired broadband | CLEAR | User-supplied FCC Broadband Map screenshot shows the exact location, 16 Eckert Ln, as Served by North Central Telephone Cooperative FTTP at 1000 Mbps down / 1000 Mbps up. This clears Nicholas's 300+ Mbps wired requirement. |
+| Legal/practical access | INVESTIGATE | Existing driveway and residence prove practical historical access, but county-road frontage/legal access and Eckert Ln maintenance status need confirmation. Listing boundary graphic may indicate additional Hart Creek Rd frontage/access potential; verify. |
 | Buildability/zoning | INVESTIGATE | Smith County zoning applies. Parcel is public-record agricultural land, but exact zoning-map classification needs confirmation before relying on A-1 permissions. |
-| Land constraints | INVESTIGATE | MLS repeatedly describes hilly/rolling slope. Usable/prime acreage not established. Third-party record reports flood Zone B/X; house-level modeled flood risk is low. |
+| Land constraints | INVESTIGATE | MLS repeatedly describes hilly/rolling slope. User-supplied boundary aerial shows meaningful open/semi-open ground, improving the outlook for operational acreage, but topo/slope still needs quantification. |
 | Restrictions | INVESTIGATE | MLS says no HOA/subdivision None. Deed restrictions/easements not yet reviewed. |
 | House/homesite | CLEAR / INVESTIGATE | Existing habitable home with extensive 2025-26 updates; bedroom/bath configuration and log-home condition need inspection. |
 | OGM/surface rights | INVESTIGATE | Mineral/OGM conveyance unknown; deed/title review required. |
@@ -76,32 +76,40 @@ Primary/hero listing photo was available on Zillow on 2026-09-07 and shows the t
 - Listed 2026-07-24 at $649,900; reduced to $620,000 and then $599,000.
 - Sold 2025-09-10 for $335,500 after a 2025 listing cycle that began at $799,900.
 - Seller/listing claims improvements since purchase include new metal roof, upstairs HVAC, downstairs mini-split, LVP flooring, stainless appliances, septic inspection/cleaning, propane tank/full, driveway improvements, whole-house stain/fascia/gutters, and a covered rear deck. Seller also offers a $10,000 improvement credit.
-- The jump from $335,500 to $599,000 in roughly one year is the largest value concern. Renovations are meaningful, but the current ask requires careful comp support and documentation of improvement costs/quality.
+- The jump from $335,500 to $599,000 in roughly one year remains the largest value concern. Renovations are meaningful, but the current ask requires careful comp support and documentation of improvement costs/quality.
+- Confirmed gigabit fiber and the apparently favorable parcel configuration improve the permanent-value story versus the first pass.
 - Nearby rural comps are heterogeneous. Current portal examples include 8 Matthews Mountain Ln at $545,000 and 5810 Carthage Rd at $685,000, while nearby smaller homes are much lower. A 54-acre vacant tract at Patterson Ln reportedly sold for $270,000 ($5,000/ac), useful only as a rough land-value reference.
-- Preliminary fair-value range: **$500,000-$550,000**, subject to broadband, usable acreage, zoning/access and inspection. Preliminary suggested offer if diligence clears: **$500,000-$525,000**. At $599,000: **OVERPRICED / requires unusually strong inspection and land utility to justify**.
+- Preliminary fair-value range remains **$500,000-$550,000**, now with less broadband uncertainty. Preliminary suggested offer if diligence clears: **$500,000-$525,000**. At $599,000: still **OVERPRICED / requires unusually strong inspection and land utility to justify**.
 
 ## Broadband
 
-NCTC operates gigabit fiber and reports a large fiber footprint in Pleasant Shade; its official site provides an address-level availability checker. Historical NCTC materials specifically document fiber construction into portions of Pleasant Shade. Exact wired service at **16 Eckert Ln** was not confirmed in this pass. Treat this as a Nicholas hard-stop until NCTC/FCC address-level results show 300+ Mbps wired service at the house.
+**CONFIRMED AT THE HOUSE.** On 2026-09-07 the user supplied an FCC Broadband Map screenshot for **16 Eckert Ln, Pleasant Shade, TN 37145** showing the selected location status as **Served**. The map lists **North Central Telephone Cooperative** with **Fiber to the Premises** service at **1000 Mbps download / 1000 Mbps upload**. This fully clears Nicholas's 300+ Mbps wired broadband hard requirement and is a major positive for Thomas, resale, remote work and any future shop/business connectivity needs.
+
+Because FCC availability is provider-reported, a pre-offer call/orderability check with NCTC is still prudent, but this is no longer an INVESTIGATE-level concern.
 
 ## Land Reality
 
 - Total acres: 56.31.
-- Constrained acres: Unknown; topography likely constrains a meaningful portion.
-- Usable acres: Unknown.
-- Prime/operational acres: Unknown and particularly important for shops, lumber/firewood yard, gardens and Thomas's future homesite.
-- Primary constraints: hilly/rolling terrain; potential floodplain portions; unknown soil/septic suitability for additional development.
-- Best uses: privacy, recreation, woods, homestead, selective livestock/gardens on suitable benches/clearings, and possibly shop/business use if zoning and flat operational area support it.
+- Visibly open/semi-open ground from user-supplied listing aerial: roughly **8-15 acres provisional**.
+- Constrained acres: Unknown; wooded/hilly acreage is substantial.
+- Usable acres: **Provisional 20-30+ acres**, pending topo/slope verification.
+- Prime/operational acres: **Provisional 6-12 acres**, pending topo/slope verification.
+- Primary constraints: hilly/rolling terrain; unknown soil/septic suitability for additional development; exact slope around candidate shop/future homesite zones not yet measured.
+- Best uses: privacy, recreation, woods, homestead, dogs, garden/orchard, selective livestock, shop/yard on the open bench if slope permits, and possibly future lot division/access using the eastern parcel leg if county/title records confirm it.
+
+The user-supplied boundary aerial changes the land assessment positively: this does not appear to be 56 acres of uniformly steep timber with only a tiny house pad. There is visibly meaningful open ground near the residence and a parcel geometry that could support separation of residential, shop, animal and recreational uses.
 
 ## Access
 
 MLS directions route via Little Creek Rd -> Dillman Hollow -> Eckert Ln, and the seller reports driveway improvements. Smith County's development guide generally requires building lots to abut a publicly maintained road for at least 50 ft (30 ft on qualifying cul-de-sacs). Confirm whether Eckert Ln is publicly maintained or private/deeded, exact frontage, maintenance obligations, and whether trucks/trailers can negotiate the grade/turns year-round.
 
+The listing-derived boundary graphic appears to show a long eastern/southeastern parcel leg reaching toward Hart Creek Rd. If authoritative GIS/title confirms actual fee ownership and road frontage there, that could materially improve heavy-equipment access, shop placement, future subdivision potential, and Thomas's future independent homesite options. Do not rely on this until county GIS/deed records verify it.
+
 ## Zoning & Buildability
 
 Smith County Planning administers zoning, subdivision, GIS, building permits and floodplain rules in unincorporated areas. The parcel's public-record land use is agricultural, but **exact zoning is not yet confirmed**.
 
-If the parcel is A-1, the county resolution permits farming, detached single-family dwellings, customary accessory buildings, and other rural uses; A-1 minimum dwelling lot size is 1 acre with public water and 3 acres without public water. Dog/cat kennels are a special exception. Home occupations must remain small-scale and may not create increased noise, dust or health hazards. This is important: a quiet woodworking/home shop may be workable, but a commercial sawmill/firewood yard with customer/truck traffic and substantial noise should **not** be assumed legal as a home occupation. Get a written use determination from Smith County Planning before purchase.
+If the parcel is A-1, the county resolution permits farming, detached single-family dwellings, customary accessory buildings, and other rural uses; A-1 minimum dwelling lot size is 1 acre with public water and 3 acres without public water. Dog/cat kennels are a special exception. Home occupations must remain small-scale and may not create increased noise, dust or health hazards. A quiet woodworking/home shop may be workable, but a commercial sawmill/firewood yard with customer/truck traffic and substantial noise should **not** be assumed legal as a home occupation. Get a written use determination from Smith County Planning before purchase.
 
 ## Animals & Homestead
 
@@ -147,7 +155,7 @@ Foreseeable work classification: **Cosmetic to Moderate if inspection confirms t
 - Cooling: central air plus reported mini-split downstairs.
 - Electric service capacity: Unknown.
 - Three-phase: Unknown/unlikely without utility confirmation.
-- Broadband: exact address service Unknown.
+- Broadband: **North Central Telephone Cooperative FTTP, 1000/1000 Mbps per FCC Broadband Map screenshot supplied by user on 2026-09-07.**
 
 ## Location
 
@@ -180,11 +188,12 @@ The listing emphasizes privacy and hilly rural surroundings. No HOA is reported.
 - Cash to Goal: not scored because buyer-finance inputs are unconfigured.
 - Missing features:
   - Main residence: **Existing**.
+  - Gigabit fiber: **Existing / confirmed by FCC map**.
   - Detached 2-car garage: **Existing**, but not a meaningful business/shop facility.
   - Larger shop: **Major Value-Add**, legality/sitework TBD.
   - Bedroom reconfiguration: **Easy/Moderate Value-Add**, subject to code/septic.
   - Dog containment: **Easy/Moderate Value-Add** if terrain cooperates.
-  - Thomas second dwelling: **Difficult/Unknown** because county generally allows one principal building per lot; likely requires land division or another approved pathway.
+  - Thomas second dwelling: **Difficult/Unknown**, but listing-derived eastern road-frontage geometry may improve the lot-split pathway if county GIS/title confirms it.
 
 ## Purchase Structure
 
@@ -194,14 +203,14 @@ Not scored. `finance/buyer-finance.md` remains unconfigured, so the active conse
 
 | Persona | Score | Key reason |
 |---|---:|---|
-| Nicholas | 67/100 provisional | Excellent acreage/privacy/taxes and likely build potential, but 300+ Mbps wired broadband is unconfirmed, usable operational acreage is unknown, and shop/business legality needs confirmation. |
+| Nicholas | 78/100 provisional | 1000/1000 FTTP clears the critical broadband hard requirement. Acreage/privacy/taxes are strong and the boundary aerial suggests meaningful operational ground; zoning, access and exact slope remain the main unresolved permanent issues. |
 | Brittany | 82/100 | Existing character home with substantial recent systems/cosmetic work; biggest risks are log-home inspection and current 1-bedroom configuration. |
-| Dogs | 86/100 | 56 acres, privacy and low traffic exposure are strong; terrain, fencing practicality and exact road situation remain. |
-| Homestead | 78/100 | Acreage, public water, privacy and likely agricultural context are strong; slope/usable soil and exact zoning need verification. |
-| Firewood and Lumber | 61/100 | Land and regional market are attractive, but flat yard acreage, heavy-truck access and commercial/noisy-use legality are unresolved. |
-| Kell and Son Limited Co. | 63/100 | Good acreage and regional Nashville/Lebanon reach; current garage is small, and Smith County home-occupation noise/dust limits create a major use-permission question. |
-| Resale and Investment | 54/100 | Attractive permanent acreage/privacy/taxes, but $599k follows a $335.5k sale one year earlier and current one-bedroom labeling narrows the buyer pool. |
-| Thomas | 64/100 | Land and garage/project potential are good, but broadband is unconfirmed and a second independent dwelling is not straightforward under the county one-principal-building rule. |
+| Dogs | 88/100 | 56 acres, strong privacy and visible open ground are excellent; terrain/fencing practicality and exact road situation remain. |
+| Homestead | 82/100 | Acreage, public water, confirmed fiber, privacy and meaningful visible open ground are strong; exact zoning, soil and slope still need verification. |
+| Firewood and Lumber | 66/100 | Better-than-first-thought open/operational land and excellent connectivity help, but flat yard acreage, heavy-truck access and commercial/noisy-use legality are unresolved. |
+| Kell and Son Limited Co. | 68/100 | Confirmed gigabit fiber, acreage and Nashville/Lebanon reach are strong; current garage is small and Smith County home-occupation noise/dust limits remain a major use-permission question. |
+| Resale and Investment | 59/100 | Gigabit fiber and the apparently useful parcel layout improve durable resale appeal, but $599k follows a $335.5k sale one year earlier and current one-bedroom labeling narrows the buyer pool. |
+| Thomas | 74/100 | Gigabit fiber materially improves fit; land/project space is strong, and the eastern parcel leg may support a future lot split if frontage/access is confirmed. |
 
 ## Financial Fit
 
@@ -212,44 +221,45 @@ Not scored. `finance/buyer-finance.md` remains unconfigured, so the active conse
 **Address:** 16 Eckert Ln, Pleasant Shade, TN 37145  
 **Price:** $599,000  
 **Type:** Log single-family home  
-**Acres:** 56.31 Total | Usable Unknown | Prime Unknown  
+**Acres:** 56.31 Total | Provisional 20-30+ usable | Provisional 6-12 prime/operational  
 **House:** 2,921 sqft | 1 current bed (previously 4) | 3 MLS bathrooms  
 **Setting:** Rural  
 **Status:** Active listing; under contract with 72-hour kick-out clause  
 **DOM:** ~45-73 depending portal convention  
 **Taxes:** $1,554/yr  
-**Parcel Boundary Confidence:** Unverified  
+**Parcel Boundary Confidence:** Medium, listing-derived — not a survey  
 **Research Confidence:** Medium  
 
-**Persona Scores:** Nicholas 67 | Brittany 82 | Dogs 86 | Homestead 78 | Firewood/Lumber 61 | Kell and Son 63 | Resale/Investment 54 | Thomas 64  
+**Persona Scores:** Nicholas 78 | Brittany 82 | Dogs 88 | Homestead 82 | Firewood/Lumber 66 | Kell and Son 68 | Resale/Investment 59 | Thomas 74  
 **Financial Fit:** Not Yet Scored  
 
-**Quick Ratings:** Broadband 🟡 INVESTIGATE | Move-In 🟢 | Shop 🟡 | Build Freedom 🟡 | Usable Land 🟡 | Access 🟡 | Animals 🟢 provisional | Privacy 🟢 | Zoning 🟡 | Wetlands/Flood 🟡 | OGM/Rights ⚫ | Rights Disturbance ⚫ | Taxes 🟢 | Market Access 🟢/🟡 | Value 🟡/🔴 at ask
+**Quick Ratings:** Broadband 🟢 CLEAR | Move-In 🟢 | Shop 🟡 | Build Freedom 🟡 | Usable Land 🟡/🟢 provisional | Access 🟡 | Animals 🟢 provisional | Privacy 🟢 | Zoning 🟡 | Wetlands/Flood 🟡 | OGM/Rights ⚫ | Rights Disturbance ⚫ | Taxes 🟢 | Market Access 🟢/🟡 | Value 🟡/🔴 at ask
 
 **Rights Disturbance:** Exercise Likelihood UNKNOWN | Surface/Lifestyle Impact UNKNOWN | Overall ⚫ UNKNOWN  
 **Effective Property Cost:** Unknown pending shop/sitework and inspection  
 **Cash to Goal:** Not scored  
 **Estimated Monthly Carry:** Not scored from buyer finance; third-party 20%-down portal estimates are roughly $3.4k-$3.5k/mo before property-specific insurance verification  
 
-**Best Feature:** 56 acres + privacy + existing character home + very low property taxes.  
-**Biggest Weakness:** $599k price after a $335.5k purchase in September 2025, combined with unknown usable/operational acreage.  
-**Dealbreaker Risk:** Broadband below 300 Mbps wired, or insufficient flat/buildable land for shop/business/future homesite.  
+**Best Feature:** 56 acres + privacy + **confirmed 1 Gbps symmetric fiber** + existing character home + very low property taxes.  
+**Biggest Weakness:** $599k price after a $335.5k purchase in September 2025, plus unresolved zoning/access/topography details.  
+**Dealbreaker Risk:** Insufficient flat/buildable operational land, unfavorable access, or zoning that blocks the intended shop/business activity. Broadband is no longer a dealbreaker risk.  
 **Best Value-Add:** Re-establish a functional bedroom layout and, if zoning/sitework permits, build a serious shop.  
-**Most Important Unknown:** Exact NCTC/FCC wired broadband at the house, followed closely by usable-acre/topography and exact zoning/access.  
+**Most Important Unknown:** Exact topography/operational acreage and zoning/access, followed by deed/title rights.  
 
-**VERDICT:** MAYBE  
+**VERDICT:** CONTENDER  
 
-**Bottom Line:** This property has the emotional/property-character ingredients to become a strong contender, especially for Brittany, the dogs and homestead use. It is not ready for that label at $599,000. The price is aggressive, and the Nicholas/Kell-and-Son use case depends on three unresolved permanent facts: broadband, operationally usable flat land, and zoning/access for a real shop/wood operation.  
+**Bottom Line:** Confirmed gigabit fiber removes one of the property's biggest prior uncertainties, and the user-supplied parcel-boundary aerial suggests the land may be substantially more usable than the first-pass description implied. This is now worth deeper diligence. The remaining questions are physical/legal rather than connectivity: how much flat operational ground exists, whether the east parcel leg truly provides Hart Creek Rd frontage/access, whether Smith County permits the intended shop/wood operation, and whether the $599k ask can be justified.  
 **Fair Value:** Preliminary $500,000-$550,000  
 **Suggested Offer:** Preliminary $500,000-$525,000 if diligence clears  
 **At Asking:** OVERPRICED / needs stronger comp and improvement-cost support  
-**Strong-Contender Price:** Approximately $500,000-$525,000, assuming broadband and shop feasibility clear  
+**Strong-Contender Price:** Approximately $500,000-$525,000, assuming shop/access/topography diligence clears  
 
 ## Open Research Tasks
 
-- [ ] Confirm NCTC/FCC address-level wired broadband and available speed at 16 Eckert Ln.
+- [x] Confirm NCTC/FCC address-level wired broadband and available speed at 16 Eckert Ln — FCC screenshot supplied by user shows NCTC FTTP 1000/1000 Mbps.
 - [ ] Obtain Smith County GIS parcel map/geometry and exact zoning district.
 - [ ] Quantify slope and flat/operational acreage; identify realistic shop pad and Thomas future homesite.
+- [ ] Verify whether the eastern/southeastern parcel leg shown on the listing graphic reaches Hart Creek Rd as fee-simple frontage and whether legal access is available there.
 - [ ] Confirm Eckert Ln public/private status, legal frontage, maintenance and heavy-truck access.
 - [ ] Obtain deed/title commitment and determine mineral/OGM/timber rights, easements and restrictions.
 - [ ] Obtain 2025 purchase deed and seller renovation invoices/permits to explain the $263,500+ price increase.
@@ -261,4 +271,4 @@ Not scored. `finance/buyer-finance.md` remains unconfigured, so the active conse
 
 ## Sources
 
-Checked 2026-09-07: Zillow/RealTracs MLS 3250345; Realtor.com/RealTracs; Redfin public-record/MLS; Homes.com public-record data; LandSearch listing coordinates/APN; Smith County Planning Office; Smith County Zoning Resolution (2018 amendments); Smith County Development Guide; NCTC official fiber site and Pleasant Shade build announcement; Tennessee Oil & Gas Program resources; Tennessee mineral-right statutory references. All third-party listing/public-record data should be verified against county/title/utility records before purchase.
+Checked 2026-09-07: Zillow/RealTracs MLS 3250345; user-supplied Zillow/listing parcel-boundary aerial; **user-supplied FCC Broadband Map screenshot for 16 Eckert Ln showing North Central Telephone Cooperative FTTP 1000/1000 Mbps**; Realtor.com/RealTracs; Redfin public-record/MLS; Homes.com public-record data; LandSearch listing coordinates/APN; Smith County Planning Office; Smith County Zoning Resolution (2018 amendments); Smith County Development Guide; NCTC official fiber site and Pleasant Shade build announcement; Tennessee Oil & Gas Program resources; Tennessee mineral-right statutory references. All listing/public-record data should be verified against county/title/utility records before purchase.
