@@ -5,13 +5,13 @@ city: Pleasant City
 state: OH
 zip: 43772
 county: Noble
+municipality: Buffalo Township
 listing_url: https://www.zillow.com/homedetails/54170-Mount-Zion-Rd-Pleasant-City-OH-43772/2077002260_zpid/
 zillow_url: https://www.zillow.com/homedetails/54170-Mount-Zion-Rd-Pleasant-City-OH-43772/2077002260_zpid/
 listing_status: active
 active_offer_status: no contingent/pending/offer status found in sources checked
 asking_price: 550000
 original_price: 550000
-days_on_market: 8
 property_type: house + acreage / recreational retreat
 total_acres: 20
 constrained_acres_est: unknown
@@ -21,262 +21,204 @@ house_sqft: 1700
 beds: 4
 baths: 2
 annual_property_tax: 1684
-broadband_rating: yellow
-broadband_status: Spectrum advertises up to 1 Gig service in Pleasant City; exact-address 300+ Mbps wired service remains unverified
-ogm_status: unknown
-legal_access_status: green - ~1400 ft road frontage listing claim; survey/title verification still required
+broadband_rating: green
+broadband_status: FCC Broadband Map exact-location screenshot supplied by user shows Spectrum Fiber to the Premises at 1000/1000 Mbps and location status Served
+ogm_status: unknown - no reliable conveyance/reservation evidence found; title/recorder review required
+legal_access_status: green - approximately 1400 ft road frontage listing claim; survey/title verification still required
 market_access_rating: yellow-green
-nicholas_score: 86
+nicholas_score: 90
 brittany_score: 88
-thomas_score: 82
+thomas_score: 84
 dogs_score: 94
-kell_and_son_score: 82
+kell_and_son_score: 83
 homestead_score: 79
 firewood_lumber_score: 84
-resale_investment_score: 72
-overall_score: 84
-research_confidence: medium
-verdict: contender
-reviewed_date: 2026-09-05
-last_updated: 2026-09-05
+resale_investment_score: 74
+overall_score: 85
+research_confidence: medium-high
+verdict: strong contender
+reviewed_date: 2026-09-07
+last_updated: 2026-09-07
 ---
 
 # 54170 Mount Zion Rd, Pleasant City, OH 43772
 
 ## Executive Summary
 
-A very strong lifestyle property: 20 +/- acres in two parcels, a maintained 1,700-sq-ft 4BR/2BA home, pond, rolling hardwood timber, extensive trails, roughly 1,400 feet of road frontage, and a finished 24' x 40' four-car garage/workshop with dedicated 100A service plus two 12' x 24' lean-tos and concrete dog kennels. The current MLS-derived listing is active at $550,000.
+A strong current portfolio leader: approximately 20 acres, maintained 4BR/2BA home, pond, rolling hardwood timber, trails, roughly 1,400 feet of advertised road frontage, and a finished 24' x 40' four-car garage/workshop with dedicated 100A service, two 12' x 24' lean-tos and concrete dog kennels.
 
-The hard unknowns are not the house or shop—they are **OGM/mineral rights, exact Buffalo Township zoning district/use rules, parcel-level land constraints, and address-level wired broadband**. The asking price also deserves scrutiny because it is materially above the January 2021 $310,000 sale and nearby ordinary residential sales, although the current package is unusually differentiated by acreage, shop, pond, trails and condition.
+A major hard requirement is now cleared. On 2026-09-07 the user supplied an FCC Broadband Map screenshot for the exact address showing **Spectrum Fiber to the Premises, 1000 Mbps down / 1000 Mbps up, location status Served**. Broadband is therefore GREEN for portfolio scoring.
+
+Remaining permanent-risk questions are OGM/mineral/surface rights, exact Buffalo Township zoning district and intended-use permissions, legal path for a Thomas second homesite, parcel identities/boundaries, and parcel-level slopes/wetlands/flood/soils. Asking price remains the principal value concern.
 
 ## Fatal-Flaw Screen
 
 | Item | Result | Notes |
 |---|---|---|
-| Wired broadband | INVESTIGATE | Spectrum advertises service up to 1 Gig in Pleasant City, but exact-address 300+ Mbps wired service is not verified. |
-| Legal/practical access | CLEAR / VERIFY | Listing claims ~1,400 ft of road frontage and internal trail access. Survey/driveway/title verification still required. |
-| Buildability/zoning | INVESTIGATE | Property appears to be in Buffalo Township, one of Noble County's zoned townships. Exact district and intended-use permissions need confirmation. |
-| Land constraints | INVESTIGATE | Rolling hardwood terrain and pond are attractive, but usable/buildable acreage, slopes, soils and flood/wetland constraints are not yet quantified. |
+| Wired broadband | CLEAR | FCC exact-location evidence supplied 2026-09-07: Spectrum FTTP 1000/1000 Mbps, Served. |
+| Legal/practical access | CLEAR / VERIFY | Listing claims ~1,400 ft road frontage and established driveway; survey/title still required. |
+| Buildability/zoning | INVESTIGATE | Buffalo Township is zoned; exact parcel district and intended-use permissions still need written confirmation. |
+| Land constraints | INVESTIGATE | Rolling hardwood terrain and pond; usable/buildable acres, slopes, soils and flood/wetland constraints not quantified parcel-by-parcel. |
 | Restrictions | INVESTIGATE | No HOA shown; deed restrictions/easements not fully verified. |
-| House habitability | CLEAR | Listing describes a maintained home with 2022 roof/insulation, heat pump/central A/C, septic and city water. |
-| OGM/surface rights | INVESTIGATE | Conveyance/reservations unknown; mandatory title/OGM review in this region. |
-| Carrying costs | CLEAR / VERIFY | 2025 public-record-derived tax figure is about $1,684; verify both parcels and reassessment/CAUV status. |
+| House habitability | CLEAR | Maintained house; listing reports 2022 roof/insulation, heat pump/central A/C, septic and city water. |
+| OGM/surface rights | INVESTIGATE | No reliable source found establishing what mineral/royalty rights convey or what leases/unitization/surface rights burden the parcels. |
+| Carrying costs | CLEAR / VERIFY | ~$1,684/yr reported; verify both parcels, CAUV/current-use status and post-sale exposure. |
 
 ## Listing & Value
 
-Current MLS-derived sources show **Active** at **$550,000**, listed August 27, 2026, with 20 +/- acres. Zillow's Noble County results showed the property active with about 8 days on Zillow when checked. No contingent/pending status was found.
+Current ask is **$550,000**. The property sold for **$310,000 in January 2021**. The package is unusually differentiated by acreage, finished shop, pond, trails, kennels and house condition, but the ask is still premium pricing for the area.
 
-The property sold for **$310,000 in January 2021** after a prior $350,000 list price. Current asking price is roughly 77% above that sale. Current local residential comps are generally much lower, but they are weak comparables because they lack the same 20-acre wooded recreational package and finished four-car shop. A true rural-house + 15–30 acre + quality-shop comp set is still needed.
+**Preliminary fair value:** ~$475,000-$525,000 pending rights, parcel, zoning and true rural comps.  
+**Preliminary suggested offer:** ~$465,000-$490,000.  
+**Strong-contender price:** around $500,000 or lower unless the remaining permanent-rights/buildability questions prove unusually favorable.
+
+## Broadband — CONFIRMED
+
+**Rating: GREEN**
+
+User-supplied FCC Broadband Map evidence dated 2026-09-07 shows the selected location **54170 Mount Zion Rd, Pleasant City, OH 43772** as **Served**. The fixed-broadband table lists **Spectrum — Fiber to the Premises — 1000 Mbps down / 1000 Mbps up**.
+
+This satisfies Nicholas's 300+ Mbps wired hard requirement and materially improves Thomas, resale and business utility. A provider orderability check is still sensible before closing, but broadband is no longer treated as a portfolio fatal-flaw uncertainty.
 
 ## House / Brittany Readiness
 
-The listing describes a strong move-in-ready package:
-
-- ~1,700 sq ft
-- 4 bedrooms / 2 full baths
-- updated kitchen
-- hardwood/tile and pine tongue-and-groove finishes
-- electric heat pump + central A/C
-- new shingle roof in 2022
-- new roof/attic insulation in 2022
-- private septic described as well maintained
-- recently installed city water
-- large front porch and rear deck
-
-This is one of the stronger Brittany properties because the major visible/listed work appears already handled. Inspection should still verify septic, foundation/basement, HVAC, plumbing/electric and moisture.
+Listing describes roughly 1,700 sq ft, 4 bedrooms, 2 full baths, updated kitchen, hardwood/tile and pine finishes, electric heat pump + central A/C, 2022 roof/attic insulation, private septic, city water, front porch and rear deck. This remains one of the strongest Brittany candidates because the property appears usable without immediate major renovation. Inspection remains required.
 
 ## Shop / Garage
 
-This is a major strength.
-
-The detached **24' x 40' four-car garage/workshop** reportedly has:
-
-- concrete floor and large concrete apron
-- dedicated **100A electrical service**
-- propane heater (functionality to verify)
-- finished walls/ceiling
-- recessed lighting and ceiling fans
-- two oversized **15-foot-wide garage doors**
-- two **12' x 24' lean-tos** for covered storage
-- concrete-pad dog kennels
-
-For Nicholas, Thomas and Kell and Son, this materially lowers cost-to-goal compared with building a shop from scratch.
+Detached **24' x 40' four-car garage/workshop** reportedly includes concrete floor/apron, dedicated **100A service**, propane heater, finished walls/ceiling, lighting/fans, two approximately 15-foot-wide doors, two **12' x 24' lean-tos**, and concrete dog kennels. This substantially reduces cost-to-goal for Nicholas, Thomas and Kell and Son.
 
 ## Land Reality
 
-- Advertised acreage: 20 +/- acres
-- Parcels: 2
-- Known APN surfaced for one record: 05-00-50-840.001; identify/verify both current parcels
-- Road frontage: ~1,400 ft listing claim
-- Cover: predominantly open hardwood timber
-- Terrain: rolling
-- Internal access: maintained trail network
-- Water: pond
-- Hunting/recreation: listing claims deer/turkey use
-- Constrained acres: TBD
+- Advertised acreage: ~20 acres
+- Advertised as two parcels; only APN **05-00-50-840.001** has been independently surfaced so far
+- Advertised road frontage: ~1,400 ft
+- Predominantly hardwood timber / rolling terrain
+- Maintained trail network
+- Pond
 - Usable acres: TBD
-- Prime/operational acres: TBD
+- Prime operational acres: TBD
 
-The land appears highly useful for recreation, dogs, trails, timber and some homestead use. It may be less ideal for a large flat commercial yard or intensive agriculture because much is wooded/rolling.
+ODNR's Noble County GIS catalog confirms county layers exist for 100-year flood hazards, floodways, Ohio Wetlands Inventory, SSURGO soils, surface/abandoned mining and oil/gas well locations. Those datasets have not yet been reliably intersected with the exact parcel geometry, so land-constraint status remains open rather than inferred from county-level availability.
 
-## Zoning & Buildability
+## Zoning & Buildability — Improved Research, Still Open
 
-The Mount Zion area is in **Buffalo Township, Noble County**. Buffalo Township has zoning; Noble County's 2026 township-official page lists zoning officer Greg Clark at 740-680-7003, and the Noble County Health Department specifically directs Buffalo Township applicants to the township zoning inspector.
+Official Noble County Health Department guidance confirms **Buffalo Township has zoning** and directs applicants to zoning inspector **Greg Clark, 740-680-7003** for a zoning permit. A Buffalo Township, Noble County zoning resolution is also publicly indexed.
 
-Exact zoning district and these uses remain to be confirmed:
+What is not yet established from a reliable parcel-level zoning map is the **exact district for 54170 Mount Zion Rd**. Until that is known, the project should not assume approval for:
 
-- additional shop/pole building
+- another large shop/pole building
 - barns/sheds/greenhouse/coops
-- second dwelling / Thomas future homesite
+- Thomas's second dwelling
+- land division or separate homesite
 - home occupation/business activity
 - outdoor equipment/vehicle storage
-- sawmill/firewood processing
+- sawmill/firewood processing or customer traffic
 - livestock/poultry
 
-Because the property is advertised as two parcels with substantial frontage, Thomas's future-homesite potential is better than average, but it is **not yet confirmed**. Noble County Planning Commission subdivision rules also apply to future land division.
+The two-parcel claim plus extensive frontage makes Thomas's future-homesite concept **plausible and above-average**, but not proven. The highest-value next step is a parcel-specific written/email answer from the zoning inspector identifying the district(s) and whether a second dwelling or independent dwelling on the second parcel is permitted.
 
-## Animals & Dogs
+## OGM / Mineral / Surface Rights — Still the Main Title Risk
 
-The existing concrete-pad dog kennels are an unusually direct fit for three large active dogs. With 20 acres, wooded trails, privacy and room for a large secure fenced area, the dog use case is excellent. Road exposure still needs to be mapped against the house/yard because 1,400 ft of frontage creates containment risk as well as access flexibility.
+**Status: UNKNOWN / INVESTIGATE.**
 
-## Rights / OGM
+No reliable listing or public web source found in the 2026-09-07 research establishes whether oil, gas, coal/mineral or royalty rights convey with both parcels. The current APN surfaced in public listing records is **05-00-50-840.001**, but the advertised second parcel still needs identification.
 
-**OGM/mineral rights: UNKNOWN.**
+ODNR maintains an oil/gas well-location dataset for Noble County, but county-level existence of wells is not evidence of a burden on this parcel. Do not infer either safety or risk until parcel geometry is checked.
 
-No current listing source checked clearly states whether oil, gas, mineral, coal or royalty rights convey. ODNR maintains a Noble County oil/gas well layer that is updated regularly, reinforcing the need for parcel-specific review. Determine:
+Before an offer becomes non-contingent, obtain/confirm:
 
-- mineral estate ownership
-- oil/gas rights and royalties
-- existing leases or unitization
-- pipelines/wells/access easements
-- surface-use rights
-- whether both parcels have the same rights status
+1. Both parcel IDs and legal descriptions.
+2. Current deed and prior deeds far enough back to identify mineral reservations/severances.
+3. Oil/gas lease, memorandum of lease, assignment, pooling/unitization and royalty instruments affecting either parcel.
+4. Pipeline, well-road, ingress/egress and surface-use easements.
+5. Whether seller owns and conveys minerals, royalties, executive rights and surface-control rights.
+6. Title-company/attorney interpretation of any severed estate and the practical likelihood of surface disturbance.
 
-Do not treat the property as fully controlled until this is verified.
+Because OGM conveyance is not yet established, this remains the most consequential unresolved permanent-rights issue.
 
-## Broadband
+## Thomas Future Homesite
 
-**Rating: 🟡 VERIFY**
+**Current assessment: PROMISING / UNCONFIRMED.**
 
-Spectrum currently advertises Pleasant City service with plans up to 1 Gig. That is encouraging but does **not** establish service to 54170 Mount Zion Rd. Nicholas's 300+ Mbps wired hard requirement therefore remains unresolved. Verify the exact address directly with Spectrum and the FCC Broadband Map before treating broadband as clear.
+Positives: advertised two-parcel configuration, ~20 acres and ~1,400 ft frontage create much better optionality than a small single parcel. Negatives: exact parcel boundaries, zoning district, frontage per parcel, septic suitability and whether a second principal dwelling is permitted remain unknown.
+
+Do not score this as a guaranteed second homesite. A zoning-inspector confirmation plus both parcel maps is required.
+
+## Animals / Dogs / Homestead
+
+Existing concrete kennels, wooded trails, privacy and acreage remain excellent for three large dogs. Homestead potential is good for a flexible household use case, though rolling wooded terrain may reduce garden/pasture acreage. Animal and accessory-building permissions remain part of the zoning confirmation.
 
 ## Taxes & Carrying Cost
 
-The most current public-record-derived listing surface checked reports approximately **$1,684 paid in 2025** with assessed value around $98,100. Another property-history surface returned a conflicting ~$1,489 figure, likely reflecting a parcel/data mismatch. Verify the county's live records for **both parcels**, whether CAUV or another valuation program applies, and likely post-sale reassessment exposure.
+Reported current tax is approximately **$1,684/year**. Verify tax bills for both parcels, any CAUV/current-use treatment and likely post-sale consequences. The current figure remains a major strength if sustainable.
 
-## Location & Market Access
+## Persona Scores — Recalculated 2026-09-07
 
-The property is roughly 11–13 miles from Cambridge by local location references, with Zanesville around 35 miles / ~45 minutes from Pleasant City. Columbus is roughly 84 road miles. Parkersburg is about 53 miles / ~1:05 from Pleasant City, and Pittsburgh International is about 2:04.
+- **Nicholas: 90/100** — increased from 86 because the 1 Gbps symmetrical FTTP hard requirement is now confirmed. Remaining penalties are zoning/OGM, premium price and unknown prime operational acreage.
+- **Brittany: 88/100** — unchanged; broadband does not materially alter the already-strong move-in-readiness case.
+- **Thomas: 84/100** — increased from 82; confirmed gigabit fiber improves education/work/entertainment utility. Future homesite remains unconfirmed.
+- **Dogs: 94/100** — unchanged; acreage, trails, privacy and kennels remain exceptional.
+- **Kell and Son Limited Co.: 83/100** — increased from 82; reliable high-capacity connectivity improves the business base, while zoning/operational-yard questions remain.
+- **Homestead: 79/100** — unchanged; terrain/usable agricultural acreage and animal/building rules remain the limiting unknowns.
+- **Firewood and Lumber: 84/100** — unchanged; shop/timber/access potential is strong, but legal business use and flat operational space matter more than broadband here.
+- **Resale and Investment: 74/100** — increased from 72; exact-address symmetrical fiber is a scarce permanent utility advantage for rural acreage, though the $550k ask remains a valuation concern.
 
-Practical market tiers:
+### Weighted Overall — 85/100
 
-- 30 min: Cambridge / Byesville / Caldwell area
-- 60 min: Zanesville and broader southeast/east-central Ohio reach
-- 90 min: broader Columbus-east / Canton-south / Mid-Ohio Valley reach depending route
-- 120 min: Columbus metro fringe and Pittsburgh-region fringe become realistic
-
-Green Bay, WI is a long-distance reference and should be treated as roughly a full-day drive; exact routing remains to be checked if it becomes decision-critical.
-
-## Cost to Goal
-
-- Purchase: $550,000 asking
-- Immediate work: appears low from listing, subject to inspection
-- Existing major value: finished 24x40 shop, lean-tos, kennels, pond, trails, city water
-- Likely desired improvements: secure dog fencing, additional flat operational area/storage, possible second homesite, broadband extension if needed
-- Difficult/unknown items: zoning approvals, OGM/title constraints, terrain-dependent building sites
-
-## Persona Scores
-
-### Nicholas — 86/100
-The combination of 20 acres, excellent shop, privacy, pond, trails, timber and low carrying cost is unusually aligned. Broadband and zoning/OGM remain the major unresolved issues.
-
-### Brittany — 88/100
-Strong candidate. The home presents as maintained and move-in-ready with roof/insulation updates, city water and finished interior rather than a renovation project.
-
-### Thomas — 82/100
-The four-car shop, oversized doors and covered storage are excellent for trucks/projects. Two parcels + frontage create credible future-homesite potential, but zoning, septic and second-dwelling rules must be confirmed.
-
-### Dogs — 94/100
-Large wooded acreage, trails, privacy and existing concrete-pad kennels make this nearly purpose-built for three large active dogs. Secure fencing near the road remains important.
-
-### Kell and Son Limited Co. — 82/100
-The finished shop and storage reduce startup cost substantially. Rolling wooded terrain may limit a large operational yard, and business/firewood/sawmill permissions remain unverified.
-
-### Homestead — 79/100
-Strong privacy, water, animals/outbuilding potential and acreage; less ideal for intensive gardens/pasture because much appears wooded and rolling.
-
-### Firewood & Lumber — 84/100
-Excellent timber setting, shop/storage, road frontage and equipment potential. Market access is adequate-to-strong. Confirm business/sawmill legality and identify flat operational space.
-
-### Resale & Investment — 72/100
-The property is differentiated and appealing, but $550k is a substantial premium over its 2021 sale and ordinary nearby housing. Clean broadband, title/OGM, second-parcel utility and strong rural comps are needed to defend the price.
-
-### Weighted Overall — 84/100
-Using persona default weights, the property is a high-fit contender, but the score is provisional because Nicholas's broadband hard requirement and several permanent land/title/zoning questions remain unresolved.
-
-## Open Research Tasks
-
-- [ ] Verify exact-address Spectrum/FCC wired service and 300+ Mbps speed.
-- [ ] Confirm exact Buffalo Township zoning district.
-- [ ] Confirm accessory-building, sawmill/firewood/home-business and outdoor-storage rules.
-- [ ] Determine whether Thomas can legally build a second residence on one of the two parcels.
-- [ ] Retrieve and verify both parcel IDs, acreage and boundaries.
-- [ ] Determine OGM/mineral/royalty ownership and oil/gas leases/unitization.
-- [ ] Check ODNR parcel vicinity for wells/pipelines/surface-use conflicts.
-- [ ] Quantify slopes, wetlands/floodplain and hydric soils.
-- [ ] Verify septic condition and city-water connection.
-- [ ] Verify live tax bills for both parcels and CAUV/current-use status.
-- [ ] Build a true rural-house + 20-acre + quality-shop comp set.
+Using current persona default weights, recalculated weighted fit is approximately **85.3/100**, rounded to **85/100**. The score is no longer suppressed by an unresolved Nicholas broadband hard gate.
 
 ## Property Card
 
 **Address:** 54170 Mount Zion Rd, Pleasant City, OH 43772  
 **Price:** $550,000  
 **Type:** House + Land / Recreational-Homestead  
-**Acres:** 20 Total | Usable TBD | Prime TBD  
-**House:** 1,700 sq ft | 4 bed | 2 bath  
+**Acres:** ~20 Total | Usable TBD | Prime TBD  
+**House:** ~1,700 sq ft | 4 bed | 2 bath  
 **Setting:** Rural  
-**Status:** Active; no contingent/pending/offer status found  
-**DOM:** ~8 days  
-**Taxes:** ~$1,684/yr reported on current public-record-derived surface; verify both parcels  
-**Nicholas:** 86/100  
+**Taxes:** ~$1,684/yr reported; verify both parcels  
+**Nicholas:** 90/100  
 **Brittany:** 88/100  
-**Thomas:** 82/100  
+**Thomas:** 84/100  
 **Dogs:** 94/100  
-**Kell and Son:** 82/100  
+**Kell and Son:** 83/100  
 **Homestead:** 79/100  
 **Firewood/Lumber:** 84/100  
-**Resale/Investment:** 72/100  
-**OVERALL:** 84/100 weighted  
-**Research Confidence:** Medium
+**Resale/Investment:** 74/100  
+**OVERALL:** 85/100 weighted  
+**Research Confidence:** Medium-High
 
-**Quick Ratings:** Broadband 🟡 | Move-In/Homesite 🟢 | Shop 🟢 | Build Freedom 🟡 | Usable Land 🟢/🟡 | Access 🟢 | Animals 🟢 | Privacy 🟢 | Zoning 🟡 | Wetlands/Flood 🟡 | OGM/Rights 🟡 | Taxes 🟢/🟡 | Market Access 🟢/🟡 | Value 🟡
+**Quick Ratings:** Broadband 🟢 | Move-In 🟢 | Shop 🟢 | Build Freedom 🟡 | Usable Land 🟢/🟡 | Access 🟢 | Animals 🟢/🟡 | Privacy 🟢 | Zoning 🟡 | Wetlands/Flood 🟡 | OGM/Rights 🟡 | Taxes 🟢/🟡 | Market Access 🟢/🟡 | Value 🟡
 
-**Best Feature:** The complete existing package—20 wooded acres, pond, privacy and a genuinely useful finished four-car shop.  
-**Biggest Weakness:** $550k is a serious ask for rural Noble County and requires the acreage/shop/condition/rights package to fully check out.  
-**Dealbreaker Risk:** Failure of the 300+ Mbps wired broadband requirement, or unfavorable OGM/surface-right findings.  
-**Best Value-Add:** Create a second future homesite or semi-independent Thomas shop/home area if zoning and septic rules allow.  
-**Most Important Unknown:** Exact-address broadband plus OGM/title status; immediately behind those is whether the second parcel provides a legal future building path.
+**Best Feature:** Complete existing package plus confirmed 1 Gbps symmetrical fiber.  
+**Biggest Weakness:** $550k premium ask with permanent rights/zoning questions still open.  
+**Dealbreaker Risk:** Unfavorable OGM/surface-control findings; severe zoning restrictions could also materially reduce fit.  
+**Best Value-Add:** Establish a legal Thomas homesite/semi-independent area if the second parcel supports it.  
+**Most Important Unknown:** OGM/title status, followed by exact zoning and second-parcel build rights.
 
-**VERDICT:** CONTENDER
+**VERDICT: STRONG CONTENDER — DUE DILIGENCE REQUIRED**
 
-**Bottom Line:** One of the better *existing-feature* matches: the house, shop, kennels, pond and wooded acreage are already there. At $550k, it should not move to STRONG CONTENDER until broadband, OGM/title, zoning, both parcels and true comps are verified.
+## Open Research Tasks
 
-**Fair Value:** Preliminary ~$475,000–$525,000 pending true rural comps and rights verification.  
-**Suggested Offer:** Preliminary ~$465,000–$490,000, adjusted after broadband/OGM/zoning due diligence.  
-**At Asking:** FAIR-TO-HIGH / premium priced.  
-**Strong-Contender Price:** ~ $500,000 or lower unless the second parcel, rights and broadband prove unusually strong.
+- [x] Exact-address 300+ Mbps wired broadband — FCC screenshot shows Spectrum FTTP 1000/1000.
+- [ ] Identify both parcel IDs, legal descriptions, acreage and boundaries.
+- [ ] Confirm exact Buffalo Township zoning district(s) with zoning inspector.
+- [ ] Obtain written answer on accessory shop, business/firewood/sawmill, outdoor storage and animals.
+- [ ] Obtain written answer on second dwelling / Thomas homesite on second parcel.
+- [ ] Pull current/prior deeds and OGM/mineral/royalty reservations.
+- [ ] Search leases, pooling/unitization, pipelines, wells and surface-use easements for both parcels.
+- [ ] Overlay exact parcel geometry with ODNR wells/mining, NWI/Ohio wetlands, FEMA flood and SSURGO soils/slopes.
+- [ ] Verify septic condition and city-water connection.
+- [ ] Verify live tax bills for both parcels and current-use/CAUV status.
+- [ ] Build true rural-house + 15-30 acre + quality-shop comps.
 
-## Sources Checked — 2026-09-05
+## Sources / Evidence — refreshed 2026-09-07
 
-- Zillow current Noble County listing/search surface
-- My State MLS / Trulia listing #11953590
-- Homes.com current listing/public-record surfaces
-- NY State MLS listing #11953590
-- Noble County Auditor, Map Office and Planning Commission
-- Noble County Health Department sewage/zoning guidance
-- Noble County 2026 township officials / Buffalo Township zoning officer
-- Buffalo Township zoning resolution source
-- ODNR Noble County GIS and oil/gas well datasets
-- Spectrum Pleasant City internet service page
-- Regional route/distance sources for Cambridge, Zanesville, Columbus, Pittsburgh and Parkersburg
+- User-supplied FCC Broadband Map exact-location screenshot: Spectrum FTTP 1000/1000, Served.
+- Zillow listing URL above.
+- Homes.com current/public-record listing surface; APN 05-00-50-840.001 surfaced.
+- Noble County Map Office GIS/mapping resources.
+- Noble County Health Department sewage/zoning guidance identifying Buffalo Township zoning and zoning inspector.
+- Buffalo Township, Noble County, Ohio zoning resolution indexed online.
+- ODNR Noble County GIS catalog: flood, wetlands, soils, mining and oil/gas well datasets.
+- Prior listing/MLS-derived research retained from 2026-09-05.
