@@ -8,7 +8,6 @@ county: Putnam County
 parcel_id: 031 00100 000
 listing_url: https://www.zillow.com/homedetails/0-McBroom-Branch-Rd-Baxter-TN-38544/2096703204_zpid/
 zillow_url: https://www.zillow.com/homedetails/0-McBroom-Branch-Rd-Baxter-TN-38544/2096703204_zpid/
-primary_photo_url:
 primary_photo_source: Zillow / Whitetail Properties
 primary_photo_checked_date: 2026-09-08
 parcel_map_source: Whitetail Properties listing aerial
@@ -46,216 +45,176 @@ last_updated: 2026-09-08
 
 # Property Summary
 
-330.94-acre recreational/timber tract near Baxter/Cookeville. The unusual structure is the key fact: listing sources state 278.82 acres are permanently protected by a conservation easement and approximately 52 acres are outside it for a home/cabin and normal use. Asking price is $496,500 (~$1,500/gross acre). The property has a mountain stream, county-road frontage, paved access and electricity available. No residence exists.
+330.94-acre recreational/timber tract near Baxter/Cookeville. Listing sources state 278.82 acres are permanently protected by a conservation easement and approximately 52 acres are outside it for a home/cabin and normal use. Asking price is $496,500. The property has a mountain stream, county-road frontage, paved access and electricity available. No residence exists.
 
-The conservation easement is both the property's defining advantage and its largest diligence item. It can preserve extraordinary privacy and hunting land, but the actual recorded easement must be obtained before assuming timber harvesting, roads/trails, equipment use, agriculture, structures, commercial activity, subdivision, utilities, ponds or other land modifications are permitted on the protected 278.82 acres.
-
-## Listing Photo
-
-Primary listing image available through Zillow/Whitetail Properties. First image is an aerial with a listing-derived yellow tract outline. Do not treat it as a survey.
-
-## Parcel Map / Aerial
-
-**PARCEL MAP — NOT A SURVEY.** Listing-derived aerial outline from Whitetail Properties/Zillow corresponds to the 330.94-acre tract near coordinates approximately 36.20695, -85.70835. Official Putnam County GIS parcel geometry was not independently retrieved during this pass. Parcel ID reported by MLS sources: 031 00100 000.
+The conservation easement is the defining diligence item. The property should be valued as roughly 52 unrestricted acres plus 278.82 acres of protected privacy/recreation land unless the recorded instrument proves broader reserved rights.
 
 ## Fatal-Flaw Screen
 
 | Item | Result | Notes |
 |---|---|---|
-| Wired broadband | INVESTIGATE | Twin Lakes states its Baxter service area uses a 100% fiber network, but the vacant parcel/future homesite needs address-level confirmation. |
-| Legal/practical access | CLEAR / INVESTIGATE | County-road frontage and asphalt/paved access are listing-confirmed; verify exact frontage and driveway/build-site access. |
-| Buildability/zoning | CLEAR / INVESTIGATE | Putnam County reports no county-wide zoning in unincorporated areas; building codes/floodplain/subdivision rules still apply. Confirm parcel is outside Baxter corporate limits and verify conservation-easement boundaries. |
-| Land constraints | INVESTIGATE | Hilly/rolling/wooded terrain, stream, possible flood areas, and 278.82-acre conservation easement. |
-| Restrictions | INVESTIGATE | No HOA, but conservation easement is a major permanent private restriction. Recorded instrument is essential. |
-| House/homesite | INVESTIGATE | Listing claims designated build site on the 52 acres outside easement; septic/perk, well and exact homesite quality unknown. |
-| OGM/surface rights | INVESTIGATE | Whitetail claims seller's mineral rights convey. Confirm deed/title and whether any severed interests remain. |
-| Carrying costs | CLEAR | Listing reports only ~$1,256/year property tax, unusually low for the acreage. Verify Greenbelt/easement assessment and rollback exposure. |
+| Wired broadband | INVESTIGATE | Twin Lakes fiber territory is promising, but future-homesite service is unconfirmed. |
+| Legal/practical access | CLEAR / INVESTIGATE | Listing reports paved county-road frontage; verify driveway/build-site access. |
+| Buildability/zoning | CLEAR / INVESTIGATE | Unincorporated Putnam County has no county-wide zoning; conservation easement can be more restrictive than zoning. |
+| Land constraints | INVESTIGATE | Hilly/rolling/wooded terrain, stream and 278.82-acre conservation easement. |
+| Restrictions | INVESTIGATE | No HOA reported, but easement is a major permanent restriction. |
+| House/homesite | INVESTIGATE | Listing claims a designated build site on the 52 acres outside the easement; perk/water/grade remain unknown. |
+| OGM/surface rights | INVESTIGATE | Seller claims mineral rights convey; title still required. |
+| Carrying costs | CLEAR | Listing reports about $1,256/year property tax. |
+
+## Conservation Easement Deep Dive — 2026-09-08
+
+### What is now confirmed
+
+Listing sources consistently describe **278.82 acres as enrolled in a conservation easement that preserves the tract forever**, with roughly **52 acres held outside the easement** for a home/cabin and normal use. Whitetail also markets the property as timberland and recreational land, but that marketing classification does **not** prove commercial timber harvest or other intensive uses are allowed on the conserved acreage.
+
+Tennessee's Conservation Easement Act materially strengthens the assumption that the easement is durable:
+
+- Tenn. Code § 66-9-304 states a conservation easement remains severed from the fee unless it is returned by a **specific conveyance** to the fee owner.
+- The same statute gives the easement holder a right of entry at reasonable times for inspection whether or not the easement expressly says so.
+- Tenn. Code § 66-9-306 says a conservation easement is **not automatically extinguished** merely because its terms are violated or its purposes are frustrated.
+- Tenn. Code § 66-9-307 allows enforcement by the owner, easement holder, qualifying third-party enforcement holder, and in certain circumstances the Tennessee Attorney General; remedies include injunction/equity actions.
+
+**Practical conclusion:** do not underwrite this purchase on any expectation that a future owner can simply terminate the easement. Removing it would require the actual recorded instrument to permit a path, the holder to cooperate where legally permissible, and potentially court/charitable-law review. For valuation purposes, assume the 278.82-acre restriction is permanent.
+
+### What remains unavailable from open web records
+
+The complete recorded easement, recording book/instrument number, holder identity, baseline documentation report, exhibits, amendments and reserved-rights schedule were **not retrievable from free indexed web sources** in this pass. Putnam County confirms its Register of Deeds holds land deeds, plats and restrictions; the public can request copies by phone, mail, email or in person. The county's online self-research route is through a paid US Title Search subscription.
+
+Therefore the following remain **UNKNOWN until the actual instrument is obtained**:
+
+- timber harvest / forestry rights
+- firewood cutting and removal
+- sawmilling or commercial wood-product activity
+- new forestry roads / skid trails / permanent roads
+- trail widening and excavation
+- ponds / impoundments / stream work
+- food plots / clearing / pasture conversion
+- fencing and livestock
+- barns / sheds / agricultural structures
+- utilities or utility crossings
+- hunting leases / commercial recreation
+- subdivision or boundary-line adjustments
+- motorized equipment restrictions
+- holder approval requirements and notice periods
+- amendment / termination / extinguishment language
+- third-party enforcement rights
+- public-access language, if any
+
+### Recorded-document acquisition path
+
+**Putnam County Register of Deeds**  
+300 E Spring St, Room 3, Cookeville, TN 38501  
+Phone: 931-526-7101  
+County states that copies of recorded documents can be requested by phone, mail, email or in person.
+
+Request specifically:
+
+> All recorded conservation easements, amendments, exhibits, baseline documentation references, restrictions and related instruments affecting parcel **031 00100 000**, commonly marketed as **0 McBroom Branch Rd, Baxter, TN 38544**, including the instrument creating the 278.82-acre conservation easement and any subsequent amendments, assignments or releases.
+
+Also ask for the deed conveying the present 330.94-acre configuration so the chain can be matched to the easement exhibit.
+
+## Important Sale-History Correction
+
+The apparent **$96,000 sale on 11/6/2024 is not an apples-to-apples sale of the current 330.94-acre tract.** A prior MLS record tied to that transaction describes **40.52 acres** and identifies parcel **031 00400 000**, not the current listing parcel **031 00100 000**. Zillow/MLS aggregation appears to have conflated neighboring or historically related McBroom Branch parcels under the same address string.
+
+This materially reduces the concern that the current seller bought the same 331 acres for $96,000 and immediately marked it up fivefold. The broader 2021-2023 history still needs deed-level reconciliation because multiple acreage configurations have been marketed under "0 McBroom Branch Rd."
 
 ## Listing & Value
 
-Active at $496,500 since April 8, 2026. Current listing sources show roughly 145-152 DOM. MLS history displayed by Zillow/Compass includes a November 2024 closing at $96,000, but prior history appears to reflect changing parcel configurations/easement status and should not be treated as an apples-to-apples comp without deed/survey review. Asking price equals roughly $1,500 per gross acre, but gross-acre math is misleading because ~84% of the tract is conservation-restricted.
+Active at $496,500 since April 8, 2026. Asking price is roughly $1,500 per gross acre, but gross-acre math is misleading because about 84% of the tract is conservation-restricted.
 
-Preliminary value view: asking price can be defensible for 52 unrestricted acres plus 279 acres of protected hunting/privacy land, but only if the easement preserves the uses the buyer actually wants. The recorded easement is value-critical. Do not price this as 331 unrestricted acres.
+Preliminary value view: asking can be defensible for 52 unrestricted acres near Cookeville plus 279 acres of permanently protected hunting/privacy land **if** the easement reserves the recreational/forestry uses the buyer values. Do not price this as 331 unrestricted acres.
 
 ## Broadband
 
-Twin Lakes says it has built a 100% fiber network and lists Baxter among its served communities. This is encouraging but not parcel-specific confirmation.
+Twin Lakes states it operates a 100% fiber network and lists Baxter among its served communities. Exact parcel/future-homesite service remains unconfirmed.
 
-**BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS:** 2765 McBroom Branch Rd, Baxter, TN 38544 is a confirmed nearby residential address shown by listing/property-record sources. 2818 McBroom Branch Rd is another nearby proxy. Use these only to test local network presence; service at a proxy does not prove service to the future homesite. Obtain an address/build-site location from Putnam County 911 and request a written Twin Lakes serviceability/extension quote before treating Nicholas's 300+ Mbps hard requirement as cleared.
+**BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS:** 2765 McBroom Branch Rd, Baxter, TN 38544. A second nearby proxy is 2818 McBroom Branch Rd. Proxy service does not prove service to the subject tract.
 
 ## Land Reality
 
 - Total acres: 330.94
 - Conservation-easement acres: 278.82 (listing claim)
 - Outside easement: ~52 acres (listing claim)
-- Constrained acres: at least 278.82 for development purposes, plus any stream/flood/steep terrain constraints
-- Usable acres: unknown; recreational usability is much higher than development usability
-- Prime/operational acres: unknown pending topo/easement/build-site review
+- Development-constrained acres: at least 278.82, plus terrain/flood constraints
+- Recreational usability: potentially very high
+- Prime/operational acres: unknown pending topo, survey and easement exhibit
 - Terrain: cleared, hilly, rolling slope, wooded
 - Water: mountain stream / creek / spring reported
-- Best uses: hunting, recreation, privacy buffer, residence/homestead on unrestricted portion, possibly forestry/agriculture if easement expressly reserves those rights
 
-## Access
+## Access / Zoning / Homestead
 
-MLS sources report county-road frontage and asphalt/paved McBroom Branch Road. A TDOT bridge inventory identifies McBroom Branch Rd as a local rural road, not a national truck route. Heavy log/equipment-truck practicality should be field-checked for road width, grades, bridge/culvert loading and turnaround geometry.
+MLS sources report county-road frontage and paved McBroom Branch Road. Unincorporated Putnam County reports no county-wide zoning, which is favorable for rural shops/equipment/homestead uses on the unrestricted portion, but building codes, floodplain and subdivision regulations still apply. The conservation easement is likely the controlling land-use document over the protected 278.82 acres.
 
-## Zoning & Buildability
-
-Putnam County's Regional Planning Commission states there is no county-wide zoning in unincorporated Putnam County. County building codes, floodplain regulation and subdivision regulations still apply. If the tract is inside Baxter corporate limits, city development codes would apply; current listing location appears rural/unincorporated but this should be formally confirmed.
-
-The county-level regulatory environment is favorable to shops, equipment and rural uses compared with zoned suburban areas. However, the conservation easement can impose much stricter private restrictions than county zoning. For this property the easement, not county zoning, is likely the controlling land-use document over 278.82 acres.
-
-## Animals & Homestead
-
-No HOA is reported and unincorporated Putnam County has no county-wide zoning, making the 52-acre unrestricted area promising for dogs, chickens and small livestock. Confirm nuisance, animal-control, septic, stream-buffer and deed/easement provisions. Do not assume livestock, fencing, barns, pasture clearing or ponds are permitted inside the conserved area until the easement is read.
+No HOA is reported. The 52-acre unrestricted area is promising for dogs, chickens, small livestock and a shop, subject to title, septic, setbacks and confirmation that it is truly outside all easement restrictions.
 
 ## Rights & Restrictions
 
-- Conservation easement: 278.82 acres, listing claim, apparently perpetual.
-- Easement holder and exact recorded terms: UNKNOWN.
-- OGM/minerals: Whitetail listing says **Seller's Mineral Rights Convey**. This is a listing claim, not a title conclusion.
-- Timber rights: ownership/harvest rights within the conservation area are UNKNOWN until easement review.
-- Easements/ROW: conservation easement known; other title easements unknown.
-- HOA: none reported.
-
-### Rights Disturbance Risk
-
-Conventional third-party mineral disturbance appears less concerning than in major oil/gas regions, and the seller claims its mineral rights convey. However, title must confirm whether 100% of the mineral estate is owned by the seller. The much more immediate rights/restriction issue is the conservation easement holder's perpetual enforcement authority over the protected acreage.
-
-- Exercise Likelihood (mineral estate): LOW/UNKNOWN
-- Surface/Lifestyle Impact if severed mineral rights existed and were exercised: UNKNOWN
-- Overall mineral Rights Disturbance Risk: ⚫ UNKNOWN pending title
-- Conservation-restriction impact: HIGH importance because restrictions are already active and permanent
-
-## Taxes & Carrying Cost
-
-Listing sources report annual taxes of approximately $1,256. This is exceptionally favorable carrying cost for 331 acres, likely reflecting land classification and/or restricted development value. Verify current assessment, Greenbelt status, conservation treatment and any rollback/recapture consequences associated with future use of the unrestricted 52 acres.
-
-## House / Homesite
-
-No habitable residence. Listing claims a designated build site, electricity and 52 acres outside the easement. Required diligence: boundary between protected/unprotected land, soil/perk test, well/water plan, driveway grade, build-site slope, flood status, utility distance and construction access.
-
-For Brittany this is inherently a build project rather than move-in-ready property.
-
-## Utilities
-
-- Electricity: available, listing claim
-- Septic: needed
-- Well/public water: unknown
-- Broadband: likely promising Twin Lakes fiber territory, exact site unconfirmed
-- 3-phase: unknown
-
-## Location
-
-- Cookeville: listing agent reports ~13 miles; Cookeville is the principal Upper Cumberland employment/retail/healthcare/education hub.
-- Nashville: ~72 miles / roughly 1 hr 10-20 min from Baxter generally.
-- Knoxville: listing agent reports ~115 miles.
-- Green Bay, WI: long-distance relocation; approximately 700+ road miles / roughly 10-11+ hours depending route and exact origin.
-- Current-home benchmark (De Pere): similarly approximately 700+ road miles; this is a full regional relocation, not a commute-compatible move.
-
-## Commercial Market Access
-
-- 30 min: Cookeville / Putnam County — strong practical local customer and supplier base.
-- 60 min: Upper Cumberland plus portions of Lebanon/I-40 corridor.
-- 90 min: Nashville/eastern Middle Tennessee becomes reachable.
-- 120 min: broad Nashville metro plus larger Middle Tennessee customer pool.
-- Best opportunities: firewood, woodworking/lumber products, equipment/property services, rural/homestead services, recreational-property related work.
-- Market rating: 🟢 GOOD, provided operations remain on the unrestricted area or are expressly allowed by the easement.
+- Conservation easement: 278.82 acres, listing claim, represented as perpetual
+- Easement holder: UNKNOWN
+- Recorded instrument number: UNKNOWN
+- Public access clause: UNKNOWN; Tennessee law permits conservation easements to contain one, but none is established here
+- Holder inspection rights: state law gives reasonable right of entry for inspection
+- OGM/minerals: Whitetail listing says seller's mineral rights convey; title still required
+- Timber ownership/harvest rights: UNKNOWN until easement/title review
+- HOA: none reported
 
 ## Market Trajectory / Exit Risk
 
-**Market Trajectory: 🟢 GROWING**
+**Market Trajectory: GROWING**  
+**Resale Liquidity: ADEQUATE regionally / THIN for this specialized asset**  
+**Development Optionality: LIMITED**
 
-Putnam County's 2025 population estimate is 86,612, up 8.4% from the 2020 estimates base. Tennessee State Data Center reports Baxter grew from 1,574 in 2020 to 2,128 in 2025 (+35.2%), among the fastest-growing Tennessee municipalities in its size class. Cookeville serves as the regional employment, healthcare, education and retail hub and reports continued public infrastructure investment.
-
-**Resale Liquidity: ADEQUATE / THIN for this specific asset.** The surrounding market has positive demographic tailwinds, but a 331-acre conservation-easement property has a narrower buyer pool and more complex financing/valuation than ordinary rural residential acreage.
-
-**Development Optionality: LIMITED.** The 52 unrestricted acres may provide meaningful homesite/lot-split potential subject to frontage, subdivision rules, septic and the exact easement survey. The other ~279 acres should be treated as permanently non-development acreage unless the easement explicitly reserves specific rights.
-
-**Growth Tailwind:** credible. Baxter/Putnam County population growth and proximity to Cookeville/I-40 support long-term demand.
-
-**Value Trap Risk:** moderate property-specific risk despite good regional trajectory. The easement can make gross acreage look dramatically cheaper than unrestricted acreage while permanently limiting monetization and development. The 2024 sale-history anomaly makes deed/easement history especially important.
-
-### Benchmark vs Current Home — De Pere, WI
-
-This is a trade from the highly liquid Green Bay/De Pere growth environment into another genuinely growing region, not into a structurally declining rural market. Putnam/Baxter has stronger recent percentage population growth, while De Pere/Green Bay remains the more established employment/industrial market with deeper conventional suburban housing liquidity. The candidate offers vastly more land/privacy and far lower reported land tax, but resale is materially more specialized because of the conservation easement and vacant-land/build requirement.
-
-Overall long-term market environment: **similar-to-weaker liquidity but credible growth**, rather than a depressed-market value trap.
-
-## Cost to Goal
-
-- Purchase: $496,500 asking
-- Immediate work: survey/easement/title review, perk/soil testing, driveway/build-site verification, broadband serviceability; potentially well/septic and construction planning
-- Desired improvements: house, shop, dog containment, homestead infrastructure
-- Effective Property Cost: cannot be responsibly completed until house/shop scope is chosen
-- Cash to Goal: not yet scored
-- Missing features: house = Major Value-Add; shop = Major Value-Add; broadband = Unknown/Potentially Existing Along Road; power = Listing Claim Existing/Available; privacy/hunting land = Existing
+Putnam/Baxter has credible population and Cookeville-market growth tailwinds, but this specific property's conservation structure narrows the buyer pool. The easement can be an asset for a buyer who values permanent privacy and hunting land, while being a major negative for buyers seeking subdivision, unrestricted forestry or broad business use.
 
 ## Persona Scores
 
 | Persona | Score | Key reason |
 |---|---:|---|
-| Nicholas | 78/100 provisional | Exceptional scale/privacy and favorable county land-use environment; fiber looks promising, but 300+ Mbps must be confirmed and easement limits operational flexibility. |
-| Brittany | 45/100 | No house; requires a full build, septic/well/driveway work and construction transition. |
-| Dogs | 90/100 | Huge separation and exercise space with strong containment potential; terrain/stream and road frontage require practical fencing plan. |
-| Homestead | 76/100 | 52 unrestricted acres can be substantial homestead land; conserved acreage use rights must be read before assuming livestock/clearing/ponds/structures. |
-| Firewood and Lumber | 61/100 | Excellent regional timber context and market access, but commercial harvesting/processing on conserved acreage may be restricted; operational yard must fit the 52 acres. |
-| Kell and Son Limited Co. | 70/100 | No county-wide zoning is favorable and Cookeville/Nashville access is useful; easement terms and truck access are the limiting unknowns. |
-| Resale and Development | 69/100 | Strong demographic tailwind and low carrying cost, but conservation easement sharply narrows development optionality and future buyer pool. |
-| Thomas | 72/100 | Potential future homesite/shop within 52 acres and strong regional access; second-home subdivision/frontage/septic and broadband need confirmation. |
-
-## Financial Fit
-
-**Not Yet Scored.** Buyer-finance file lacks net home-sale proceeds, cash outside sale, reserve targets and target/max monthly housing cost. Vacant/recreational land financing may also differ materially from a standard residential mortgage.
+| Nicholas | 78/100 provisional | Exceptional privacy/scale and favorable county setting; easement-use rights and 300+ Mbps broadband remain gating items. |
+| Brittany | 45/100 | No house; full build required. |
+| Dogs | 90/100 | Exceptional space and neighbor separation. |
+| Homestead | 76/100 | 52 unrestricted acres could support a major homestead; conserved-acre rights unknown. |
+| Firewood and Lumber | 61/100 | Strong timber context, but harvest/commercial-use rights on the conserved acreage are unresolved. |
+| Kell and Son Limited Co. | 70/100 | Favorable unrestricted-acre setting near Cookeville; easement and truck-access details limit certainty. |
+| Resale and Development | 69/100 | Strong regional growth but permanently constrained development optionality and specialized resale pool. |
+| Thomas | 72/100 | Potential future homesite/shop on unrestricted acreage; subdivision, septic and broadband need confirmation. |
 
 ## Property Card
 
 **Address:** 0 McBroom Branch Rd, Baxter, TN 38544  
-**Price:** $496,500 (~$1,500/gross acre)  
+**Price:** $496,500  
 **Type:** 330.94-acre farm/recreational/timber tract  
-**Acres:** 330.94 total | ~278.82 conservation easement | ~52 outside easement | prime acres unknown  
+**Acres:** 330.94 total | ~278.82 conservation easement | ~52 outside easement  
 **House:** None  
 **Setting:** Rural  
 **Status:** Active  
-**DOM:** ~145-152  
 **Taxes:** ~$1,256/yr  
 **Parcel Boundary Confidence:** Medium — listing-derived, not survey  
 **Research Confidence:** Medium  
 
-**Persona Scores:** Nicholas 78 | Brittany 45 | Dogs 90 | Homestead 76 | Firewood/Lumber 61 | Kell & Son 70 | Resale/Development 69 | Thomas 72  
-**Financial Fit:** Not Yet Scored  
+**Best Feature:** 331-acre-scale privacy/hunting land only about 13 miles from Cookeville, with a substantial 52-acre carve-out outside the easement.  
+**Biggest Weakness:** The actual easement document is still not in hand.  
+**Dealbreaker Risk:** The easement prohibits timber/firewood/roads/equipment or other uses expected from the 279 protected acres.  
+**Best Value-Add:** House + shop on the unrestricted acreage while retaining the protected land as privacy/recreation.  
+**Most Important Unknown:** Complete recorded conservation easement, exhibits and holder.
 
-**Quick Ratings:** Broadband INVESTIGATE | Homesite INVESTIGATE | Shop MAJOR VALUE-ADD | Build Freedom GOOD on 52 acres / RESTRICTED on 278.82 | Usable Land MIXED | Access GOOD | Animals GOOD/INVESTIGATE | Privacy EXCEPTIONAL | Zoning GOOD | Wetlands/Flood INVESTIGATE | OGM/Rights INVESTIGATE | Conservation Restriction HIGH IMPORTANCE | Taxes EXCELLENT | Market Access GOOD | Value FAIR/POTENTIALLY GOOD IF EASEMENT FITS GOALS
-
-**Best Feature:** 331-acre-scale privacy/hunting tract only ~13 miles from Cookeville, with 52 acres intentionally left outside the conservation easement.  
-**Biggest Weakness:** 84% of the acreage is permanently conservation-restricted and the actual easement terms are not yet in hand.  
-**Dealbreaker Risk:** Easement prohibits/limits the forestry, roads, equipment, commercial, structures or land-management uses expected from the 279 protected acres; or fiber cannot economically reach the build site.  
-**Best Value-Add:** Build residence + shop on the unrestricted acreage while preserving the conserved land as privacy/recreation.  
-**Most Important Unknown:** The complete recorded conservation easement and its reserved/prohibited rights.
-
-**VERDICT: CONTENDER — potentially a STRONG CONTENDER if the easement terms and fiber clear.**
-
-**Bottom Line:** This is not really “331 unrestricted acres for $496k.” It is better understood as roughly 52 unrestricted rural acres near a growing Cookeville market **plus** 279 acres of permanently protected privacy/hunting land. That can be an unusually good fit for a residence/legacy property if the goal is to own the surrounding landscape rather than develop it. It becomes a poor fit if the plan requires broad sawmilling, timber monetization, multiple homesites, roads, ponds or intensive land alteration across the full 331 acres.
-
-**Fair Value:** provisional; approximately asking-range only if easement rights are favorable and the 52 acres have good build/operational quality.  
-**Suggested Offer:** do not set a firm offer until easement, survey/build envelope, fiber and perk are reviewed; current DOM supports negotiating below ask.  
-**At Asking:** FAIR / potentially GOOD for the right easement-compatible buyer.  
-**Strong-Contender Price:** approximately $450k-$475k provisional, subject to easement/build-site diligence and comps.
+**VERDICT: CONTENDER — potentially STRONG CONTENDER if the recorded easement is compatible with intended use and fiber clears.**
 
 ## Open Research Tasks
 
-- [ ] Obtain the complete recorded conservation easement, all exhibits/maps/amendments and identify easement holder.
-- [ ] Confirm exact 52-acre excluded area and whether it is one contiguous usable block with sufficient frontage.
-- [ ] Confirm official GIS parcel geometry and survey/legal description.
-- [ ] Twin Lakes address-level fiber confirmation and construction/extension quote to proposed homesite.
-- [ ] Soil/perk/septic evaluation and well/public-water options.
-- [ ] FEMA/NWI/topographic review focused on the 52-acre homesite/operational area.
-- [ ] Verify property is unincorporated Putnam County, not within Baxter municipal limits.
-- [ ] Title search confirming all mineral/timber rights, other easements and deed restrictions.
-- [ ] Determine whether commercial sawmilling/firewood processing, timber harvest, roads/trails, barns, livestock, ponds and utility crossings are permitted by easement.
-- [ ] Confirm subdivision/frontage rules and whether a future Thomas homesite can be separately created.
-- [ ] Explain the 2023-2024 listing/sale history and whether it represents this exact 330.94-acre/easement configuration.
+- [ ] Obtain complete recorded conservation easement, exhibits, baseline reference, amendments and holder identity from Putnam County Register of Deeds.
+- [ ] Confirm exact 52-acre excluded area and whether it is contiguous, buildable and operationally useful.
+- [ ] Confirm official GIS parcel geometry and current legal description.
+- [ ] Twin Lakes address-level fiber confirmation and extension quote.
+- [ ] Soil/perk/septic and water-service review.
+- [ ] FEMA/NWI/topographic review focused on the unrestricted area.
+- [ ] Confirm municipal boundary status.
+- [ ] Title search for minerals, timber, other easements and restrictions.
+- [ ] Determine timber, firewood, roads/trails, barns, livestock, ponds, utilities and commercial-use permissions under the easement.
+- [ ] Reconcile older 2021-2023 McBroom Branch transactions to exact parcel configurations.
 
 ## Sources
 
-Checked 2026-09-08: Zillow/UCMLS/RealTracs listing; Whitetail Properties listing; Realtor.com/MLS; Putnam County Regional Planning Commission and Building Codes; U.S. Census Bureau QuickFacts; Tennessee State Data Center; City of Cookeville; Twin Lakes; Tennessee conservation-easement statutory/general guidance. Listing claims remain subject to survey, title and recorded-easement verification.
+Checked 2026-09-08: Zillow/UCMLS/RealTracs; Whitetail Properties; Realtor.com; Redfin; Homes.com historical listing; Putnam County Register of Deeds; Putnam County Property Assessor; Tennessee Code §§ 66-9-303, 66-9-304, 66-9-306, 66-9-307, 66-9-308. Listing claims remain subject to survey, title and the actual recorded easement.
