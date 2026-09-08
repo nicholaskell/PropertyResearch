@@ -1,5 +1,5 @@
 ---
-record_version: 5
+record_version: 6
 address:
 city:
 state:
@@ -38,6 +38,12 @@ rights_surface_impact:
 rights_disturbance_risk:
 legal_access_status:
 market_access_rating:
+research_status: INITIAL
+research_priority:
+open_research_count:
+p0_open_count:
+rescore_required: false
+last_deep_research:
 research_confidence:
 verdict:
 reviewed_date:
@@ -47,25 +53,12 @@ last_updated:
 # Property Summary
 
 ## Listing Photo
-
-Display the actual primary/hero listing image near the top of the Investigator's first chat analysis when available. Prefer the supplied listing source. `primary_photo_url` is a reference only; do not download or commit third-party listing images by default. If a stable direct image URL is unavailable, leave it blank and record the source/listing page instead.
+Display the actual primary/hero listing image near the top of the Investigator's first chat analysis when available. Prefer the supplied listing source. Store reference/provenance rather than copied third-party imagery by default.
 
 ## Parcel Map / Aerial
-
-Display a satellite/aerial view with the subject parcel boundary whenever reliable parcel geometry can be established.
-
-- **Boundary preference:** county/municipal GIS → assessor/parcel GIS → state/authoritative cadastral source → listing/Zillow only as fallback.
-- **Address-less parcels:** identify the parcel using APN/parcel ID, legal description, official GIS, listing coordinates, road frontage and adjoining parcels. Do not assume the listing pin is the parcel.
-- Label the chat image **PARCEL MAP — NOT A SURVEY**.
-- State the boundary source and imagery source when known.
-- `parcel_boundary_confidence`: HIGH / MEDIUM / LOW / UNVERIFIED.
-- Zillow/listing parcel lines are evidence, not authoritative boundaries; explicitly label them listing-derived when used.
-- Never invent or hand-draw a boundary when parcel identity/geometry is uncertain.
-- If an accurate satellite overlay cannot be produced, show/link the best authoritative parcel map available and explain the limitation rather than creating false precision.
-- Store source/reference metadata, not copied third-party imagery, by default.
+Display a satellite/aerial view with the subject parcel boundary whenever reliable parcel geometry can be established. Prefer county/municipal GIS, assessor GIS, state/authoritative cadastral sources, then listing/Zillow only as fallback. Label **PARCEL MAP — NOT A SURVEY** and record boundary confidence.
 
 ## Fatal-Flaw Screen
-
 | Item | Result | Notes |
 |---|---|---|
 | Wired broadband | CLEAR / INVESTIGATE / FAIL | |
@@ -76,19 +69,15 @@ Display a satellite/aerial view with the subject parcel boundary whenever reliab
 | House/homesite | CLEAR / INVESTIGATE / FAIL | |
 | OGM/surface rights | CLEAR / INVESTIGATE / FAIL | |
 | Carrying costs | CLEAR / INVESTIGATE / FAIL | |
+| Resale/liquidity | CLEAR / INVESTIGATE / FAIL | |
 
 ## Listing & Value
-
 Current status, active-offer status, price history, DOM, tax/assessment, comps, fair value and offer range.
 
 ## Broadband
-
-Classify: **At House / Along Road / Nearby / Planned / Possible / Unknown**.
-
-For vacant/no-address parcels, provide a clearly labeled **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS** using the closest confirmed neighboring residential/serviceable address when practical. Broadband at the proxy does not prove availability at the subject parcel.
+Classify: **At House / Along Road / Nearby / Planned / Possible / Unknown**. For vacant/no-address parcels, provide a clearly labeled **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS** when practical.
 
 ## Land Reality
-
 - Total acres:
 - Constrained acres:
 - Usable acres:
@@ -97,20 +86,16 @@ For vacant/no-address parcels, provide a clearly labeled **BROADBAND LOOKUP PROX
 - Best uses:
 
 ## Access
-
 Legal frontage/access, private-road/easement issues, driveway and heavy-equipment/construction practicality.
 
 ## Zoning & Buildability
-
-Intended uses, accessory-building rules, home-business/firewood/sawmill restrictions and permitting concerns.
+Intended uses, accessory-building rules, home business/firewood/sawmill restrictions and permitting concerns.
 
 ## Animals & Homestead
-
 Dogs, chickens/roosters, goats, sheep, horses/livestock and nuisance/fencing/setback issues.
 
 ## Rights & Restrictions
-
-If this property is in a region where mineral/OGM/coal or similar rights are commonly severed, explicitly state near the top of the chat that these rights **must not be assumed to convey** until deed/title evidence confirms them.
+If the region commonly has severed mineral/OGM/coal or similar rights, explicitly warn that rights **must not be assumed to convey** until deed/title evidence confirms them.
 
 - OGM/minerals: Convey / Partial / Reserved / Unknown
 - Coal rights:
@@ -125,9 +110,6 @@ If this property is in a region where mineral/OGM/coal or similar rights are com
 - Pipelines/wells/mines/infrastructure:
 
 ### Rights Disturbance Risk
-
-Required when material OGM/mineral/coal/timber or similar rights do not convey; use provisionally when status is unknown but regional severance risk is material.
-
 - **Exercise Likelihood:** LOW / MODERATE / HIGH / UNKNOWN
 - **Surface/Lifestyle Impact if Exercised:** LOW / MODERATE / HIGH / SEVERE / UNKNOWN
 - **Overall Rights Disturbance Risk:** 🟢 LOW / 🟡 MODERATE / 🔴 HIGH / ⚫ UNKNOWN
@@ -137,23 +119,18 @@ Required when material OGM/mineral/coal/timber or similar rights do not convey; 
 - Existing protections/mitigations:
 - Most important missing deed/lease/title evidence:
 
-Assess practical risk using active leases/permits, nearby wells/mines, geology/resource economics, operator/rightsholder activity, existing infrastructure, parcel geometry, access routes and recorded surface-use language. Do not call risk LOW merely because no current surface activity is visible. Distinguish likelihood from consequence: a low-probability right may still have severe consequences if exercised.
-
 ## Taxes & Carrying Cost
-
 Current taxes, reassessment risk, special programs/rollback exposure and regional comparison.
 
 ## House / Homesite
-
 Classify foreseeable work: **Cosmetic / Moderate / Major**.
 
 ## Utilities
-
 Well/septic, gas/propane, electric service, 3-phase potential and infrastructure.
 
 ## Location
-
 - Green Bay, WI:
+- Active current-home benchmark:
 - Nearest service town:
 - Nearest significant city:
 - Nearest major metro:
@@ -162,7 +139,6 @@ Well/septic, gas/propane, electric service, 3-phase potential and infrastructure
 - Major highway/interstate:
 
 ## Commercial Market Access
-
 - Best 30-minute market:
 - Best 60-minute market:
 - Best 90-minute market:
@@ -170,12 +146,18 @@ Well/septic, gas/propane, electric service, 3-phase potential and infrastructure
 - Best opportunities:
 - Market rating: 🟢 / 🟡 / 🔴
 
-## Nuisances / Surroundings
+## Resale / Development
+- Market Trajectory: GROWING / EMERGING / STABLE / STAGNANT / DECLINING / UNKNOWN
+- Resale Liquidity: STRONG / ADEQUATE / THIN / VERY THIN / UNKNOWN
+- Development Optionality: NONE / LIMITED / PLAUSIBLE / STRONG / EXCEPTIONAL / NOT APPLICABLE
+- Value Trap Risk:
+- Growth Tailwind:
+- Comparison vs current-home benchmark:
 
+## Nuisances / Surroundings
 Material nearby risks and positive location features.
 
 ## Cost to Goal
-
 - Purchase:
 - Immediate work:
 - Desired improvements:
@@ -184,9 +166,7 @@ Material nearby risks and positive location features.
 - Missing features classified as Existing / Easy / Major / Difficult / Impossible:
 
 ## Purchase Structure
-
 Complete when `finance/buyer-finance.md` has enough data. Use current rate assumptions and label estimates.
-
 - Finance scenario:
 - Purchase price:
 - Suggested down payment:
@@ -197,7 +177,6 @@ Complete when `finance/buyer-finance.md` has enough data. Use current rate assum
 - Remaining reserve:
 
 ## Estimated Monthly Carry
-
 - Principal + interest:
 - Property tax:
 - Homeowners insurance:
@@ -206,32 +185,20 @@ Complete when `finance/buyer-finance.md` has enough data. Use current rate assum
 - Other material recurring costs:
 - Estimated PITI:
 - Estimated total property carry:
+- Housing Cost Delta vs current benchmark:
 
 ## Capital Allocation
-
-Compare when useful:
-
-- Additional down payment and estimated payment savings
-- Retaining cash for high-value improvements
-- Buying required features already built versus constructing later
-- Optional future equity financing, without assuming it is available or preferable
+Compare additional down payment, retained improvement capital, buying features already built, and optional future equity financing when useful.
 
 ## Persona Scores
-
-Read every active persona dynamically and list each score with concise reasoning.
-
 | Persona | Score | Key reason |
 |---|---:|---|
 | | /100 | |
 
 ## Financial Fit
-
 **Financial Fit:** XX/100 or Not Yet Scored
 
-Explain monthly affordability, cash-to-close, reserve remaining, improvement capital needs, effective cost and financing flexibility. Do not score when key buyer-finance inputs are missing; identify what is needed instead.
-
 ## Property Card
-
 **Address:**  
 **Price:**  
 **Type:**  
@@ -242,17 +209,22 @@ Explain monthly affordability, cash-to-close, reserve remaining, improvement cap
 **DOM:**  
 **Taxes:** $/yr  
 **Parcel Boundary Confidence:** High / Medium / Low / Unverified  
+**Research Status:** INITIAL / NEEDS_RESEARCH / DEEP_RESEARCH / MOSTLY_VERIFIED / VERIFIED / BLOCKED  
 **Research Confidence:** High / Medium / Low  
 
 **Persona Scores:** list every active persona dynamically.  
 **Financial Fit:** XX/100 or Not Yet Scored  
 
-**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Value
+**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Resale/Liquidity | Value
 
 **Rights Disturbance:** Exercise Likelihood | Surface/Lifestyle Impact | Overall Risk  
+**Market Trajectory:**  
+**Resale Liquidity:**  
+**Development Optionality:**  
 **Effective Property Cost:**  
 **Cash to Goal:**  
 **Estimated Monthly Carry:**  
+**Housing Cost Delta:**  
 
 **Best Feature:**  
 **Biggest Weakness:**  
@@ -270,10 +242,17 @@ Explain monthly affordability, cash-to-close, reserve remaining, improvement cap
 
 ## Open Research Tasks
 
-Track unresolved items that materially affect ranking, financing or purchase confidence.
+Use priority and completion state explicitly. Preserve completed tasks as history.
 
-- [ ]
+- [ ] **P0** — Question — `OPEN`
+- [ ] **P1** — Question — `OPEN`
+- [ ] **P2** — Question — `OPEN`
+- [ ] **P3** — Question — `OPEN`
+
+Completion examples:
+- [x] **P0** — Verify wired broadband — `RESOLVED 2026-09-08` — Fiber confirmed at house by ISP/FCC.
+- [ ] **P0** — Confirm OGM deed language — `BLOCKED 2026-09-08` — Obtain title commitment/deed copy.
+- [ ] **P1** — Confirm second homesite — `PARTIALLY RESOLVED 2026-09-08` — Zoning allows it; septic suitability still unknown.
 
 ## Sources
-
 Record authoritative sources, listing sources and dates checked.
