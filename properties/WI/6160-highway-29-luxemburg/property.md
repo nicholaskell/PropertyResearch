@@ -24,7 +24,7 @@ research_date: 2026-09-08
 
 ## Property Card
 
-**Verdict:** STRONG CONTENDER, pending broadband and zoning/use verification.
+**Verdict:** STRONG CONTENDER, but broadband remains a hard-requirement problem unless a wired extension can be confirmed.
 
 - **Listing:** Active 2026-09-08 at **$475,000**; MLS 50332249.
 - **Property:** 4 bed / 2 bath / 2,274 finished sq ft farmhouse, built 1900, on **5.00 acres**.
@@ -34,7 +34,7 @@ research_date: 2026-09-08
 - **Utilities:** private well; mound septic; forced-air heat. MLS data conflicts on fuel: current listing describes natural gas but exterior feature also says rented LP tank, so verify fuel/service in person.
 - **Outbuildings / operational infrastructure:** large three-section barn with horse stalls and automatic waterers, chicken coop, granary, two silos, Quonset building, plus two detached garages (approx. 36x22 and 33x48) totaling seven-car MLS parking capacity.
 - **Land:** listing claims fenced pasture, orchard/fruit trees, grapes and riding trail. MLS calls lot level and horses allowed.
-- **Broadband:** **UNKNOWN / INVESTIGATE.** Reliable 300+ Mbps wired service is a Nicholas hard requirement. Wisconsin PSC provides address-level broadband mapping, but service at this exact address was not confirmed during this pass. Do not score broadband as favorable until FCC/PSC/provider address qualification confirms it.
+- **Broadband:** **FAIL AS CURRENTLY DOCUMENTED for Nicholas's wired requirement.** User-supplied FCC Broadband Map screenshot (data as of Dec. 31, 2025; map updated 9/3/26) confirms the exact address as a served location, but the only terrestrial 300+ Mbps options shown are **fixed wireless**, not wired: Acrospire Networks LBR fixed wireless 400/100 and Verizon licensed fixed wireless 300/20. Brightspeed copper is only 0.2/0.2. Other displayed options include Bertram fixed wireless 100/20, Bug Tussel 50/8, Starlink 280/30, HughesNet 100/5 and Viasat 100/3. No cable or fiber provider is displayed. A wired extension/nearby fiber investigation is still worthwhile, but current FCC evidence does not satisfy the hard requirement.
 - **Flood/wetlands:** MLS floodplain field is unknown. Authoritative parcel-specific flood/wetland overlay remains to be verified.
 - **Zoning:** current MLS labels zoning “Residential”; an older listing/public-record aggregation labeled the property “G1.” Town zoning map/current administrator confirmation is required before assuming business, sawmill, additional dwelling or new accessory-building rights.
 
@@ -42,7 +42,7 @@ research_date: 2026-09-08
 
 | Item | Status | Notes |
 |---|---|---|
-| Wired 300+ Mbps broadband | **INVESTIGATE** | Exact-address qualification not yet confirmed. Hard requirement. |
+| Wired 300+ Mbps broadband | **FAIL / EXTENSION INVESTIGATION** | Exact-address FCC evidence shows no cable/fiber. Acrospire 400/100 is fixed wireless and therefore does not satisfy the defined wired hard requirement. |
 | Legal/practical access | CLEAR | Existing developed parcel with direct WI-29 access; highway traffic/driveway safety remains a lifestyle issue. |
 | House habitability | INVESTIGATE | Appears move-in ready from listing, but 1900 farmhouse + stone foundation warrants inspection. |
 | Accessory structures | INVESTIGATE | Many existing structures are a major positive; future building rights require zoning confirmation. |
@@ -52,6 +52,23 @@ research_date: 2026-09-08
 | HOA/deed restrictions | LIKELY CLEAR | MLS says no HOA/restrictive covenant; title commitment controls. |
 | Rights/minerals | INVESTIGATE | No evidence of a material regional OGM issue found; title/deed still controls. |
 | Resale/liquidity | CLEAR | Brown County/Green Bay demand environment is comparatively strong. |
+
+## Broadband Evidence — User Supplied 2026-09-08
+
+The FCC screenshot identifies **6160 State Highway 29, Luxemburg, WI 54217** as the selected served location. FCC availability shown:
+
+| Provider | Technology | Down | Up | Requirement assessment |
+|---|---|---:|---:|---|
+| Acrospire Networks | LBR Fixed Wireless | 400 Mbps | 100 Mbps | Fast enough, but **not wired** |
+| Verizon | Licensed Fixed Wireless | 300 Mbps | 20 Mbps | Download threshold, but **not wired** |
+| Bertram Communications | Unlicensed Fixed Wireless | 100 Mbps | 20 Mbps | Below threshold and not wired |
+| Bug Tussel Wireless | LBR Fixed Wireless | 50 Mbps | 8 Mbps | Below threshold and not wired |
+| Brightspeed | Copper | 0.2 Mbps | 0.2 Mbps | Wired but unusable |
+| Starlink | NGSO Satellite | 280 Mbps | 30 Mbps | Not wired; below 300 advertised down |
+| HughesNet | GSO Satellite | 100 Mbps | 5 Mbps | Not acceptable |
+| Viasat | GSO Satellite | 100 Mbps | 3 Mbps | Not acceptable |
+
+**Interpretation:** Acrospire 400/100 is potentially a very capable practical Internet service and may deserve a real-world performance/reliability investigation, but it does not meet the current Nicholas persona's explicit requirement for reliable 300+ Mbps **wired** broadband. Before rejecting the property outright, check Acrospire service details and investigate whether fiber/cable plant exists along or near WI-29 and whether a paid extension is realistic.
 
 ## House and Improvements
 
@@ -100,7 +117,7 @@ Distance/drive time to Green Bay and to 3534 Sand Acres Dr should be treated as 
 
 Asking price is **$475,000 ($209/sq ft)**. Nearby automated/public-record estimates surfaced around the low-to-mid $400Ks for the house, but those estimates may not fully value the unusual outbuilding/hobby-farm package. The listing price is therefore not an obvious bargain, but neither is it facially unreasonable given the barn, Quonset, garages, fencing and established homestead infrastructure.
 
-**Preliminary fair-value stance:** approximately **$440,000–$475,000**, heavily dependent on condition, broadband and zoning confirmation. A clean inspection plus confirmed fiber/300+ Mbps wired service and permissive use rules could justify the upper end. Foundation, septic, barn/roof, electrical, or zoning problems should push the offer materially lower.
+**Preliminary fair-value stance:** approximately **$440,000–$475,000**, heavily dependent on condition, broadband workaround/extension feasibility and zoning confirmation. Foundation, septic, barn/roof, electrical, zoning, or an unacceptable Internet solution should push the offer materially lower or eliminate the candidate.
 
 ## Cost-to-Goal
 
@@ -110,25 +127,25 @@ Asking price is **$475,000 ($209/sq ft)**. Nearby automated/public-record estima
 - Chicken infrastructure: **Existing**
 - Fenced pasture: **Existing**
 - Orchard/grapes: **Existing**
-- Broadband: **Unknown — fatal-flaw verification item**
+- Broadband: **Current wired requirement FAIL; fixed-wireless 400/100 available per FCC; wired extension unknown**
 - Dedicated sawmill/firewood yard: **Potentially Existing/Easy Value-Add**, subject to zoning and layout
 - Larger acreage/timber base: **Impossible on current parcel without acquiring adjoining land**
 - Second independent homesite: **Unknown / potentially Difficult**
 
-At the asking price, effective property cost may remain close to purchase price because so much desired infrastructure already exists. That is the core strength of this candidate.
+At the asking price, effective property cost may remain close to purchase price because so much desired infrastructure already exists. That is the core strength of this candidate, but broadband can still be dispositive.
 
 ## Persona Scores
 
 | Persona | Score | Assessment |
 |---|---:|---|
-| Nicholas | **84/100 provisional** | Excellent shop/outbuilding/homestead/location fit; broadband and exact zoning prevent a higher/confirmed score. |
+| Nicholas | **70/100 — HARD REQUIREMENT FAIL** | Excellent shop/outbuilding/homestead/location fit, but current FCC evidence shows no 300+ wired service. Acrospire 400/100 fixed wireless is promising operationally but does not meet the persona as written. |
 | Brittany | **86/100** | Listing presents as move-in ready with functional kitchen, first-floor primary/laundry and no obvious immediate gut project; 1900 systems/foundation inspection is critical. |
 | Dogs | **72/100** | Five acres/fencing are strong, but direct WI-29 frontage is a meaningful safety penalty; secure fenced containment away from highway is essential. |
 | Homestead | **91/100** | Barn, pasture, waterers, chicken coop, orchard, grapes and existing animal use make this unusually turnkey for only five acres. |
-| Kell and Son Limited Co. | **78/100 provisional** | Excellent buildings, access and market location; business/sawmill legality and power capacity are unresolved. |
+| Kell and Son Limited Co. | **76/100 provisional** | Excellent buildings, access and market location; business/sawmill legality, power capacity and Internet quality/reliability remain unresolved. |
 | Firewood and Lumber | **72/100 provisional** | Operational buildings and Green Bay market access are strong; five-acre scale, highway-neighbor context, zoning and on-site timber limitations cap the score. |
 | Resale and Development | **80/100** | Strong Brown County trajectory and scarce hobby-farm package; limited subdivision optionality and old-house buyer pool are offsets. |
-| Thomas | **75/100 provisional** | Exceptional garage/project space and regional access; broadband unresolved and a future independent homesite is uncertain on five acres. |
+| Thomas | **69/100 provisional** | Exceptional garage/project space and regional access, but wired broadband requirement is not met and a future independent homesite is uncertain on five acres. |
 
 ## Financial Fit
 
@@ -138,7 +155,7 @@ For context, the listing calculator used a 6.55% 30-year rate and displayed abou
 
 ## Next Verification Items
 
-1. **Broadband first:** FCC/PSC plus provider address qualification for 6160 Highway 29, Luxemburg WI 54217; require 300+ Mbps wired.
+1. **Broadband:** contact/qualify Acrospire at the exact address and determine technology, installation, latency, real-world reliability, data limits, CGNAT/static-IP options and SLA/business options. Separately investigate nearest fiber/cable plant and paid extension feasibility.
 2. Get current Town of Eaton zoning classification for parcel E-273 in writing and ask the business/sawmill/outbuilding/animal/second-dwelling questions above.
 3. Obtain seller condition report and ages/condition of roof, furnace/AC, well, mound septic and electrical service.
 4. Determine amperage and service to the 33x48 garage/Quonset/barns; check feasibility of 240V woodworking/welding equipment and three-phase availability if relevant.
@@ -154,6 +171,6 @@ For context, the listing calculator used a 6.55% 30-year rate and displayed abou
 - Brown County historic tax rolls confirm parcel E-273 and 217,800 sq ft / 5 acres at 6160 STH 29.
 - Town of Eaton zoning ordinance, zoning site and comprehensive plan, checked 2026-09-08.
 - U.S. Census Bureau Brown County population estimates, checked 2026-09-08.
-- Wisconsin PSC Broadband Maps, exact-address service still unresolved.
+- **User-supplied FCC Broadband Map screenshot, 2026-09-08; FCC data as of 2025-12-31, map UI last updated 2026-09-03.** Exact-address service table recorded above.
 
-**Research confidence:** MODERATE. Listing/property identity, improvements, acreage, taxes and regional market are well supported. Broadband, current exact zoning district/use permissions, flood/wetlands, title and systems condition remain material unresolved items.
+**Research confidence:** MODERATE-HIGH. Listing/property identity, improvements, acreage, taxes, exact-address FCC broadband availability and regional market are well supported. Current exact zoning district/use permissions, wired-extension feasibility, flood/wetlands, title and systems condition remain material unresolved items.
