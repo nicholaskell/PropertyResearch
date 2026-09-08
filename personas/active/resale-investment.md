@@ -1,6 +1,6 @@
 ---
 name: Resale and Development
-ntype: financial-use-case
+type: financial-use-case
 active: true
 default_weight: 0.7
 status: active
