@@ -2,7 +2,7 @@
 
 ## Goal
 
-Find rural/semi-rural U.S. properties that provide the best long-term combination of usable land, buildability, broadband, privacy, house/homesite quality, carrying cost, market access and value.
+Find rural/semi-rural U.S. properties that provide the best long-term combination of usable land, buildability, broadband, privacy, house/homesite quality, carrying cost, market access, resale/development outlook and value.
 
 This file defines **property research**, not individual preferences. Persona-specific priorities and scoring live in `personas/active/`.
 
@@ -20,6 +20,7 @@ Research and classify material risks such as **CLEAR / INVESTIGATE / FAIL** wher
 - House habitability or homesite feasibility
 - OGM/mineral/surface-right conflicts where relevant
 - Unreasonable carrying costs
+- Severe resale/liquidity risk caused by structural local decline or an exceptionally thin buyer pool
 - Any property-specific hard constraint
 
 A persona may define additional hard requirements.
@@ -39,8 +40,30 @@ Use current listing/MLS-fed sources and authoritative public sources where avail
 - House/homesite: condition, major systems, utilities and foreseeable work.
 - Location: always include distance/drive time to **Green Bay, Wisconsin**.
 - Market access: identify realistic 30/60/90/120-minute markets for rural/property-based business opportunities.
+- **Resale/market trajectory:** evaluate township/municipality, county and nearest meaningful metro for population/household direction, employment base, incomes, housing demand/liquidity, price direction, new construction/permits, infrastructure investment and major growth/decline catalysts. Do not infer future appreciation from one recent sale or asking-price trend.
+- **Development optionality:** when acreage/configuration makes it relevant, evaluate subdivision potential, minimum lots/frontage, additional homesites, access, utilities/well/septic, zoning/future land use, wetlands/topography/soils, rights/restrictions and realistic infrastructure cost.
 - Nuisances: highways, industry, CAFOs, rail, airports, landfill, quarry/mine, oil/gas, pipelines, transmission lines, ranges and other material concerns.
 - Value/comps: fair value, offer range and effective cost-to-goal.
+
+## Market Trajectory / Exit Risk
+
+Every property should receive a market-context assessment separate from its lifestyle/persona scores.
+
+Report:
+- **Market Trajectory:** GROWING / EMERGING / STABLE / STAGNANT / DECLINING / UNKNOWN
+- **Resale Liquidity:** STRONG / ADEQUATE / THIN / VERY THIN / UNKNOWN
+- **Development Optionality:** NONE / LIMITED / PLAUSIBLE / STRONG / EXCEPTIONAL / NOT APPLICABLE
+
+Use evidence at multiple geographic levels. Rural property may sit in a small declining municipality while still benefiting from a growing metro commute shed, recreation market, energy/agricultural economy or path-of-development location; conversely, a cheap property far outside viable demand centers may have substantial exit risk.
+
+Explicitly call out two conditions:
+
+1. **Value Trap Risk:** asking price appears attractive, but structural economic/population weakness, thin sales volume, limited employment/market access or a narrow buyer pool could make resale difficult or appreciation weak.
+2. **Growth Tailwind:** credible evidence suggests increasing demand, infrastructure, employment, household growth or metro expansion may make scarce land increasingly valuable.
+
+Do not label an area "up and coming" based on marketing language. Identify the actual catalysts and distinguish established trends from speculative announcements.
+
+For development potential, never treat gross acreage as developable acreage or hypothetical future lots as current market value. Account for zoning/entitlement, access, utilities, soils/septic, wetlands/floodplain, topography, infrastructure, carrying cost, absorption and sales risk.
 
 ## OGM / Severed Rights Risk
 
@@ -87,7 +110,7 @@ Always distinguish **“doesn't have it” from “can't have it.”**
 
 **Effective Property Cost = Purchase Price + Required Improvements + Desired Improvements**
 
-Permanent characteristics receive the most weight: usable land, location, access, zoning, broadband, wetlands/topography, privacy, rights/restrictions, taxes and market access.
+Permanent characteristics receive the most weight: usable land, location, access, zoning, broadband, wetlands/topography, privacy, rights/restrictions, taxes, market trajectory and market access.
 
 ## Persona Scoring
 
@@ -99,4 +122,4 @@ Do not assume all personas have equal importance. `default_weight` is available 
 
 The central question remains:
 
-**At this price, how good is this opportunity considering what exists, what is missing, what can change and what it costs to get there?**
+**At this price, how good is this opportunity considering what exists, what is missing, what can change, what it costs to get there, and how defensible the eventual exit is?**
