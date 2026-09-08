@@ -14,12 +14,14 @@ longitude: -88.110344
 tax_assessed_value_2025: 301100
 property_tax_paid_2025: 4483.18
 zestimate_snapshot_2026_09: 410100
+current_mortgage_balance_est: 225000
+current_monthly_payment_piti_est: 1600
 benchmark_checked_date: 2026-09-08
 ---
 
 # Current Home Benchmark
 
-This file is a **reference benchmark**, not a purchase candidate. Use it to compare candidate properties against the user's current location/property for market trajectory, resale liquidity, taxes, appreciation context, market access, development pressure and geographic distance.
+This file is a **reference benchmark**, not a purchase candidate. Use it to compare candidate properties against the user's current location/property for market trajectory, resale liquidity, taxes, appreciation context, market access, development pressure, geographic distance and financial step-up/down.
 
 ## Benchmark Role
 
@@ -32,6 +34,25 @@ For each candidate, answer where useful:
 - Are taxes/carrying costs materially better or worse?
 - What economic or infrastructure catalysts support the candidate compared with the Green Bay/De Pere area?
 - How far is the candidate from this current-home benchmark?
+- How much higher/lower is the estimated monthly property carry versus the current ~$1,600/month PITI baseline?
+- How much estimated equity may be available from the current home after sale, before selling costs and other obligations?
+
+## Current Financial Baseline
+
+- Estimated current mortgage balance: **~$225,000**
+- Estimated current monthly payment including property taxes and homeowners insurance: **~$1,600/month**
+
+Treat both as current user-provided estimates and refresh them when a more precise payoff statement or escrow/payment figure is available.
+
+For candidate comparisons, show both:
+
+**Estimated candidate monthly carry** and **monthly change vs current home**.
+
+Example:
+
+`Estimated PITI: $2,450/mo | +$850/mo vs current home`
+
+Do not assume the entire difference between sale price/value and mortgage balance becomes spendable down-payment cash. Deduct selling costs, payoff adjustments and any other applicable obligations when modeling net sale proceeds.
 
 ## Zillow Snapshot
 
@@ -48,10 +69,12 @@ The purpose is not to require every candidate to appreciate faster than De Pere.
 ## Refresh
 
 Refresh this benchmark when:
+- the mortgage payoff materially changes,
+- the monthly escrow/payment changes,
 - the home is listed,
 - an offer is accepted,
 - the home sells,
 - a materially better market valuation becomes available,
 - or the Portfolio is being used for a major buy/no-buy decision.
 
-Once the home sells, preserve this file as the historical origin benchmark and optionally add the actual sale price/net proceeds.
+Once the home sells, preserve this file as the historical origin benchmark and optionally add the actual sale price, payoff and net proceeds.
