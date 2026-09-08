@@ -24,8 +24,8 @@ house_sqft: 1015
 beds: 2
 baths: 1
 annual_property_tax: 1086
-broadband_rating: INVESTIGATE
-broadband_status: MLS states DSL; exact-address fiber not confirmed
+broadband_rating: CLEAR
+broadband_status: FCC Broadband Map Dec 31 2025 data shows South Central Rural Telecommunications Cooperative FTTP at exact address, 1000/1000 Mbps
 ogm_status: Unknown
 rights_exercise_likelihood: UNKNOWN
 rights_surface_impact: HIGH
@@ -40,13 +40,13 @@ last_updated: 2026-09-08
 
 # Property Summary
 
-102-acre Hart County farm with a remodeled 1,015-sq-ft 2/1 farmhouse, large barn, detached garage/workshop, spring-fed pond, rear creek and approximately 80 acres of productive cropland per MLS. Major unresolved items are exact-address 300+ Mbps wired broadband and the MLS-reported gas pipeline/power lines and their easements.
+102-acre Hart County farm with a remodeled 1,015-sq-ft 2/1 farmhouse, large barn, detached garage/workshop, spring-fed pond, rear creek and approximately 80 acres of productive cropland per MLS. User-provided FCC Broadband Map evidence confirms 1 Gbps symmetrical FTTP at the exact address. The major unresolved property-specific issue is now the MLS-reported gas pipeline/power lines and their easements.
 
 ## Fatal-Flaw Screen
 
 | Item | Result | Notes |
 |---|---|---|
-| Wired broadband | INVESTIGATE | MLS says DSL; Hardyville has substantial SCRTC fiber footprint but this address is unconfirmed. |
+| Wired broadband | CLEAR | FCC Broadband Map, Dec. 31 2025 data, identifies 2029 Three Springs Hwy as served by South Central Rural Telecommunications Cooperative FTTP at 1000/1000 Mbps. |
 | Legal/practical access | CLEAR | Highway frontage and existing driveway. |
 | Buildability/zoning | INVESTIGATE | County subdivision rules exist; intended business/second-home uses need confirmation. |
 | Land constraints | INVESTIGATE | Rolling farm, pond, creek; ~80 productive acres claimed. |
@@ -57,11 +57,11 @@ last_updated: 2026-09-08
 
 ## Listing & Value
 
-Active at $700,000 after a $25,000 cut from $725,000. Listed April 2026. Parcel 106-00-00-029.00. Public-record feed shows about $1,086 tax for 2025. Provisional fair value $600,000-$660,000; strong-contender price roughly $600,000-$625,000, pending land comps, soils, easements and fiber.
+Active at $700,000 after a $25,000 cut from $725,000. Listed April 2026. Parcel 106-00-00-029.00. Public-record feed shows about $1,086 tax for 2025. Provisional fair value $600,000-$660,000; strong-contender price roughly $600,000-$625,000, pending land comps, soils and easements.
 
 ## Broadband
 
-**INVESTIGATE.** MLS explicitly says DSL. FCC-derived area data indicates SCRTC fiber reaches much of Hardyville and offers up to 1 Gbps, but this does not establish service at 2029 Three Springs Hwy. Nicholas's 300+ Mbps wired requirement is not cleared.
+**CLEAR.** User-provided FCC Broadband Map screenshot for the exact address, using data as of Dec. 31, 2025, identifies **South Central Rural Telecommunications Cooperative** with **Fiber to the Premises** service at **1000 Mbps down / 1000 Mbps up**. This clears Nicholas's 300+ Mbps wired broadband hard requirement. The FCC location is marked Served, Residential, Unit Count 1. Provider installation/serviceability should still be reconfirmed directly before closing, but broadband is no longer treated as a property-screen failure risk.
 
 ## Land Reality
 
@@ -114,14 +114,14 @@ Hart County grew from a 2020 estimate base of 19,279 to 20,117 in 2025 (+4.3%), 
 
 | Persona | Score | Key reason |
 |---|---:|---|
-| Nicholas | 68/100 provisional | Excellent acreage/flexibility, but required broadband is unconfirmed and pipeline unresolved. |
+| Nicholas | 78/100 provisional | Gigabit symmetrical fiber clears a hard requirement; excellent acreage/flexibility, with pipeline and zoning questions remaining. |
 | Brittany | 79/100 | Remodel/move-in readiness strong; tiny 2/1 layout is limiting. |
 | Dogs | 86/100 | Huge rural outdoor potential; highway frontage requires secure containment. |
 | Homestead | 92/100 | ~80 productive acres, barn, pond/creek and farm setting are excellent. |
 | Firewood and Lumber | 76/100 provisional | Strong land/access; commercial legality, power and easements unresolved. |
-| Kell and Son Limited Co. | 74/100 provisional | Good equipment/business base; zoning, 3-phase and pipeline questions remain. |
-| Thomas | 73/100 provisional | Abundant future homesite/shop potential; broadband and second-home path unconfirmed. |
-| Resale and Development | 66/100 | Growing county and acreage optionality, but thin $700k buyer pool and unresolved easements. |
+| Kell and Son Limited Co. | 75/100 provisional | Good equipment/business base plus excellent connectivity; zoning, 3-phase and pipeline questions remain. |
+| Thomas | 81/100 provisional | Gigabit fiber and abundant future homesite/shop potential; second-home path remains unconfirmed. |
+| Resale and Development | 68/100 | Gigabit fiber improves rural desirability and exit appeal; buyer pool remains thin and easements unresolved. |
 
 ## Financial Fit
 
@@ -137,20 +137,21 @@ Not Yet Scored because buyer-finance sale-proceeds/down-payment/reserve fields a
 **Setting:** Rural  
 **Status:** Active  
 **Taxes:** ~$1,086/yr (2025 feed; verify)  
+**Broadband:** FCC-confirmed location record: SCRTC FTTP 1000/1000 Mbps  
 **Parcel Boundary Confidence:** Unverified  
 **Research Confidence:** Medium  
 
-**Persona Scores:** Nicholas 68 | Brittany 79 | Dogs 86 | Homestead 92 | Firewood/Lumber 76 | Kell & Son 74 | Thomas 73 | Resale/Development 66  
+**Persona Scores:** Nicholas 78 | Brittany 79 | Dogs 86 | Homestead 92 | Firewood/Lumber 76 | Kell & Son 75 | Thomas 81 | Resale/Development 68  
 **Financial Fit:** Not Yet Scored  
 
-**Best Feature:** 102-acre farm with ~80 productive acres, barn, pond/creek and remodeled house.  
+**Best Feature:** 102-acre farm with ~80 productive acres, barn, pond/creek, remodeled house and gigabit symmetrical fiber.  
 **Biggest Weakness:** 1,015-sq-ft 2/1 house at a $700k purchase price.  
-**Dealbreaker Risk:** Broadband could fail the 300+ Mbps wired requirement; pipeline easement could constrain prime land.  
-**Most Important Unknown:** Exact-address fiber and mapped pipeline/power easements.  
+**Dealbreaker Risk:** Pipeline/power easements could constrain prime land or future homesites/business areas.  
+**Most Important Unknown:** Exact mapped pipeline/power easements and their terms.  
 
-**VERDICT:** MAYBE
+**VERDICT:** MAYBE — upgraded materially by confirmed fiber
 
-**Bottom Line:** Structurally excellent homestead/farm land, but $700k only works if broadband and easement questions resolve favorably. Fiber plus a harmless edge-running pipeline would move this toward contender territory around the low $600s. DSL-only is a hard fail for Nicholas.  
+**Bottom Line:** Structurally excellent homestead/farm land, and the broadband question has resolved favorably: FCC data shows 1 Gbps symmetrical FTTP at the exact address. Attention should now shift to pipeline/power easement geometry, title/OGM, land constraints and zoning. If the easements are harmless and ~80 productive acres verify, this becomes a serious contender around the low $600s.  
 **Fair Value:** provisional $600k-$660k  
 **Suggested Offer:** provisional $575k-$610k  
 **At Asking:** FAIR-to-OVERPRICED  
@@ -158,7 +159,8 @@ Not Yet Scored because buyer-finance sale-proceeds/down-payment/reserve fields a
 
 ## Open Research Tasks
 
-- [ ] Exact-address FCC/SCRTC fiber check for >=300 Mbps wired service.
+- [x] Exact-address FCC fiber check for >=300 Mbps wired service — FCC map shows SCRTC FTTP 1000/1000 Mbps.
+- [ ] Directly reconfirm SCRTC installation/serviceability before closing.
 - [ ] County GIS parcel geometry and PARCEL MAP — NOT A SURVEY.
 - [ ] Map gas pipeline/power-line corridors and obtain easement terms.
 - [ ] Verify deed/title mineral and OGM conveyance.
@@ -171,4 +173,4 @@ Not Yet Scored because buyer-finance sale-proceeds/down-payment/reserve fields a
 
 ## Sources
 
-Zillow/South Central Kentucky AOR SC48038; Realtor MLS feed; Redfin MLS/public records; Hart County Planning Commission/subdivision regulations; U.S. Census Bureau/FRED; FCC-derived Hardyville broadband market data. Checked 2026-09-08.
+Zillow/South Central Kentucky AOR SC48038; Realtor MLS feed; Redfin MLS/public records; Hart County Planning Commission/subdivision regulations; U.S. Census Bureau/FRED; user-provided FCC Broadband Map screenshot (Dec. 31, 2025 data) confirming SCRTC FTTP 1000/1000 at exact address. Checked 2026-09-08.
