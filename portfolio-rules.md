@@ -10,6 +10,25 @@ Ignore `personas/inactive/` unless explicitly requested. Moving a persona betwee
 
 For every property, report a score for every active persona. Do not assume equal importance; preserve individual scores and use `default_weight` only when an aggregate scenario needs a default weighting.
 
+## Benchmark Discovery
+
+Read every `.md` file in `benchmarks/active/`. Benchmarks are **not contenders** and should not appear in the ranked purchase list unless explicitly requested.
+
+A `current-home` benchmark defines the user's present geographic/economic baseline. Use it to compare:
+
+- Distance/drive time from the current home
+- Local Market Trajectory
+- Resale Liquidity
+- Population/household/employment direction
+- Land scarcity and path-of-development pressure
+- Taxes/carrying costs
+- Infrastructure and economic catalysts
+- Buyer depth and likely ease of future resale
+
+Explicitly identify when a candidate means trading from a stronger market into a weaker/less-liquid one, and what benefit compensates for that trade (acreage, privacy, taxes, business utility, price, etc.). Also identify candidates whose market fundamentals are equal to or stronger than the benchmark.
+
+Do not use a single home's Zestimate as proof of market trajectory. Benchmark comparisons should rely primarily on broader municipality/county/metro evidence, using property-level value history only as supplemental context.
+
 ## Finance Discovery
 
 Read `finance/buyer-finance.md` and active files under `finance/scenarios/` when populated.
@@ -29,7 +48,7 @@ Never assume all available cash should become down payment.
 
 ## Comparison Dimensions
 
-Use raw property facts, persona-specific priorities and finance assumptions. Common dimensions include:
+Use raw property facts, persona-specific priorities, benchmarks and finance assumptions. Common dimensions include:
 
 - Fatal-flaw status and research confidence
 - Effective Property Cost
@@ -48,6 +67,10 @@ Use raw property facts, persona-specific priorities and finance assumptions. Com
 - Privacy
 - Market reach
 - Distance to Green Bay, WI
+- Distance to active current-home benchmark
+- Market Trajectory vs current-home benchmark
+- Resale Liquidity vs current-home benchmark
+- Development optionality / growth tailwind / value-trap risk
 - House/homesite readiness
 - Shop/garage readiness
 - Cost/difficulty of missing features
@@ -99,14 +122,17 @@ Identify:
 - Best ready-to-use property
 - Best build-your-own/value-add opportunity
 - Best market access
+- Strongest market trajectory / resale outlook
+- Best development optionality
 - Lowest carrying cost
 - Highest-confidence candidate
 - Best use of available cash/equity
 - High-scoring properties with unresolved fatal-flaw risks
 - Properties dominated by another candidate (more expensive and worse on most important dimensions)
+- Candidates that improve lifestyle but materially weaken exit/liquidity versus the current-home benchmark
 
-Support alternate scenarios by changing persona weights or finance assumptions without modifying the underlying property facts.
+Support alternate scenarios by changing persona weights, benchmarks or finance assumptions without modifying the underlying property facts.
 
 ## Status Changes
 
-Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, finance assumptions change materially, the current home sale becomes more certain, or a competing property materially changes its relative position.
+Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, finance assumptions change materially, the current home sale becomes more certain, the current-home benchmark changes, or a competing property materially changes its relative position.
