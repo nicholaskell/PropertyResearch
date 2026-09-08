@@ -2,6 +2,17 @@
 
 Property records contain durable facts. Persona scores, Financial Fit and cross-property rankings are **derived** and should be recalculated from the current repository.
 
+## Property Discovery & Evidence
+
+Support both property layouts during migration:
+
+- Preferred: `properties/<STATE>/<property-slug>/property.md`
+- Legacy: `properties/<STATE>/<property-slug>.md`
+
+For preferred-layout properties, read `assets.md` when present and inspect relevant supporting assets when a ranking depends on an unresolved or disputed fact. Do not treat the existence of an asset as proof of a conclusion; use what the source actually establishes.
+
+Original documents/images are evidence. `property.md` remains the normalized factual/analytical record. If an asset materially changes a property fact, update/recalculate from that evidence rather than relying on an older summary.
+
 ## Persona Discovery
 
 Read every `.md` file in `personas/active/`. Each file is an independent scoring lens and may represent a person, animal, business, lifestyle or other use case.
@@ -135,4 +146,4 @@ Support alternate scenarios by changing persona weights, benchmarks or finance a
 
 ## Status Changes
 
-Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, finance assumptions change materially, the current home sale becomes more certain, the current-home benchmark changes, or a competing property materially changes its relative position.
+Recheck a property when price/listing status changes materially, broadband changes, new zoning/rights/access evidence appears, a supporting asset adds material evidence, finance assumptions change materially, the current home sale becomes more certain, the current-home benchmark changes, or a competing property materially changes its relative position.
