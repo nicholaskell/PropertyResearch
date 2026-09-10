@@ -1,36 +1,30 @@
 # Nashville Land Inventory — 2026-09-10
 
 ## Scope
-Zillow discovery search for active land listings priced strictly below $500,000 that Zillow's commute filter places within 60 minutes driving, off-peak, of downtown Nashville, Tennessee (anchor approximately 36.1627, -86.7816). Pending, contingent, under-contract, and accepting-backup-offer listings were excluded.
+Zillow discovery search for active land listings priced strictly below $500,000 that Zillow's commute filter places within 60 minutes driving, off-peak, of downtown Nashville, Tennessee (anchor approximately 36.1627, -86.7816). Pending, contingent, and under-contract listings were excluded.
+
+## Current portfolio filter
+On 2026-09-10 the imported Nashville inventory was narrowed to:
+
+- **5.00 acres or more**, OR
+- **asking price strictly below $20,000**, regardless of acreage.
+
+The acreage threshold is inclusive: a listing reported by Zillow as exactly 5.00 acres is retained.
 
 ## Result
-- Zillow broad search count: **201**
-- Verifiable listings priced **under $500,000** imported: **197**
-- Exactly $500,000 and excluded: **2**
-- No asking price exposed and therefore not provably under $500,000: **2**
+- Original verifiable under-$500,000 import: **197**
+- Listings retained at **5.00+ acres**: **32**
+- Verifiable sub-$20,000 exceptions retained: **0**
+- Listings removed for being under 5 acres and not qualifying for the sub-$20,000 exception: **165**
+- **Current retained Nashville import: 32 listings**
 
-### Excluded boundary/unknown-price results
-- `0 Lowes Ln Lot 1` — $500,000.
-- `0 Green Ln` — $500,000.
-- `4414 Maxwell Rd, Antioch, TN 37013` — no asking price exposed.
-- `128 Myatt Dr, Madison, TN 37115` — no asking price exposed.
+A fresh Zillow check using the 5-acre filter returned 33 results, but one (`4414 Maxwell Rd, Antioch, TN 37013`) still exposes no asking price and was not part of the original under-$500,000 import. A separate under-$20,000 search exposed only two no-price listings (`4414 Maxwell Rd` and `128 Myatt Dr`), so neither can be verified as a qualifying sub-$20,000 exception.
 
-## Enumeration
-The broad Zillow result was capped at 100 displayed properties, so inventory was enumerated in non-overlapping price bands:
-
-| Asking price | Imported |
-|---|---:|
-| Below $100,000 | 13 |
-| $100,000–$199,999 | 57 |
-| $200,000–$299,999 | 60 |
-| $300,000–$399,999 | 40 |
-| $400,000–$499,999 | 27 |
-| **Total** | **197** |
-
-Each imported listing has a normalized `properties/TN/<address>-<zpid>/property.md` record. ZPID is retained in the folder slug to prevent collisions between repeated street/lot labels.
+## Boundary handling
+The original import excluded two listings priced exactly $500,000 and two listings with no exposed asking price. Those exclusions remain unchanged.
 
 ## Research status
-These are discovery/import records, not completed investigations. Zillow-derived price, acreage, classification, coordinates, and active status remain listing claims until independently verified. Each record starts `INITIAL` / `Low` confidence with open fatal-flaw research tasks covering broadband, access/zoning/buildability, wetlands/flood/topography/soils, restrictions/easements/rights, parcel/taxes/usable acreage, and resale/development optionality. No property was scored or advanced to a verdict from Zillow discovery data alone.
+Retained properties remain discovery/import records, not completed investigations. Zillow-derived price, acreage, classification, coordinates, and active status remain listing claims until independently verified. Each retained record remains `INITIAL` / `Low` confidence with open fatal-flaw research tasks. No property was scored or advanced to a verdict from Zillow discovery data alone.
 
 ## Source
-Zillow property-search connector, queried 2026-09-10. Point-in-time inventory; listing status and prices can change after capture.
+Zillow property-search connector, queried and acreage-filtered 2026-09-10. Point-in-time inventory; listing status, prices, and acreage claims can change after capture.
