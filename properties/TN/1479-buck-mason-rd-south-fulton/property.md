@@ -20,7 +20,6 @@ broadband_technology: FTTP
 broadband_down_mbps: 2000
 broadband_up_mbps: 2000
 broadband_fcc_data_as_of: 2025-12-31
-zillow_url: https://www.zillow.com/homedetails/1479-Buck-Mason-Rd-South-Fulton-TN-38257/42588658_zpid/
 research_date: 2026-09-11
 ---
 
@@ -28,165 +27,213 @@ research_date: 2026-09-11
 
 ## Property Card
 
-**Verdict:** STRONG INVESTIGATE / serious contender physically; price/value, land constraints and use rules remain the main diligence items.
+**Verdict:** SERIOUS CONTENDER / DEEP DILIGENCE
 
-**Why it stands out:** 53.5 acres, multiple pasture areas, scattered woods, creek, >1,300 ft county-road frontage, existing wired workshop, 200+ amp residential service, 220V at workshop/garage area, public water, septic, no HOA, very low Greenbelt taxes, a remodeled small house, and FCC-reported symmetrical 2 Gbps fiber-to-the-premises at the exact address.
+**Updated weighted score:** ~88/100.
 
-**Primary concerns:** zoning/subdivision/home-business rules require direct county confirmation; creek/flood/wetland and septic suitability across future homesites are unresolved; the $479,900 ask is substantially above automated valuations and sits in a thinner rural resale market than the current De Pere benchmark.
+This property now clears two of the biggest structural questions: exact-address FCC evidence reports symmetrical 2 Gbps FTTP, and Weakley County explicitly states that properties outside city limits have no county building codes or restrictions beyond the building-permit requirement. The remaining gating questions are parcel-specific flood/soil/septic layout, recorded title/easement restrictions, and purchase price support.
 
-## Listing / Property Facts
+**Core package:** 53.5 acres; former cattle/pasture use; woods; creek; >1,300 ft county-road frontage; public water; septic; 200+ amp service; 220V workshop; equipment cover/carports; no HOA reported; Greenbelt taxes ~$970/yr; exact-address FCC-reported 2,000/2,000 Mbps FTTP.
 
-### Confirmed or MLS-fed
-- Active listing at **$479,900**, listed 2026-08-14, CWTAR MLS 2603869.
-- 2 bed / 2 bath / 1,260 sq ft per current MLS feed; public records still show 960 sq ft / 1 bath, so assessor reconciliation should be obtained before purchase.
-- 53.5 acres, parcel **015 028.00**.
-- Built 1940; listing says extensively remodeled in 2008.
-- Metal roof, vinyl siding, raised foundation, double-pane vinyl windows.
-- Listing states updated electrical service, encapsulated crawlspace with dehumidifier and good insulation.
-- Public water, septic, electricity connected; 200+ amp service and 220V at workshop/garage area.
-- Two double-size metal carports, wired workshop with separate electrical box/220V, storage shed, gravel drive and additional equipment parking.
-- Pasture + woods + agricultural land; creek crosses farm; some perimeter wire fencing and trails.
-- More than 1,300 ft frontage on Buck Mason Road; public-maintained chip-and-seal county road.
-- No HOA; outside city limits.
-- Enrolled in Tennessee Greenbelt; 2025 tax reported at **$970**.
+## Evidence / Data Conflicts
 
-### Valuation signals
-- Ask: **$479,900**.
-- Redfin estimate snapshot: about **$451,023**.
-- Zillow Zestimate snapshot: roughly **$316,800** with a stated estimated range extending to about $415,000. Automated estimates are weak for unusual acreage properties, but the spread is large enough to make appraisal/comps a major diligence item.
-- Public/aggregator records conflict with MLS on finished area, making ordinary $/sq-ft comparisons especially unreliable. Value is primarily land + farm utility rather than the small residence.
+- MLS feed: 2 bed / 2 bath / ~1,260 sq ft; extensively remodeled in 2008.
+- County-fed public records displayed by Redfin/Realtor/Zillow: 960 sq ft / 1 bath. Reconcile with assessor and permits before appraisal/offer.
+- Parcel: 015 028.00 / APN 015 02800 000.
+- Listing price: $479,900, listed 2026-08-14.
 
 ## Fatal-Flaw Screen
 
-| Item | Status | Notes |
+| Item | Status | Finding |
 |---|---|---|
-| 300+ Mbps wired broadband | **CLEAR** | User-supplied FCC Broadband Map screenshot for exact address reports West Kentucky Rural Telephone Coop Corp Inc FTTP at **2,000/2,000 Mbps**. FCC data as of Dec. 31, 2025. Provider orderability should still be confirmed before closing. |
-| Legal/practical access | **CLEAR** | MLS reports public-maintained county-road frontage and >1,300 ft frontage. Verify survey/title/culverts. |
-| Buildability / accessory structures | **INVESTIGATE** | Weakley County requires permits for new homes and structures such as pole barns over $5,000. County zoning/use and setbacks still need direct verification for shop/business/extra dwellings. |
-| Flood/wetland/drainage | **INVESTIGATE** | A creek crosses the farm. Third-party risk model reports minimal building flood risk, but parcel-wide FEMA/wetland/soil mapping is still required before assigning future homesites. |
-| HOA | **CLEAR** | MLS says none. Deed restrictions still require title review. |
-| House habitability | **LIKELY CLEAR / VERIFY** | Listing presents remodeled, occupied-ready home; inspection must verify roof, electrical, plumbing, septic, crawlspace and ductless HVAC. |
-| OGM/mineral/surface rights | **UNKNOWN** | Tennessee title/deed review required; do not assume all mineral/subsurface rights convey. No current evidence of a material extraction conflict was established in this pass. |
-| Carrying cost | **CLEAR** | Greenbelt taxes exceptionally low; insurance and Greenbelt rollback exposure need quotes/calculation. |
-| Resale liquidity | **INVESTIGATE** | Rural 50+ acre buyer pool is materially thinner than De Pere/Brown County. |
+| 300+ Mbps wired broadband | **CLEAR** | User-supplied FCC exact-location screenshot: West Kentucky Rural Telephone Coop Corp Inc FTTP 2,000/2,000 Mbps; Served/Residential. Confirm orderability before closing. |
+| Legal/practical road access | **CLEAR / VERIFY TITLE** | >1,300 ft public-maintained county-road frontage reported. Survey/title/culverts still need review. |
+| County building restrictions | **CLEAR / VERY FAVORABLE** | Weakley County official permit page states there are **no building codes or restrictions outside city limits**, beyond the $25 permit process. Property is reported outside city limits. |
+| Accessory shop/barn potential | **CLEAR IN PRINCIPLE** | County explicitly lists pole barns/structures >$5,000 as permit-required; permit is $25. Site/flood/septic/electric constraints still apply. |
+| Multiple homes / subdivision | **PLAUSIBLE-STRONG / VERIFY PROCESS** | Lack of county building restrictions is highly favorable. TDEC septic/subdivision rules and any applicable regional plat review still apply. |
+| Flood/wetlands/drainage | **INVESTIGATE** | Creek crosses farm. Existing-home flood risk appears low from third-party models, but authoritative parcel-wide FEMA/EMA map remains outstanding. |
+| Septic / additional homesites | **INVESTIGATE** | Existing septic confirmed by listing. Additional homes require site/soil approval. TDEC subdivision evaluation rules apply where septic development is proposed. |
+| HOA | **CLEAR** | MLS says none. Recorded deed restrictions still require title review. |
+| Business / wood operations | **STRONGLY PROMISING** | No county zoning/building restrictions outside city limits materially reduces land-use risk. State environmental, nuisance, business, septic and access rules can still apply. |
+| Greenbelt | **CLEAR WITH CONVERSION RISK** | Very low current taxes; disqualifying conversion can trigger rollback. |
+| Price/value | **INVESTIGATE, but list is more defensible than AVMs imply** | Same-road and improved-farm comps support a materially higher land value than Zillow's house-centric AVM suggests. |
+| Resale liquidity | **THIN / ACCEPTABLE** | Rural 50+ acre buyer pool remains thinner than De Pere, but fiber + frontage + unrestricted county environment broaden appeal. |
 
-## Broadband
+## Broadband — Cleared
 
-**Status: CLEAR for Nicholas hard requirement based on FCC exact-location evidence.**
+User supplied an FCC Broadband Map screenshot on 2026-09-11 for the exact selected location **1479 Buck Mason Rd, South Fulton, TN 38257**. It is marked **Served / Residential / Unit Count 1** and reports **West Kentucky Rural Telephone Coop Corp Inc — Fiber to the Premises — 2,000 Mbps down / 2,000 Mbps up**. FCC data shown is as of 2025-12-31; map last updated 2026-09-03.
 
-User supplied an FCC Broadband Map screenshot on 2026-09-11 for **1479 Buck Mason Rd, South Fulton, TN 38257**. The selected FCC location is marked **Served / Residential / Unit Count 1**. The fixed-broadband table reports **West Kentucky Rural Telephone Coop Corp Inc — Fiber to the Premises — 2,000 Mbps down / 2,000 Mbps up**. FCC map data shown is **as of Dec. 31, 2025 (latest), last updated 9/3/26**.
+**Conclusion:** Nicholas's 300+ Mbps wired hard requirement is cleared on current evidence. Obtain provider installation/order confirmation before contingencies expire.
 
-Other services shown include Starlink 280/30 and satellite providers, but they are irrelevant to the wired hard requirement because FTTP is reported at the exact location.
+## County Building / Land-Use Freedom — Major Positive Finding
 
-**Interpretation:** this clears the 300+ Mbps wired-broadband fatal-flaw screen and materially improves the property. Before purchase, obtain an address-specific orderability/installation confirmation from the fiber provider because FCC-reported availability is strong evidence but not a service contract.
+Weakley County's official Building Permits page is unusually explicit:
 
-## Land / Operational Use
+- New homes, additions, moved mobile homes, in-ground pools, pole barns and other structures over $5,000 require a building permit.
+- Permit fee is **$25**.
+- First step is obtaining a floodplain map from Weakley County Emergency Management/911.
+- The county states that it **does not have building codes or restrictions outside city limits**, other than the permit requirement.
+- Permits currently have no expiration date.
 
-The listing describes multiple pasture areas, scattered woods, creek, trails and prior cattle use. That is a strong starting configuration for dogs, chickens/small livestock, gardens, equipment, firewood and a future shop. Gross acreage should not yet be treated as 53.5 usable acres: creek corridor, floodplain, hydric soils, drainage, slopes and septic sites remain unmapped in this record.
+Because this parcel is reported outside South Fulton city limits, this is substantially better than the earlier generic "zoning unknown" assessment. There does not appear to be conventional county zoning preventing a large shop, barn, greenhouse or second residence merely because of land use. This does **not** override septic approval, floodplain rules, recorded covenants/easements, environmental regulation, state law, utility requirements, road/driveway requirements or nuisance law.
 
-**Preliminary land model:**
-- Total: 53.5 ac confirmed.
-- Constrained: unknown pending FEMA/NWI/soil/parcel GIS.
-- Usable: likely substantial based on pasture description/photos, but not quantified.
-- Prime operational: likely multiple acres near road/home/workshop, but requires aerial/parcel review.
+### Implications for intended uses
 
-## Zoning / Building / Business Freedom
+**Large shop / pole building:** HIGHLY PLAUSIBLE. County permit required above $5,000; no county building-code restriction identified.
 
-The property is outside South Fulton city limits. Weakley County's official building-permit page confirms permits are required for new homes, additions, moved mobile homes, in-ground pools, pole barns and other structures over $5,000, and directs applicants to obtain a floodplain map first.
+**Firewood / sawmill / equipment yard:** HIGHLY PLAUSIBLE from county land-use standpoint. Still verify any state environmental/noise/dust requirements and title restrictions; commercial traffic and insurance should be considered.
 
-Still unresolved and must be confirmed with county planning/building officials before purchase:
-- zoning classification / whether countywide zoning applies to this parcel;
-- accessory-building setbacks/size;
-- second dwelling or family homesite rules;
-- subdivision/minimum frontage requirements;
-- sawmill/firewood processing and outdoor storage;
-- home occupation/customer pickup/signage/employees;
-- greenhouse/nursery retail;
-- livestock/poultry and dog/kennel rules.
+**Greenhouse / nursery:** HIGHLY PLAUSIBLE. Personal and production greenhouses appear structurally easy to add. Retail/customer operations should still be checked for business/tax/signage/access requirements.
 
-The >1,300 ft road frontage is a significant positive for future division/access, but **possible subdivision is only a listing claim until county standards, soils/septic and survey geometry are verified**.
+**Chickens / goats / sheep / cattle:** HIGHLY PLAUSIBLE; existing farm/cattle history strongly supports rural compatibility. Large confined operations would trigger separate AFO/CAFO rules, but the contemplated homestead scale is different.
 
-## Greenbelt / Taxes
+**Multiple family houses:** PLAUSIBLE TO STRONG, with septic/plat process as the real gate rather than county zoning.
 
-The farm is enrolled in Tennessee Greenbelt. Weakley County explains that qualifying agricultural/forest/open-space land is assessed at use value; a disqualifying conversion can trigger rollback taxes. For agricultural land, rollback can recapture the prior three years of tax savings. This is a major carrying-cost benefit but must be modeled before subdividing or converting acreage.
+## Subdivision / Kids' Homesites
 
-## House / Cost-to-Goal
+TDEC's current septic guidance materially clarifies the path. A **Subdivision Evaluation** is required when land is divided into two or more lots/sites for immediate or future development where septic will be used. TDEC requires a survey and a soils map prepared by a Tennessee-licensed soil consultant before evaluating such a subdivision.
 
-**Existing:** small move-in-capable residence, workshop, carports/equipment cover, public water, septic, 200+ amp power, confirmed FCC-reported 2 Gbps symmetrical FTTP, pasture/fencing, road frontage.
+TDEC also states that a division into tracts where **all resulting tracts are 5 acres or larger is not considered a subdivision for this septic-program definition**. Separately, Tennessee planning law generally treats divisions under five acres for sale/building development, or divisions requiring new street/utility construction, as subdivisions subject to planning review where a regional planning commission has jurisdiction.
 
-**Easy value-add:** secure dog yard, chicken infrastructure, garden/orchard, equipment organization, cosmetic updates, additional fencing.
+### Practical family-compound strategy
 
-**Major value-add:** larger insulated shop, greenhouse, expanded/second residence, upgraded farm fencing, driveway/utility extensions.
+The 53.5 acres and >1,300 ft frontage make a conservative configuration potentially attractive:
 
-**Difficult/unknown:** subdivision and separate child homesites until zoning, soils/septic, frontage and Greenbelt consequences are confirmed.
+- retain a large parent tract with the existing house/farm infrastructure;
+- identify 1–2 independent road-frontage homesites;
+- where geometry allows, target **5+ acre child tracts** rather than tiny lots;
+- obtain soils mapping and septic approval before recording or investing in utilities;
+- preserve enough agricultural acreage/use to maintain Greenbelt economics where practical.
 
-The existing 1,260-sq-ft 2-bedroom house is functional but small for a larger household. Its best strategic role may be a low-cost base while a future primary house is built, followed by reuse as a family/guest dwelling if legally allowed.
+This is **not yet a confirmed right to create two child lots** because authoritative parcel geometry, frontage allocation, soils, easements and the applicable plat-review authority have not been verified. But the legal environment is materially more favorable than most properties researched in this project.
+
+**Development Optionality: STRONG-POTENTIAL, currently rated PLAUSIBLE/STRONG pending soils + survey.**
+
+## Septic / Soils
+
+Existing residence uses septic. TDEC requires a septic permit for new systems and advises obtaining it before dirt work/building-pad construction. A TDEC environmental scientist evaluates the site and can require a detailed site plan or licensed soils map. Alternative systems are available where conventional soils are unfavorable, but they add cost and complexity.
+
+For the family-compound plan, the next physical diligence item should be a **licensed soil scientist mapping multiple candidate homesites**, not merely a generic Web Soil Survey check. On 53.5 acres, the goal should be to locate at least three good reserve areas: future primary home, Thomas/child homesite, and another family/guest homesite.
+
+## Flood / Water / Terrain
+
+The listing confirms a creek across the farm. Realtor/First Street reports minimal flood risk for the existing residence, but that does not establish parcel-wide buildability. Nearby Buck Mason Road parcels show mixed mapped flood conditions in public-record aggregators, ranging from B/X to Zone A, demonstrating that flood exposure varies locally.
+
+**Current conclusion:** no evidence that the existing house has a severe flood problem, but do not assign new homesites/shop locations until the official Weakley County floodplain map/FEMA layer and parcel boundary are overlaid. The county itself requires the floodplain map before issuing a building permit.
+
+Wetland acreage and hydric soils remain unquantified. The creek corridor should be treated as potentially constrained until mapped.
+
+## Land Model — Current Confidence
+
+- **Total:** 53.5 ac confirmed.
+- **Existing developed/operational area:** house + workshop/carport/equipment area; exact acreage unmeasured.
+- **Pasture/open agricultural acreage:** substantial per listing/photos, not yet GIS-quantified.
+- **Wooded acreage:** present, not quantified.
+- **Creek/riparian/flood-constrained acreage:** unknown.
+- **Prime buildable/operational acreage:** likely meaningful, but not yet defensibly quantified.
+
+**Usable-acre conclusion:** visually/listing-wise this appears much more like a working 53-acre farm than a nominal 53-acre wetland/steep parcel, but the research record will not assign a usable-acre number until authoritative mapping is obtained.
+
+## Value / Comparable Sales — Deeper Pass
+
+The $479,900 ask initially looked aggressive against automated home estimates. Better acreage comps make the picture more nuanced.
+
+### Strong local signals
+
+1. **Buck Mason Road, Map 015 Parcel 007.00 — 69 acres:** sold **2025-10-10 for $475,000** (~$6,884/ac). It had been listed at $625,000. This is on the same road and is a very important land-value signal, although it appears to have been stronger agricultural ground and had no comparable residence/infrastructure.
+2. **Buck Mason Road — ~125 acres prime farm ground:** sold **2023-11-20 for $640,000** (~$5,120/ac). Described as prime farm ground under crop lease.
+3. **440 Grove Hill Rd, Dresden — ~40 acres improved farm:** sold **2025-09-02 for $460,000**. Included a 1,568-sq-ft manufactured home, large 42x64 shop with apartment, barn, pond and fencing. Strong improved-farm comp, though superior shop/residential utility differs.
+4. **Lackey Rd, Martin — 35.1 acres vacant/pasture/wooded:** sold **2026-06-10 for $225,000** (~$6,410/ac).
+5. **Old Troy Rd, Martin — 30-acre farm:** sold **2026-05-29 for $179,574** (~$5,986/ac).
+6. **Jewell Store Rd, Dresden — 41 wooded/agricultural acres:** reported 2026 sale around $60k-$120k depending feed/record presentation; illustrates how dramatically timber/access/quality can move acreage value and is too inconsistent to anchor valuation without deed verification.
+
+### What this means
+
+At $479,900, the subject is **$8,970 per gross acre including the house, public water, workshop, electrical infrastructure and other improvements**. That is above ordinary raw-farm acreage comps, but not absurd when compared with the 69-acre same-road sale and the $460k improved 40-acre farm.
+
+The Zillow ~$313k AVM appears poorly suited to this property because county records describe only a 960-sq-ft/1-bath house while the economic asset is the 53.5-acre farm package. Redfin's ~$451k estimate is closer to the improved-farm evidence but also should not substitute for appraisal.
+
+**Revised price view:** list price is **not obviously irrational**, but I still would not pay $479,900 without establishing the quality of the 53.5 acres. If a large share is productive pasture/cropland with good soils and little flood constraint, fair value can plausibly reach the mid/high $400s. If creek/flood/hydric ground materially reduces usable acreage, the price should come down sharply.
+
+**Preliminary negotiation band:** roughly **$425k–$455k** as a diligence-stage target, with willingness to justify more only if survey/soils/flood mapping shows unusually high usable acreage and the house/workshop inspect well. This is an estimate, not an appraisal.
+
+## Greenbelt / Development Tradeoff
+
+Current tax is reported around **$970/year**, a major advantage. Tennessee Greenbelt rollback taxes generally recapture the tax savings for the prior **three years** for agricultural/forest land when land is disqualified. The assessor calculates the actual amount.
+
+Creating homesites does not mean the entire 53.5 acres must necessarily lose Greenbelt treatment; parcel configuration and continuing qualifying agricultural use matter. Before subdivision, obtain a parcel-specific scenario from the Weakley County Assessor so the family-compound plan preserves as much preferential assessment as legally possible.
+
+## Nuisance / Rights / Title
+
+No HOA is reported. No authoritative evidence in this pass established a major pipeline, quarry, landfill or CAFO on the subject parcel. This is **not equivalent to a title/environmental clearance**.
+
+Still required:
+- title commitment + deed chain for easements, restrictions and reservations;
+- survey showing ROW/easements;
+- mineral/subsurface rights confirmation;
+- PHMSA/811 review before major excavation;
+- nearby AFO/CAFO/environmental permit check if the property advances to offer stage.
+
+**Rights Disturbance Risk:** ⚫ UNKNOWN pending deed/title review. No current evidence suggests a specific active mineral/extraction threat, but rights are not assumed to convey.
 
 ## Market / Exit
 
-**Market Trajectory: STABLE**
-**Resale Liquidity: THIN**
-**Development Optionality: PLAUSIBLE (unverified)**
-**Value Trap Risk: MODERATE at list price**
-**Growth Tailwind: LIMITED / MODEST**
+**Market Trajectory:** STABLE
+**Resale Liquidity:** THIN / improving to ADEQUATE for a well-priced turnkey farm
+**Development Optionality:** PLAUSIBLE → potentially STRONG after soils/survey
+**Value Trap Risk:** MODERATE at full list; LOWER around a well-supported mid-$400k basis
+**Growth Tailwind:** LIMITED/MODEST
 
-Weakley County's 2025 population estimate is about 33,261, up roughly 1.1% from the 2020 estimate base, showing recent stabilization/slight growth after a longer decline from the 2010 Census level (~35,021). The Martin/Weakley area has agriculture, manufacturing and UT Martin as anchors, but it does not have the population/development pressure of the Green Bay/De Pere market.
+Weakley County remains a smaller, slower-growth market than Brown County/De Pere. That remains the largest strategic trade-off. However, this property has several attributes that broaden its future buyer pool: 50+ acres, agricultural utility, road frontage, public water, existing improvements, low taxes and 2 Gbps symmetrical fiber.
 
-The land has multiple future buyer pools (farm/hobby farm, homestead, livestock, recreation, acreage residence), and road frontage may add optionality. Confirmed high-capacity fiber is an additional resale and work-from-home advantage. However, 50+ acre rural properties transact less frequently, and the small house narrows conventional residential appeal. Buying materially above supported acreage/farm comps would increase exit risk.
-
-### Current-home benchmark
-Compared with **3534 Sand Acres Dr, De Pere, WI**, this is a trade from a stronger/liquid Green Bay-area housing environment into much greater land utility, dramatically lower property taxes and greater rural freedom, but a **weaker resale/liquidity environment**. The broadband trade-off is no longer a concern on current FCC evidence: the candidate reports 2 Gbps symmetrical FTTP. This should still be bought for land utility at a defensible basis, not on an assumption that Northwest Tennessee appreciation will match De Pere/Brown County.
-
-Approximate road distance to Green Bay/current-home benchmark is on the order of **650–700 miles / roughly 10–11 hours**, subject to route.
-
-## Market Access
-
-Useful nearby centers include South Fulton/Fulton, Martin and Union City for daily needs and services, with Paducah and Jackson as larger regional markets. Nashville and Memphis are substantially farther and should not be treated as everyday customer bases. For firewood/lumber/greenhouse activity, the 30–90 minute regional customer pool is adequate but much smaller than a major-metro exurban property.
+Compared with the current De Pere benchmark, this is still a trade from **stronger appreciation/liquidity** into **far greater land utility, lower taxes and much more freedom**. The goal should be to buy enough value cushion that the weaker regional market does not become an exit problem.
 
 ## Financial Fit
 
-Using the live-listing 20%-down example at roughly 6.88% / 30 years, Redfin estimates about **$2,795/month** including P&I, tax and insurance. Against the repository's current-home baseline of ~$1,600 PITI, that is approximately **+$1,195/month (+75%)**. Actual insurance, rate and down payment must be refreshed before an offer.
+At full list, prior live-listing estimates put 20%-down PITI around $2,795/month, approximately +$1,195/month versus the repository's ~$1,600 current-home baseline. Actual rate, insurance and down payment need refreshing before an offer.
 
-Because home-sale proceeds fields in `buyer-finance.md` are not populated, conservative/balanced/aggressive cash-to-close scenarios cannot yet be calculated reliably.
+Because buyer-finance home-sale proceeds fields are not populated, conservative/balanced/aggressive cash-to-close scenarios remain incomplete.
 
-At list price, there is not enough evidence of an appraisal/value cushion to justify paying the full $479,900 without acreage/farm comps. A negotiation target should be derived after parcel constraints and comparable farm sales are checked.
+The value-add strategy here is less about cosmetic flipping and more about **creating durable rural utility**: improved fencing, high-quality shop, clearly permitted/soil-approved secondary homesite(s), driveway/utility planning, greenhouse/garden infrastructure and maintaining attractive pasture/woods. Those improvements can expand the buyer pool without depending on metro-style appreciation.
 
-## Persona Scores — Updated After Broadband Confirmation
+## Persona Scores — Deep-Dive Update
 
 | Persona | Score | Read |
 |---|---:|---|
-| Nicholas | **88/100** | 2 Gbps symmetrical FTTP clears the primary hard requirement; excellent acreage, privacy, power/workshop and expansion concept. Price and land-use rules now dominate diligence. |
-| Dogs | **91/100** | Exceptional space/separation and fencing potential; road-frontage containment and dog ordinances still need verification. |
-| Firewood & Lumber | **84/100** | Strong acreage, workshop/power, road frontage, operational separation and excellent connectivity; zoning/business legality and customer depth remain open. |
-| Greenhouse Business | **78/100** | Strong acreage, public water, connectivity and long growing season; retail/home-business legality and exact site drainage/solar need verification. Scale-Up Path: **PLAUSIBLE**. |
-| Homestead | **92/100** | Former cattle farm, pasture, woods, creek, low taxes, infrastructure and fiber are unusually strong. |
-| Kell and Son Limited Co. | **86/100** | Excellent physical base for tractors, trailers, shop expansion and wood operations plus strong connectivity; business-use legality is the gating issue. |
-| Resale & Development | **64/100** | Fiber improves buyer appeal and future homesite utility, while frontage and acreage create optionality; list-price support, rural liquidity, soils/septic and subdivision rules remain unresolved. |
-| Thomas | **84/100** | Excellent internet plus strong potential for a separate homesite/shop and vehicle projects; second-home legality and septic remain unresolved. |
+| Nicholas | **92/100** | Fiber + 53.5 acres + public water + power/shop + unusually permissive county environment. Remaining negatives are price, exact land constraints and smaller-market exit. |
+| Dogs | **91/100** | Exceptional room/separation and containment potential; secure frontage fencing still matters. |
+| Firewood & Lumber | **91/100** | County land-use freedom substantially improves sawmill/firewood viability; strong acreage/access/power. Customer depth remains below major-metro exurbs. |
+| Greenhouse Business | **85/100** | Public water, land, permissive county environment, fiber and long season are strong; solar/drainage/site and retail details still need confirmation. Scale-Up Path: **EASY/PLAUSIBLE**. |
+| Homestead | **95/100** | Former cattle farm, pasture, woods, creek, low taxes, no conventional county restrictions, public water and fiber are an unusually strong combination. |
+| Kell and Son Limited Co. | **92/100** | Strong base for tractors, trailers, shop expansion and wood operations; business logistics/insurance and market depth are remaining issues. |
+| Resale & Development | **69/100** | Same-road comps and permissive building environment improve the case; weaker regional growth, thin 50-acre liquidity and unverified soils/parcel constraints cap score. |
+| Thomas | **88/100** | 2 Gbps fiber, frontage and likely 5+ acre homesite strategy make future independence/shop concept credible; septic/plat confirmation remains required. |
 
-**Updated weighted aggregate:** approximately **84/100**. The property now clears Nicholas's broadband hard requirement and should be treated as a serious contender pending zoning/land and valuation diligence.
+**Weighted aggregate:** approximately **88/100**.
 
-## Highest-Value Next Diligence
+## Highest-Value Remaining Diligence
 
-1. County parcel/GIS + FEMA/NWI + NRCS soil overlay to quantify constrained/usable acres and identify future homesites.
-2. Weakley County confirmation of zoning, second dwelling/subdivision, accessory shops, sawmill/firewood/home-business, greenhouse retail, livestock and dog rules.
-3. Survey/title review for exact boundaries, frontage, easements, deed restrictions and mineral/subsurface rights.
-4. Septic records and feasibility for additional homesites.
-5. Farm/acreage sold comps to establish fair value and offer range.
-6. Insurance quote and Greenbelt rollback estimate under likely development scenarios.
-7. Provider confirmation that the FCC-reported 2 Gbps FTTP service can be ordered at the house today.
+1. **Official parcel + FEMA/Weakley EMA flood overlay** to quantify creek/flood constraints.
+2. **Licensed soils mapping / TDEC septic feasibility** for at least 2–3 future homesites plus reserve areas.
+3. **Survey + title commitment** for frontage, easements, deed restrictions and rights reservations.
+4. **Confirm applicable regional subdivision/plat authority** and test a conceptual 5+ acre family-lot split against frontage/road rules.
+5. **Assessor Greenbelt scenario** for parent tract + future child lots and estimated rollback exposure.
+6. **Inspection** focused on the 1940 structure, 2008 remodel, crawlspace encapsulation, electrical, plumbing, septic, roof and HVAC; reconcile 960/1 vs 1,260/2 public-record discrepancy.
+7. **Provider orderability confirmation** for FCC-reported 2 Gbps FTTP.
+8. **Appraisal-quality farm comps** with land-quality adjustments before setting final offer ceiling.
 
 ## Sources / Provenance
 
-- Zillow current listing/MLS feed, checked 2026-09-11.
-- Redfin current MLS feed / CWTAR #2603869, checked 2026-09-11.
-- Weakley County official Building Permits page, checked 2026-09-11.
-- Weakley County official Assessor duties/Greenbelt guidance, checked 2026-09-11.
-- U.S. Census Bureau QuickFacts / population estimates, checked 2026-09-11.
-- User-supplied FCC Broadband Map screenshot, 2026-09-11; FCC data as of 2025-12-31, map last updated 2026-09-03. Exact selected location: 1479 Buck Mason Rd; West Kentucky Rural Telephone Coop Corp Inc FTTP 2000/2000 Mbps.
+- User-supplied FCC Broadband Map screenshot, 2026-09-11; exact address; FCC data as of 2025-12-31.
+- Weakley County Government, Building Permits, checked 2026-09-11.
+- Weakley County Assessor of Property, checked 2026-09-11.
+- Tennessee TDEC septic/subdivision evaluation guidance, checked 2026-09-11.
+- Tennessee Comptroller Greenbelt guidance, checked 2026-09-11.
+- Zillow/Redfin/Realtor/MLS-fed current and sold-property records, checked 2026-09-11.
+- Same-road 69-acre sale, 2025-10-10, $475,000.
+- Same-road ~125-acre prime-farm sale, 2023-11-20, $640,000.
+- 440 Grove Hill Rd ~40-acre improved-farm sale, 2025-09-02, $460,000.
+- Lackey Rd 35.1-acre sale, 2026-06-10, $225,000.
+- Old Troy Rd 30-acre sale, 2026-05-29, $179,574.
 
-### Primary photo reference
-Use the current Zillow/MLS hero image for the exact property. Do not commit third-party listing imagery to the repository by default.
-
-### Parcel map
-**PARCEL MAP — NOT A SURVEY:** authoritative parcel geometry was not established in this pass; do not create a hand-drawn boundary. Obtain Weakley County/State parcel GIS geometry before storing an overlay.
+See `assets.md` for evidence indexing and open asset follow-ups.
