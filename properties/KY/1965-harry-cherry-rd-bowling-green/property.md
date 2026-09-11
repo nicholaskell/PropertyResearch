@@ -19,11 +19,11 @@ property_type: Residential Farm / manufactured home
 
 ## Executive Assessment
 
-**Verdict: STRONG CONTENDER — investigate zoning/parcel flood constraints and confirm fiber service before offer.**
+**Verdict: TOP-TIER CONTENDER — official GIS confirms one 115.3-acre AG parcel and the user-supplied FCC result confirms Spectrum FTTP 1,000/1,000 at the existing house. The live-build-split-resell strategy is legally plausible and unusually well supported by the frontage geometry, but must be conditioned on planning staff confirmation, survey, septic approvals, and title/deed review.**
 
 This is an unusually strong land-first candidate for the project: 115.3 acres near a growing Bowling Green/Warren County market, an inexpensive-to-carry existing 2BR/2BA remodeled manufactured home, detached 2-car garage, cattle barn with newer roof, fencing/gates, ponds/stream, public water, septic, electricity, and a listing claim that high-speed fiber is already installed. The main house is modest rather than a permanent dream-home solution, but that creates a plausible live-now/build-later strategy.
 
-The biggest unresolved issue is land quality/buildability. Nearby/related parcel records on Harry Cherry Road include mapped floodplain, and the property has ponds/stream; parcel-level FEMA/wetland/topography review is required before treating all 115 acres as usable. Zoning appears likely agricultural based on surrounding parcels and current farm use, but subject parcel zoning must be confirmed directly with Warren County/City-County Planning Commission.
+Official City-County Planning Commission GIS identifies the subject as **one parcel, APN 021A-31, 115.3 acres**, with current zoning **AG** and a long boundary along Harry Cherry Road. County geophysical mapping shows mapped flood-hazard and wetland features intersect the parcel, so gross acreage must still be discounted; however, the aerial shows several separated open/upland-looking zones and extensive frontage, making a new interior homestead plus later carve-off of the current house physically plausible.
 
 ## Listing / Property Facts
 
@@ -37,7 +37,7 @@ The biggest unresolved issue is land quality/buildability. Nearby/related parcel
 - Pond(s) and stream.
 - County/public water; septic; electricity.
 - Listing states utilities run to home and barn.
-- Listing states **high-speed fiber internet installed**. Provider/speed remain to be independently confirmed.
+- Listing states **high-speed fiber internet installed**. User-supplied FCC Broadband Map evidence shows **Spectrum Fiber to the Premises, 1,000 Mbps down / 1,000 Mbps up**, at 1965 Harry Cherry Rd (served residential BSL, unit count 1). Final orderability confirmation remains appropriate.
 - No HOA shown in listing.
 - APN reported by Redfin/public record: **021A-31**.
 - 2025 tax assessment shown by Zillow: **$385,000**; 2025 taxes **$1,061**.
@@ -55,9 +55,9 @@ The biggest unresolved issue is land quality/buildability. Nearby/related parcel
 
 | Issue | Status | Assessment |
 |---|---|---|
-| Wired broadband | INVESTIGATE | Listing explicitly claims high-speed fiber installed; verify provider, plan and actual serviceability. If confirmed 300+ Mbps wired, Nicholas hard requirement clears. |
+| Wired broadband | CLEAR / FINAL ORDERABILITY CHECK | FCC screenshot for the exact address shows Spectrum FTTP 1,000/1,000; listing says fiber is installed. Nicholas's 300+ Mbps hard requirement clears at the existing house. A future interior homesite still needs a Spectrum construction quote or private buried-fiber plan. |
 | Legal/practical access | LIKELY CLEAR | Existing residence/farm operation and gravel drive indicate established access; deed/frontage still to verify. |
-| Buildability/zoning | INVESTIGATE | Current farm use and surrounding AG zoning are encouraging, but confirm subject parcel zoning, dwelling density, accessory structures, home business and land-division rules. |
+| Buildability/zoning | LIKELY CLEAR / VERIFY USES | Official CCPC GIS confirms AG zoning. AG requires generally 5-acre lots, 100-foot width at building line and 40-foot public-street frontage; only one principal residence per platted lot. Up to two 1-acre exception lots may be split from a qualifying pre-July-1-2001 configuration, with a 5-acre remainder. Confirm eligibility and business uses in writing. |
 | Flood/wetlands/topography | INVESTIGATE | Water features and nearby parcel floodplain make parcel-level constraint mapping important. Existing house itself has low modeled flood risk, but that does not establish whole-parcel usability. |
 | HOA/deed restrictions | LIKELY CLEAR / VERIFY | No HOA shown; title/deed restrictions unknown. |
 | Existing house habitability | LIKELY CLEAR | Listing describes remodeled getaway; inspection required. Small manufactured home is suitable as interim housing, not ideal long-term household solution. |
@@ -67,7 +67,7 @@ The biggest unresolved issue is land quality/buildability. Nearby/related parcel
 
 ## Land Model
 
-**Total acres: 115.3 → constrained acres: UNKNOWN → usable acres: UNKNOWN → prime operational acres: likely substantial, but not yet quantified.**
+**Total acres: 115.3 confirmed by official parcel GIS → mapped flood/wetland acreage: present but not yet reliably clipped/quantified → usable acres: likely substantial → prime operational acres: several open/upland-looking zones, pending survey/topography/septic verification.**
 
 Listing photography/description supports a mix of mature woods, food plots, cattle/hunting ground, water and open areas. This is excellent nominal acreage, but floodplain, slope, hydric soils and parcel geometry must be mapped before assigning a reliable usable-acre figure.
 
@@ -131,16 +131,16 @@ Relative to the De Pere/Brown County current-home benchmark, this is not an obvi
 
 | Persona | Score | Why |
 |---|---:|---|
-| **Nicholas** | **88/100** | 115 acres, fiber claim, garage/barn, privacy, low taxes and build-later potential are exceptional. Score held back by unverified fiber, zoning/business permissions and constrained-acre mapping. |
+| **Nicholas** | **93/100** | 115 acres, fiber claim, garage/barn, privacy, low taxes and build-later potential are exceptional. Score held back by unverified fiber, zoning/business permissions and constrained-acre mapping. |
 | **Dogs** | **91/100** | Huge rural acreage, fencing/gates, neighbor separation and exercise space. Need secure dedicated dog containment and road/terrain hazard review. |
-| **Thomas** | **87/100** | Strong future homesite/shop potential and Bowling Green market access; fiber claim helps. Additional dwelling/lot split and septic feasibility need confirmation. |
+| **Thomas** | **91/100** | Strong future homesite/shop potential and Bowling Green market access; fiber claim helps. Additional dwelling/lot split and septic feasibility need confirmation. |
 | **Homestead** | **92/100** | Existing cattle use, fencing, water, barn, gardens, woods and 115 acres make this one of the stronger homestead setups. |
 | **Firewood & Lumber** | **90/100** | Acreage, woods, barn/garage, room for operational yard, truck access potential and proximity to Bowling Green are strong; commercial/home-business legality and three-phase power remain open. |
 | **Kell & Son Ltd.** | **89/100** | Excellent physical base for equipment and land-based work; zoning/business permissions and utility capacity are the gating items. |
 | **Greenhouse Business** | **84/100** | Long growing season, acreage, county water and Bowling Green customer market are strong. Need sunny/drained site selection, water capacity and retail/home-business confirmation. Scale-Up Path: **PLAUSIBLE–EASY if AG zoning confirmed**. |
-| **Resale & Development** | **86/100** | Strong county growth, scarce acreage, current ask below reported 2025 transaction, low carrying taxes and multiple future buyer/use cases. Floodplain/buildable-acre and subdivision verification are critical. |
+| **Resale & Development** | **92/100** | Strong county growth, scarce acreage, current ask below reported 2025 transaction, low carrying taxes and multiple future buyer/use cases. Floodplain/buildable-acre and subdivision verification are critical. |
 
-**Weighted overall indication: ~88/100, provisional.**
+**Weighted overall indication: ~91/100, provisional.**
 
 ## Financial Fit
 
@@ -156,15 +156,43 @@ The reported **$652,700 January 2025 sale** versus today's $540,500 ask is unusu
 
 **Preliminary offer posture:** do not chase above ask. If title, acreage, fiber, zoning and buildable-land checks clear, the current ask appears defensible enough to justify serious due diligence. A negotiated price around the low-$500Ks would create a better margin for a future house/shop and unknown land work.
 
+## Live → Build → Split → Sell Analysis (2026-09-11)
+
+**Conclusion: legally plausible and physically favorable; this is now a core value thesis, not a remote contingency.**
+
+Official CCPC parcel GIS confirms a single 115.3-acre parcel (021A-31) with extensive Harry Cherry Road boundary/frontage and AG zoning. The current home/garage/barn complex lies at one extreme of the tract with direct road access. The retained land continues along the same public road, so a future home can potentially receive its own driveway/frontage without an access easement through the sold homestead.
+
+Current AG standards in the June 2026 Joint Zoning Ordinance are:
+- General minimum lot area: **5 acres** with public sewer or septic.
+- Minimum width: **100 feet at the building line**.
+- Minimum public-street frontage: **40 feet**.
+- Only **one principal residential structure per platted lot**.
+- In unincorporated Warren County, up to **two 1-acre exception lots** may be subdivided from a parcel that has existed in the same configuration since July 1, 2001, provided the remainder is at least 5 acres and all other standards are met.
+- A detached accessory apartment is allowed but restricted to qualifying relatives/caregiver occupancy; it is not a substitute for an independently marketable second dwelling.
+- New septic lots require at least **20,000 square feet above the 100-year flood level**, and improvements/parking/septic cannot be in floodplain.
+
+The best working layout is likely:
+1. Retain and occupy the existing home while surveying drainage, access and operations.
+2. Create a new **5+ acre platted lot** for the permanent residence (or keep it within the large remainder and plat the old house off later).
+3. Give the new homesite an independent driveway, address, electric/water/septic and fiber route from day one.
+4. After the new certificate of occupancy, carve off and sell the old house with the smallest acreage that preserves marketability and septic/barn/fence functionality—probably **3–7 acres**, but potentially a 1-acre exception lot if records and septic geometry support it.
+
+**Critical sequencing:** obtain planning staff's written concept review and a surveyor's sketch before choosing the new house site. Do not build first and assume the remaining geometry can later be approved. The old and new parcels must each independently satisfy frontage, access, setbacks, septic/flood rules and utility ownership/easements.
+
+**Provisional old-homestead resale range:** **$175,000–$250,000**, with **$190,000–$225,000** the more defensible planning band until rural manufactured-home acreage comps, foundation/title status, and the exact barn/garage allocation are established. Treat the upper end as dependent on a clean permanent foundation/title, attractive 3–7 acre boundary, useful garage/barn/fencing, and independent gigabit fiber/utilities. Estimated selling friction at 7%–9% would reduce net proceeds to roughly **$173,000–$209,000** on a $190,000–$225,000 sale.
+
+At a hypothetical **$520,000 acquisition**, netting $173,000–$209,000 from the old homestead would leave an acquisition basis of roughly **$311,000–$347,000** in the retained ~108–112 acres, before the cost of the new residence, new utilities/driveway, survey/plat/septic work, financing and carrying costs. This is economically attractive, but the new house cost does not disappear and must not be counted as subdivision profit.
+
+**Development Optionality: STRONG**, upgraded from plausible–strong. The ordinance/frontage geometry supports multiple future lot paths, but soils/floodplain, title configuration since 2001, driveway permits and utility/septic engineering remain gating items.
+
 ## Highest-Priority Remaining Research
 
-1. Official Warren County parcel geometry for APN 021A-31 and confirm whether 115.3 acres is one parcel or assemblage.
-2. Official zoning designation and use-table confirmation for shop, sawmill/firewood, outdoor storage, greenhouse sales, livestock and second dwelling.
-3. FEMA floodplain + wetlands + topo/soil overlay and estimate constrained/usable/prime acres.
-4. Fiber provider and exact service tier at 1965 Harry Cherry Rd; extension to likely future homesite.
-5. 2025 deed/sale verification and current title chain.
-6. Septic/soil feasibility for a new primary home and potential second family homesite.
-7. Road frontage and subdivision/minimum-lot requirements.
+1. Obtain written CCPC concept review of the live-build-split-sell plan, including the two 1-acre exception-lot eligibility and whether the parcel has remained in the same configuration since July 1, 2001.
+2. Commission a boundary/topographic concept survey showing old-homestead carve-off, retained parcel, future house, two family lots, independent driveways and utility corridors.
+3. FEMA floodplain + wetlands + topo/soil overlay and estimate constrained/usable/prime acres; conduct septic site evaluations for every intended dwelling lot.
+4. Verify Spectrum orderability and construction cost to the future interior homesite; plan a dedicated conduit/utility easement.
+5. Verify the 2025 deed/sale, current title chain, deed restrictions/easements and manufactured-home title/permanent-foundation status.
+6. Confirm use-table treatment of sawmill/firewood processing, outdoor storage, greenhouse retail and home business in AG.
 8. Electric service capacity at barn/future shop and three-phase proximity.
 9. Mineral/timber/easement/deed restrictions and survey/title review.
 10. Manufactured-home condition, foundation/title status and insurability.
