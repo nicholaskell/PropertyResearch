@@ -19,121 +19,222 @@ research_date: 2026-09-11
 ## Property Card
 
 - **Price:** $315,000
-- **Property:** 31.86 deeded acres + 1,988-sq-ft two-story rustic house, 2 bed / 2 bath, built 1900.
-- **Utilities:** well + septic; propane/wood heat; listing shows no central cooling, ceiling fans only.
+- **Property:** 31.86 deeded acres + approximately 1,988-sq-ft two-story rustic house, 2 bed / 2 bath in the current MLS feed, built 1900. Older syndicated data conflict on bed/bath count; use current MLS and physical verification.
+- **Utilities:** private well + septic; propane/wood heat; current listing shows ceiling fans and does not disclose central cooling.
 - **Structures:** storage structure and small hunting cabin claimed by listing; no garage/shop.
-- **Road/frontage:** listing claims frontage on both Tennessee Ridge Rd and Shiloh Rd. User-supplied parcel imagery is consistent with substantial public-road frontage on two sides, but survey/official GIS geometry remains to be verified.
-- **HOA:** listing reports none.
-- **Taxes:** conflicting MLS/public-feed figures: current listing reports $431/year, while Realtor public-history feed reports $1,138 for 2025. Verify with Humphreys County Trustee/Assessor before underwriting.
-- **Parcel:** current MLS-fed listing sources identify 005 00900 000 / APN 00500900000. One Realtor page also displays a conflicting parcel number in an older data block; treat current MLS APN as provisional until assessor confirmation.
+- **Road/frontage:** current MLS claims frontage on both Tennessee Ridge Rd and Shiloh Rd. User-supplied parcel imagery is consistent with substantial frontage on two sides, but official parcel geometry/survey remains unverified.
+- **HOA:** current listing reports none.
+- **Taxes:** current MLS-fed sources repeatedly report about $431/year, but tax/APN data have conflicts across syndicated sources. Verify directly with Humphreys County/TPAD before underwriting.
+- **Parcel:** strongest current listing evidence is **005 00900 000**, also shown by AcreValue in county-prefixed form **043005 00900**. An older Realtor record shows a conflicting APN that appears unreliable for this property; official assessor confirmation is still required.
 
 ## Fatal-Flaw Screen
 
 | Item | Status | Finding |
 |---|---|---|
-| Wired broadband | **CLEAR / verify installability** | User-supplied FCC Broadband Map screenshot for 5114 Tennessee Ridge Rd shows Meriwether Lewis Connect / MLConnect **fiber to the premises, 1000/1000 Mbps**, plus Starlink. This clears Nicholas's 300+ Mbps wired requirement at map-data level; confirm an actual service order/installation before contingencies expire. |
-| Legal/practical access | **LIKELY CLEAR** | Existing residence and claimed frontage on Tennessee Ridge Rd and Shiloh Rd. Verify recorded frontage/ROW and driveway condition. |
-| Buildability / structures | **INVESTIGATE but favorable** | Rural county setting appears relatively permissive, and Humphreys County has subdivision regulations. Exact planning jurisdiction, setbacks, home-business rules and permit requirements for this parcel need written county confirmation. |
-| Flood / drainage | **INVESTIGATE** | Humphreys County has serious flash-flood history. The parcel is upland/wooded in listing imagery, but Shiloh Branch is mapped near the north side and local drainage/topography need FEMA + field verification. County requires permits for development/fill/grading near flood zones. |
-| Wetlands / soils / septic | **INVESTIGATE** | Existing well/septic confirms present residential use, but additional homesites or lot splits require soils/septic evaluation. |
-| HOA / deed restrictions | **LIKELY CLEAR / title verify** | Listing reports no HOA. Deed restrictions/easements not yet confirmed. |
-| House habitability | **INVESTIGATE** | 1900 house has rustic updates and metal roof, but no central A/C shown and age creates elevated structural/electrical/plumbing/septic/well inspection risk. |
-| Rights / timber / mineral | **UNKNOWN** | Title/deed not yet reviewed. Do not assume all mineral/timber/subsurface rights convey. |
-| Carrying cost | **CLEAR subject to tax verification** | Asking price is modest relative to acreage + dwelling; taxes appear low even under the higher conflicting figure. |
-| Resale liquidity | **INVESTIGATE** | Rural acreage buyer pool is thinner than De Pere/Brown County, but 31.86 acres, fiber, existing house and dual-road frontage broaden the buyer pool. |
+| Wired broadband | **CLEAR / verify installability** | User-supplied FCC Broadband Map screenshot for the exact address shows **Meriwether Lewis Connect FTTP 1000/1000 Mbps**. Independent FCC-derived broadband data also shows MLConnect fiber throughout the Waverly service area. Confirm an actual order, drop location and extension cost before contingencies expire. |
+| Legal/practical access | **LIKELY CLEAR** | Existing residence + current MLS claim of Tennessee Ridge Rd and Shiloh Rd frontage. Survey/recorded ROW verification still required. |
+| Buildability / structures | **FAVORABLE / verify parcel jurisdiction** | Humphreys County subdivision regulations are relatively permissive for low-density rural division. County is currently listed by the Tennessee State Fire Marshal as **OPT OUT** of the state residential permit program. This is positive for flexibility but is not a substitute for parcel-specific county confirmation. |
+| Flood / drainage | **INVESTIGATE** | Shiloh Branch is mapped along the north side near Shiloh Rd. County requires a permit for construction/fill/grading in proximity to flood zones. The catastrophic 2021 county flood makes drainage review non-negotiable even if the house itself is upland. |
+| Wetlands / soils / septic | **INVESTIGATE** | Existing septic proves one working residential site only. Additional lots/homes require soil absorption/septic suitability. County subdivision rules explicitly allow denial/prohibition where high groundwater, flooding or unsuitable soil makes absorption systems fail. |
+| HOA / deed restrictions | **LIKELY CLEAR / title verify** | No HOA reported. Recorded deed restrictions/easements remain unknown. |
+| House habitability | **INVESTIGATE** | 1900 house + crawlspace + private systems + no central cooling disclosed. Full structural, electrical, plumbing, well, septic, HVAC and insurability diligence remains required. |
+| Rights / timber / mineral | **UNKNOWN** | Deed/title not reviewed. Do not assume timber/mineral/subsurface rights convey. |
+| Carrying cost | **LIKELY CLEAR** | Asking price and reported taxes are low for acreage + house, though tax figure must be verified. |
+| Resale liquidity | **THIN to ADEQUATE** | Rural buyer pool is materially thinner than De Pere/Brown County, but house + fiber + 31.86 acres + dual-road frontage create several buyer pools. |
 
 ## Broadband
 
-**Strong positive.** User supplied an FCC Broadband Map result at the exact address showing **Meriwether Lewis Connect, LLC — Fiber to the Premises — 1,000 Mbps down / 1,000 Mbps up**. MLConnect identifies itself as a fiber provider and has a Humphreys County office in Waverly. This is unusually good infrastructure for a rural 31.86-acre tract.
+**Confirmed at FCC-map level as a major strength.** User evidence shows **Meriwether Lewis Connect, LLC — Fiber to the Premises — 1,000 Mbps down / 1,000 Mbps up** at 5114 Tennessee Ridge Rd. FCC-derived 2026 broadband datasets independently show MLConnect offering symmetric gigabit fiber in Waverly/Humphreys County.
 
-Action before purchase: call MLConnect with the exact address and obtain written confirmation of serviceability, construction/installation charge, demarcation location and whether service can later be extended to a shop or second homesite.
+Before purchase, obtain written MLConnect confirmation of:
+1. exact serviceability to the existing house;
+2. installation/drop fee;
+3. where the fiber plant and demarcation are located;
+4. cost/feasibility of future extension to a detached shop; and
+5. whether a future separately addressed homesite would qualify for a separate service drop.
 
-## Land / Layout
+## Parcel / APN Deep Dive
 
-Listing describes the tract as mostly wooded with small open pockets, cleared/level areas, rolling/sloped portions, privacy and hunting habitat. User-supplied aerial/parcel screenshots show a broad irregular tract with road frontage on Tennessee Ridge Rd and Shiloh Rd. The configuration is materially better for future division than a landlocked or single-neck tract because road frontage may permit separate access points.
+Current listing aggregators are inconsistent, but the best-supported identifier is **Humphreys County map/parcel 005 009.00 / 005 00900 000**, with AcreValue reporting the county-prefixed APN **043005 00900**. This is materially more credible than the conflicting older Realtor APN because it appears on the current acreage listing tied to the exact 31.86-acre property.
 
-The weakness is **prime operational acreage**: this is not 31.86 acres of flat field. Most acreage appears timbered and rolling. A shop/firewood yard, greenhouse, second home and future family homesites therefore depend on locating several genuinely buildable/percable benches rather than gross acreage.
+**Status:** parcel identity is now **LIKELY**, not fully confirmed. County assessor GIS/TPAD or a deed/survey should still be used before relying on the boundary or frontage.
 
-## Development / Family-Homesite Optionality
+## Land / Terrain / Operational Acreage
 
-**Development Optionality: PLAUSIBLE, potentially STRONG if soils cooperate.** Humphreys County requires planning-commission approval for subdivisions within its jurisdiction. Current county fee schedule is $250 for minor subdivisions of 1–3 lots. Tennessee septic rules require subdivision evaluation where septic-served development is created, although state septic guidance says divisions where all resulting tracts are 5+ acres are excluded from the septic-system definition of subdivision; local planning rules can still apply.
+The current MLS describes **level, gently rolling and hilly** terrain, mostly wooded, with a developed homesite/yard and small open pockets. User-supplied oblique aerial and satellite imagery are consistent with that description.
 
-Because the parcel has ~31.86 acres and apparent frontage on two public roads, a low-density family plan could be realistic: retain a large core tract and create one or more 5+ acre road-front lots, subject to survey, jurisdiction, frontage, soils, septic and access approval. Do not assign lot value until those items are confirmed.
+The property should therefore be modeled as:
+
+**31.86 total acres → wooded/sloped/drainage-constrained acres → multiple usable benches/pockets → much smaller prime operational acreage.**
+
+The property does not need 20 flat acres to work. For the intended uses it needs several good nodes:
+- existing house/yard;
+- approximately 1–3 acres for shop, parking, trailers and wood processing;
+- one sunny garden/greenhouse area;
+- at least two additional percable homesite areas with practical road access; and
+- enough woods retained for privacy, recreation and timber/firewood supply.
+
+The two-road configuration is especially important because it may let future family lots access public road frontage without building an expensive internal subdivision road.
+
+## Subdivision / Family Homesite Deep Dive
+
+This is one of the strongest new findings.
+
+Humphreys County's subdivision regulations define a **minor subdivision** as fewer than five lots fronting on an existing public way where no new/improved public road, extension of public facilities or other public improvement is required. The regulations require planning approval and a final plat for a minor subdivision.
+
+The same regulations define a subdivision generally as a division into two or more lots that requires new street/utility construction **or any division of less than five acres** for sale/building development. This means a low-density split into road-front tracts of roughly 5+ acres may avoid some of the regulatory burden associated with small-lot subdivision, although the exact proposal must still be reviewed by the county and state septic authorities.
+
+Other relevant county standards:
+- **minimum frontage on a public way: 50 feet** (30 feet on a cul-de-sac radius);
+- in unzoned areas/areas without designated setbacks, subdivision regulations state **40 ft from arterial ROW, 30 ft from collector/minor-street ROW, and 15 ft side/rear**;
+- lots must drain positively and watercourses/access culverts can trigger additional requirements;
+- septic soil absorption testing and Health Department approval are required, and unsuitable soils/high groundwater/flooding can block septic-based development.
+
+The current county fee schedule is **$250 for minor subdivisions of 1–3 lots** and **$400 + $25/lot for major subdivisions of four or more lots**.
+
+### Practical family layout concept
+
+A realistic concept worth taking to a surveyor/planner is:
+
+1. **Existing-house tract:** keep the house, hunting cabin, established drive and a meaningful acreage buffer.
+2. **Thomas future tract:** create a road-front homesite with room for a house + truck shop, ideally 5+ acres.
+3. **Daughter future tract:** second road-front homesite, also ideally 5+ acres.
+4. **Retained core:** keep the remaining wooded acreage attached to the main homestead for privacy, timber, trails and business/homestead use.
+
+Because the parcel appears to touch both Tennessee Ridge Rd and Shiloh Rd, the geometry is much more favorable for this than a single-frontage 31-acre tract.
+
+**Current development optionality: PLAUSIBLE → potentially STRONG.** Upgrade only after survey/frontage + soil/perc + flood/drainage confirmation.
+
+## Flood / Drainage Deep Dive
+
+Humphreys County requires a county permit for **construction, fill, grading or other development in proximity to a flood-zone area**. The county's 2021 flood disaster was extraordinary, with 10–15+ inches falling in a short period and catastrophic damage in Waverly.
+
+This parcel does not visually resemble the low-lying downtown Waverly floodplain, and much of it appears upland/rolling. However, **Shiloh Branch** lies along/near the northern road edge. That creates two distinct risks:
+
+- **house risk:** probably lower if the existing house is on higher ground, but must be verified;
+- **future homesite/driveway risk:** more important, because a proposed lot/drive crossing a drainage or flood-prone strip can turn a seemingly easy split into a culvert/permit/engineering problem.
+
+The correct next step is not merely asking "is the address in a FEMA zone?" It is overlaying parcel geometry, contours, Shiloh Branch/drainages and candidate build pads.
+
+## Zoning / Building / Business Freedom
+
+No current countywide zoning ordinance has been located for unincorporated Humphreys County, and historic Tennessee appellate records explicitly noted that no county zoning ordinance had been adopted. Current county materials emphasize subdivision review and floodplain permits rather than a comprehensive county zoning code. Separately, the Tennessee State Fire Marshal's current jurisdiction list identifies **Humphreys County as OPT OUT** for state residential permit enforcement.
+
+This is **encouraging but not enough to mark commercial uses CLEAR**.
+
+Before purchase, get parcel-specific written confirmation for:
+- detached shop / pole building / barn;
+- multiple accessory buildings;
+- chickens, goats/sheep and normal homestead livestock;
+- greenhouse structures;
+- outdoor log/firewood storage;
+- firewood splitting/processing for sale;
+- portable or stationary sawmill;
+- lumber drying/storage;
+- customer pickup / farm stand / nursery sales;
+- signage;
+- employees;
+- outdoor vehicle/equipment storage; and
+- a second/third dwelling or land split.
+
+For Nicholas/Kell & Son, the distinction is important: **rural freedom appears promising, but business use still needs a direct county answer.**
 
 ## House / Improvement Path
 
-The house provides an inexpensive way to occupy the property immediately while developing the land, but it should be treated as an **old-house risk**, not a turnkey modern residence. Listing data: 1900 construction, crawl space, metal roof, well, septic, propane + wood heat, no garage and no central cooling disclosed. Highest-priority diligence: structural/foundation/crawlspace, electrical service/wiring, plumbing, well quality/yield, septic condition/capacity, HVAC/cooling strategy, roof installation/remaining life and insurance eligibility.
+The property works financially because the existing house lets the land be occupied now instead of forcing immediate new construction. But the house must be treated as a risk asset until inspected.
 
-For Nicholas's use, the missing shop is an **Easy-to-Major Value Add**, not currently a fatal flaw, provided county confirmation and a suitable flat pad exist.
+Highest-priority checks:
+1. foundation/crawlspace moisture, piers, settlement and rot;
+2. electrical service size, panel brand, grounding and old wiring;
+3. plumbing supply/waste material;
+4. well yield, water quality and location relative to septic/future lots;
+5. septic tank/field age, permit/repair history and reserve field;
+6. heating system condition and practical central A/C or heat-pump retrofit;
+7. roof installation details/remaining life;
+8. termite/WDO history; and
+9. homeowners-insurance acceptance and replacement-cost limits for a 1900 rural dwelling with wood heat.
 
-## Zoning / Business Freedom
-
-The evidence so far suggests a rural, relatively permissive county environment, but **commercial firewood/sawmilling, outdoor storage, customer traffic, signage, greenhouse retail, additional dwellings and large accessory buildings are not yet confirmed in writing for this parcel**. Humphreys County maintains a Regional Planning Commission and subdivision regulations; county materials also require floodplain-development permits near flood zones. Obtain a written parcel-specific answer from the Planning Commission/County Executive or applicable codes authority before treating business use as CLEAR.
+A strong inspection outcome would materially improve the property because the $315k basis leaves more room for a shop and site work. A bad inspection could erase the price advantage quickly.
 
 ## Market Access
 
-The listing says the property is about 5 miles from Highway 13, which is the main regional connection toward Waverly/Dickson/Nashville and north toward Clarksville. Waverly itself is a small rural market. Nashville is roughly 1 hr 20 min from Waverly proper; property-specific travel will be somewhat different. This puts a major metro inside the 90-minute-ish band, while Dickson and Clarksville provide intermediate markets.
+Current listing directions place the property about **5 miles from Highway 13**. Waverly proper is the local service center. Waverly-to-Dickson is roughly **35–45 minutes**, and Waverly-to-Clarksville roughly **53–60 minutes** in typical route estimates. Nashville is roughly another ~50 minutes beyond Dickson from the city-center routing, making this a broad regional-market property rather than a near-Nashville exurban property.
 
-For firewood/lumber/greenhouse/property services, this is **better than the immediate rural population suggests**, but weaker than being on Nashville's near exurban fringe. The practical model is regional delivery / Marketplace / contractor and rural-customer sales, not heavy walk-in retail.
+For the active business personas, the realistic market stack is:
+- **0–30 min:** Waverly / McEwen / rural Humphreys County — small local customer pool, good rural-service fit;
+- **30–60 min:** Dickson + parts of Clarksville reach — materially better contractor, Marketplace, firewood and equipment demand;
+- **60–90+ min:** Nashville-side demand and broader Clarksville metro — useful for higher-value lumber/firewood deliveries and online/Marketplace transactions, but not ideal for frequent low-ticket customer traffic.
+
+This favors a **delivery / scheduled-pickup / online Marketplace model** more than a walk-in retail model.
 
 ## Market Trajectory / Exit Risk
 
 - **Market Trajectory:** **STABLE to EMERGING**
 - **Resale Liquidity:** **THIN to ADEQUATE**
-- **Development Optionality:** **PLAUSIBLE** (upgrade to STRONG only after soils/frontage/jurisdiction confirmation)
-- **Value Trap Risk:** **MODERATE** — rural acreage/home buyers are a smaller pool and the property's 2024-25 asking history showed resistance at $375k-$465k.
-- **Growth Tailwind:** **MODEST POSITIVE** — Humphreys County population grew about 3.5% from the 2020 base to the 2025 estimate, and fiber materially improves remote-work appeal. Nashville's broader growth is a regional tailwind, but this parcel is too far out to treat as direct Nashville path-of-development land.
+- **Development Optionality:** **PLAUSIBLE, potentially STRONG**
+- **Value Trap Risk:** **MODERATE**
+- **Growth Tailwind:** **MODEST POSITIVE**
 
-The current $315,000 ask is **$150,000 below the October 2024 $465,000 ask** and $60,000 below the last 2025 $375,000 ask. That is useful negotiating evidence, but it also demonstrates that the prior seller pricing did not clear the market.
+Humphreys County's economic base is small but not one-dimensional: state economic-development data show meaningful manufacturing, government, retail, healthcare and construction employment. Median home prices remain far below Nashville/Dickson, which supports affordability but also signals a lower-value/thinner market.
+
+The prior listing history is the clearest liquidity signal: the property failed to sell at **$465k, $425k, $385k and $375k** before returning at **$315k**. Therefore $315k should not be viewed as an obvious $150k discount to intrinsic value. The relevant conclusion is that the seller has moved into a much more defensible basis where acreage + fiber + a usable house could justify value even if appreciation is modest.
 
 ## Benchmark vs Current Home — De Pere / Brown County
 
-This is a deliberate trade: **much more land, privacy, freedom and dramatically lower apparent property taxes**, while giving up the stronger resale liquidity, employment depth, services and development pressure of the Green Bay/De Pere market. Fiber prevents the usual rural broadband downgrade. Long-term appreciation should not be assumed to match De Pere/Brown County; the investment case is more about buying scarce functional acreage cheaply and creating value through buildings, land management and possibly low-density division.
+This remains a conscious exchange of market quality for land utility:
 
-Distance to Green Bay / current De Pere benchmark is long-distance relocation scale (roughly 700+ road miles; exact route/time should be checked when trip planning).
+- **De Pere/Brown County:** stronger buyer depth, employment diversification, suburban development pressure, services and likely passive appreciation/liquidity.
+- **Tennessee Ridge property:** dramatically more acreage, privacy, development flexibility, lower apparent taxes, lower entry price and stronger homestead/business optionality.
+
+Fiber largely eliminates one of the normal rural compromises. The biggest remaining compromise is **distance from a major metro and a thinner exit market**.
 
 ## Financial Fit
 
-Using a current Tennessee 30-year fixed market reference near **6.96%** and 20% down ($63,000), principal + interest is roughly **$1,670/month** before tax/insurance. A current MLS-fed calculator using ~6.88% estimates about **$1,817/month total** with $36 tax and $126 insurance. Because the tax record conflicts and a 1900 rural house may cost more to insure, use **~$1,850-$2,050/month** as a preliminary carry range until quotes are obtained.
+At $315,000 the property is well below many previously reviewed acreage/home candidates. The buyer-finance file does not yet contain completed net-sale-proceeds/down-payment scenarios, so detailed capital allocation remains provisional.
 
-Against the repository's current-home baseline of ~$1,600/month PITI, that is roughly **+$250 to +$450/month** with 20% down. A larger down payment from sale proceeds could bring it near/below the current payment, but finance files do not yet contain usable net-sale-proceeds scenarios, so no cash-allocation recommendation is recorded yet.
+The main financial decision is likely not "can the mortgage be made affordable?" but rather **how much capital should be retained for value-creating site work**. On this property, retaining cash for inspection surprises, driveway/clearing, a shop pad/shop shell and future perc/survey work may create more utility and optionality than maximizing the down payment.
 
-## Persona Scores — provisional
+## Persona Scores — updated after deep dive
 
 | Persona | Score | Why |
 |---|---:|---|
-| **Nicholas** | **84/100** | Gigabit fiber, 31.86 acres, privacy, low taxes, dual-road frontage and likely build freedom are excellent; no shop and uncertain prime flat acreage/business rules hold it back. |
-| **Dogs** | **88/100** | Exceptional separation and exercise acreage; road frontage and wildlife require secure containment, but fencing potential is strong. |
-| **Firewood & Lumber** | **76/100** | On-site timber, privacy and acreage are strong; operational flat yard, truck geometry, business legality and power capacity remain unresolved. |
-| **Greenhouse Business** | **69/100** | Water source, acreage and climate are workable; mostly wooded terrain means clearing/site creation, and customer-facing business legality/market distance need verification. **Scale-Up Path: PLAUSIBLE.** |
-| **Homestead** | **82/100** | Privacy, well, acreage, garden pockets and likely animal flexibility are strong; much of the tract is wooded/sloped and soils are unknown. |
-| **Kell and Son Limited Co.** | **75/100** | Good base-property concept with room to build; no existing shop/yard, unknown commercial rules, unknown 3-phase/electrical capacity. |
-| **Resale & Development** | **72/100** | Attractive reset to $315k, fiber and frontage create optionality; rural liquidity and unproven perc/build sites prevent a higher investment score. |
-| **Thomas** | **78/100** | Fiber and plausible separate future homesite are major positives; no current truck shop and more isolation from jobs/education/Marketplace than a metro-edge property. |
+| **Nicholas** | **86/100** | Gigabit fiber + acreage + likely rural freedom + dual-road frontage + realistic shop path. Still held back by old-house risk, unverified business legality and unknown prime operational acreage. |
+| **Dogs** | **88/100** | Excellent separation and outdoor acreage; road frontage/wildlife mean serious containment is still required. |
+| **Firewood & Lumber** | **78/100** | On-site timber/privacy/access are strong and regulatory environment appears favorable; flat yard, truck geometry, power and explicit business approval remain unresolved. |
+| **Greenhouse Business** | **70/100** | Plenty of land and workable climate, but clearing/site creation, water capacity and customer-facing legality/market distance keep this moderate. **Scale-Up Path: PLAUSIBLE.** |
+| **Homestead** | **84/100** | Strong privacy, well, acreage and likely animal/outbuilding freedom; soils and amount of sunny/open ground remain the main constraints. |
+| **Kell and Son Limited Co.** | **78/100** | Better than initial review because low-density subdivision/frontage rules appear workable and county regulatory burden is light; still no shop/yard and no written business-use confirmation. |
+| **Resale & Development** | **76/100** | Dual-road frontage + 31.86 acres + 50-ft frontage standard + minor-subdivision framework materially improve optionality. Rural liquidity and unknown soils/flood geometry cap the score. |
+| **Thomas** | **82/100** | A future 5+ acre road-front homesite with separate truck shop now looks genuinely plausible rather than speculative; broadband is excellent. Main drawback is distance from jobs/education/Marketplace depth. |
 
 ## Overall Assessment
 
-**Overall: 80/100 — SERIOUS CONTENDER, diligence-heavy.**
+**Overall: 82/100 — SERIOUS CONTENDER / ADVANCE TO PHYSICAL DILIGENCE.**
 
-The key feature is the combination of **31.86 wooded acres + an existing livable house + apparent dual-road frontage + confirmed FCC-map gigabit fiber at a $315k ask**. That combination is difficult to reproduce cheaply. The property becomes substantially more compelling if three things verify: (1) multiple usable/percable building areas, (2) permissive accessory/business use, and (3) the 1900 house has no expensive structural/system defect.
+The deep dive improved this property. The important new insight is not simply that subdivision is "maybe possible"; the county's actual regulations are favorable to exactly the low-density family-lot concept being considered: existing public-road frontage, fewer than five lots, 50-ft minimum road frontage, and a framework that becomes particularly attractive if resulting tracts can be kept around 5+ acres and avoid new public-road construction.
 
-### Next diligence priorities
+The property now looks like a credible **live-now / improve / build-shop / create-family-homesites** platform.
 
-1. County assessor/GIS + deed/survey: confirm parcel 005 00900 000, boundaries, frontage, easements and current taxes.
-2. MLConnect written serviceability/installation quote for 1000/1000 fiber.
-3. FEMA/flood + topo review focused on Shiloh Branch/drainages and the house/shop/future homesite elevations.
-4. Soils/septic feasibility for at least two additional future homesites, preferably road-front 5+ acre configurations.
-5. Written county planning answer for shop, barns, chickens/livestock, greenhouse, second dwelling, lot splits, sawmill/firewood processing, outdoor storage and home-business/customer traffic.
-6. Full old-house inspection plus well/septic and insurance quote.
-7. Title commitment/deed review for restrictions, easements and mineral/timber rights.
+### Remaining decision-critical diligence
+
+1. **Official assessor/GIS + deed/survey** — confirm 005 009.00, acreage, two-road frontage, ROWs and easements.
+2. **Topographic/flood overlay** — identify house elevation, Shiloh Branch/flood strips and 3–4 candidate building pads.
+3. **Soil scientist / septic feasibility** — test at least two additional candidate homesites before treating family division as bankable.
+4. **County written use confirmation** — shop, livestock, greenhouse, firewood, sawmill, outdoor storage, customer pickup and multiple dwellings/lot splits.
+5. **MLConnect service order confirmation** — exact fiber install plus second-address/shop extension economics.
+6. **Old-house inspection + well/septic + insurance quote.**
+7. **Title/deed review** — covenants, access/easements, timber/mineral rights and any restrictions.
 
 ## Sources / Evidence Snapshot
 
-- Zillow / RealTracs MLS-fed listing, checked 2026-09-11.
-- Redfin MLS-fed listing, checked 2026-09-11.
-- Humphreys County Regional Planning Commission and subdivision regulations.
-- Humphreys County Property Assessor office information.
-- Tennessee Department of Environment & Conservation septic/subdivision guidance.
-- U.S. Census QuickFacts, Humphreys County 2020-2025 estimates.
-- MLConnect official provider information.
-- User-supplied FCC Broadband Map screenshot, aerial listing image and parcel/satellite screenshot, 2026-09-11; indexed in assets.md.
+- Zillow / RealTracs MLS-fed listing and current listing history, checked 2026-09-11.
+- Redfin current MLS-fed listing, MLS 3529736.
+- LandSearch / AcreValue current listing data, including parcel 005 00900 000 / county-prefixed 043005 00900.
+- Humphreys County Regional Planning Commission official page and current fee schedule.
+- Humphreys County Subdivision Regulations, including minor-subdivision definition, 50-ft minimum frontage, unzoned-area setbacks and septic suitability provisions.
+- Humphreys County official flood-zone permitting notice.
+- Tennessee State Fire Marshal Residential Jurisdictions & Inspectors, identifying Humphreys County as OPT OUT.
+- Tennessee/TEMA 2021 Humphreys County flood reporting.
+- TNECD Humphreys County economic profile.
+- MLConnect / FCC-derived broadband data.
+- User-supplied FCC Broadband Map screenshot, aerial listing image and parcel/satellite screenshot, indexed in assets.md.
