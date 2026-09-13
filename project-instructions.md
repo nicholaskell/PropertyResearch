@@ -17,7 +17,7 @@ When I provide a Zillow/listing URL or address:
 11. Distinguish Confirmed / Listing Claim / Estimate / Unknown. Never assume unknowns favorable.
 12. Always include distance/drive time to Green Bay, WI. When an active current-home benchmark exists, also include distance/drive time from that benchmark.
 13. Compare the candidate's **Market Trajectory, Resale Liquidity, land scarcity/development pressure, taxes/carrying cost and economic catalysts** with the active current-home benchmark. Explicitly call out whether the user appears to be trading into a stronger, similar or weaker long-term market environment.
-14. Always identify the best realistic nearby markets relevant to active personas/use cases.
+14. Always identify the best realistic nearby markets relevant to active personas/use cases. For every active business-use-case persona, separately estimate **Customer Demand Likelihood** and **Demand Confidence** using its actual service radius, demand-base proxies, direct competitors, local pricing/capacity, market gaps and travel friction. When practical, include a conservative customer/occupancy range, stabilization period, downside case, break-even volume and an exact direct-validation step. Do not award strong business potential from infrastructure alone.
 15. Always distinguish “doesn't have it” from “can't have it.”
 16. Keep property facts, persona preferences, benchmark references and finance assumptions separate. Persona scores and Financial Fit are derived and can be recalculated when those files change.
 17. For serious contenders, estimate Effective Property Cost, Cash to Goal and realistic purchase structures. Compare using more down payment versus retaining cash for high-value improvements/reserves when finance data is available.
