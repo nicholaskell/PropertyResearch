@@ -26,7 +26,7 @@ Classify tasks:
 
 - **P0 — Dealbreaker:** could make the property unsuitable or materially impair title/use/financing. Examples: broadband, legal access, zoning/buildability, severe land constraints, deed restrictions, OGM/surface rights, uninhabitable house/homesite.
 - **P1 — Decision-critical:** materially affects value, score or cost-to-goal. Examples: usable acreage, taxes, second homesite, shop legality, subdivision potential, major systems, market liquidity.
-- **P2 — Important refinement:** improves confidence or comparison. Examples: better comps, market trajectory, nuisance verification, utility detail.
+- **P2 — Important refinement:** improves confidence or comparison. Examples: better comps, market trajectory, business-customer demand validation, nuisance verification, utility detail.
 - **P3 — Nice-to-know:** useful but unlikely to change a decision.
 
 Work P0 before P1 before P2 before P3. Within a priority, favor strong contenders and questions whose answer could materially change ranking.
@@ -42,6 +42,7 @@ Work P0 before P1 before P2 before P3. Within a priority, favor strong contender
 - For OGM/severed rights, evaluate both title status and practical Rights Disturbance Risk.
 - For vacant/no-address land, use authoritative parcel identity and provide broadband lookup proxy addresses when useful.
 - For resale/development, evaluate local market trajectory, liquidity, growth/decline catalysts and development optionality rather than assuming cheap land is good value.
+- For every active business-use-case persona, research customer demand separately from site suitability: realistic service radius, demand proxies, direct competitors, local pricing/capacity, market gaps and travel friction. Record Customer Demand Likelihood and Demand Confidence; use conservative customer/occupancy ranges and label weak evidence.
 
 ## Completion States
 
