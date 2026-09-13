@@ -23,7 +23,7 @@ research_date: 2026-09-13
 **Ask:** $519,999, reduced from $595,000 original January 2026 ask.  
 **Property:** 56.43-acre residential farm; 3 bed / 2 bath; 1,598 sq ft; 1962 A-frame; metal roof; detached 2-car garage; barn; carport.  
 **Land mix:** MLS-fed sources report approximately **5 acres pasture + 50 acres timber**. Listing claims a roughly 2-acre stocked pond plus a second small wooded pond.  
-**Utilities:** public water, electricity connected, propane. Exact wired broadband at the address remains **UNKNOWN**.  
+**Utilities:** public water, electricity connected, propane. **FCC Broadband Map Dec. 31, 2025 data shows the address as NOT SERVED and no qualifying wired provider.**  
 **Taxes:** 2025 approximately $696; assessment $112,500. Reassessment after an arm's-length purchase should be treated as a carrying-cost uncertainty.  
 **Access:** listing claims road frontage on Battle Road along the front half and Glens Creek Road along the back half. This is unusually useful for access/subdivision optionality, but frontage dimensions and legal entrances require survey/GIS confirmation.  
 **HOA:** listing/MLS reports none.
@@ -33,7 +33,7 @@ research_date: 2026-09-13
 | Item | Rating | Notes |
 |---|---|---|
 | Listing availability | FAIL / WATCH | MLS-fed sources show Pending since Aug. 12-13, 2026. |
-| 300+ Mbps wired broadband | INVESTIGATE | Washington County has substantial gigabit fiber/cable coverage, but exact-address service at 6709 Battle Rd was not confirmed. Nicholas hard requirement remains unresolved. |
+| 300+ Mbps wired broadband | **FAIL AS CURRENTLY DOCUMENTED** | User-supplied FCC Broadband Map screenshot, data as of Dec. 31, 2025 (map updated 9/3/26), marks 6709 Battle Rd **Not Served**. Listed options are All Points unlicensed fixed wireless 10/1, HughesNet satellite 100/5, kyWiMAX unlicensed fixed wireless 25/5, Starlink satellite 280/30, T-Mobile licensed fixed wireless 25/3, and Viasat satellite 150/3. None meets Nicholas's 300+ Mbps wired requirement. Only possible recovery path is new/nearby fiber plant or a provider-engineered extension not reflected in FCC data. |
 | Legal/practical access | INVESTIGATE | Existing residence/drive plus claimed frontage on two roads is favorable; verify survey, maintained public frontage, culverts/entrances and rear-road access. |
 | Buildability / accessory structures | INVESTIGATE-FAVORABLE | County FAQ states buildings outside Springfield city limits do not require a county building permit, but subdivision, septic, state code, deed restrictions and business uses still require verification. |
 | Wetlands/flood/topography/soils | INVESTIGATE | No authoritative parcel overlay completed in this pass. Aerial/listing evidence shows rolling terrain, ponds and large timber acreage; do not treat all 56 acres as operational. |
@@ -54,7 +54,7 @@ This is not a 56-acre open farm. It is primarily a **timbered privacy/recreation
 
 ## Development / Subdivision Optionality
 
-**Rating: PLAUSIBLE, potentially STRONG if rear frontage and soils cooperate.** Washington County subdivision rules apply countywide. The current regulations require Planning Commission approval before recording a subdivision. For lots not served by sewer, minimum size is controlled by health/site evaluation and regulations; the published regulations contain a 32,000-sq-ft floor and frontage/access standards, while a Kentucky Court of Appeals case involving Washington County also documents the importance of public-road frontage or larger acreage in a prior land-division dispute. Exact current standards must be confirmed with the Planning Office before underwriting lots.
+**Rating: PLAUSIBLE, potentially STRONG if rear frontage and soils cooperate.** Washington County subdivision rules apply countywide. The current regulations require Planning Commission approval before recording a subdivision. For lots not served by sewer, minimum size is controlled by health/site evaluation and regulations; the published regulations contain a 32,000-sq-ft floor and frontage/access standards. Exact current standards must be confirmed with the Planning Office before underwriting lots.
 
 The property's claimed frontage on **both Battle Rd and Glens Creek Rd** is the most interesting investment feature. It could allow separation of frontage lots or a rear tract without forcing all access through the homesite. However, only ~5 acres are reported as pasture and the balance is timbered/rolling, so soil/septic tests, slope and road-frontage geometry will determine whether this is a genuine split-and-retain candidate.
 
@@ -70,13 +70,30 @@ Washington County's Census-derived population estimate increased from about 12,0
 **Value Trap Risk:** MODERATE if purchased mainly for gross acreage without recognizing that ~50 acres are timber.  
 **Growth Tailwind:** MODEST; dual-metro reach and county population growth help, but this is not an obvious metro path-of-development location.
 
-Compared with the current De Pere/Brown County benchmark, this trades **materially stronger acreage/privacy/tax burden** for **weaker resale liquidity, less certain broadband, and a less powerful growth environment**.
+Compared with the current De Pere/Brown County benchmark, this trades **materially stronger acreage/privacy/tax burden** for **weaker resale liquidity, failed current wired-broadband requirement, and a less powerful growth environment**.
 
-Distance to Green Bay/current-home benchmark: long-distance relocation; approximately central Kentucky to northeast Wisconsin and not a practical local-market substitute. Exact route mileage should be refreshed with mapping when needed for move logistics.
+## Broadband — ADDRESS-LEVEL FCC EVIDENCE
 
-## Broadband
+**Current rating: FAIL for Nicholas's hard requirement unless an extension can be engineered.**
 
-**Exact address: UNKNOWN / HARD REQUIREMENT OPEN.** County-level FCC-derived datasets indicate Washington County has extensive gigabit fiber/cable availability, including substantial Spectrum fiber coverage, but county coverage cannot prove service at this rural address. Before considering a backup offer, run 6709 Battle Rd through FCC Broadband Map and Spectrum/other provider address qualification and obtain a serviceability/engineering answer if necessary.
+User supplied a screenshot of the FCC National Broadband Map on 2026-09-13 for **6709 BATTLE RD, MACKVILLE, KY 40040**. The panel states **Status: Not Served**, Residential, Unit Count: 1. Data is **as of Dec. 31, 2025 (latest)** and the map displays **Last Updated: 9/3/26**.
+
+FCC-listed residential availability shown in the screenshot:
+
+| Provider | Technology | Down | Up |
+|---|---|---:|---:|
+| All Points Broadband | Unlicensed Fixed Wireless | 10 Mbps | 1 Mbps |
+| HughesNet | GSO Satellite | 100 Mbps | 5 Mbps |
+| kyWiMAX | Unlicensed Fixed Wireless | 25 Mbps | 5 Mbps |
+| Starlink | NGSO Satellite | 280 Mbps | 30 Mbps |
+| T-Mobile | Licensed Fixed Wireless | 25 Mbps | 3 Mbps |
+| Viasat | GSO Satellite | 150 Mbps | 3 Mbps |
+
+The screenshot also shows Viasat business-only satellite service at 150/4. **No fiber, cable, or other wired broadband provider appears for the location.**
+
+This materially changes the screening conclusion. County-level gigabit/fiber coverage is irrelevant to current serviceability at this specific address. Starlink may be usable as an interim lifestyle solution, but it does not satisfy the persona's reliable 300+ Mbps wired requirement.
+
+**Possible recovery path:** investigate nearby FCC locations and provider plant. The screenshot appears to show a couple of green/served location points east of the subject area near the Cornishville/Newby road network, while most nearby points are red/unserved. Determine what technology/provider serves those green points, their road distance from the property, and whether an extension/engineering quote is feasible. Do not assume those points represent fiber until verified.
 
 ## House / Improvements
 
@@ -84,62 +101,44 @@ Existing 1,598-sq-ft A-frame gives a usable live-now option while future improve
 
 The metal roof is favorable. Unknowns requiring inspection: foundation/structure, HVAC, electrical capacity, plumbing, water service, septic system, insulation, windows, moisture, pond/dam condition and outbuilding condition.
 
-## Business Use Cases
-
-### Firewood / Lumber
-**Score: 76/100.** ~50 timbered acres provide on-site material/management potential and excellent noise/privacy separation. Lexington and Louisville are roughly an hour-class market, plus Harrodsburg/Springfield. Weaknesses are only ~5 open acres for a processing yard, unknown business-use rules, driveway/log-truck geometry and unknown electrical capacity. Customer Demand Likelihood: **MODERATE-HIGH**; Confidence: **LOW-MEDIUM** pending competitor/pricing research.
-
-### Kell and Son Limited Co.
-**Score: 73/100.** Strong privacy, land, existing barn/garage and dual-road frontage; plausible shop/yard expansion. Main unknowns are commercial/home-business legality, 3-phase availability, heavy-truck access and exact usable flat yard acreage.
-
-### Equine / Horse Boarding
-**Score: 49/100.** Existing barn and rural setting help, but only ~5 acres reported as pasture is a major limitation. Additional pasture creation would require clearing and fencing. Customer Demand Likelihood: **MODERATE / UNKNOWN**; Confidence: **LOW**. Likely model would be small pasture board rather than meaningful commercial capacity. Opportunistic only unless land inspection shows substantially more grazeable/open acreage than MLS reports.
-
-### Greenhouse Business
-**Score: 62/100.** Public water and rural freedom are positives; open sunny ground is limited relative to total acreage. A hobby/side-business greenhouse near the residence is plausible. Scale-Up Path: **PLAUSIBLE**, subject to customer-facing business rules and water-cost/capacity verification.
-
-## Persona Scores
+## Persona Scores — Updated for FCC Evidence
 
 | Persona | Score | Summary |
 |---|---:|---|
-| Nicholas | **75/100 provisional** | Excellent privacy/acreage/taxes and plausible shop freedom; exact 300+ Mbps wired broadband is unresolved hard requirement. |
+| Nicholas | **60/100 — HARD-REQUIREMENT FAIL** | Excellent privacy/acreage/taxes and plausible shop freedom, but FCC shows no qualifying wired broadband. |
 | Dogs | **91/100** | Exceptional separation and outdoor space; secure fenced yard still needed and road exposure should be managed. |
 | Homestead | **76/100** | Ponds, privacy, barn and some pasture are strong; only ~5 open acres limits easy garden/livestock expansion. |
-| Thomas | **68/100 provisional** | Potential future split/homesite and project space; broadband and additional homesite/septic legality unresolved. |
+| Thomas | **58/100** | Potential future split/homesite and project space, but current internet quality is a significant negative and additional homesite/septic legality remains unresolved. |
 | Firewood & Lumber | **76/100** | Timber, privacy and regional market reach are strong; operational-yard size and legality need verification. |
-| Kell and Son | **73/100** | Good business-base bones, especially frontage/privacy; power, truck geometry and use permissions open. |
+| Kell and Son | **71/100** | Good business-base bones; weak broadband is a business/remote-work constraint in addition to open power/truck/use questions. |
 | Greenhouse Business | **62/100** | Plausible hobby-to-side-business path; limited open ground and local customer density reduce ceiling. |
 | Equine / Horse Boarding | **49/100** | Too little reported pasture for this to be a standout boarding property. |
-| Resale & Development | **70/100** | Dual-road frontage and demonstrated nearby small-tract sales are meaningful; terrain/soil/frontage verification is decisive. |
-
-**Weighted screening impression:** ~72/100, but not actionable while Pending and while broadband remains unverified.
+| Resale & Development | **66/100** | Dual-road frontage and demonstrated nearby small-tract sales are meaningful, but lack of wired broadband also weakens future lot desirability/value. |
 
 ## Financial Fit
 
 At $519,999 with 20% down, Realtor.com's contemporaneous calculator showed roughly **$3,007/month** using a 6.591% 30-year rate, including its modeled tax/insurance assumptions. This is about **+$1,407/month vs the current-home ~$1,600 PITI benchmark**. Treat this only as a financing snapshot; insurance and post-sale tax assessment could change the number materially.
 
-The ask has already fallen $75,001 from $595,000 (~12.6%), suggesting the original price did not clear the market quickly. Automated valuation providers shown by Realtor.com were roughly $515k-$516k in July 2026, close to ask, but these are not appraisals and acreage-property valuation is especially noisy.
+## Verdict — UPDATED 2026-09-13
 
-## Verdict
+**PASS / WATCH ONLY unless broadband can be solved.**
 
-**WATCH / BACKUP-OFFER CANDIDATE, not a current primary target because it is Pending.**
+The FCC evidence converts broadband from an unresolved question into a current **hard-requirement failure**. The property remains attractive as a private timber/homestead compound and has intriguing two-road subdivision optionality, but at ~$520k it is difficult to justify compromising a permanent requirement when other candidates have wired/fiber service.
 
-This is a better fit for the lifestyle vision than the raw 56 acres initially imply: it is a **private timber/homestead compound** with ponds, a livable house, barn/garage and unusually interesting two-road frontage. It is weaker as a broad-acre development or horse property because MLS data say only ~5 acres are pasture.
-
-If it returns to market, the first four diligence items are: **(1) exact wired broadband qualification, (2) county GIS/survey confirmation of both road frontages and parcel geometry, (3) soils/septic/topography review focused on additional homesites and small-lot splits, and (4) house/outbuilding inspection plus title/deed review.** If those clear, it deserves a deeper look around the current ask, with particular attention to whether 2-4 frontage lots could be created without damaging the retained homestead.
+The only broadband diligence worth doing before setting this aside is an **extension feasibility check**: identify the technology/provider at the nearest genuinely served FCC locations, map the network/road distance to the property, and ask the provider for a written serviceability or construction/engineering quote. If gigabit fiber is nearby and can be extended for a rational cost, the property can be rescored. If the nearby green points are merely wireless or otherwise non-wired service, broadband should be treated as a decisive failure.
 
 ## Sources / Evidence Snapshot
 
 - Zillow / MLS 1707332, checked 2026-09-13: price, status, acreage, house, utilities, parcel, taxes, listing claims.
-- Redfin / Metro Search MLS: land mix (~5 pasture / 50 timber), sale/status history, payment model.
+- User-supplied FCC National Broadband Map screenshot, supplied 2026-09-13; FCC data as of 2025-12-31, map last updated 2026-09-03: exact-address Not Served status and provider/technology/speed table.
+- Redfin / Metro Search MLS: land mix (~5 pasture / 50 timber), sale/status history.
 - Realtor.com / Metro Search MLS: listing facts, tax history, automated value estimates and financing snapshot.
-- Washington County Government FAQ: county planning/building-permit guidance outside Springfield city limits.
-- Washington County Subdivision Regulations (current county-hosted PDF): subdivision approval, access and lot standards.
+- Washington County Government: county planning/building-permit and subdivision guidance.
 - U.S. Census Bureau population estimates via FRED: Washington County 2021-2025 population trend.
 - Nearby Battle Rd MLS/public-sale records: evidence of recent 3-6 acre tract subdivision/sales.
 
 ### Unresolved / Needs Authoritative Parcel-Level Verification
-- Exact broadband providers/speeds at 6709 Battle Rd.
+- Nearest wired/fiber network plant and extension feasibility/cost.
 - County GIS parcel boundary and exact frontage dimensions.
 - FEMA floodplain, NWI wetlands, NRCS soils, slope/elevation and septic suitability.
 - Deed/title/easements/covenants/mineral rights.
