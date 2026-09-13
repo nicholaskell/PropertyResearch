@@ -38,6 +38,11 @@ rights_surface_impact:
 rights_disturbance_risk:
 legal_access_status:
 market_access_rating:
+business_customer_demand_rating:
+business_customer_demand_confidence:
+equine_income_potential:
+equine_customer_demand_likelihood:
+equine_demand_confidence:
 research_status: INITIAL
 research_priority:
 open_research_count:
@@ -146,6 +151,45 @@ Well/septic, gas/propane, electric service, 3-phase potential and infrastructure
 - Best opportunities:
 - Market rating: 🟢 / 🟡 / 🔴
 
+## Business Customer Demand
+Complete for every active business-use-case persona. Keep site suitability separate from actual customer demand.
+
+| Business use case | Service radius | Customer Demand Likelihood | Confidence | Conservative stabilized customers / occupancy | Break-even volume | Key evidence |
+|---|---|---|---|---|---|---|
+| | | VERY LOW / LOW / MODERATE / HIGH / VERY HIGH / UNKNOWN | LOW / MEDIUM / HIGH | | | |
+
+- Direct competitors, drive times, pricing, capacity/openings and operating-status evidence:
+- Demand-base proxies and market trajectory:
+- Market gap / differentiated offer:
+- Downside case:
+- Expected time to stabilization:
+- Evidence limitations:
+- Next direct validation step:
+
+### Equine / Horse Boarding Opportunity
+Complete using `personas/active/equine-horse-boarding.md`. This is optional/bonus-only and should not penalize non-equine properties.
+
+- Equine Income Potential: NONE / LOW / MODERATE / HIGH / EXCEPTIONAL
+- Customer Demand Likelihood: VERY LOW / LOW / MODERATE / HIGH / VERY HIGH / UNKNOWN
+- Demand Confidence: LOW / MEDIUM / HIGH
+- Likely boarding model:
+- Feasible capacity / likely stabilized occupancy:
+- Monthly rate range:
+- Expected stabilization period:
+- Stabilized annual gross revenue:
+- Annual operating cost:
+- Operating income before owner labor, debt service, tax and depreciation:
+- Break-even occupied horses:
+- 50% / 75% / 90% occupancy cases:
+- Owner labor / relief coverage requirement:
+- Existing infrastructure and replacement value:
+- Additional startup investment:
+- Income per operational acre:
+- Zoning / insurance / manure / access constraints:
+- Alternative use if demand disappoints:
+- Next validation step:
+- Verdict: Worth further investigation / Opportunistic only / Not attractive
+
 ## Resale / Development
 - Market Trajectory: GROWING / EMERGING / STABLE / STAGNANT / DECLINING / UNKNOWN
 - Resale Liquidity: STRONG / ADEQUATE / THIN / VERY THIN / UNKNOWN
@@ -215,7 +259,7 @@ Compare additional down payment, retained improvement capital, buying features a
 **Persona Scores:** list every active persona dynamically.  
 **Financial Fit:** XX/100 or Not Yet Scored  
 
-**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Resale/Liquidity | Value
+**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Business Customer Demand | Equine Potential | Resale/Liquidity | Value
 
 **Rights Disturbance:** Exercise Likelihood | Surface/Lifestyle Impact | Overall Risk  
 **Market Trajectory:**  
