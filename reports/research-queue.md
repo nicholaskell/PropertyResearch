@@ -37,6 +37,8 @@
 
 ## P2 / P3 — Important Refinement
 
+- **Portfolio-wide equine/customer-demand backfill** — For every active property, estimate horse-boarding site feasibility and Customer Demand Likelihood/Confidence using the actual 20–30 minute service area (up to 45 minutes only for differentiated/sparse markets), local equine proxies, live competitors, pricing/capacity, market gaps and travel friction. Add conservative feasible capacity, stabilized occupancy, break-even and direct-validation steps. Work strongest contenders first; do not touch every property superficially in one run.
+
 - 3780A Hurricane Creek Rd — resale comps and 2/5/8/10-year exit sensitivity after parcel/land/habitability facts are resolved.
 - 0 Tolbert Hollow Rd — three-phase power/upgrade options and heavy-truck driveway geometry.
 - 7659 Burks Rd — second homesite/future split yield after survey/soil/topography review.
