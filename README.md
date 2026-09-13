@@ -69,7 +69,7 @@ Investigator should:
 - read `criteria.md`, `project-instructions.md`, active personas, benchmarks and finance assumptions;
 - show the actual listing hero photo when available;
 - show an authoritative satellite/aerial parcel view with boundary when reliable geometry is available, labeled **PARCEL MAP — NOT A SURVEY**;
-- research listing status including active-offer status, broadband, land, zoning, access, rights, taxes, house/homesite, utilities, market access, resale/development, value and finance;
+- research listing status including active-offer status, broadband, land, zoning, access, rights, taxes, house/homesite, utilities, market access, business-customer demand, resale/development, value and finance;
 - provide a neighboring **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS** for vacant/no-address parcels when useful;
 - explicitly warn where OGM/mineral rights should not be assumed to convey and assess practical Rights Disturbance Risk;
 - compare market trajectory/liquidity with the active current-home benchmark;
@@ -226,6 +226,8 @@ Do not assume all sale proceeds should become down payment. Compare larger down 
 Every `.md` file in `personas/active/` is an independent scoring lens. Personas may represent people, pets, businesses, homesteading, lumber/firewood, investment/resale or other use cases. Move a persona to `personas/inactive/` to retain it without scoring it.
 
 The Resale/Development lens should consider **Market Trajectory**, **Resale Liquidity**, **Development Optionality**, **Value Trap Risk** and **Growth Tailwind**. A cheap property in a structurally weak/illiquid market should not automatically score as good value.
+
+Active business-use-case personas must distinguish physical/site suitability from evidence-backed customer demand. Each property receives a Customer Demand Likelihood and confidence assessment; capacity, revenue and profit projections should include conservative occupancy or sales ranges, break-even volume and a direct local validation step. `Equine / Horse Boarding` is active as an exploratory, bonus-only opportunity: existing useful infrastructure can add value, while its absence does not penalize the household/person scores.
 
 # Property Research Standards
 
