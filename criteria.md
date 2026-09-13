@@ -18,6 +18,7 @@ Research and classify material risks such as **CLEAR / INVESTIGATE / FAIL** wher
 - Severe wetlands/flood/topography/soil constraints
 - HOA/deed/private restrictions
 - House habitability or homesite feasibility
+- Legal temporary RV/camper occupancy during construction for vacant/raw land
 - OGM/mineral/surface-right conflicts where relevant
 - Unreasonable carrying costs
 - Severe resale/liquidity risk caused by structural local decline or an exceptionally thin buyer pool
@@ -34,6 +35,7 @@ Use current listing/MLS-fed sources and authoritative public sources where avail
 - Land: parcel configuration, total/constrained/usable/prime usable acres, topography, wetlands, floodplain, soils, drainage, bedrock, streams, setbacks and septic suitability.
 - Access: frontage, public/private/deeded access, maintenance agreements, driveway and equipment/construction access.
 - Zoning/buildability: accessory buildings, agricultural uses, home business, outdoor storage, firewood processing, sawmilling and other relevant uses.
+- **Temporary RV occupancy on vacant/raw land:** determine whether an RV/camper may be occupied while a permanent residence is constructed, for how long, and under what conditions. Verify camping/temporary-dwelling rules, building-permit or active-construction prerequisites, septic/wastewater, water, power, 911/address assignment, inspections/registration, renewal/extension rules and enforcement history when discoverable. Distinguish occasional camping from construction-related occupancy and permanent residence. Assess all-weather access, pad/drainage/mud risk, freeze protection and utility lead times; obtain written local-authority confirmation when the rule is ambiguous.
 - Animals: applicable dog/kennel and livestock/poultry rules.
 - Rights/restrictions: HOA, covenants, easements, ROW, private roads and, where relevant, oil/gas/mineral/coal/timber/surface rights, leases, wells and pipelines.
 - Taxes: current taxes, reassessment risk, special assessments and agricultural/forest/current-use programs.
