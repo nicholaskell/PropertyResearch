@@ -40,10 +40,19 @@ Use current listing/MLS-fed sources and authoritative public sources where avail
 - House/homesite: condition, major systems, utilities and foreseeable work.
 - Location: always include distance/drive time to **Green Bay, Wisconsin**.
 - Market access: identify realistic 30/60/90/120-minute markets for rural/property-based business opportunities.
+- **Customer demand for active business personas:** estimate whether enough realistic customers exist within the use case's actual service radius. Research direct competitors, pricing/capacity, demand proxies, population/income/trajectory, market gaps and travel friction. Report **Customer Demand Likelihood: VERY LOW / LOW / MODERATE / HIGH / VERY HIGH / UNKNOWN** plus **Demand Confidence: LOW / MEDIUM / HIGH**. Use ranges and conservative scenarios; never treat rural character, a suitable building, search-result counts or absence of visible competitors as proof of demand.
 - **Resale/market trajectory:** evaluate township/municipality, county and nearest meaningful metro for population/household direction, employment base, incomes, housing demand/liquidity, price direction, new construction/permits, infrastructure investment and major growth/decline catalysts. Do not infer future appreciation from one recent sale or asking-price trend.
 - **Development optionality:** when acreage/configuration makes it relevant, evaluate subdivision potential, minimum lots/frontage, additional homesites, access, utilities/well/septic, zoning/future land use, wetlands/topography/soils, rights/restrictions and realistic infrastructure cost.
 - Nuisances: highways, industry, CAFOs, rail, airports, landfill, quarry/mine, oil/gas, pipelines, transmission lines, ranges and other material concerns.
 - Value/comps: fair value, offer range and effective cost-to-goal.
+
+## Business Customer Demand
+
+For each active business-use-case persona, separate **site feasibility** from **market feasibility**. A property can physically support a business and still have poor customer demand.
+
+Report the realistic catchment/service radius, evidence of the addressable customer base, active competitors and their offerings/prices/capacity when discoverable, likely market gap, estimated stabilization range, and the next direct validation step. Where the persona supports capacity modeling, include feasible capacity, likely stabilized occupancy or sales range, downside occupancy, and break-even volume. Label model-derived figures as estimates and preserve uncertainty.
+
+Prefer authoritative demographic/agricultural data plus live local-market evidence. Public directories, map results and social profiles may omit small operators or include closed ones; use multiple discovery methods and never equate “not found” with “does not exist.”
 
 ## Market Trajectory / Exit Risk
 
