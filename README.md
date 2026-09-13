@@ -70,6 +70,7 @@ Investigator should:
 - show the actual listing hero photo when available;
 - show an authoritative satellite/aerial parcel view with boundary when reliable geometry is available, labeled **PARCEL MAP — NOT A SURVEY**;
 - research listing status including active-offer status, broadband, land, zoning, access, rights, taxes, house/homesite, utilities, market access, business-customer demand, resale/development, value and finance;
+- for vacant/raw land, verify whether an RV/camper can be legally occupied during construction, the maximum duration and permit/septic/water/power/address conditions, plus all-weather pad and winter practicality;
 - provide a neighboring **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS** for vacant/no-address parcels when useful;
 - explicitly warn where OGM/mineral rights should not be assumed to convey and assess practical Rights Disturbance Risk;
 - compare market trajectory/liquidity with the active current-home benchmark;
