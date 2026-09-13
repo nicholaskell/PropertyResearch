@@ -1,5 +1,5 @@
 ---
-record_version: 7
+record_version: 8
 address:
 city:
 state:
@@ -37,6 +37,8 @@ rights_exercise_likelihood:
 rights_surface_impact:
 rights_disturbance_risk:
 legal_access_status:
+rv_occupancy_status:
+rv_occupancy_max_duration:
 market_access_rating:
 business_customer_demand_rating:
 business_customer_demand_confidence:
@@ -72,6 +74,7 @@ Display a satellite/aerial view with the subject parcel boundary whenever reliab
 | Land constraints | CLEAR / INVESTIGATE / FAIL | |
 | Restrictions | CLEAR / INVESTIGATE / FAIL | |
 | House/homesite | CLEAR / INVESTIGATE / FAIL | |
+| Temporary RV occupancy (vacant/raw land) | CLEAR / INVESTIGATE / FAIL / NOT APPLICABLE | |
 | OGM/surface rights | CLEAR / INVESTIGATE / FAIL | |
 | Carrying costs | CLEAR / INVESTIGATE / FAIL | |
 | Resale/liquidity | CLEAR / INVESTIGATE / FAIL | |
@@ -95,6 +98,26 @@ Legal frontage/access, private-road/easement issues, driveway and heavy-equipmen
 
 ## Zoning & Buildability
 Intended uses, accessory-building rules, home business/firewood/sawmill restrictions and permitting concerns.
+
+## Temporary RV Occupancy (Vacant/Raw Land)
+Answer the controlling question: **Can Nicholas legally occupy an RV/camper on this parcel while constructing a permanent residence, and for how long?** Use **NOT APPLICABLE** for properties where this transition strategy is irrelevant.
+
+- Status: CLEAR / INVESTIGATE / FAIL / NOT APPLICABLE
+- Maximum initial duration:
+- Extension/renewal available:
+- Building permit required first:
+- Active construction/progress required:
+- Septic or approved wastewater required:
+- Water requirement:
+- Electrical/service requirement:
+- 911 address or occupancy/inspection requirement:
+- Occasional camping allowance (do not treat as residential permission):
+- Permanent RV residence allowed:
+- Controlling authority and ordinance/permit citation:
+- Written local-authority confirmation:
+- Enforcement/ambiguity notes:
+- Practical winter setup: all-weather access, gravel/elevated pad, drainage/mud, freeze protection and utility lead times
+- Exact next validation step:
 
 ## Animals & Homestead
 Dogs, chickens/roosters, goats, sheep, horses/livestock and nuisance/fencing/setback issues.
@@ -259,7 +282,7 @@ Compare additional down payment, retained improvement capital, buying features a
 **Persona Scores:** list every active persona dynamically.  
 **Financial Fit:** XX/100 or Not Yet Scored  
 
-**Quick Ratings:** Broadband | Move-In/Homesite | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Business Customer Demand | Equine Potential | Resale/Liquidity | Value
+**Quick Ratings:** Broadband | Move-In/Homesite | Temporary RV Occupancy | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Business Customer Demand | Equine Potential | Resale/Liquidity | Value
 
 **Rights Disturbance:** Exercise Likelihood | Surface/Lifestyle Impact | Overall Risk  
 **Market Trajectory:**  
