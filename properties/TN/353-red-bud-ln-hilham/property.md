@@ -156,3 +156,35 @@ SERIOUS INVESTIGATION / CONDITIONAL CONTENDER.
 The free-and-clear possibility raises the strategic fit more than it raises the physical-property score. If usable terrain, legal access and septic pass, this could become a durable, low-carrying-cost base where Nicholas can work remotely and develop gradually without mortgage pressure. If those checks fail, being able to pay cash does not rescue it; it would become an illiquid recreational tract with a marginal cabin and expensive site work.
 
 Nicholas score remains 68/100 pending land/access results. Strategic Financial Fit is added separately as STRONG acquisition fit / MODERATE all-in fit so financing preference does not disguise physical unknowns.
+
+
+## Gate Check Progress — 2026-09-14
+
+### Parcel / Terrain
+- APN 086 003.22 is corroborated by Redfin, Quoll and the UCMLS/Fusion listing feed.
+- The official Tennessee Property Assessment Data system supports Clay County parcel search, including control map 086 and parcel 003.22. The interactive result/geometry could not be reliably captured in the research session, so no parcel-boundary or slope acreage is claimed.
+- Listing sources remain consistent on wooded rolling/hilly/sloped terrain. Exact operational acreage is still UNKNOWN.
+- Parcel/acreage verification contact: Clay County Assessor of Property, Angie Eads; (931) 243-2599; angie.eads@cot.tn.gov. Ask for the property record card, deed/legal acreage, map sheet and GIS/parcel image for control map 086, parcel 003.22.
+
+### Access
+- APN and physical address are consistent across MLS-fed sources.
+- The MLS route reaches the property from Hwy 53 via Dry Mill Rd, Turkey Town Rd and Red Bud Ln.
+- Multiple improved residential addresses exist on Red Bud Ln, including 302, 559 and 117. This supports existence of a residential access corridor but does not establish whether the segment to 353 is publicly maintained or whether a recorded easement/road-maintenance agreement exists.
+- Access remains INVESTIGATE. Required documents: seller's deed, title commitment Schedule B, recorded ingress/egress instruments, road maintenance agreement if private, and survey showing the parcel connection to Red Bud Ln.
+
+### Septic
+- MLS feed explicitly states “Septic Needed”; no existing approved septic system is represented.
+- No parcel-specific soil/site approval or prior septic permit was located online.
+- Septic remains INVESTIGATE and should be an offer contingency. Require a Tennessee-authorized soil/site evaluation identifying both a primary and reserve disposal area sized for the intended permanent house—not merely the 480-sq-ft cabin.
+- Use Tennessee's official TDEC Septic Service Request path for records/permit routing: https://tdec.tn.gov/septic-service-request
+
+### Current Gate Status
+| Gate | Status | Online conclusion |
+|---|---|---|
+| Operational terrain | ⚫ UNKNOWN | APN confirmed; boundary/slope overlay still unavailable |
+| Legal access | 🟡 INVESTIGATE | Physical residential road exists; legal and maintenance status unverified |
+| Construction access | 🟡 INVESTIGATE | Route exists; grade/width/culvert/turnaround unknown |
+| Septic | 🟡 INVESTIGATE | System is needed; no soil approval found |
+| Acreage | 🟡 INVESTIGATE | 24.89 acres dominates listing feeds, but one mirror conflict requires deed/assessor confirmation |
+
+The property should not be rejected yet, but none of the three physical gates is cleared solely by currently accessible online evidence.
