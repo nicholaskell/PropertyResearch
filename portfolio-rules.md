@@ -77,6 +77,7 @@ Use raw property facts, persona-specific priorities, benchmarks and finance assu
 - OGM/mineral/surface-control risk
 - Privacy
 - Market reach
+- Dating Market Access Score, confidence and practical dating radius
 - Customer Demand Likelihood and Demand Confidence for every active business-use-case persona
 - Conservative stabilized customers/occupancy, break-even volume and time-to-stabilization when modeled
 - Distance to Green Bay, WI
@@ -135,6 +136,7 @@ Identify:
 - Best ready-to-use property
 - Best build-your-own/value-add opportunity
 - Best market access
+- Best dating-market access for Nicholas's current target
 - Strongest evidence-backed customer demand for each active business use case
 - Strongest market trajectory / resale outlook
 - Best development optionality
