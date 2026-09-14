@@ -42,6 +42,7 @@ Work P0 before P1 before P2 before P3. Within a priority, favor strong contender
 - For OGM/severed rights, evaluate both title status and practical Rights Disturbance Risk.
 - For vacant/no-address land, use authoritative parcel identity and provide broadband lookup proxy addresses when useful.
 - For resale/development, evaluate local market trajectory, liquidity, growth/decline catalysts and development optionality rather than assuming cheap land is good value.
+- For Dating Market Access, verify realistic drive times to meaningful dating pools and refresh demographic/growth evidence when stale. Treat fitness and lifestyle compatibility as probabilistic proxies, not directly observed facts.
 - For every active business-use-case persona, research customer demand separately from site suitability: realistic service radius, demand proxies, direct competitors, local pricing/capacity, market gaps and travel friction. Record Customer Demand Likelihood and Demand Confidence; use conservative customer/occupancy ranges and label weak evidence.
 
 ## Completion States
@@ -67,7 +68,7 @@ After research:
 4. Add/refresh source references and dates.
 5. Mark completed Open Research Tasks with outcome and date; preserve useful history rather than silently deleting the question.
 6. Add newly discovered material questions with a P0–P3 priority.
-7. If a finding materially changes a persona score, Financial Fit, market trajectory, value, rights risk or verdict, flag **RESCORE REQUIRED**. Do not rewrite property facts to fit an old score.
+7. If a finding materially changes a persona score, Dating Market Access, Financial Fit, market trajectory, value, rights risk or verdict, flag **RESCORE REQUIRED**. Do not rewrite property facts to fit an old score.
 8. For a legacy flat property that receives a material update or supporting asset, it may be migrated to the preferred property-directory layout.
 
 ## Batch Behavior
