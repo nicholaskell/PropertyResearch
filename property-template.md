@@ -1,5 +1,5 @@
 ---
-record_version: 8
+record_version: 9
 address:
 city:
 state:
@@ -40,6 +40,11 @@ legal_access_status:
 rv_occupancy_status:
 rv_occupancy_max_duration:
 market_access_rating:
+dating_market_access_score:
+dating_market_access_confidence:
+dating_market_primary_pool:
+dating_market_drive_time:
+dating_market_practical_radius:
 business_customer_demand_rating:
 business_customer_demand_confidence:
 equine_income_potential:
@@ -166,6 +171,21 @@ Well/septic, gas/propane, electric service, 3-phase potential and infrastructure
 - Hospital:
 - Major highway/interstate:
 
+## Dating Market Access
+Evaluate for Nicholas as a 42-year-old heterosexual single man seeking a roughly 34–39-year-old, physically active/fit partner compatible with an outdoors/property-oriented lifestyle. This is a location-access estimate, not a judgment about individual residents.
+
+- **Dating Market Access Score:** XX/100
+- **Confidence:** LOW / MEDIUM / HIGH
+- Primary realistic dating pool:
+- Practical dating radius:
+- Typical drive to primary pool:
+- Pool scale and relevant age/sex/single-status evidence:
+- Growth/transplant dynamics:
+- Fitness/outdoor/social opportunity proxies:
+- App practicality and travel friction:
+- Key limitation/uncertainty:
+- Bottom line for a single owner:
+
 ## Commercial Market Access
 - Best 30-minute market:
 - Best 60-minute market:
@@ -262,6 +282,10 @@ Compare additional down payment, retained improvement capital, buying features a
 |---|---:|---|
 | | /100 | |
 
+## Dating Market Access
+**Dating Market Access:** XX/100 or Not Yet Scored  
+**Confidence:** LOW / MEDIUM / HIGH
+
 ## Financial Fit
 **Financial Fit:** XX/100 or Not Yet Scored
 
@@ -280,9 +304,10 @@ Compare additional down payment, retained improvement capital, buying features a
 **Research Confidence:** High / Medium / Low  
 
 **Persona Scores:** list every active persona dynamically.  
+**Dating Market Access:** XX/100 (LOW / MEDIUM / HIGH confidence)  
 **Financial Fit:** XX/100 or Not Yet Scored  
 
-**Quick Ratings:** Broadband | Move-In/Homesite | Temporary RV Occupancy | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Business Customer Demand | Equine Potential | Resale/Liquidity | Value
+**Quick Ratings:** Broadband | Move-In/Homesite | Temporary RV Occupancy | Shop | Build Freedom | Usable Land | Access | Animals | Privacy | Zoning | Wetlands/Flood | OGM/Rights | Rights Disturbance | Taxes | Market Access | Dating Market Access | Business Customer Demand | Equine Potential | Resale/Liquidity | Value
 
 **Rights Disturbance:** Exercise Likelihood | Surface/Lifestyle Impact | Overall Risk  
 **Market Trajectory:**  
