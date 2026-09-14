@@ -85,3 +85,86 @@ These are screening scores pending broadband/GIS/title verification.
 - WPMLS-derived Trulia/Redfin listing data, checked 2026-09-14.
 - East Huntingdon Township official permits/government pages, checked 2026-09-14.
 - Westmoreland County official subdivision/broadband pages, checked 2026-09-14.
+
+
+## Deep Pass — 2026-09-14
+
+### Material corrections to the preliminary interpretation
+
+- Current Zillow snapshot is **$169,200**, with a **$185,900 Zestimate**. The automated value indicator is therefore much closer to the current ask than the 2020 $220,000 transaction; the old sale alone does not establish a bargain.
+- MLS-fed sources identify **oil-fired hot-water heat**, a **full unfinished walk-out basement**, and **no published living-area figure** in the current listing. Those features narrow the financed-buyer pool and add inspection/appraisal uncertainty.
+- The prior accepted/contingent agreement returned to active before the price reduction. The cause remains unknown. Plausible categories include inspection, septic, appraisal, financing, title/OGM, insurance or buyer-specific failure. This is the most important agent question.
+
+### Revised fatal-flaw assessment
+
+| Gate | Deep-pass status |
+|---|---|
+| Broadband | 🟡 INVESTIGATE — ZIP-level cable/fiber availability is not address proof; obtain orderable Xfinity plan plus FCC BSL result |
+| House | 🟡/🔴 — 1910, oil boiler/tank, unfinished walk-out basement, missing MLS square footage and failed contingency require reports |
+| Land | 🟡 — APN 47-04-00-0-050 is secondary-source only; county geometry, contours, drainage and usable acres remain uncaptured |
+| Septic | 🟡 — obtain permit, field/tank location, pumping/test history and replacement area |
+| OGM/coal | ⚫ — deed/title instrument absent; do not rely on “mineral rights included” |
+| Mine subsidence | ⚫ — exact-address PA DEP mine-map check and insurance quote required |
+| Development | 🟡 LIMITED/PLAUSIBLE — no zoning helps, but subdivision, sewage and stormwater approval still control |
+| Commercial use | 🟡 — no zoning is not blanket approval for sawmill/firewood retail; nuisance, junkyard, environmental and business rules remain |
+
+### Township facts
+
+East Huntingdon Township confirms that it has no zoning, but requires prior approval for new construction/modification, adequate sewage facilities for sewage-generating structures, subdivision approval before recording, and stormwater compliance. Published guidance states 30-foot front and 10-foot side/rear setbacks.
+
+### Cost-to-goal sensitivity (planning estimates)
+
+| Risk/item | Allowance |
+|---|---:|
+| Inspection, septic, water, radon/pest | $1,500–$3,000 |
+| Survey/title/OGM-coal review | $2,000–$6,000 |
+| Boiler/oil-tank contingency | $5,000–$20,000 |
+| Basement drainage/moisture | $3,000–$25,000+ |
+| Failed/replacement septic | $15,000–$35,000+ |
+| Secure dog fencing | $8,000–$20,000 |
+
+Estimated **safe move-in effective cost: roughly $178K–$220K** if defects are ordinary; higher if septic, foundation, drainage or an underground oil tank is problematic.
+
+### Revised scores
+
+| Persona | Score |
+|---|---:|
+| Nicholas | 76 |
+| Dogs | 82 |
+| Thomas | 69 |
+| Homestead | 77 |
+| Firewood and Lumber | 72 |
+| Kell and Son Limited Co. | 70 |
+| Greenhouse Business | 75 |
+| Equine / Horse Boarding | 40 |
+| Resale / Investment | 66 |
+
+**Dating Market Access:** 76/100, medium confidence.  
+**Market Trajectory:** STABLE / weak growth.  
+**Resale Liquidity:** ADEQUATE-TO-THIN.  
+**Value Trap Risk:** MODERATE until house/financing/title causes are known.
+
+### Business demand
+
+- **Firewood/lumber:** Customer Demand Likelihood HIGH, confidence MEDIUM. Pittsburgh/Westmoreland reach is useful; physical yard, neighbors and truck geometry remain decisive.
+- **Greenhouse:** Market access favorable; scale-up PLAUSIBLE. Verify sunny ground, public-water commercial cost, parking and customer-facing use.
+- **Horse boarding:** LOW site potential; MODERATE demand at best, low confidence. Six-point-nine gross acres without listed equine infrastructure is too constrained for a defensible boarding plan.
+
+### Financial fit
+
+Illustrative only: 20% down, 30 years around 6.5%, reported taxes near $1,067/year and estimated insurance $150–$225/month yields roughly **$1,100–$1,200/month PITI**, around **$400–$500 below** the current $1,600 benchmark. Cash purchase may be possible, but retain a **$30K–$50K repair/title reserve** until due diligence clears the old-house risks.
+
+### Required questions/documents before offer
+
+1. Exact reason the prior agreement terminated; obtain prior inspection, appraisal, septic and title findings.
+2. Assessor-recognized finished living area and current insurability/loan eligibility.
+3. Boiler age/service, oil-tank location and leakage/remediation history.
+4. Septic permit, capacity, inspection/pumping history, field and reserve area.
+5. Current deed, title commitment, OGM/coal ownership, leases, surface support, pipelines/access.
+6. County GIS parcel export, survey, contours, FEMA/NWI/soils and PA DEP mine/oil-gas map results.
+7. Written Xfinity/FCC address-level proof of 300+ Mbps wired service.
+8. Township written response on second dwelling/lot split and home-based firewood/sawmill/greenhouse sales.
+
+### Revised verdict
+
+**Still pursue, but as an inspection-and-title story—not assumed equity.** The financial premise is strong if broadband, conventional insurability/financeability and the house systems clear. The failed contingency and omitted square footage prevent calling it a bargain today.
