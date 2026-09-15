@@ -17,84 +17,99 @@ research_date: 2026-09-15
 # 9820 Highway 59 W, Burlison, TN 38015
 
 ## Property Card
+- Active at **$185,000**, reduced from $200,000 on 2026-08-13; listed 2026-06-03, MLS 10223076.
+- 14 acres; listing describes level with some trees. Parcel 037 037 01600.
+- 1948 detached SF, 990 sf, 2/1, crawlspace, partial hardwood. New roof/windows claimed 2024. Vinyl siding. No central cooling; natural-gas wall furnace. Sold as-is.
+- Public water, natural gas and septic per MLS-fed listing.
+- Taxes reported $443/year; no city tax.
 
-- **Listing:** Active at **$185,000**, reduced from $200,000 on 2026-08-13. Listed 2026-06-03. MLS 10223076.
-- **Property:** 14 acres; listing describes land as level with some trees. Parcel 037 037 01600.
-- **House:** 1948 detached single-family, 990 sf, 2 bed / 1 bath, crawlspace, partial hardwood. New roof and windows claimed for 2024. Vinyl siding. **No central cooling**; natural-gas wall furnace. Sold **as-is**.
-- **Utilities:** Public water, natural gas, septic per listing/MLS-fed sources.
-- **Taxes:** Listing reports $443/year and no city tax; verify current assessor classification and post-sale reassessment treatment.
-- **Broadband:** **INVESTIGATE / presently fails Nicholas hard requirement on evidence found.** Ritter markets service in Burlison but advertises only up to 50 Mbps on its Burlison page. Exact-address AT&T/fiber/FCC availability remains unverified. Nicholas requires reliable 300+ Mbps wired service.
-- **Access:** Paved Highway 59 frontage is strongly implied by address/listing; exact driveway geometry, sight distance and equipment ingress need field/GIS verification.
-- **Flood/wetlands:** Subject parcel not yet authoritatively mapped in this pass. Important because an immediately adjacent Highway 59 agricultural listing explicitly references floodplain in its zoning-description context. Do not assume subject acreage is flood-free.
-- **Zoning:** Exact subject district still needs authoritative parcel/zoning-map confirmation. Nearby parcels are shown as Agricultural or Residential in MLS-fed data. Tipton County AG allows low-density rural development but business uses and accessory structures must be checked against the current use matrix.
-- **OGM/mineral rights:** Unknown; Tennessee deed/title review required before assuming conveyance.
+## Broadband — USER FCC EVIDENCE 2026-09-15
+User supplied an FCC National Broadband Map screenshot for the exact selected location **9820 Highway 59 W, Burlison TN 38015**, data as of Dec. 31, 2025. It reports the address **Served** and lists:
+- **Aeneas Communications LLC — Fiber to the Premises — 1000/1000 Mbps**.
+- **Xfinity — Cable — 1200/35 Mbps**.
+- AT&T licensed fixed wireless 25/3 plus satellite alternatives.
+This materially resolves Nicholas's 300+ Mbps wired hard requirement at map-evidence level. **Status: PASS / confirm provider orderability before closing.** User-supplied FCC screenshot should be treated as stronger exact-address evidence than prior general Ritter marketing.
 
-## High-Value Finding: Adjacent Land Context
+## Parcel Geometry / House-Split Strategy
+User supplied a Google aerial/parcel-boundary screenshot showing the existing house concentrated at the **eastern end of the 14-acre parcel**, immediately along Highway 59, while the great majority of acreage extends west/northwest as a large open field with wooded western margins. Treat displayed parcel lines as mapping evidence, **not a survey**.
 
-A 17-acre parcel immediately north of the subject (parcel 037 037 01500) was marketed as mostly cleared and explicitly described as the land immediately north of the house/14-acre tract. It sold **2026-07-10 for $40,000** after being listed at $85,000 and later $80,000. This is unusually important valuation evidence: it implies that raw acreage immediately beside the subject recently cleared at roughly **$2,350/acre**, although differences in flood exposure, access, soils and utility status may explain the low price. A separate nearby 2.38-acre parcel sold for $28,500 in March 2025. Another 16-acre Highway 59 parcel is listed around $180,000, demonstrating very wide local land pricing and the need to distinguish constrained acreage from prime acreage.
+This geometry is unusually favorable for a strategy of retaining the bulk acreage while selling the existing house on a small frontage lot. The key legal/design constraints are septic field/reserve area, exact zoning, state-highway access, frontage, and Planning Commission subdivision approval.
 
-At $185,000, the subject is therefore not obviously a $185k house with free acreage; rather, the deal appears to be a low-cost rural house plus acreage whose value depends heavily on flood/soil/buildability and road frontage. The recent $40k adjacent sale is leverage for a conservative offer and deeper title/GIS diligence.
+### County subdivision rules found
+Tipton County Subdivision Regulations §4-102.2 require **minimum 50 ft frontage** on a public way/private easement (40 ft on cul-de-sac radius). §4-102.3 generally limits width-to-depth ratio to 1:5, with exemptions including lots greater than 5 acres. Lot dimensions must also satisfy applicable zoning. Where sewer is unavailable, onsite sewage disposal must be shown/approved by the health authority before Planning Commission review.
+
+### Zoning dimensional benchmark
+Exact subject zoning district still requires authoritative parcel-map confirmation. If the house lot is **R-1**, current county zoning text requires, with private wastewater treatment, **30,000 sf minimum lot area (~0.689 acre)** and **100 ft minimum width at building setback line**, with arterial front setback 50 ft, side 15 ft, rear 30 ft. Therefore a literal **0.50-acre house lot would not comply with R-1 private-septic minimums** if R-1 applies. A planning assumption of **0.75–1.0 acre** is much safer until zoning and septic field location are confirmed.
+
+### Nearby small-lot precedent
+Parcel 037 037 01701, a nearby 2.38-acre Highway 59 parcel, was marketed as **residential**, state-road frontage, level/wooded, not in a flood zone, and sold 2025-03-28 for **$28,500**. This supports local precedent for separately marketable residential frontage lots, but does not establish the subject's entitlement.
+
+## House-Lot Resale Analysis
+A house split should be underwritten on roughly **0.75–1.0 acre**, not 0.5 acre, until septic/zoning are verified.
+
+Relevant evidence:
+- **716 Kellum Ln:** 2/1, 1,125 sf, ~1 acre, described as an investment opportunity needing minimal work, detached garage; sold **$75,250 on 2026-05-29** after $125k original / $115k later list. Strong distressed/as-is floor comp.
+- **155 Michelle St:** 2/1, 960 sf; sold **$85,000 on 2025-12-05** (reported in nearby comp feed).
+- **9792 Highway 59 W:** 1 bath, 1,098 sf, 0.3 acre, 1976; off-market automated estimate roughly **$176,800**. Useful only as a market ceiling/reference, not a closed-sale comp.
+- **9472 Highway 59 W:** 3/2, 1,652 sf, 1.4 acres, garage/shop, roof 2024; sold **$250,000 on 2026-03-05**. Superior renovated/functional ceiling comp.
+- Subject's immediate market has other small 2/1 listings around $115k and broader 2/1/2-bath products around $150k-$200k, but asking prices are not closed values.
+
+**Underwriting range if legally split with functioning septic and independent utilities/access:**
+- **As-is:** approximately **$80k–$105k**, planning value **$90k–$95k**.
+- **Clean/cosmetic/HVAC refresh:** approximately **$115k–$140k**.
+- **Well-executed full retail renovation:** approximately **$140k–$165k**, planning ARV **~$150k–$155k**. Above ~$165k becomes aggressive because the home remains only 990 sf and 2/1.
+
+Do not spend heavily chasing a $180k ARV without stronger closed comps. The most rational renovation is likely HVAC/mini-split, inspection-driven mechanical/safety work, paint/floors, kitchen/bath refresh, fixtures/appliances and curb appeal, while preserving the newer roof/windows.
+
+## Retained-Land Basis Scenario
+Illustrative only, before financing/holding/tax effects:
+- Purchase at $170k; renovate house $25k-$35k; survey/subdivision/septic/access/closing/sale friction can add materially.
+- Sell house lot at ~$150k-$155k after a disciplined renovation.
+- Depending on total friction, retained ~13 acres could plausibly end up with an effective basis around **$55k-$80k**. This is attractive but not guaranteed.
+- The immediately adjacent 17-acre parcel (037 037 01500) sold 2026-07-10 for **$40,000 (~$2,350/ac)**, so do not assign premium raw-land value until flood/soil/buildability are proven.
+
+## Adjacent Land Context
+A 17-acre parcel immediately north (037 037 01500), mostly cleared and marketed as immediately north of the subject, sold **2026-07-10 for $40,000** after list reductions. Separate nearby 2.38-acre parcel sold $28,500 in March 2025. The very low 17-acre sale remains the biggest clue that some acreage here may be constrained or simply low-value; investigate flood, soils, access, title and motivation.
 
 ## Fatal-Flaw Screen
-
 | Issue | Status | Notes |
 |---|---|---|
-| 300+ Mbps wired broadband | **INVESTIGATE / likely FAIL unless another provider serves address** | Ritter Burlison offering tops out at 50 Mbps on current public page; exact FCC/AT&T check required. |
-| Legal/practical access | INVESTIGATE | Highway frontage likely; driveway/equipment access not verified. |
-| Buildability / zoning | INVESTIGATE | Exact zoning and second-home/shop/business permissions unconfirmed. |
-| Flood / wetlands / soils | INVESTIGATE | Flat West TN land; adjacent parcel context includes floodplain reference. |
-| House habitability | INVESTIGATE | As-is 1948 house, no AC, wall heat, crawlspace; roof/windows reportedly 2024. Inspection is mandatory. |
-| HOA/deed restrictions | UNKNOWN | No subdivision/HOA indicated by listing, but title restrictions not checked. |
-| OGM/mineral/surface rights | UNKNOWN | Do not assume conveyance. |
-| Resale/liquidity | INVESTIGATE | Cheap entry and acreage help; tiny house and uncertain land quality narrow buyer pool. |
+| 300+ Mbps wired broadband | **PASS / provider confirmation required** | User FCC exact-location screenshot reports Aeneas FTTP 1000/1000 and Xfinity cable 1200/35. |
+| House-lot split | **PROMISING / INVESTIGATE** | Geometry excellent; county subdivision standards identified; zoning/septic/access approval still required. |
+| Legal/practical access | INVESTIGATE | Highway frontage; separate retained-tract access and TDOT driveway approval need verification. |
+| Buildability / zoning | INVESTIGATE | Exact district not yet authoritatively tied to parcel. |
+| Flood / wetlands / soils | INVESTIGATE | Still decisive, especially given cheap adjacent acreage. |
+| House habitability | INVESTIGATE | As-is 1948, no AC, wall heat, crawlspace. Inspection mandatory. |
+| HOA/deed restrictions | UNKNOWN | No subdivision/HOA indicated; title restrictions not checked. |
+| OGM/mineral/surface rights | UNKNOWN | Deed/title review needed. |
 
-## Location / Market
-
-Burlison is in Tipton County in the Greater Memphis region. Typical Burlison-to-Memphis drive is about **57 minutes**. Tipton County's 2025 population estimate is **62,287**, about 2.2% above its 2020 estimate base. The Memphis MSA is about **1.34 million**, though metro population has been broadly flat recently. Tipton County itself provides a more favorable modest-growth signal than Memphis city proper.
-
-**Green Bay / current-home distance:** long-distance relocation; approximately 700+ road miles and roughly 10–11 hours should be route-verified before final comparison. This is materially farther from Green Bay than KY/IN candidates.
-
-**Dating Market Access:** **72/100, medium confidence.** The property is rural, but Memphis is roughly an hour away and the nearer Munford/Atoka/Millington corridor provides intermediate social/service access. This is workable for planned dates but not effortless; the hour-to-Memphis friction prevents an 80+ score. The Memphis metro's scale materially improves the pool compared with isolated rural Tennessee candidates.
-
-## Market Trajectory / Exit
-
-- **Market Trajectory:** 🟡 **STABLE to modestly GROWING** at county level.
-- **Resale Liquidity:** **ADEQUATE-to-THIN** for this specific 2/1, 990-sf acreage product.
-- **Development Optionality:** **PLAUSIBLE, unverified.** Fourteen reportedly level acres could support additional homesites/lot splits, but floodplain, frontage, septic soils and exact zoning are decisive.
-- **Value Trap Risk:** **MODERATE.** The low price is attractive, but adjacent land selling for $40k suggests some local acreage can be very cheap; do not assume acreage alone creates appreciation.
-- **Growth Tailwind:** **MODERATE.** Tipton County is part of Greater Memphis and has modest recent population growth, but this is not a high-growth Nashville/Bowling Green-style land-pressure story.
-- **Benchmark vs De Pere/Brown County:** weaker resale/growth environment and much thinner property-specific buyer pool, but dramatically lower taxes and much lower acquisition cost with substantially more land.
-
-## Persona Scores — provisional pending broadband/GIS/title verification
-
+## Revised Persona Scores
 | Persona | Score | Key reason |
 |---|---:|---|
-| Nicholas | **68/100** | Excellent price, 14 level acres, privacy/build potential and Memphis access; broadband is the potential deal-killer and house lacks AC/shop. |
-| Dogs | **75/100** | Acreage and separation are strong; Highway 59 traffic means secure fencing is important. |
-| Thomas | **64/100** | Room for future shop/homesite, but broadband and subdivision/septic permissions unresolved. |
-| Homestead | **80/100** | Level acreage, public water, low carrying cost and rural setting are strong if flood/soils cooperate. |
-| Firewood & Lumber | **72/100** | Acreage, low carrying cost and Memphis customer reach are promising; commercial/home-business legality and truck-yard layout need confirmation. |
-| Kell and Son Ltd. | **70/100** | Cheap operational base with land; shop, power capacity and business-use permission are missing/unknown. |
-| Greenhouse Business | **76/100** | Long growing season, flat acreage, public water and Memphis-region market access; commercial nursery/retail legality and flood/drainage need verification. Scale-up path: **PLAUSIBLE**. |
-| Equine / Horse Boarding | **58/100** | 14 acres could support small pasture boarding, but no existing equine infrastructure and local demand/competition not yet validated. Demand likelihood: **MODERATE / low confidence**. |
-| Resale & Development | **63/100** | Low basis and possible lot-split upside, offset by thin rural liquidity, tiny house and major land-quality unknowns. |
+| Nicholas | **79/100** | Gigabit wired broadband removes prior fatal flaw; cheap acquisition, usable-looking acreage and house-split strategy add upside. GIS/soil/zoning remain decisive. |
+| Dogs | **75/100** | Acreage/separation strong; Hwy 59 traffic requires fencing. |
+| Thomas | **75/100** | Gigabit internet plus potential retained homesite/shop acreage materially improves fit. |
+| Homestead | **82/100** | Level open acreage, water, rural setting and low carry; flood/soil verification pending. |
+| Firewood & Lumber | **76/100** | Low basis, road access and Memphis reach promising; business-use legality/shop power pending. |
+| Kell and Son Ltd. | **76/100** | Fiber + low land basis + operational acreage; zoning/access/shop still unresolved. |
+| Greenhouse Business | **80/100** | Flat open ground, water, long season, fiber and Memphis-region access; drainage/zoning pending. |
+| Equine / Horse Boarding | **60/100** | Acreage can support small operation, but no infrastructure and only 14 acres before split. |
+| Resale & Development | **76/100** | Eastern-edge house placement creates unusually clean disposition strategy; subdivision/septic approval and low adjacent land comp limit certainty. |
 
-## Financial Fit
-
-At **$185,000**, this is below the user's current-home value benchmark and potentially capable of being purchased with a very small loan or substantial cash after a successful current-home sale, depending on actual net proceeds and other obligations. Current buyer-finance files do not yet contain usable net-sale-proceeds/down-payment amounts, so no definitive cash-to-close model is recorded.
-
-Immediate capital allowance should include: whole-house inspection, HVAC/central AC or mini-splits, crawlspace/moisture review, septic inspection, electrical/service-capacity check, well-defined shop plan, fencing and broadband construction if an extension is possible. The house being sold as-is warrants a meaningful contingency reserve.
+**Dating Market Access:** **72/100** unchanged; Memphis-region scale helps but ~1-hour friction remains.
 
 ## Current Verdict
+**UPGRADED: SERIOUS VALUE/OPTIONALITY CANDIDATE.** Exact-address FCC evidence eliminates the prior broadband concern. The parcel geometry makes the existing house potentially disposable without wrecking the retained acreage. A 0.75–1.0 acre house lot is more realistic than 0.5 acre under an R-1/private-septic dimensional benchmark. If the county confirms the split, the existing septic fits the new house lot, the retained tract has legal Highway 59 access, and the retained land has a good septic/building site outside material flood constraints, this becomes a compelling sub-$200k strategy property.
 
-**PROMISING CHEAP-LAND CANDIDATE, but not yet a buy.** The $185k entry for a habitable-size house plus 14 reportedly level acres is compelling, especially with $443/year reported taxes and Memphis within about an hour. The two biggest issues are **broadband** and **why the adjacent 17 acres sold for only $40k**. The next pass should prioritize exact FCC/ISP service, county parcel/zoning/flood/soil maps, and the recorded deed/survey. If the 14 acres are mostly dry/buildable and 300+ Mbps wired broadband can be obtained, this could become one of the stronger sub-$200k value plays in the portfolio. If broadband is capped near 50 Mbps or much of the land is flood-constrained, Nicholas's score drops sharply and the property should be passed.
+**Highest-priority next validation:** (1) authoritative subject zoning; (2) existing septic field/reserve location and whether a ~0.75–1 acre house lot can contain it; (3) retained tract soil/site approval for a new residence; (4) TDOT/county driveway access for both lots; (5) FEMA/NWI/NRCS parcel overlays; (6) preliminary plat/survey quote; (7) inspection-based renovation budget.
 
 ## Sources checked 2026-09-15
-
-- Zillow / MAAR listing for subject property, MLS 10223076.
-- Realtor.com MLS-fed subject record for utilities and listing details.
-- Tennessee Comptroller Property Assessment search portal / Tipton County property search availability.
-- Tipton County Zoning Ordinance and Urban Growth Plan.
-- Ritter Communications Burlison internet service page.
-- U.S. Census QuickFacts / Census population estimates for Tipton County and Memphis MSA.
-- Zillow/MAAR records for immediately adjacent and nearby land sales/listings.
+- Zillow / MAAR subject listing MLS 10223076.
+- Realtor.com MLS-fed subject record.
+- User-supplied FCC National Broadband Map exact-location screenshot, data as of 2025-12-31.
+- User-supplied Google aerial/parcel-line screenshot.
+- Tipton County Subdivision Regulations.
+- Tipton County Regional Zoning Resolution.
+- Tennessee TDEC subsurface sewage disposal regulations.
+- MLS-fed / public-record comparable sale pages for 716 Kellum, 9472 Hwy 59 W, 9792 Hwy 59 W and nearby Burlison sales.
+- Nearby parcel 037 037 01701 sale/listing evidence.
