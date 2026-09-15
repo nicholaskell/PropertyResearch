@@ -20,127 +20,138 @@ research_date: 2026-09-15
 **Status:** ACTIVE as of 2026-09-15  
 **Ask:** $249,999  
 **Land:** 57.576± acres  
-**Listing use:** farm / recreational / residential / hunting  
-**Parcel ID:** 013-00-00-019.04 (MLS-fed source; confirm with Bath County PVA/title)  
+**Parcel ID:** 013-00-00-019.04 (MLS-fed; verify against Bath County PVA/title)  
 **Coordinates:** 38.2606, -83.8814 (listing source)  
-**Road:** Hickey Rd; listing claims county-road blacktop frontage  
+**Road:** Hickey Rd; listing claims blacktop county-road frontage  
 **Open ground:** approximately 7 acres (listing claim)  
-**Remaining land:** predominantly wooded, with flat-to-rolling terrain (listing claim)  
+**Remaining land:** predominantly wooded, flat-to-rolling (listing claim)  
 **Water:** year-round blue-line stream; public water reported onsite  
-**Structures:** older tobacco barn converted to basic living quarters; MLS mirrors conflict between ~400/500 sqft and 1 vs 2 baths, so exact permitted/habitable configuration is UNCONFIRMED  
-**Utilities:** electric, public water, septic reported onsite; one MLS mirror reports 0–100 amp electrical service  
+**Structures:** older tobacco barn with basic living quarters; listing mirrors conflict between ~400/500 sqft and 1 vs 2 baths, so legal/permitted configuration remains UNCONFIRMED  
+**Utilities:** electric, public water and septic reported onsite; one MLS mirror reports 0–100 amp electrical service  
 **Fencing:** partial  
-**Zoning:** Agricultural reported by MLS-fed source; exact county zoning/use permissions require written local verification.
+**Zoning:** Agricultural reported by MLS-fed source; exact county use permissions require written local verification.
 
 ## Fatal-Flaw Screen
 
 | Item | Status | Notes |
 |---|---|---|
-| 300+ Mbps wired broadband | INVESTIGATE | Fiber exists in the Sharpsburg/Bath County area and Kinetic previously deployed gigabit fiber countywide, but address-level service at 844 Hickey Rd is not yet confirmed. Nicholas hard requirement remains unresolved. |
-| Legal/practical access | CLEAR / VERIFY | Blacktop county-road frontage and gated entrance are listing claims; title/ROW and driveway geometry still need confirmation. |
-| Buildability / zoning | INVESTIGATE | Agricultural zoning is reported and listing markets buildable open ground, but exact accessory-building, second-home, home-business, sawmill/firewood, greenhouse, boarding and subdivision rules need Bath County confirmation. |
-| Wetlands/flood/topography/soils | INVESTIGATE | A perennial/blue-line stream crosses/serves the tract, creating likely riparian/flood constraints in part of the property. No parcel-specific FEMA/NRCS overlay has yet been verified. |
-| House/habitability | INVESTIGATE | Barn quarters may be usable as a base camp, but legal dwelling status, permits, septic sizing, electrical capacity and year-round condition are unknown. |
+| 300+ Mbps wired broadband | INVESTIGATE | Fiber exists in Bath County/Sharpsburg, but no reliable address-level confirmation for 844 Hickey Rd has been found. |
+| Legal/practical access | CLEAR / VERIFY | Blacktop county-road frontage and gated entrance are listing claims; title/ROW still needs confirmation. |
+| Buildability / zoning | INVESTIGATE | Agricultural zoning is reported. Exact rules for a large shop, second dwelling, sawmill/firewood activity, greenhouse sales, boarding and subdivision remain unverified. |
+| Wetlands/flood/topography/soils | INVESTIGATE | Perennial stream creates a likely riparian constraint. Realtor/First Street labels parcel-level flood risk Minimal, but FEMA/NRCS parcel overlay has not yet been independently completed. |
+| Barn-quarters habitability | INVESTIGATE | Utilities exist by listing claim, but dwelling legality, permits, septic sizing and code status are unknown. |
 | Rights/minerals | INVESTIGATE | Do not assume mineral/OGM/timber rights convey. Deed/title review required. |
-| Resale/value | INVESTIGATE | Major pricing anomaly: public-record aggregators report a $60,000 deed/sale around May 20–21, 2026, followed by a $249,999 listing. This must be explained before treating ask as defensible market value. |
+| Resale/value | INVESTIGATE | Multiple public-record feeds independently show a $60,000 transfer in May 2026, followed by a $249,999 listing. |
 
-## Major Finding — 2026 Price Jump
+## May 2026 Transfer — Confirmed as a Real Public-Record Event
 
-Multiple independent MLS/public-record aggregators report a **$60,000 transfer in May 2026**. The property is now offered at **$249,999**, roughly **4.17×** that reported transfer price only months later. This does not prove the current ask is excessive—the May transaction could have been non-arm's-length, partial-interest, distressed, family-related, or otherwise atypical—but it is the first due-diligence question to resolve. Obtain the May 2026 deed, transfer declaration/consideration, seller disclosure, and documentation of any post-transfer improvements.
+Homes.com reports a **05/20/2026 deed at $60,000** with Bluegrass Land Title. Redfin reports a **05/21/2026 sale at $60,000**. Compass also reports **844 Hickey Rd sold 05/20/2026 for $60,000 with 57 acres**. This is therefore very unlikely to be a single-site scraping error.
 
-Older public history shows a $68,000 transfer in January 2014 and historical asking prices around $94,000–$99,900 later in 2014. Current assessment/tax mirrors show approximately $21,871 assessment and ~$273 annual property tax before reassessment; those figures are not evidence of present market value and likely will not represent post-purchase carrying cost.
+What is still unknown is the nature of the deed: arm's-length purchase, related-party transaction, partial-interest conveyance, settlement, distressed transaction or some other atypical transfer. Bath County Clerk's public guidance confirms Kentucky deeds require a consideration statement and that nominal/gift transfers are handled differently. The actual deed/consideration certificate remains the decisive document.
 
-## Land Model
+**Bath County Clerk:** 606-674-2613. Public open-records requests can be emailed to roger.coyle@ky.gov. Request the May 2026 deed, consideration statement, source deed reference and any related plat for 844 Hickey Rd / parcel 013-00-00-019.04.
+
+## Public GIS / PVA Access
+
+Kentucky Department of Revenue's PVA directory identifies Bath County PVA's public site as **qpublic.net/ky/bath**. The office is at 17 W Main St, Owingsville; 606-674-6382; Jacky.Watson@ky.gov. The interactive parcel system is public but is not reliably crawlable/search-indexed. Use parcel 013-00-00-019.04 and the 844 Hickey Rd address there to confirm geometry, ownership, assessment classification and deed book/page.
+
+Kentucky's KyFromAbove Catalog Explorer is also public for current/historical aerial and elevation products. Coordinates: **38.2606, -83.8814**.
+
+**PARCEL MAP — NOT A SURVEY:** authoritative polygon still needs to be exported/verified from PVA/Kentucky cadastral data before relying on a boundary overlay.
+
+## Land Model / Flood / Terrain
 
 **Total:** 57.576 acres.  
-**Open/operational:** listing claims ~7 acres open.  
-**Wooded:** approximately 50 acres by subtraction, but not independently mapped.  
-**Constrained:** UNKNOWN pending stream/flood, slope, soils, septic and parcel overlay.  
-**Prime operational acreage:** provisionally **5–7 acres**, assuming the advertised open ground is reasonably level, drained and outside flood constraints. This is materially less operational land than the headline acreage suggests, but the timber/wooded acreage is useful for privacy, recreation and potential wood supply.
+**Open/operational:** listing claims ~7 acres.  
+**Wooded:** roughly 50 acres by subtraction.  
+**Prime operational acreage:** provisionally 5–7 acres, pending slope/drainage/flood/soil checks.  
+**Flood:** Realtor/First Street currently rates the property flood factor Minimal, but this is not a substitute for FEMA NFHL parcel review. The year-round stream should still be treated as a local constraint until mapped.
 
-## Location / Market Access
+The property is best viewed as a **small operational core plus a large privacy/timber/recreation envelope**, not as a 57-acre farm with 57 workable acres.
 
-Listing reports about 5 miles to Sharpsburg, 15 miles to Mount Sterling and 45 miles to Lexington. General Sharpsburg-to-Lexington routing is about 41 miles / 43–50 minutes, so the property is plausibly within roughly an hour of Lexington depending on the exact route. Cincinnati is about 2 hours from Sharpsburg. Distance to Green Bay/current-home benchmark is a long interstate relocation and should be route-verified before final ranking.
+## Value / Comparable Land Sales
 
-For dating and customer markets, **Lexington is the meaningful pool**, not Sharpsburg. Mount Sterling is a useful service/regional town but is too small to carry a strong dating score by itself.
+Current ask equals approximately **$4,342/acre**, before assigning any value to the barn quarters, public water, septic and electric.
 
-## Market Trajectory / Exit
+Useful recent Bath County land sales:
 
-**Bath County:** Census 2025 population estimate 13,176, up 3.4% from the 2020 estimate base. Median household income (2020–24) is about $56,541; poverty is high at 22.6%. County employer employment declined 3.5% from 2022 to 2023, and Census reports zero 2025 building permits. This is not a strong suburban growth market, but recent population growth is a positive signal.  
-**Montgomery County / Mount Sterling:** 2025 county population 28,822, up 2.5% from the 2020 base.  
-**Lexington access:** provides a much deeper regional buyer/customer/dating pool than Bath County alone.
+- **Old Sand Rd, Owingsville — 59.54 acres — sold 02/20/2026 for $175,000 (~$2,939/ac).** Wooded/hilly/gentle slope; recreational/vacant/hunting use.
+- **1 Turley Rd, Owingsville — 50 acres — sold 10/08/2025 for $192,000 (~$3,840/ac).**
+- **Washington Branch Rd, Owingsville — 53 acres — sold 04/17/2025 for $135,000 (~$2,547/ac).** Mixed cleared/level/rolling/wooded.
+- A March-2026 Bath County land-market compilation reports **68 acres sold Jan 2026 for $250,000 (~$3,676/ac)**, along with several larger tracts around roughly $2,500–$4,600/ac. Treat this compilation as secondary evidence and verify individual deeds before underwriting.
 
-**Market Trajectory:** STABLE / modestly improving, with Lexington access as the principal tailwind.  
-**Resale Liquidity:** THIN to ADEQUATE for a 57-acre rural recreational/homestead tract; the unusual barn-living setup narrows the conventional-home buyer pool.  
-**Development Optionality:** PLAUSIBLE but UNVERIFIED. Road frontage and acreage are promising, but only ~7 open acres, stream constraints, septic suitability and county subdivision rules may materially limit lot creation.  
-**Value Trap Risk:** MODERATE until the $60k May-2026 transfer is explained and land comps support the ask.  
-**Growth Tailwind:** MODEST; Lexington proximity is useful but this is not obviously in Lexington's immediate path of development.
+At the ask, Hickey is priced roughly **13% above the 50-acre Turley sale, 18% above the reported 68-acre $250k sale on a per-acre basis, and 48% above Old Sand Rd per acre.** Existing utilities, road frontage and basic living quarters can justify a premium, but the premium is not obviously a bargain.
+
+### Preliminary Fair-Value Framing
+
+A defensible first-pass land value using the stronger recent local comps is roughly **$175k–$215k** for the acreage before valuing useful legal improvements. If the barn quarters are legal, safe, septic-supported and genuinely useful, and the public water/electric infrastructure is costly to replicate, an improved value in the **low-to-mid $200s** is plausible. The current **$249,999 ask is supportable only near the top end**, not obviously cheap.
+
+If the May 2026 $60k deed proves to be a normal arm's-length purchase of the full 57.576 acres and no major capital improvements were made afterward, the seller's basis becomes a major negotiation fact and the current ask looks highly aggressive. If it was non-arm's-length or partial-interest, that concern falls sharply.
+
+## Development / Subdivision
+
+Development optionality remains **PLAUSIBLE, not STRONG**. The tract has acreage and county-road frontage, but only ~7 acres are advertised as open. Stream, slopes, septic suitability and frontage geometry could materially restrict additional homesites. The Bath County Clerk confirms plats requiring planning approval must be recorded after applicable approval, but a county-specific subdivision/minimum-lot standard has not yet been verified online.
+
+For Thomas/future-family-homesite planning, do not assume the wooded acreage can simply be split into multiple marketable lots without road frontage, septic and access analysis.
 
 ## Broadband
 
-Kinetic/Windstream announced a Bath County fiber deployment serving 4,300+ residents and current FCC-derived market summaries show FTTP in Sharpsburg up to 2 Gbps from Windstream/Kinetic and up to 1 Gbps from Spectrum. **This is area-level evidence only. Address-level availability at 844 Hickey Rd is UNKNOWN.** Do not clear Nicholas's broadband hard requirement until FCC/provider address checks show 300+ Mbps wired service at this exact location.
+Bath County has genuine fiber infrastructure and Kinetic/Windstream has publicly documented fiber construction in the county. Area-level sources show gigabit-class fiber somewhere in/around Sharpsburg. **No reliable exact-address result for 844 Hickey Rd has yet been found**, so Nicholas's 300+ Mbps hard requirement remains unresolved.
 
-## Septic / Building Infrastructure
+Best validation: FCC Broadband Map exact-address check plus direct Kinetic and Spectrum address qualification. Nearby-address evidence alone is insufficient.
 
-Kentucky requires local-health-department site evaluation and permitting for onsite sewage systems. Existing septic is a listing claim; obtain the permit/as-built and verify capacity for the current barn quarters and any future main residence/second homesite. The reported 0–100 amp electrical service is a likely upgrade item for a serious shop, sawmill, greenhouse or expanded residence.
+## Electrical / Utilities
 
-## Persona Scores — Preliminary
+MLS-fed data reports only **0–100 amp electrical service**. If accurate, expect an electrical service upgrade for a serious shop, welder/compressor, sawmill, large greenhouse or expanded residence. Public water and existing septic materially improve the property's base-camp value, but septic permit/as-built and capacity must be obtained.
 
-These scores are provisional pending address-level broadband, GIS/flood/soil overlays, zoning/business verification and the May-2026 deed.
+## Dating Market Access — Revised
 
-| Persona | Score | Rationale |
+**Score: 67/100 — MEDIUM confidence.**
+
+This score is about market access, not any claim about individuals.
+
+- **Sharpsburg itself:** tiny pool; effectively not the dating market.
+- **Mount Sterling:** about 7,586 residents in the 2025 Census estimate and roughly 15 miles from the property; useful for day-to-day life and some local dating, but too small to carry the score.
+- **Lexington-Fayette:** about **329,751 residents in 2025**, +2.2% from the 2020 estimate base. ACS 2024 median age is about **35.3**, close to Nicholas's target age band.
+- Listing distance is approximately **45 miles to Lexington**; general Sharpsburg-to-Lexington drive time is about **43 minutes**, so the exact property is reasonably modeled as roughly **45–55 minutes to useful Lexington destinations** depending on destination/traffic.
+- Lexington has recurring active-social infrastructure including John's Run/Walk Shop weekly group runs/trail events, Fleet Feet weekly runs and adult recreational sports/social groups. That improves the probability of meeting active people outside apps.
+
+**Practical interpretation:** this is good enough that dating should not disqualify the property. It is materially better than remote eastern-Kentucky locations, but it is not as strong as living 20–35 minutes from Lexington or within the Cincinnati/Nashville/Bowling Green core radius. Routine weeknight dates in Lexington are possible but involve roughly a 1.5-hour-plus round trip.
+
+## Market Trajectory / Exit
+
+**Market Trajectory:** STABLE / modestly improving  
+**Resale Liquidity:** THIN to ADEQUATE  
+**Development Optionality:** PLAUSIBLE / unverified  
+**Value Trap Risk:** MODERATE at the current ask  
+**Growth Tailwind:** MODEST, mainly from Lexington/Mount Sterling access rather than direct suburban growth pressure.
+
+Compared with De Pere/Brown County, this is a deliberate trade from a stronger/liquid metro-adjacent market into a thinner rural land market in exchange for much greater acreage, privacy and property-use freedom.
+
+## Persona Scores — Updated
+
+| Persona | Score | Notes |
 |---|---:|---|
-| Nicholas | **70/100 provisional** | Excellent privacy/acreage, Lexington within roughly an hour, utilities and a usable base-camp structure. Major deductions for unconfirmed broadband hard requirement, only ~7 acres open, uncertain shop/business rules, and questionable ask vs recent transfer. |
-| Dogs | **88/100** | 57 acres, privacy, low-density setting and strong containment potential. Road frontage and fencing details still need review. |
-| Thomas | **66/100** | Plenty of land and likely shop/homesite possibilities, but second-home/subdivision path and broadband are unconfirmed; regional vehicle/parts market improves toward Lexington. |
-| Homestead | **82/100** | Public water, septic, creek, open ground, wooded privacy and agricultural character are strong. Soils, drainage, animal rules and open-acre carrying capacity remain unresolved. |
-| Firewood & Lumber | **76/100** | Large wooded resource, privacy and room for a yard; Lexington market access is useful. Only ~7 open acres and 100A-or-less electric may constrain operations; sawmill/home-business legality is unverified. |
-| Kell and Son Ltd. | **73/100** | Good rural base and equipment room, but shop/yard buildout, electrical upgrade and zoning/business confirmation are needed. |
-| Greenhouse Business | **68/100** | Public water and some open land help; Lexington market is reachable. Solar orientation, drainage, customer pickup legality and business permissions remain unknown. |
-| Equine / Horse Boarding | **58/100** | Historical horse/cattle/pasture use and partial fencing help, but only ~7 open acres limits low-input pasture capacity. Existing barn may not be horse-ready. Lexington horse-country competition is substantial. Customer Demand Likelihood: MODERATE; Confidence: LOW. |
-| Resale & Development | **52/100** | Acreage and Lexington access create optionality, but the 2026 $60k-to-$250k pricing jump is a major underwriting concern, local liquidity is thin, and development constraints are unresolved. |
+| Nicholas | **72/100 provisional** | Strong land/privacy/base-camp concept; dating improved slightly after Lexington market review. Broadband hard requirement still unresolved; value not clearly cheap. |
+| Dogs | **88/100** | Excellent space/privacy; containment and road-frontage details still matter. |
+| Thomas | **67/100** | Strong raw space and likely future shop/homesite potential, but subdivision/second-dwelling and broadband remain unverified. |
+| Homestead | **82/100** | Good mixed land, water/utilities and agricultural character; only ~7 open acres limits scale. |
+| Firewood & Lumber | **77/100** | ~50 wooded acres and Lexington/Mount Sterling market access are useful; 100A service and business legality need work. |
+| Kell and Son Ltd. | **74/100** | Good equipment/property base, but shop/electric/business permissions remain unresolved. |
+| Greenhouse Business | **68/100** | Water and open ground help; market access okay; customer pickup/use legality unknown. |
+| Equine / Horse Boarding | **58/100** | Only ~7 open acres caps low-labor pasture capacity; small operation at most without major land conversion. |
+| Resale & Development | **57/100** | Better after local comp work shows the ask is not completely detached from market, but it still appears premium-priced and the May $60k deed remains unexplained. |
 
-### Dating Market Access
+## Next Direct Validation Steps
 
-**Dating Market Access Score: 64/100 — medium confidence.**  
-Sharpsburg itself is tiny and Mount Sterling is a modest pool. Lexington is the meaningful advantage: general Sharpsburg-to-Lexington routing is roughly 43–50 minutes, putting a substantial metro dating/social/fitness market near the upper end of a practical routine-date radius. The score is materially better than isolated rural eastern-Kentucky locations, but worse than acreage within 20–35 minutes of Lexington, Cincinnati, Bowling Green or Nashville.
-
-## Business Demand
-
-**Firewood/lumber:** Customer Demand Likelihood **MODERATE-HIGH**, Confidence **MEDIUM-LOW**. Lexington is reachable within roughly an hour, while Mount Sterling provides a smaller nearer market. Direct competitor/pricing research remains incomplete.  
-**Greenhouse/nursery:** Customer Demand Likelihood **MODERATE**, Confidence **LOW**. Lexington improves the addressable market, but on-site retail visibility and business-use permissions are unverified.  
-**Horse boarding:** Customer Demand Likelihood **MODERATE**, Confidence **LOW**. Public directories show active boarding/training around Mount Sterling and much deeper competition around Lexington. The tract's limited open acreage likely favors a small pasture-board model rather than a large operation.
-
-## Benchmark Comparison — De Pere / Brown County
-
-This property is a **trade from a stronger, more liquid suburban/metro-adjacent housing market into a thinner rural land market**. The upside is dramatically more acreage, privacy, timber, homestead/business flexibility and lower apparent taxes. The downside is weaker conventional resale liquidity, a smaller local economy, less immediate services, and more dependence on Lexington for major-market access. Do not assume the very low historic tax bill survives a $249,999 purchase/reassessment.
-
-## Financial Fit
-
-At $249,999 this is close enough to the user's low-debt/low-loan target to be strategically interesting, particularly because a basic living setup and utilities already exist. However, buyer-finance scenario proceeds are not populated in the repository, so a precise cash-to-close/down-payment comparison cannot yet be derived from repo assumptions. Likely capital needs include electrical upgrade, shop/garage, barn-quarter repairs/code work, driveway/yard surfacing, fencing, and eventually a primary residence.
-
-**Effective Property Cost risk:** asking price is only the starting point. A future house + shop can easily make this a much larger capital project. The current barn quarters are valuable only if legal, safe and sufficiently comfortable to let the user defer the house build.
-
-## Key Questions / Next Pass
-
-1. Obtain the May 2026 deed and explain the reported $60,000 consideration.
-2. Confirm exact parcel geometry from Bath County PVA/Kentucky Explorer and create parcel/satellite overlay — PARCEL MAP, NOT A SURVEY.
-3. Run exact-address FCC and provider checks for Kinetic/Windstream and Spectrum; Nicholas requires 300+ Mbps wired.
-4. Obtain septic permit/as-built and verify whether the barn quarters are a permitted dwelling and what a second/main residence would require.
-5. Verify Agricultural zoning and written permissions for a large shop, outdoor equipment storage, firewood processing, sawmilling, greenhouse/nursery sales, livestock, horse boarding, and a second dwelling/subdivision.
-6. Overlay FEMA flood, NWI wetlands, NRCS soils and topography, especially around the blue-line stream and the ~7 open acres.
-7. Pull deed/title for easements, restrictions, mineral/OGM/timber rights and access rights.
-8. Develop land comps and improved rural comps before making an offer; do not anchor to the $249,999 ask.
+1. **Order the May 2026 deed from Bath County Clerk** and identify grantor, grantee, consideration statement, deed book/page, legal description and whether 100% fee-simple interest transferred.
+2. **Open Bath County PVA qPublic** and confirm parcel geometry, current owner, assessment class and deed references for parcel 013-00-00-019.04.
+3. Export/trace the authoritative parcel geometry and overlay **KyFromAbove elevation + FEMA NFHL + NWI + NRCS SSURGO**. Focus on whether the ~7 open acres are high/dry and whether a second homesite exists.
+4. Run **FCC + Kinetic + Spectrum exact-address broadband checks**.
+5. Obtain septic permit/as-built and confirm whether barn living quarters have legal occupancy/permit history.
+6. Ask Bath County/Fiscal Court in writing about: large shop, second dwelling, RV occupancy during construction, firewood/sawmill home business, greenhouse sales, livestock/horse boarding, subdivision/minimum frontage.
+7. Ask seller/agent for a written explanation of the May 2026 purchase and itemized improvements since purchase.
 
 ## Verdict
 
-**KEEP DIGGING — but this is not a $250k slam-dunk.** The physical concept fits unusually well: 57.6 acres, wooded privacy, a few open operational acres, utilities, barn living quarters, water, and practical Lexington access. The biggest issue is value. A reported $60,000 transfer only months before the current $249,999 ask creates enough uncertainty that the deal should be treated as **value-unproven** until the deed and comparable land sales explain the gap. If broadband clears and the $60k transfer has a benign explanation, this becomes a legitimate contender; if the transfer was arm's-length and little changed afterward, the current ask is extremely difficult to justify.
-
-## Sources / Evidence Snapshot
-
-- Current Whitetail Properties listing: ask, acreage, open ground, stream, barn quarters, utilities, road, coordinates.
-- MLS-fed Coldwell Banker mirror: MLS 646296, parcel 013-00-00-019.04, Agricultural zoning, tax history.
-- Homes.com / Redfin: reported May 2026 $60,000 transfer and current listing history.
-- U.S. Census QuickFacts: Bath and Montgomery County population/economic context.
-- Kentucky CHFS / 902 KAR 10:085: onsite septic permitting/site-evaluation framework.
-- Kinetic/Windstream announcement + FCC-derived Sharpsburg provider summary: area-level fiber evidence only.
+**KEEP DIGGING / NEGOTIATION CANDIDATE.** The land-use concept still fits unusually well. The deeper comp work changes the conclusion from “the ask may be absurd” to **“the ask is premium, but not impossible to justify if the utilities and living quarters are legitimate.”** I would not pay $250k merely because it has 57 acres. I would want the deed question solved, broadband cleared and the open ground mapped first. On present evidence, the **low-$200s are more comfortable underwriting territory**, with a higher number justified only by verified legal improvements and unusually good usable-site geometry.
