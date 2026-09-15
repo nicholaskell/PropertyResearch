@@ -18,7 +18,7 @@ research_date: 2026-09-15
 
 ## Property Card
 
-**Verdict:** STRONG INVESTIGATE — unusually aligned low-cost starter/homestead property because it already has a small 2024 dwelling, a 70x22 workshop, utilities, 4-bedroom septic approval, low taxes and no county zoning if the parcel is confirmed outside municipal limits. Main unresolved fatal-flaw item is address-level wired broadband. The 5.32-acre size limits horse boarding, major subdivision upside and long-term multi-household separation.
+**Verdict:** STRONG INVESTIGATE — unusually aligned low-cost starter/homestead property because it already has a small 2024 dwelling, a 70x22 workshop, utilities, 4-bedroom septic approval, low taxes and potentially excellent build/business freedom if confirmed outside Pulaski city limits. The major remaining hard-gate is exact-address wired broadband, but the broadband picture improved materially in the deep dive because **Ben Johnson Rd is specifically named in PES Energize's state-funded fiber expansion road list**.
 
 ### Confirmed / current-source facts
 - Active asking price: **$189,900** (Sept. 2026 MLS-fed sources).
@@ -29,97 +29,151 @@ research_date: 2026-09-15
 - Paved county-road frontage; mix of cleared, level, hilly and wooded land.
 - No HOA reported. Listing repeatedly claims no restrictions; deed/title review still required.
 - 2025 property tax reported **$988**.
-- Zillow history: sold for **$55,000 in Oct. 2022**; marketed from $227,500 in June 2025, later $199,900/$198,500, now $189,900. It has had multiple contingent/pending periods and returned to market; ask why each contract failed.
+- Current listing-derived coordinate is approximately **35.2013, -87.1613** at about **832 ft elevation**. Treat as a listing-location point, not a surveyed parcel corner.
+- The listing has had multiple failed/withdrawn contract periods: under contract Apr. 1, back Apr. 5; under contract Apr. 21, back Apr. 28; pending Apr. 14 and May 20 in alternate MLS feeds; relisted again in late July. Seller/agent explanation is high-priority diligence.
 
 ## Fatal-Flaw Screen
 
 | Item | Status | Finding |
 |---|---|---|
-| Wired broadband | **INVESTIGATE** | PES Energize operates FTTH in Giles County and county fiber expansion is ongoing, but address-level 300+ Mbps service at 140 Ben Johnson Rd has not been independently confirmed. Must verify exact address with PES/United/FCC before offer. |
+| Wired broadband | **PROMISING / VERIFY EXACT ADDRESS** | PES Energize's official $23.1M fiber-expansion road list explicitly includes **Ben Johnson Rd**. PES currently offers symmetric 300 Mbps, 500 Mbps, 1 Gbps and up to 5 Gbps fiber tiers where service is available. Exact serviceability at 140 still must be confirmed before offer. |
 | Access | **CLEAR / verify title** | Listing reports paved county-road frontage. Confirm driveway/ROW and truck-trailer geometry. |
-| Zoning/build freedom | **LIKELY CLEAR** | Giles County states unincorporated areas have **no zoning regulations**; floodplain, subdivision, state/federal rules and deed restrictions still apply. Confirm parcel is outside Pulaski corporate limits. |
-| House/habitability | **INVESTIGATE** | New/small cottage is a major advantage, but only 480 sf. Inspect electrical, plumbing, HVAC, foundation/crawlspace and whether all improvements were properly permitted/recognized. |
-| Septic/buildability | **PROMISING / VERIFY** | Listing states 4-bedroom septic approval. Obtain TDEC permit and approved field/reserve areas and confirm intended new-house site can use it. |
-| Flood/wetlands/topography | **INVESTIGATE** | Listing describes dynamic/hilly topography; no authoritative parcel overlay captured yet. Need FEMA/NWI/topographic parcel pass before treating all 5.32 acres as usable. |
-| Restrictions/rights | **INVESTIGATE** | No HOA; listing claims no restrictions. Title/deed/easement/mineral review still needed. |
-| RV during construction | **LOW IMPORTANCE / VERIFY** | Existing legal dwelling may eliminate the need for construction-RV occupancy. If desired, confirm sanitation/occupancy rules with county. |
+| Zoning/build freedom | **LIKELY CLEAR** | Giles County officially states unincorporated areas are not subject to zoning. Deed restrictions, subdivision standards, floodplain rules, septic and state/federal regulations still apply. Confirm parcel is outside Pulaski city limits. |
+| House/habitability | **INVESTIGATE** | 480-sf cottage is useful immediately; inspect electrical, plumbing, HVAC, crawlspace and legal/permitted status. |
+| Septic/buildability | **PROMISING / VERIFY** | Listing says approved for 4-bedroom septic. TDEC requires a septic construction permit and site layout; obtain the actual record and map. |
+| Flood/wetlands/topography | **PROMISING / VERIFY GIS** | Nearby/listing-derived flood-risk signals are low, but no authoritative parcel overlay has yet been captured. County requires floodplain certification before construction. |
+| Restrictions/rights | **INVESTIGATE** | No HOA; title/deed/easement/mineral review still needed. |
+| RV during construction | **LOW IMPORTANCE / VERIFY** | Existing dwelling largely removes the temporary-RV need. |
 
 ## Broadband
 
-**Current verdict: ⚫ ADDRESS-LEVEL UNKNOWN.** Giles County reports broadband construction by PES Energize, United Communications and Ardmore Telephone during 2024–2026. PES is an established FTTH operator in the county with gigabit-class service, but regional coverage does not prove service at this address. Nicholas's 300+ Mbps wired hard requirement remains unresolved until the exact address qualifies.
+**Deep-dive verdict: 🟡 STRONGLY PROMISING, not yet confirmed.**
 
-Next validation: run **140 Ben Johnson Rd, Pulaski TN 38478** through PES Energize and United Communications address checkers and compare with the FCC Broadband Map. If unavailable, request nearest plant location and written extension/construction estimate.
+PES Energize's official Tennessee Emergency Broadband Fund expansion page lists **Ben Johnson Rd** among the funded roads. The project was designed to extend FTTH to underserved Giles County residents, and PES's current residential fiber products include:
+
+- **300/300 Mbps** at $54.95/mo
+- **500/500 Mbps** at $74.95/mo
+- **1 Gbps symmetric** at $99.95–$114.95/mo depending on package
+- **5 Gbps symmetric** at $199.95/mo
+
+PES says its residential broadband is delivered by FTTH/GPON. Giles County's broadband page still directs residents to provider address checkers because road/project inclusion does not prove every structure is activated.
+
+**Implication:** broadband is no longer a generic rural gamble. The subject road itself is in PES's official expansion footprint. Nicholas's 300+ Mbps hard requirement is highly plausible, but remains unconfirmed until PES accepts **140 Ben Johnson Rd** as serviceable or gives a written drop/extension quote.
+
+## Zoning / Business / Build Freedom
+
+Giles County's current Regional Planning Commission page is unusually favorable for this use case: **unincorporated areas are not subject to zoning regulations**. The county explicitly notes that deed restrictions, floodplain rules, subdivision standards and state/federal requirements still apply.
+
+A 2025 county land-use paper also says that without zoning or a land-use plan the county cannot restrict the type of business/facility built on a particular unincorporated parcel, subject to other applicable laws. This is a meaningful positive for shop work, equipment storage, firewood processing, sawmilling and greenhouse activity.
+
+Building-permit rules are also favorable to the existing shop: Giles County states residential permits are required for new residential buildings/additions/renovations increasing square footage, while **detached garages, sheds, barns and other non-living structures do not require a residential building permit**. Electrical/HVAC inspections still apply. Because the shop reportedly contains a full bath/loft, verify whether any living/sleeping use was created and whether its plumbing/septic connection was approved.
+
+## Septic / New-House Path
+
+TDEC confirms that a conventional septic permit is required before construction and that a site evaluation considers the proposed house site, utilities, driveway, water source and soil conditions. Giles County is served by the **TDEC Columbia Environmental Field Office**.
+
+The listing's **4-bedroom septic approval** is potentially the most valuable hidden asset on the property, because it may support the long-term plan of living in the cottage while constructing a normal primary residence. It is not enough to rely on the marketing claim. Obtain:
+
+1. permit/application number and approved bedroom count;
+2. approved disposal field and reserve-field drawing;
+3. whether the approval serves the existing cottage, shop bath, future main residence, or some combination;
+4. whether a new main-house location requires a modified/new permit;
+5. any soil/site restrictions or pump/alternative-system requirement.
+
+## Acreage / Parcel Discrepancy
+
+The **5.32-acre figure is stronger than initially thought** because multiple current MLS feeds state that their lot-size source is the **assessor**, not merely seller marketing. LandSearch also reports 5.32 acres from the assessor-fed listing data.
+
+However, Redfin's separate public-record panel reports **3.67 acres** for the same APN. That conflict remains unresolved and is too material to ignore. Do not pay for 5.32 acres until the assessor card, deed/legal description or current survey confirms it.
+
+This discrepancy may be a stale public-record issue following a prior tract split or data mismatch, but that is only a hypothesis.
 
 ## Land / Build / Development
 
 The property is small by Nicholas's preferred acreage standard, but its infrastructure density is excellent: dwelling + large shop + water + power + septic on only 5.32 acres. Listing claims higher building sites and 4-bedroom septic approval, suggesting a credible **live in cottage -> build main house -> retain cottage/shop** path.
 
-**Usable acreage:** unknown pending parcel/topography overlay. Do not treat 5.32 gross acres as 5.32 operational acres. Listing explicitly says both hilly and level.
+**Usable acreage:** still unknown pending authoritative parcel/topography overlay. The terrain is consistently described as a mix of **cleared, level, hilly and wooded**, not a uniformly buildable 5.32 acres.
 
-**Subdivision optionality: LIMITED to PLAUSIBLE.** Giles County has no zoning in unincorporated areas, but subdivision standards apply. A 2024 county draft required residential setbacks of 35 ft front and 10 ft side plus approved water/septic. With only 5.32 acres, splitting off a second independent homesite may be physically possible but could damage privacy and shop/yard utility. Verify current 2026 subdivision standards, frontage and septic areas before assigning value to a split.
+**Subdivision optionality: LIMITED.** The county's subdivision standards are legally binding when a division qualifies as a subdivision. A county draft states divisions creating tracts of **5 acres or larger** with no new roads/utilities may be exempt from those standards, but at only 5.32 acres this subject parcel has essentially no room to create two 5-acre exempt tracts. A conventional smaller-lot split would require formal review and must still work for frontage, septic and utilities.
+
+That means this property is more valuable as **one improved compound** than as a subdivision play.
+
+## Flood / Construction Process
+
+Giles County requires builders to document that a proposed building site is not in the FEMA-regulated floodplain before construction, through the county Floodplain Administrator/OEM. Aggregator risk models show minimal flood risk for the subject and several immediate Ben Johnson Rd neighbors, but that is not a substitute for the county/FEMA parcel check.
+
+Practical next GIS pass: county/Comptroller parcel geometry + FEMA + NWI + elevation contours, then place the existing cottage/shop and proposed main-house/septic reserve area on one map.
 
 ## Location / Markets
 
-Pulaski is the service town (~8 miles from the listing per MLS). City population is about 8,400; Giles County's 2025 estimate is **31,433**, up about **3.6% from the 2020 estimate base**, a modest positive trend. Pulaski-to-Columbia is roughly **38–43 minutes**, Huntsville about **1:02**, and Nashville about **1:14–1:19** from Pulaski; the property west of town may shift actual times somewhat. Green Bay is roughly **713 road miles / 13h24m** from Pulaski.
+Pulaski is the service town (~8 miles from the listing per MLS). Giles County remains a relatively small market, but the site's reach to Columbia and Huntsville gives it more utility than a truly isolated rural Tennessee location.
 
 **Market Trajectory: 🟡/🟢 STABLE-to-EMERGING**  
 **Resale Liquidity: ADEQUATE-to-THIN**  
-**Development Optionality: LIMITED / PLAUSIBLE**  
-**Benchmark vs De Pere/Brown County:** weaker resale depth and metro immediacy than the current-home benchmark, but dramatically lower property taxes and much cheaper entry into usable rural infrastructure. This is a lifestyle/cost trade into a thinner market, not an obvious appreciation upgrade.
+**Development Optionality: LIMITED**  
+**Benchmark vs De Pere/Brown County:** weaker resale depth and metro immediacy than the current-home benchmark, but dramatically lower taxes and entry cost. This is a lifestyle/cost trade into a thinner market, not an obvious appreciation upgrade.
 
 ## Dating Market Access
 
-**Dating Market Access Score: 64/100 — MEDIUM confidence.** Pulaski itself is too small to carry the score. Columbia is the practical regular-date market; Huntsville is roughly an hour from Pulaski and provides a substantially larger pool, while Nashville is more of an occasional expanded-radius market at ~75–85+ minutes. This is materially better than an isolated rural Tennessee location, but weaker than Clarksville/Bowling Green/Cincinnati-adjacent candidates for routine app density and spontaneous dates.
-
-Practical radius: **Pulaski local + Columbia routinely; Huntsville selectively; Nashville occasionally.**
+**Dating Market Access Score: 64/100 — MEDIUM confidence.** Pulaski itself is too small to carry the score. Columbia is the practical regular-date market; Huntsville is roughly an hour away and gives access to a much larger pool; Nashville is better treated as occasional rather than routine.
 
 ## Persona Scores
 
 | Active persona | Score | Read |
 |---|---:|---|
-| Nicholas | **76/100 provisional** | Excellent shop, price, taxes, utilities and likely build freedom; only 5.32 acres and broadband remains a hard-gate unknown. If verified fiber, score rises into low/mid-80s. |
-| Dogs | **88/100** | Rural separation, acreage and low-traffic road are strong; secure fencing and exact neighbor/road layout still need review. |
-| Homestead | **82/100** | Public water, septic, mixed open/wooded land, shop and county freedom are strong; acreage is sufficient for chickens/gardens/small livestock but not expansive. |
-| Thomas | **68/100 provisional** | Huge shop advantage and possible future homesite, but only 5.32 acres makes true independent parcel/home separation uncertain; broadband gate applies. |
-| Kell and Son Limited Co. | **83/100** | Existing 1,540-sf shop and no county zoning are unusually strong at this price. Verify business use, deed restrictions, neighbors, driveway geometry and power capacity/3-phase. |
-| Firewood and Lumber | **80/100** | Shop + rural/no-zoning context + regional timber fit are strong; limited acreage constrains log inventory/yard separation and noise buffer. |
-| Greenhouse Business | **76/100** | Public water, likely regulatory freedom and Columbia/Huntsville market reach support a side-business path; verify sunny level area and customer-facing use. |
-| Equine / Horse Boarding | **42/100** | 5.32 gross acres is the main limiter. Could support personal horses or a tiny pasture-board concept, but not enough operational land for a compelling boarding business without unusually favorable pasture/layout. Demand not yet deeply validated. |
-| Resale and Development | **67/100** | Low entry price and useful infrastructure create multiple buyer pools, but long DOM/repeated failed contracts and small-acreage development ceiling matter. Giles County growth is positive but market depth is weaker than De Pere. |
+| Nicholas | **82/100 provisional** | Raised from 76 because Ben Johnson Rd is specifically in PES's funded fiber-expansion footprint. Exact-address service still gates final score. |
+| Dogs | **88/100** | Rural separation, acreage and low-traffic road are strong; verify fencing/layout. |
+| Homestead | **82/100** | Strong utilities, build freedom and mixed land; acreage is enough for chickens/garden/small livestock, not expansive. |
+| Thomas | **70/100 provisional** | Shop is a major plus; second independent homesite/parcel remains constrained by acreage. Broadband outlook improved. |
+| Kell and Son Limited Co. | **87/100** | Existing 1,540-sf shop plus no county zoning is unusually good at this price. Need title/business nuisance and electrical capacity checks. |
+| Firewood and Lumber | **84/100** | Strong regulatory fit and shop; acreage limits large log inventory and noise buffer. |
+| Greenhouse Business | **78/100** | Public water, broad land-use freedom and regional markets support hobby-to-side-business progression. |
+| Equine / Horse Boarding | **42/100** | Gross acreage remains the limiter. |
+| Resale and Development | **68/100** | Stronger infrastructure story than raw comps, but long DOM/repeated contract failures and small-acreage ceiling remain risks. |
 
-## Business Demand Screen
+## Offer / Negotiation Read
 
-**Firewood/lumber customer demand: MODERATE-HIGH, confidence MEDIUM.** Columbia and Huntsville are realistic larger markets; Nashville is reachable for higher-value/delivery work. Site feasibility is stronger than demand proof. Validate with competitor pricing and local delivery-radius calls before underwriting income.
+This has now been exposed since June 2025 in at least one MLS feed, started at **$227,500**, dropped sharply to **$199,900**, then **$198,500**, then **$189,900**, and has fallen out of contract multiple times. That is meaningful leverage.
 
-**Greenhouse/nursery customer demand: MODERATE, confidence MEDIUM.** Best path is hobby -> plant starts/seasonal direct sales -> small nursery, using Columbia/Pulaski and selected Huntsville demand. On-site retail legality/access still needs verification.
+**Do not interpret $189,900 as the floor.** The repeated failed contracts create enough uncertainty that a buyer should demand documentary answers before offering near list.
 
-**Horse boarding customer demand: MODERATE at best, confidence LOW.** Even if demand exists, site capacity is the limiting factor. Treat equine income as opportunistic only.
+A rational first-offer posture, assuming broadband and septic documentation come back clean, is approximately **$165k–$175k**, with willingness to move toward the low/mid-$180s only if the acreage, septic approval, legal cottage/shop status and fiber are all verified. This is an estimate, not an appraisal.
 
-## Value / Strategy
+## Highest-Priority Questions for Agent / Seller
 
-At **$189,900**, this is more interesting as a **cheap operational base** than as a classic acreage investment. The shop alone materially changes the economics versus buying a bare 5-acre tract and adding a 1,500+ sf shop, utilities and temporary housing. The strongest strategy is likely: buy at a negotiated discount, live in the cottage, use the shop immediately, verify/prepare the best homesite, then build a modest primary house only if the resulting all-in basis remains below local improved-property value.
-
-The listing has been exposed for a long time and has fallen from $227,500 to $189,900 with multiple pending/contingent failures. That supports an **aggressive diligence/offer posture**, not an assumption that $189,900 is already a bargain. First questions: why contracts failed, septic documentation, exact acreage discrepancy in public/aggregator records, permits for cottage/shop/bath, broadband, survey, restrictions/easements, and power capacity.
+1. Why did **each prior contract** fail or terminate?
+2. Send the **current survey or deed/legal description** proving 5.32 acres.
+3. Send the **TDEC 4-bedroom septic permit/soil map** and identify field + reserve area.
+4. Is PES fiber **active at 140 Ben Johnson Rd today**? If yes, provide a recent bill/screenshot or service-order confirmation.
+5. Was the 480-sf residence properly permitted/inspected as a dwelling?
+6. Is the **shop's full bath** legally tied into the septic system?
+7. What amperage is the electric service? Separate meters/panels? Any 3-phase nearby?
+8. Any deed restrictions, easements, shared drive/utility rights, timber/mineral reservations or private maintenance agreements?
+9. Is the parcel definitely **outside Pulaski city limits**?
+10. Has the seller obtained any written confirmation that a larger primary residence can be built on the higher site?
 
 ## Financial Fit
 
-Buyer-finance scenarios currently lack actual expected sale proceeds/down-payment/reserve values, so a full cash-to-goal model is not yet reliable. Relative to the current ~$1,600/month PITI benchmark, the low purchase price and $988 annual taxes make this a plausible monthly-carry reduction with a normal mortgage structure. The key capital risk is future main-house construction, not carrying the existing property.
+Buyer-finance scenarios currently lack actual expected sale proceeds/down-payment/reserve values, so a full cash-to-goal model is not yet reliable. Relative to the current ~$1,600/month PITI benchmark, the low purchase price and $988 annual taxes make this a plausible monthly-carry reduction. The major capital exposure is the eventual main-house build, not the current property carry.
 
 ## Next Pass
 
-1. Confirm **PES/United wired broadband at the exact address**.
-2. Pull authoritative **Giles County parcel/GIS boundary** and reconcile 5.32-acre listing against any public-record acreage discrepancy.
-3. Obtain **TDEC 4-bedroom septic permit/soil map** and locate field/reserve area relative to the proposed main-house site.
-4. Pull deed/title for restrictions, easements and mineral/surface rights.
-5. Confirm cottage/shop permits, legal dwelling status, shop bath wastewater connection, and electric service size/3-phase availability.
-6. Overlay FEMA/NWI/topography and estimate prime operational acreage.
-7. Ask listing agent why the property went pending/contingent multiple times and returned to market.
+1. Exact-address **PES fiber activation confirmation**.
+2. Authoritative **assessor/GIS parcel geometry** to settle 5.32 vs 3.67 acres.
+3. **TDEC septic record/map**.
+4. Deed/title restrictions/easements/mineral rights.
+5. Residential permit and shop-bath plumbing/septic legality.
+6. FEMA/NWI/elevation overlay and estimated prime operational acres.
+7. Seller/agent explanation for repeated failed contracts.
 
 ## Sources checked 2026-09-15
-- Zillow / REALTRACS-fed listing and history.
-- Redfin / REALTRACS listing detail.
-- Giles County Regional Planning Commission (county zoning/subdivision framework).
+- Zillow / REALTRACS / ValleyMLS current listing and history.
+- Redfin / REALTRACS listing and public-record panel.
+- Homes.com / REALTRACS listing detail.
+- LandSearch / REALTRACS listing detail and coordinates.
+- Giles County Regional Planning Commission current zoning/subdivision guidance.
+- Giles County Notice to Developers and building-permit guidance.
 - Giles County broadband project page.
-- PES Energize broadband/fiber expansion pages.
-- U.S. Census Bureau QuickFacts, Giles County.
+- PES Energize official fiber-expansion grant road list, current fiber expansion page and residential internet plans.
+- Tennessee TDEC Septic System Construction Permit guidance and Columbia Environmental Field Office.
 - Current PropertyResearch criteria, all active personas, active current-home benchmark and finance scenarios.
