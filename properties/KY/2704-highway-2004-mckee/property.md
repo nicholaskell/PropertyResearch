@@ -23,36 +23,53 @@ zillow_url: https://www.zillow.com/homedetails/2704-Highway-2004-Mc-Kee-KY-40447
 - **Ask:** $89,900.
 - **Listing claim:** 3 bed / 1 bath / 967 sq ft brick ranch on approximately 25 acres, mostly wooded.
 - **Utilities:** prior MLS/public-record aggregation reports public water, septic, electric, heat pump.
+- **Broadband:** **CONFIRMED by user-supplied FCC Broadband Map screenshot:** address is a served residential BSL; Peoples Rural Telephone Cooperative reports FTTP at **1,000/1,000 Mbps** as of FCC data dated Dec. 31, 2025. This clears Nicholas's wired 300+ Mbps hard requirement, subject only to normal provider confirmation before closing.
 - **Structures:** house plus shed; no meaningful shop/garage confirmed.
 - **Prior sale:** $145,000 on 2023-08-04.
 - **Current listing context:** listing states exact acreage and age are unknown and property may qualify for Vendee seller financing.
-- **Distress/title context:** a March 2026 Jackson Circuit Court Master Commissioner notice identifies 2704 Highway 2004 in a PennyMac foreclosure case and references Parcel IDs `20-43 & 24-44` in the published notice. Current/older MLS-derived sources commonly identify `20-44`, while a tax-record aggregator identifies `20-43` at 33.25 acres. This conflict is material and must be resolved from the commissioner's deed/current deed and Jackson County PVA records before relying on acreage or boundaries.
+- **Distress/title context:** a March 2026 Jackson Circuit Court Master Commissioner notice identifies 2704 Highway 2004 in PennyMac Loan Services LLC v. Brandon L. Thornton, Kelsey Thornton, Jackson County, Case 25-CI-00150. The published notice references Parcel IDs `20-43 & 24-44`. Current listing feed identifies `20-43`; the 2023 MLS identified `20-44`. This conflict is material and must be resolved from the commissioner's deed/current deed and Jackson County PVA records before relying on acreage or boundaries.
 
 ## Fatal-Flaw Screen
 
 | Item | Status | Notes |
 |---|---|---|
-| Wired broadband | INVESTIGATE, favorable | PRTC operates FTTP in Jackson/Owsley counties and advertises symmetric 300/500/1000 Mbps tiers. Address-level service still needs direct confirmation at 2704 Hwy 2004. If confirmed, Nicholas's 300+ Mbps hard requirement is met. |
-| Legal/practical access | INVESTIGATE | Existing occupied residence and state-highway address strongly support practical access, but deeded frontage/driveway rights and heavy equipment geometry are not yet verified. |
+| Wired broadband | **CLEAR** | User-supplied FCC Broadband Map screenshot shows the exact address served by PRTC FTTP at 1,000/1,000 Mbps. Final provider confirmation before closing remains prudent. |
+| Legal/practical access | INVESTIGATE | Existing residence and state-highway address strongly support practical access, but deeded frontage/driveway rights and heavy equipment geometry are not yet verified. |
 | Buildability/zoning | INVESTIGATE, favorable | Jackson County strategic/economic-development sources state the county has no planning/zoning commission. State building/plumbing/electrical/septic requirements still apply. Confirm property is outside McKee city limits and verify any deed restrictions before assuming accessory/business freedom. |
-| Acreage/boundary/title | **MAJOR INVESTIGATE** | Listing says 25 +/- acres and exact acreage unknown; historical listing says “remainder of deed.” Sources conflict among parcel 20-44, parcel 20-43 at 33.25 acres, and foreclosure notice referencing two parcel IDs. Survey/title/PVA reconciliation is required. |
-| Flood/wetlands/topography | INVESTIGATE | Realtor environmental screen says minimal flood factor; a tax-record aggregator reports flood zones B/X for parcel 20-43. Mountainous county and mostly wooded acreage imply potentially substantial slope; usable/prime acres are unknown pending parcel geometry/topographic review. |
+| Acreage/boundary/title | **MAJOR INVESTIGATE** | Current listing says 25 +/- acres, exact acreage unknown, and identifies parcel 20-43. Historical MLS identifies 20-44 and says “remainder of deed.” A tax-record aggregator associates 20-43 with 33.25 acres. Foreclosure notice references two IDs. Survey/title/PVA reconciliation is required. |
+| Flood/wetlands/topography | INVESTIGATE | Realtor environmental screen says minimal flood factor; a tax-record aggregator reports flood zones B/X for parcel 20-43. Mountainous county and mostly wooded acreage imply potentially substantial slope; usable/prime acres are unknown pending reliable parcel geometry/topographic review. |
 | House habitability | INVESTIGATE | Existing brick ranch with metal roof and heat pump, but current condition is unknown. Foreclosure/REO context raises inspection/maintenance risk. |
 | OGM/mineral rights | UNKNOWN | Kentucky deed/title review required; do not assume mineral/timber rights convey. |
 | Resale/liquidity | INVESTIGATE | Extremely low basis is attractive, but rural Jackson County has a thin buyer pool relative to De Pere/Green Bay and exact acreage/title uncertainty can impair financing/resale. |
 
+## GIS / Parcel Investigation
+
+### Confirmed public-location data
+- Current ImagineMLS-derived listing (LandSearch) identifies **parcel 20-43**, 25 +/- acres, coordinates **37.5105, -84.1148**, listing elevation about **1,364 ft**.
+- LoopNet's Jackson County tax-record aggregation identifies **20-43** at the same address as **33.25 acres**.
+- 2023 ImagineMLS-derived records identify **20-44**, 25 +/- acres, and explicitly state the property was sold as **“remainder of deed, exact acreage unknown.”**
+- March 2026 Jackson Circuit Court Master Commissioner foreclosure notice, Case 25-CI-00150, identifies the property and references **`20-43 & 24-44`** as printed/extracted in the public notice.
+
+### Public GIS availability
+Kentucky Division of Geographic Information provides free statewide GIS tools through **KyGeoNet / KyFromAbove**. KyFromAbove Catalog Explorer accepts a latitude/longitude search and provides public aerial/elevation datasets. This is useful for terrain analysis at the subject coordinates. However, no authoritative free Jackson County cadastral polygon for parcel 20-43/20-44 has yet been located. Search results for generic “Jackson County parcel GIS” frequently resolve to other Jackson Counties in other states and must not be used.
+
+**Important:** Do not draw or publish a parcel polygon until a reliable Jackson County KY cadastral source, deed legal description, survey, or other defensible geometry is obtained. Any eventual map must be labeled **PARCEL MAP — NOT A SURVEY**.
+
+### Working interpretation
+The conflicting identifiers may indicate multiple tax tracts, a remainder tract, a reassignment/correction, or a transcription error. It is not defensible yet to say that 20-43 alone equals the land being conveyed. The foreclosure notice's two-parcel reference makes the commissioner's deed/current REO deed the highest-value evidence source.
+
 ## Land Model
 
-**Total acreage:** 25 +/- acres (listing claim), but unresolved. A separate tax-record source associates 33.25 acres with parcel 20-43 at this address.  
+**Total acreage:** 25 +/- acres (listing claim), unresolved; separate tax-record aggregation reports 33.25 acres for 20-43.  
 **Constrained acreage:** unknown.  
 **Usable acreage:** unknown.  
 **Prime/operational acreage:** likely much less than gross acreage because the listing describes the tract as mostly wooded and Jackson County has mountainous terrain; verify with parcel geometry + contours.
 
-The land is the central diligence issue. At $89,900 the property can be compelling even with modest usable acreage, but it should not be scored as a 25-acre operational homestead until boundaries, slope and the two-parcel/remainder-of-deed issue are resolved.
+The land remains the central diligence issue. At $89,900 the property can be compelling even with modest usable acreage, but it should not be scored as a 25-acre operational homestead until boundaries, slope and the multi-parcel/remainder-of-deed issue are resolved.
 
 ## Broadband
 
-PRTC states it provides fiber-to-the-premises and advertises symmetric 300 Mbps, 500 Mbps and up-to-1 Gbps service. It specifically serves Jackson County. **Address-level availability remains unconfirmed.** Next step: enter 2704 Highway 2004, McKee, KY 40447 into PRTC's service-map/address checker or obtain written confirmation from PRTC.
+**CLEAR.** FCC Broadband Map screenshot supplied by Nicholas on 2026-09-15 shows selected location 2704 Highway 2004, McKee, KY 40447, status Served, Residential, Unit Count 1. Peoples Rural Telephone Cooperative is shown as Fiber to the Premises with **1,000 Mbps down / 1,000 Mbps up**. FCC map data is dated Dec. 31, 2025. Satellite providers are also shown but are irrelevant because wired symmetric gigabit fiber is reported.
 
 ## Zoning / Building Freedom
 
@@ -86,18 +103,18 @@ Jackson County planning/economic-development materials state the county does not
 ### Greenhouse Business
 **Customer Demand Likelihood: MODERATE | Confidence: LOW.** Low land cost and likely regulatory freedom help; customer access is weaker than metro-adjacent properties. Sunny level acreage and water capacity must be verified.
 
-## Persona Scores — Initial / Provisional
+## Persona Scores — Updated
 
 | Persona | Score | Rationale |
 |---|---:|---|
-| Nicholas | **72/100** | Huge affordability/privacy upside and likely fiber/regulatory freedom; penalized for unverified address-level broadband, uncertain usable acreage/shop potential, title/boundary conflict and dating distance. |
+| Nicholas | **77/100** | Confirmed symmetric gigabit FTTP removes a major hard-requirement risk. Huge affordability/privacy upside and likely regulatory freedom; remaining penalties are usable acreage/shop potential, title/boundary conflict and dating distance. |
 | Dogs | **82/100** | Acreage/privacy are strong; highway frontage and fenceable/usable terrain need verification. |
-| Thomas | **61/100** | Cheap land and potential future build/shop space help; second homesite, broadband and usable terrain remain unverified and regional market access is modest. |
+| Thomas | **64/100** | Gigabit fiber improves the case; cheap land and potential future build/shop space help, but second homesite and usable terrain remain unverified and regional market access is modest. |
 | Homestead | **70/100** | Low basis, privacy and regulatory freedom are attractive; mostly wooded/slope uncertainty reduces garden/pasture assumptions. |
-| Kell and Son Limited Co. | **66/100** | Potentially permissive county and cheap land; operational yard, heavy-trailer access, power capacity and neighbor/noise layout remain unknown. |
+| Kell and Son Limited Co. | **68/100** | Gigabit connectivity, potentially permissive county and cheap land help; operational yard, heavy-trailer access, power capacity and neighbor/noise layout remain unknown. |
 | Firewood and Lumber | **69/100** | Wooded acreage and low basis are promising, but market access and operational flat acreage are not yet strong enough for a higher score. |
 | Equine / Horse Boarding | **39/100** | No confirmed equine infrastructure and likely limited pasture/flat ground; demand is not strong enough to justify major conversion without deeper evidence. |
-| Greenhouse Business | **62/100** | Low cost and likely regulatory freedom help; sunlight/level site/water and customer radius need verification. |
+| Greenhouse Business | **63/100** | Fiber and low cost help slightly; sunlight/level site/water and customer radius need verification. |
 | Resale and Development | **64/100** | Ask is 38% below the 2023 $145k sale, creating potential equity cushion, but foreclosure condition, exact acreage/title conflict and thin rural resale market are serious counterweights. |
 
 ## Financial Fit
@@ -108,30 +125,32 @@ The low basis creates an unusual strategic option: buy cheaply, preserve capital
 
 ## Value / Opportunity Read
 
-**Initial verdict: WORTH DIGGING — potentially one of the more interesting low-cost “bridge property” candidates, but the acreage/title issue is not paperwork trivia.**
+**Updated verdict: WORTH DIGGING — broadband is now a strength rather than a question. The acreage/title/terrain issue is the primary gating item.**
 
-The $89,900 ask is about $55,100 (38%) below the August 2023 $145,000 sale. That discount is large enough to create genuine upside if the house is sound and the deed actually conveys the acreage expected. It could also simply reflect foreclosure condition, title/acreage ambiguity, deferred maintenance or a thin market. Do not underwrite against third-party AVMs until the current deed, parcel configuration and condition are resolved.
+The $89,900 ask is about $55,100 (38%) below the August 2023 $145,000 sale. That discount is large enough to create genuine upside if the house is sound and the deed actually conveys the acreage expected. It could also reflect foreclosure condition, title/acreage ambiguity, deferred maintenance or a thin market. Do not underwrite against third-party AVMs until the current deed, parcel configuration and condition are resolved.
 
 ### Highest-value next diligence
-1. Obtain the March 2026 Master Commissioner sale record/deed and current deed/legal description; reconcile `20-43`, `20-44` and the notice's second parcel reference.
-2. Pull Jackson County PVA parcel maps/acreage for every parcel conveyed and establish a reliable parcel boundary.
-3. Overlay contours/elevation and identify actual flat/prime operational acres, homesite/shop sites and driveway/trailer geometry.
-4. Confirm PRTC FTTP service at the exact address and available tier.
-5. Get current interior/mechanical/roof/septic/water condition and determine why the VA/PennyMac loan foreclosed so soon after the 2023 purchase.
-6. Check deed restrictions, easements, timber/mineral rights and any state-highway access constraints.
-7. Only then model a shop/new-home/flip strategy and defensible resale value.
+1. Obtain the Master Commissioner deed/current REO deed and legal description; reconcile `20-43`, historical `20-44`, and the foreclosure notice's second parcel reference.
+2. Use the legal description/PVA evidence to establish a reliable parcel boundary.
+3. Use Kentucky public KyFromAbove elevation/aerial data to overlay contours and identify actual flat/prime operational acres, homesite/shop sites and driveway/trailer geometry.
+4. Get current interior/mechanical/roof/septic/water condition and determine why the VA/PennyMac loan foreclosed so soon after the 2023 purchase.
+5. Check deed restrictions, easements, timber/mineral rights and any state-highway access constraints.
+6. Only then model a shop/new-home/flip strategy and defensible resale value.
 
 ## Sources checked 2026-09-15
 
 - Zillow current search feed / supplied listing URL.
-- Bluegrass REALTORS/Imagine MLS-derived current listing mirrors.
+- User-supplied FCC Broadband Map screenshot, data as of 2025-12-31.
+- ImagineMLS-derived current listing via LandSearch.
 - Realtor.com historical MLS/property record.
 - Homes.com historical MLS/public-record aggregation.
+- LoopNet Jackson County tax-record aggregation.
 - Kentucky public legal notice / Jackson Circuit Court Master Commissioner foreclosure notice (March 2026).
+- Kentucky Division of Geographic Information KyGeoNet / KyFromAbove public GIS resources.
 - Peoples Rural Telephone Cooperative official broadband/network pages.
 - Jackson County strategic/economic-development planning materials.
 - U.S. Census Bureau QuickFacts, Jackson County KY.
 
 ## Evidence status
 
-No survey, current deed, PVA parcel map, inspection, seller disclosure, title commitment, FCC address-level record or PRTC address-level confirmation has yet been archived. These are the priority evidence items for the next pass.
+FCC address-level broadband evidence is now confirmed from the user-supplied screenshot. No survey, current deed, authoritative PVA parcel map, inspection, seller disclosure, or title commitment has yet been archived. Parcel geometry remains intentionally unresolved rather than guessed.
