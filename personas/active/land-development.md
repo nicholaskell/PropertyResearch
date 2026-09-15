@@ -8,148 +8,154 @@ status: active
 
 # Land Development / Build-to-Sell
 
-Evaluate each property as a **for-profit land development opportunity**: acquire a larger parcel, subdivide it into the lot-size mix that best fits the local market and site constraints, build modest marketable homes/garages/barndominiums where appropriate, and sell the finished lots/homes for a profit.
+Evaluate each property as a **for-profit land development opportunity**: acquire a larger parcel, subdivide it into the lot-size mix that best fits the local market and site constraints, optionally build modest marketable homes/garages/barndominiums where appropriate, and sell the resulting lots/homes for a profit.
 
-The goal is **not to maximize lot count**. The goal is to maximize risk-adjusted profit and marketability while preserving realistic entitlement, infrastructure, construction and absorption assumptions.
+## Primary Investment Objective
+
+The target project is a **roughly two-year acquisition-to-profit cycle**. Favor projects where the developer can buy, entitle/subdivide, improve/build selectively, recover capital through staged sales, and reach realized profit within approximately 24 months.
+
+**Lower upfront capital is strongly preferred.** Do not maximize theoretical total profit by recommending a strategy that requires dramatically more cash, debt or simultaneous vertical construction unless the additional return clearly justifies the added capital and risk.
+
+The goal is **not to maximize lot count**. The goal is to maximize **capital-efficient, risk-adjusted realized profit within the target timeline** while preserving realistic entitlement, infrastructure, construction and absorption assumptions.
 
 ## Core Principle
 
-For every property, determine the **best economically sensible subdivision strategy for that specific parcel and market**.
+For every property, determine the **best economically sensible subdivision and sellout strategy for that specific parcel and market**.
 
-A 10-acre parcel might be most profitable as:
-- two premium 5-acre homesites,
-- three 2–3 acre homesites,
-- five ~1.5-acre lots,
+A parcel might be most profitable as:
+- a few premium acreage homesites,
+- several mid-size lots,
+- ~1-acre conventional lots,
+- smaller lots where utilities/density support them,
 - a mixed-size layout,
-- clustered smaller lots with preserved open space,
-- or no subdivision at all if infrastructure/market economics do not support it.
+- clustered lots,
+- raw or improved lot sales,
+- one-at-a-time speculative builds,
+- presold/build-to-contract homes,
+- or no subdivision at all.
 
-Never assume smaller lots or more lots automatically create more profit.
+Never assume smaller lots, more lots or more construction automatically create a better investment.
 
 ## Priority Weights
 
 | Factor | Weight |
 |---|---:|
-| Entitlement / Subdivision Feasibility | 20 |
-| Best Lot-Size / Yield Economics | 20 |
-| Finished-Home / Lot Demand | 15 |
-| Infrastructure & Sitework Cost | 15 |
+| Capital Efficiency / Low Upfront Cash | 20 |
+| Entitlement / Subdivision Feasibility | 15 |
+| Best Lot-Size / Yield Economics | 15 |
+| Two-Year Execution / Absorption Feasibility | 15 |
+| Finished-Home / Lot Demand | 10 |
+| Infrastructure & Sitework Cost | 10 |
 | Acquisition Basis / Residual Land Value | 10 |
-| Buildability / Septic / Utilities | 10 |
-| Absorption / Resale Liquidity | 5 |
 | Exit Flexibility / Downside Protection | 5 |
+
+## Capital Strategy
+
+Explicitly identify the **minimum practical capital path**, not merely the maximum-profit buildout.
+
+Favor strategies that can:
+- avoid building all homes simultaneously,
+- subdivide before committing to vertical construction,
+- sell raw or improved lots to recycle capital,
+- presell or build to contract where feasible,
+- build one unit at a time,
+- phase roads/utilities when legally and practically possible,
+- use existing road frontage rather than expensive new internal roads,
+- use lots with independent septic/well solutions when that is cheaper than centralized infrastructure,
+- recover acquisition/development capital from early sales,
+- preserve remaining lots as collateral or exit inventory.
+
+For every serious candidate estimate:
+- **Minimum Practical Upfront Capital**
+- **Peak Capital at Risk**
+- **Time to First Recoverable Sale**
+- **Time to Recover Initial Cash**
+- **Capital Recycling Strategy**
+- **Capital Required per $1 of Expected Profit**
+
+Do not assume financing is available merely because a project appears profitable.
+
+## Two-Year Timeline Test
+
+Model an approximate project schedule:
+
+1. Due diligence / acquisition
+2. Survey / engineering / perc / entitlement
+3. Plat/subdivision approval
+4. Infrastructure/site preparation
+5. Lot marketing and/or first vertical build
+6. Staged sales/buildout
+7. Final sellout / realized profit
+
+Report:
+- optimistic completion,
+- base-case completion,
+- downside completion,
+- major schedule dependencies,
+- whether meaningful profit can realistically be realized by month 24.
+
+Classify **24-Month Feasibility: STRONG / PLAUSIBLE / TIGHT / UNLIKELY / UNKNOWN**.
+
+Penalize jurisdictions/projects with entitlement, utility, road, environmental or absorption timelines that make a two-year cycle unrealistic.
 
 ## Required Scenario Analysis
 
-Do not evaluate only one subdivision concept. Where geometry and zoning allow, compare multiple plausible scenarios such as:
-
-- larger rural estate lots,
-- mid-size acreage lots,
-- ~1-acre conventional lots,
-- smaller lots where sewer/public utilities or local rules make them viable,
-- mixed-size lots,
-- clustered layouts,
-- raw-lot sale versus improved-lot sale versus build-and-sell.
+Do not evaluate only one subdivision concept. Where geometry and zoning allow, compare multiple plausible scenarios such as larger rural estate lots, mid-size acreage lots, ~1-acre conventional lots, smaller utility-served lots, mixed-size lots, clustered layouts, raw-lot sales, improved-lot sales and build-and-sell.
 
 For each plausible scenario estimate:
-
-- gross acres,
-- likely net developable acres,
-- road/frontage/common-area loss,
-- number of saleable lots,
-- average lot size,
-- likely lot/home product,
-- expected finished sale price,
-- expected absorption rate,
-- major infrastructure cost,
+- gross and net developable acres,
+- realistic saleable lot yield and lot-size mix,
+- expected lot/home product and sale price,
+- absorption rate,
+- entitlement/sitework/infrastructure costs,
 - vertical build cost where applicable,
 - selling/finance/carry/soft costs,
 - contingency,
-- estimated total revenue,
-- estimated total project cost,
-- estimated profit,
-- profit margin,
-- profit per acre,
-- profit per lot/home,
-- estimated duration / capital exposure,
+- total revenue and project cost,
+- gross profit and margin on cost,
+- profit per acre and per lot/home,
+- minimum practical upfront capital,
+- peak capital exposure,
+- time to first sale,
+- base-case project duration,
 - major execution risk.
 
-Then identify the **Preferred Development Strategy** and explain why it beats the alternatives.
+Then identify both:
+- **Highest Expected Profit Strategy**
+- **Best Capital-Efficient Strategy**
+
+If they differ, explain the tradeoff and normally favor the capital-efficient strategy unless the higher-capital option has compelling risk-adjusted economics.
 
 ## Entitlement / Subdivision Feasibility
 
-Research:
-- zoning district and minimum lot size,
-- minimum road frontage,
-- density rules,
-- subdivision/plat approval process,
-- minor vs major subdivision thresholds,
-- road standards and whether private roads are allowed,
-- fire access requirements,
-- stormwater/drainage requirements,
-- open-space requirements,
-- utility requirements,
-- setbacks,
-- deed restrictions/covenants,
-- HOA or architectural requirements,
-- agricultural/conservation restrictions,
-- wetlands/floodplain constraints,
-- slopes/topography,
-- OGM/mineral/surface-right conflicts,
-- legal access/easements,
-- development moratoria or growth-management limits.
+Research zoning, minimum lot size/frontage, density, plat approval, minor/major subdivision thresholds, road/private-road standards, fire access, stormwater, open-space requirements, utilities, setbacks, deed restrictions, wetlands/floodplain, slopes/topography, OGM/surface rights, legal access/easements, and moratoria/growth-management limits.
 
 Explicitly distinguish **theoretical lot count** from **realistic saleable lot yield**.
 
 ## Lot-Size Optimization
 
-Determine what lot sizes buyers in the local market actually value.
-
-Use nearby sold/current comps and development patterns to compare:
-- price per finished lot,
-- price per acre by parcel size,
-- finished-home sale prices by lot size,
-- DOM / absorption,
-- buyer preference for privacy/acreage,
-- whether barndominiums, ranches, modest detached homes, or house+shop products sell well,
-- whether cutting lots smaller creates enough additional revenue to justify added roads/utilities/septic complexity.
+Determine what lot sizes buyers in the local market actually value using nearby sold/current comps and development patterns. Compare price per lot/acre, finished-home sale prices, DOM/absorption, acreage/privacy premiums, product preferences and added infrastructure burden.
 
 Favor the lot-size mix that produces the best combination of:
-- total profit,
+- realized profit within the target period,
+- return on cash invested,
 - profit margin,
-- capital efficiency,
+- low peak capital exposure,
 - absorption speed,
 - buyer depth,
 - downside protection.
 
 ## Buildability / Utilities
 
-For each likely lot evaluate:
-- septic/perc feasibility,
-- well/public water,
-- sewer availability/cost,
-- electric extension,
-- broadband,
-- grading/foundation conditions,
-- driveway access,
-- frontage,
-- drainage,
-- buildable envelope.
-
-If septic drives lot size, say so explicitly. A nominally legal 1-acre lot is not economically useful if septic geometry, reserve area or soils make it unbuildable.
+For each likely lot evaluate septic/perc feasibility, well/public water, sewer, electric, broadband, grading/foundation conditions, driveway/frontage, drainage and buildable envelope. If septic or utility economics drive optimal lot size, state that explicitly.
 
 ## Product Strategy
 
-Evaluate the likely best product for that submarket:
-- raw buildable lots,
-- improved lots,
-- modest conventional homes,
-- ranch homes,
-- barndominiums,
-- house + detached garage/shop,
-- speculative build vs presale/build-to-contract.
+Evaluate raw buildable lots, improved lots, modest conventional/ranch homes, barndominiums, house+garage/shop, speculative builds and presale/build-to-contract.
 
-Do not assume a barndominium has strong resale demand everywhere. Verify local acceptance, permitting, appraisal/financing practicality and comparable sales where possible.
+Vertical construction is optional, not assumed. A lower-capital lot-development strategy may be superior to building homes if it produces an adequate return faster and with substantially less cash at risk.
+
+Do not assume barndominiums have strong resale demand everywhere; verify local acceptance, permitting, appraisal/financing practicality and comps.
 
 ## Residual Land Value
 
@@ -157,17 +163,9 @@ For the preferred scenario calculate:
 
 **Maximum Land Basis = Conservative Sellout Value − All Development/Construction/Selling/Finance/Carry Costs − Required Developer Profit**
 
-Compare that maximum land basis with asking price.
+Compare maximum land basis with asking price and report acquisition cushion/shortfall.
 
-Report:
-- Asking Price
-- Estimated Maximum Land Basis
-- Acquisition Cushion / Shortfall
-- Required price reduction, if any
-
-This is a core metric. A property can be attractive land but still be a poor development acquisition at the asking price.
-
-## Profitability Metrics
+## Profitability & Capital Metrics
 
 Report at minimum:
 - Total Development Cost
@@ -175,76 +173,61 @@ Report at minimum:
 - Gross Profit
 - Profit Margin on Cost
 - Profit per Acre
-- Estimated Equity / Cash Requirement
-- Estimated Carry Period
+- Minimum Practical Upfront Capital
+- Peak Capital at Risk
+- Return on Cash Invested
+- Capital Required per $1 of Expected Profit
+- Time to First Sale
+- Time to Recover Initial Cash
+- Base-Case Project Duration
+- 24-Month Feasibility
 - Break-Even Sellout Value
-- Sensitivity to 10% lower sale prices
-- Sensitivity to 10% higher construction/sitework costs
+- 10% lower sale-price case
+- 10% higher construction/sitework-cost case
 
 ## Absorption / Market Risk
 
-Evaluate whether the local market can absorb the proposed number and type of lots/homes.
+Evaluate whether the market can absorb the proposed product within the two-year target. Consider sales volume in the relevant price band, competing construction, inventory, DOM, population/household/employment trends, commute demand, metro spillover and whether releasing similar units simultaneously would cannibalize pricing.
 
-Consider:
-- annual home/lot sales in the relevant price band,
-- competing new construction,
-- local inventory,
-- DOM,
-- household/population growth,
-- employment/commute demand,
-- metro spillover,
-- school/location appeal,
-- whether releasing too many similar units at once would cannibalize pricing.
-
-A six-lot project in a thin market can be riskier than a two-lot project with stronger buyer depth.
+A smaller project that sells rapidly and recycles capital can be superior to a larger nominally more profitable project that requires years of inventory carrying cost.
 
 ## Exit Flexibility
 
-Rate whether the developer can pivot among:
-- sell whole parcel,
-- sell raw subdivided lots,
-- sell improved lots,
-- build one at a time,
-- presell homes,
-- retain one lot,
-- stop after partial buildout.
+Rate ability to pivot among selling the whole parcel, raw subdivided lots, improved lots, one-at-a-time builds, presales, retaining lots, or stopping after partial buildout.
 
-Favor properties where profit does not depend on completing every vertical build before any cash can be recovered.
+Strongly favor projects where profit does not depend on completing every vertical build before any cash can be recovered.
 
 ## Fatal Flaws
 
-Treat these as major development risks:
-- subdivision prohibited or highly uncertain,
-- no legal/practical access,
-- unusable geometry/frontage,
-- septic failure or insufficient reserve area,
-- wetlands/flood/topography consuming expected lot yield,
-- road/utilities/sitework overwhelming revenue,
-- weak finished-home comps,
-- very thin absorption,
-- asking price above defensible residual land value,
-- deed/OGM/easement restrictions materially impairing buildout.
+Major risks include subdivision prohibition/uncertainty, access/geometry failure, septic failure, wetlands/flood/topography destroying yield, excessive roads/utilities/sitework, weak comps, thin absorption, asking price above residual value, title/OGM/easement impairment, excessive peak capital requirement, or a realistic schedule materially beyond the two-year target.
 
 ## Output
 
 For every property report:
-
 - **Development Score:** XX/100
-- **Preferred Development Strategy:** concise summary
-- **Optimal Lot-Size Mix:** e.g. 2×5 ac / 4×1.5 ac / mixed / none
+- **Preferred Development Strategy:**
+- **Highest Expected Profit Strategy:**
+- **Best Capital-Efficient Strategy:**
+- **Optimal Lot-Size Mix:**
 - **Realistic Saleable Lot Yield:** X–Y
 - **Entitlement Status:** CLEAR / PLAUSIBLE / DIFFICULT / BLOCKED / UNKNOWN
-- **Buildability:** 🟢 / 🟡 / 🔴 / ⚫
+- **24-Month Feasibility:** STRONG / PLAUSIBLE / TIGHT / UNLIKELY / UNKNOWN
 - **Infrastructure Burden:** LOW / MODERATE / HIGH / EXTREME / UNKNOWN
 - **Market Demand / Absorption:** STRONG / ADEQUATE / THIN / VERY THIN / UNKNOWN
-- **Best Product Type:** lots / modest homes / ranches / barndos / house+garage / other
+- **Best Product Type:**
 - **Asking Price:**
 - **Estimated Maximum Land Basis:**
 - **Conservative Sellout Value:**
 - **Estimated Total Project Cost:**
 - **Estimated Gross Profit:**
 - **Profit Margin on Cost:**
-- **Profit per Acre:**
+- **Minimum Practical Upfront Capital:**
+- **Peak Capital at Risk:**
+- **Return on Cash Invested:**
+- **Capital Required per $1 of Expected Profit:**
+- **Time to First Sale:**
+- **Time to Recover Initial Cash:**
+- **Base-Case Completion:**
 - **10% Downside Case:**
 - **Best Exit Pivot:**
 - **Biggest Risk / Unknown:**
