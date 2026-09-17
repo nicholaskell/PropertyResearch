@@ -1,26 +1,25 @@
 ---
-address: 762 Daybreak Dr, Hanson, KY 42413
+address: 0 Daybreak Dr, Hanson, KY 42413
 state: KY
 county: Hopkins County
-parcel_id: OTTR-2-2-23-2
-latitude: 37.3907
-longitude: -87.5273
-listing_price: 114900
-acres: 6.14
+parcel_id: unknown
+latitude: unknown
+longitude: unknown
+listing_price: 129700
+acres: 23.57
 zillow_url: https://www.zillow.com/homedetails/0-Daybreak-Dr-Hanson-KY-42413/465359169_zpid/
 research_date: 2026-09-17
 status: active-listing
 ---
 
-# 762 Daybreak Dr, Hanson, KY 42413
+# 0 Daybreak Dr, Hanson, KY 42413
 
 ## Property Card
 
-- **Confirmed/current listing:** 6.14 acres, $114,900 (~$18,713/acre). Current MLS-fed sources identify the tract as 762 Daybreak Dr and parcel OTTR-2-2-23-2.
-- **Coordinates:** approximately 37.3907, -87.5273.
-- **Listing claims:** cleared/build-ready area, wooded portion, existing gravel driveway, paved-road frontage.
-- **Prior sale:** $83,000 in March 2022.
-- **Current listing history:** listed July 2026 at $119,000, reduced to $114,900; relisted/current MLS record in September 2026.
+- **Confirmed from user-supplied Zillow screenshot:** 23.57 acres, $129,700 (~$5,503/acre), address shown as 0 Daybreak Dr, Hanson, KY 42413. Screenshot says it is the largest individual tract within a professionally surveyed four-tract, 78.88-acre holding, with frontage options along Shakerag Rd, Otter Lake Loop, and Daybreak Dr.
+- **Coordinates:** unknown for this 23.57-acre tract; prior 37.3907, -87.5273 coordinates referred to a different 6.14-acre Daybreak listing and are withdrawn.
+- **Listing claims:** professionally surveyed tract; wooded/cleared areas visible; frontage along Daybreak Drive is specifically advertised. The larger four-tract holding totals 78.88 acres and has frontage along Shakerag Road, Otter Lake Loop, and Daybreak Drive.
+- **Prior sale/listing history:** not yet verified for this exact 23.57-acre tract. Prior history in this record referred to the wrong 6.14-acre listing and is withdrawn.
 - **Utilities:** unresolved. Secondary listing feeds conflict/are vague; must verify water, electric, septic/perc, and broadband at parcel.
 - **Access:** paved Daybreak Drive frontage is listing-supported; legal frontage/title/easements still require deed/plat verification.
 - **Flood/wetlands/soils:** unresolved pending authoritative parcel overlay.
@@ -33,7 +32,7 @@ status: active-listing
 Active persona: **Land Development / Build-to-Sell**.
 
 ### Preliminary read
-This is a small, already-cleared acreage tract in an established higher-value Daybreak Drive residential pocket. Nearby 2026 house sales include 130 Daybreak Dr at $385,000 and 1090 Daybreak Dr at $436,450, supporting demand for finished homes in the immediate corridor. The parcel's 6.14-acre size limits scale, but its paved frontage and apparent build-ready character may reduce sitework risk.
+This is a 23.57-acre surveyed tract, not the 6.14-acre parcel initially identified. At ~$5,503/acre the acquisition basis is dramatically more attractive for the active development persona. The listing also states the overall 78.88-acre holding has already been professionally surveyed into four tracts, which may materially reduce survey/entitlement uncertainty, although this does not prove the 23.57-acre tract can be further subdivided.
 
 Hopkins County subdivision rules require subdivision review and generally require at least 25 feet of public-road frontage continuing to the building line. Exact minimum lot area depends materially on sewer/septic conditions and local jurisdiction. Before assigning lot yield, verify whether the parcel is inside Hanson city limits, applicable zoning, sewer availability, road frontage geometry, septic suitability, and any recorded private restrictions.
 
@@ -44,9 +43,9 @@ Hopkins County subdivision rules require subdivision review and generally requir
 4. **One spec home + residual land/lot:** potentially attractive given nearby $385k–$436k Daybreak sales, but construction basis must be modeled before committing.
 
 ### Preliminary development score
-**62/100 — MARGINAL / DEVELOPMENT CANDIDATE pending entitlement and utility verification.**
+**74/100 — DEVELOPMENT CANDIDATE pending exact parcel geometry, utilities, restrictions, and further-subdivision verification.**
 
-Reason: attractive immediate residential context and manageable acquisition basis, but only 6.14 acres leaves little room for infrastructure mistakes. At $114,900, the land basis is already substantial versus raw acreage elsewhere in Hopkins County, so profit likely depends on extracting 2+ marketable building sites or creating vertical value.
+Reason: the corrected tract offers 23.57 acres at only ~$5.5k/acre, has advertised road frontage, and is part of a professionally surveyed four-tract holding. This creates much more residual-land and subdivision optionality than the mistakenly researched 6.14-acre parcel. The score remains provisional because the exact polygon/frontage, utility/septic capacity, deed restrictions, and right to further subdivide are not yet confirmed.
 
 ## Market / Exit
 
@@ -78,3 +77,7 @@ Reason: attractive immediate residential context and manageable acquisition basi
 - Realtor.com MLS-fed listing.
 - Hopkins County Joint Planning Commission subdivision/zoning resources.
 - Hopkins County subdivision ordinance materials.
+
+
+## Correction — 2026-09-17
+User supplied a screenshot of the actual Zillow listing (zpid 465359169). It shows **0 Daybreak Dr, 23.57 acres, $129,700**. The earlier research incorrectly resolved the URL to a different 6.14-acre Daybreak property. All parcel ID, coordinates, prior-sale history, and listing-history facts tied to the 6.14-acre property are invalid for this subject and must not be reused. Screenshot archived in conversation; exact 23.57-acre parcel identity remains to be established from survey/GIS.
