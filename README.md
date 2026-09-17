@@ -1,25 +1,31 @@
 # PropertyResearch
 
-A Git-backed property due-diligence and decision system for ChatGPT. It separates **property facts**, **supporting evidence**, **personas**, **buyer finance**, **benchmarks**, **research backlog**, and **portfolio rankings** so properties can be researched once and compared repeatedly.
+A Git-backed **land-development due-diligence and investment system** for ChatGPT. The current active strategy is to acquire land, determine the economically optimal subdivision, develop/build selectively, recycle capital through staged sales, and target realized profit in roughly **24 months** with **low upfront capital exposure**.
 
-## The Workflow
+GitHub is the durable source of truth. Chats are working sessions. Markdown and supporting evidence remain authoritative; generated Parquet/JSON data and the static dashboard are analytical views.
+
+## Current Workflow
 
 ```text
-Listing / Zillow URL
-        ↓
+Listing / parcel
+      ↓
 PROPERTY INVESTIGATOR
-Initial due diligence + hero photo + parcel map
-        ↓
-GitHub property record + supporting assets
-        ↓
+Initial due diligence + development screening
+      ↓
+Property Markdown + evidence + development scenarios
+      ↓
 PROPERTY RESEARCHER
-Closes unresolved questions / verifies dealbreakers
-        ↓
+Closes entitlement / buildability / market / cost unknowns
+      ↓
+STRUCTURED DATA BUILD
+Properties + scenarios → Parquet + JSON
+      ↓
+STATIC DEVELOPMENT DASHBOARD
+Filter / compare / inspect portfolio
+      ↓
 PROPERTY PORTFOLIO
-Ranks / compares / finances / shortlists
+Ranks property + strategy combinations
 ```
-
-GitHub is the durable source of truth. Chats are working sessions.
 
 ## Repository Structure
 
@@ -27,305 +33,243 @@ GitHub is the durable source of truth. Chats are working sessions.
 PropertyResearch/
 ├── README.md
 ├── criteria.md
-├── project-instructions.md          # Investigator rules
-├── researcher-instructions.md       # Research Worker rules
-├── portfolio-rules.md               # Portfolio rules
+├── project-instructions.md
+├── researcher-instructions.md
+├── portfolio-rules.md
 ├── property-template.md
+├── development-scenario-template.md
 ├── asset-manifest-template.md
+├── requirements-build.txt
 │
-├── benchmarks/
-│   └── active/                      # Current-home/reference benchmarks
 ├── personas/
 │   ├── active/
-│   └── inactive/
+│   │   └── land-development.md      # sole active investment lens
+│   └── inactive/                    # retained former lifestyle/business personas
+├── benchmarks/
 ├── finance/
-│   ├── buyer-finance.md
-│   └── scenarios/
 ├── properties/
 │   └── <STATE>/
 │       └── <property-slug>/
 │           ├── property.md
 │           ├── assets.md
+│           ├── scenarios/           # first-class development alternatives
+│           │   ├── acreage-lots.md
+│           │   ├── one-acre-lots.md
+│           │   └── phased-build.md
 │           └── assets/
-│               ├── documents/
-│               ├── images/
-│               └── notes/
-└── reports/
-    ├── research-queue.md
-    └── portfolio.md                 # optional/generated
+├── data/
+│   ├── README.md
+│   └── generated/
+│       ├── properties.parquet
+│       ├── scenarios.parquet
+│       └── site-data.json
+├── scripts/
+│   └── build_data.py
+├── site/
+│   ├── index.html
+│   └── site-data.json
+├── reports/
+│   └── research-queue.md
+└── .github/workflows/
+    └── build-dashboard.yml
 ```
 
-Legacy flat property records at `properties/<STATE>/<property>.md` remain supported and can migrate lazily when materially updated or when assets are added.
+Legacy flat property records at `properties/<STATE>/<property>.md` remain supported and can migrate lazily.
 
-# Three ChatGPT Projects
+# Investment Objective
 
-## 1. Property Investigator
+The active `Land Development / Build-to-Sell` persona evaluates each property for **capital-efficient realized profit**, not lifestyle fit and not maximum lot count.
 
-**Purpose:** ingest one new property at a time.
+Core preferences:
 
-Create a new chat for each property and paste a Zillow/listing URL or address. A bare URL means run the full workflow.
+- roughly **24 months acquisition-to-realized-profit**;
+- **less upfront capital is better**;
+- optimize lot size for the actual local market;
+- compare multiple subdivision/product scenarios;
+- favor existing road frontage and lower infrastructure burden;
+- favor staged lot sales, presales and one-at-a-time builds that recycle capital;
+- distinguish highest theoretical profit from the **best capital-efficient strategy**;
+- preserve multiple exits if the original plan changes.
 
-Investigator should:
-- read `criteria.md`, `project-instructions.md`, active personas, benchmarks and finance assumptions;
-- show the actual listing hero photo when available;
-- show an authoritative satellite/aerial parcel view with boundary when reliable geometry is available, labeled **PARCEL MAP — NOT A SURVEY**;
-- research listing status including active-offer status, broadband, land, zoning, access, rights, taxes, house/homesite, utilities, market access, dating-market access, business-customer demand, resale/development, value and finance;
-- for vacant/raw land, verify whether an RV/camper can be legally occupied during construction, the maximum duration and permit/septic/water/power/address conditions, plus all-weather pad and winter practicality;
-- provide a neighboring **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS** for vacant/no-address parcels when useful;
-- explicitly warn where OGM/mineral rights should not be assumed to convey and assess practical Rights Disturbance Risk;
-- compare market trajectory/liquidity with the active current-home benchmark;
-- score every active persona, produce a separate Dating Market Access score, and estimate Financial Fit when data allows;
-- create/update the property record and its Open Research Tasks.
+A 10-acre parcel might rationally become two 5-acre homesites, four 2-acre lots, several ~1-acre lots, a mixed layout, or remain whole. The system should determine which configuration produces the best combination of return on cash, profit, marketability, absorption and execution risk.
 
-Suggested Project instruction:
+# Development Scenarios Are First-Class Records
 
-```text
-This Project researches new individual real-estate listings.
-Read criteria.md and project-instructions.md from the connected PropertyResearch GitHub repository, plus all active personas, benchmarks and finance assumptions. A bare listing URL means run the full Investigator workflow. Create/update the normalized property record in GitHub and leave explicit prioritized Open Research Tasks for anything unresolved. GitHub is the durable source of truth.
-```
+The primary analytical unit is now:
 
-## 2. Property Researcher
+**Property + Development Strategy**
 
-**Purpose:** close unanswered questions across properties already in the repo.
+Use `development-scenario-template.md` for serious alternatives. A property may have several scenarios under `scenarios/`.
 
-This is the backfill/deep-research worker. It should not superficially redo every property. It reads `researcher-instructions.md`, scans unresolved tasks, prioritizes dealbreakers, researches a manageable batch thoroughly, updates the property records, and maintains `reports/research-queue.md`.
+Each scenario should model land yield, entitlement, product, revenue, infrastructure, construction, soft/carry/selling costs, minimum upfront capital, peak capital at risk, time to first sale, cash recovery, total duration, profit, return on cash, residual land value and downside sensitivity.
 
-Suggested Project instruction:
+For serious candidates identify both:
 
-```text
-This Project is the Property Researcher for the connected PropertyResearch GitHub repository.
+- **Highest Expected Profit Strategy**
+- **Best Capital-Efficient Strategy**
 
-Always read researcher-instructions.md first and follow it as authoritative. Read criteria.md, active personas, benchmarks, finance assumptions, property records, and relevant property assets as needed.
+If they differ, explain the tradeoff. The capital-efficient strategy is normally preferred unless the additional return from the higher-capital strategy clearly compensates for the extra risk/cash exposure.
 
-When I say "Research backlog", scan all property records, prioritize unresolved P0 then P1 then P2/P3 tasks, deeply research a reasonable batch, update the authoritative property records with findings/sources/confidence, mark tasks RESOLVED/PARTIALLY RESOLVED/BLOCKED/STALE as appropriate, flag RESCORE REQUIRED when material facts change, and update reports/research-queue.md.
+## Residual Land Value
 
-Never guess to close a task. If public research cannot resolve it, mark it BLOCKED and state the exact human/external action required.
-```
+A core acquisition metric is:
 
-Useful commands:
+**Maximum Land Basis = Conservative Sellout Value − All Development / Construction / Selling / Finance / Carry Costs − Required Developer Profit**
 
-```text
-Research backlog
-Research P0 only
-Research 3780A Hurricane Creek Rd
-Research top contenders
-Refresh 54170 Mount Zion Rd
-```
+A parcel can be excellent development land and still be a poor acquisition at the asking price.
 
-### Research Priority
+# Structured Data / Parquet
 
-- **P0 — Dealbreaker:** could make the property unsuitable or materially impair title/use/financing.
-- **P1 — Decision-critical:** materially affects value, score or cost-to-goal.
-- **P2 — Important refinement:** improves confidence/comparison.
-- **P3 — Nice-to-know:** useful but unlikely to change the decision.
+`data/` is a generated analytical layer. Markdown remains authoritative.
 
-Task outcomes are **RESOLVED / PARTIALLY RESOLVED / BLOCKED / STALE-RECHECK**. BLOCKED items should identify exactly what is needed: title commitment, seller disclosure, survey, inspection, ISP construction quote, zoning administrator interpretation, attorney review, etc. The Researcher should not endlessly retry blocked questions.
+`scripts/build_data.py` scans property/scenario Markdown and produces:
 
-### Research Status
+- `properties.parquet` — property-level screening/index data;
+- `scenarios.parquet` — property + development strategy rows;
+- `site-data.json` — browser-friendly dashboard data.
 
-Property records can use:
+The generator intentionally tolerates older/incomplete records. Missing data remains null/unknown rather than being invented.
 
-```text
-INITIAL
-NEEDS_RESEARCH
-DEEP_RESEARCH
-MOSTLY_VERIFIED
-VERIFIED
-BLOCKED
-```
+Parquet makes portfolio questions much easier, including:
 
-`reports/research-queue.md` is a generated operational dashboard; individual property records remain authoritative.
+- which scenarios plausibly finish inside 24 months;
+- which require the least peak capital;
+- highest return on cash;
+- strongest expected profit below a capital ceiling;
+- which asking prices are below residual land value;
+- which lot-size strategies outperform alternatives on the same parcel.
 
-## 3. Property Portfolio
+# Static Development Dashboard
 
-**Purpose:** compare researched properties rather than ingest new listings.
+`site/index.html` is a dependency-light static dashboard. It reads `site/site-data.json` and displays a sortable/filterable development portfolio including asking price, acreage, preferred strategy, lot yield, residual land value, minimum upfront capital, peak capital, projected profit, margin and 24-month feasibility.
 
-Portfolio reads `portfolio-rules.md`, all active personas, benchmarks, finance assumptions and relevant property records/assets. It recalculates derived scores when facts or preferences change.
+The dashboard is deliberately static: no application server or database server is required.
 
-Suggested Project instruction:
+It can be hosted later with GitHub Pages or another static host. The repository currently contains the site/build files; publishing/Pages configuration is a separate repository setting.
 
-```text
-This Project compares and ranks researched properties in the connected PropertyResearch GitHub repository. Read portfolio-rules.md, every active persona, active benchmarks, buyer finance/scenarios, and relevant property records. Recalculate persona scores, Financial Fit and rankings when inputs change. Compare intrinsic quality, fatal flaws, Effective Property Cost, Cash to Goal, monthly carry, market trajectory/liquidity, development optionality and capital allocation. Never rank solely by one overall score. GitHub is the durable source of truth.
-```
+# Automatic Build
 
-Typical commands:
+`.github/workflows/build-dashboard.yml` runs the structured-data generator after relevant changes on `main` and can also be triggered manually. It installs the small build dependency set in `requirements-build.txt`, generates Parquet/JSON, and commits changed generated data back to the repository.
 
-```text
-Update the rankings.
-What's currently #1?
-Compare Mount Zion against Hurricane Creek.
-Which property is best for Thomas?
-Which properties have unresolved dealbreakers?
-Which is the best use of my home-sale proceeds?
-Which properties are value traps?
-```
+If repository Actions permissions prevent workflow commits, enable the repository's GitHub Actions workflow write permission or change the deployment approach. Do not treat a failed generated-data build as loss of authoritative research; Markdown records remain intact.
+
+# Property Investigator
+
+**Purpose:** ingest and initially screen one property/listing at a time.
+
+Investigator should read `criteria.md`, `project-instructions.md`, the sole active development persona, relevant benchmark/finance assumptions and the scenario template. For a promising parcel it should research:
+
+- parcel identity/boundary and legal access;
+- zoning, density, minimum lot size/frontage and subdivision process;
+- minor vs major subdivision thresholds;
+- septic/perc/well/sewer feasibility;
+- road, driveway, utility, drainage and sitework burden;
+- wetlands/flood/topography/soils;
+- deed/easement/OGM/surface-right restrictions;
+- local raw/improved lot and finished-home comps;
+- what lot sizes/products actually sell;
+- absorption/DOM/new-construction competition;
+- barndo/conventional/house+garage acceptance where relevant;
+- residual land value;
+- minimum upfront/peak capital;
+- likely time to first sale and 24-month feasibility.
+
+A bare listing URL means run the full Investigator workflow and create/update the normalized GitHub record with prioritized Open Research Tasks.
+
+# Property Researcher
+
+The Researcher closes unanswered questions across existing properties. It prioritizes P0 dealbreakers and P1 decision-critical issues, uses authoritative evidence, marks tasks RESOLVED/PARTIALLY RESOLVED/BLOCKED/STALE, and updates `reports/research-queue.md`.
+
+For the development strategy, especially prioritize unresolved questions that could change:
+
+- legal lot yield;
+- septic/buildability;
+- infrastructure burden;
+- marketable lot-size mix;
+- finished product value;
+- residual land value;
+- peak capital requirement;
+- 24-month feasibility.
+
+Never guess to close a task. Non-public dependencies should be marked BLOCKED with the exact required human/external action.
+
+# Property Portfolio
+
+Portfolio should compare **property + scenario combinations**, not merely properties.
+
+Important portfolio metrics include:
+
+- Development Score
+- realistic saleable lot yield
+- entitlement status
+- best lot-size mix
+- best product
+- asking price vs maximum land basis
+- conservative sellout value
+- total project cost
+- expected gross profit
+- margin on cost
+- minimum practical upfront capital
+- peak capital at risk
+- return on cash
+- capital required per $1 expected profit
+- time to first sale
+- time to recover initial cash
+- base-case duration
+- 24-month feasibility
+- absorption risk
+- downside sensitivity
+- exit flexibility
+
+Do not rank solely by gross profit. A smaller project with faster capital recovery and much lower peak cash exposure may be the superior investment.
 
 # Property Assets / Evidence
 
-Preferred property layout:
+Preferred property structure preserves surveys/plats, deeds/title/OGM material, disclosures, septic/perc reports, GIS/FCC evidence, property-tour photos, correspondence, quotes and call notes. `assets.md` indexes supporting evidence.
 
-```text
-properties/OH/54170-mount-zion-rd-pleasant-city-oh-43772/
-├── property.md
-├── assets.md
-└── assets/
-    ├── documents/
-    │   ├── survey.pdf
-    │   ├── deed.pdf
-    │   └── seller-disclosure.pdf
-    ├── images/
-    │   ├── gis-parcel.png
-    │   └── broadband-screenshot.png
-    └── notes/
-        └── agent-call.md
-```
+Before externally researching an unresolved question, inspect relevant stored evidence. Strong primary evidence should not be overwritten by weaker inference.
 
-Use `asset-manifest-template.md` for `assets.md`. Appropriate evidence includes surveys/plats, deeds/title/OGM documents, disclosures, inspections, septic reports, GIS/FCC screenshots, your own property-tour photos, agent correspondence, contractor/ISP quotes and call notes.
-
-Before externally researching an unresolved question, Investigator/Researcher should inspect relevant stored evidence. Strong user-provided primary evidence should not be overwritten by weaker web inference.
-
-Public Zillow/MLS imagery should normally remain a URL/reference rather than being copied into GitHub. User-owned/received due-diligence documents can be stored if desired.
-
-# Benchmarks
-
-Benchmarks are reference properties/locations, not purchase candidates. The active current-home benchmark provides a baseline for:
-
-- geographic distance;
-- current housing payment/carry;
-- estimated equity/home-sale proceeds;
-- market trajectory and resale liquidity;
-- population/employment direction;
-- land scarcity/development pressure;
-- taxes and infrastructure/economic catalysts.
-
-This allows the system to explicitly identify when a candidate improves lifestyle but moves from a stronger/liquid market into a weaker one.
-
-When the benchmark home eventually sells, retain it historically and add actual sale price/net proceeds rather than deleting it.
-
-# Finance Layer
-
-Finance is separate from personas and property facts.
-
-Configure `finance/buyer-finance.md` with expected home-sale proceeds, cash outside the sale, reserve requirements, down-payment preferences, target/max monthly housing cost, loan term, improvement-capital target and closing-cost reserve.
-
-Important metrics:
-
-**Gross Equity = Sale Price − Mortgage Payoff**
-
-**Net Spendable Proceeds = Gross Equity − Selling Costs / Concessions / Closing Obligations**
-
-**Effective Property Cost = Purchase Price + Required Improvements + Desired Improvements**
-
-**Cash to Goal = Cash required before the property reaches the selected acceptable/desired state**
-
-**Housing Cost Delta = Candidate Monthly Carry − Current Benchmark Monthly Carry**
-
-Do not assume all sale proceeds should become down payment. Compare larger down payment against retaining capital for high-value improvements/reserves. Equity and liquid cash are different resources.
-
-# Personas
-
-Every `.md` file in `personas/active/` is an independent scoring lens. Personas may represent people, pets, businesses, homesteading, lumber/firewood, investment/resale or other use cases. Move a persona to `personas/inactive/` to retain it without scoring it.
-
-The Resale/Development lens should consider **Market Trajectory**, **Resale Liquidity**, **Development Optionality**, **Value Trap Risk** and **Growth Tailwind**. A cheap property in a structurally weak/illiquid market should not automatically score as good value.
-
-Active business-use-case personas must distinguish physical/site suitability from evidence-backed customer demand. Each property receives a Customer Demand Likelihood and confidence assessment; capacity, revenue and profit projections should include conservative occupancy or sales ranges, break-even volume and a direct local validation step. `Equine / Horse Boarding` is active as an exploratory, bonus-only opportunity: existing useful infrastructure can add value, while its absence does not penalize the household/person scores.
-
-# Property Research Standards
+# Research Standards
 
 Always distinguish **Confirmed / Listing Claim / Estimate / Unknown**. Unknown is never assumed favorable.
 
-Permanent characteristics generally deserve more weight than easy cosmetic changes: usable land, location, legal access, zoning, broadband, wetlands/topography, privacy, rights/restrictions, taxes, market trajectory and market access.
+For subdivision analysis explicitly distinguish:
 
-Land should be modeled as:
+**Gross Acres → Constrained Acres → Net Developable Acres → Theoretical Lots → Realistic Saleable Lots**
 
-**Total Acres → Constrained Acres → Usable Acres → Prime/Operational Acres**
+Never infer that minimum zoning lot size equals practical lot yield. Frontage, roads, drainage, septic reserve areas, utilities, topography, wetlands, access and marketability can materially reduce yield.
 
-Missing features should be classified:
-
-**Existing / Easy Value-Add / Major Value-Add / Difficult / Impossible**
-
-Always distinguish **“doesn't have it” from “can't have it.”**
+Development cost estimates must include appropriate entitlement, survey/engineering, infrastructure/sitework, utilities, vertical construction when applicable, soft costs, finance/carry, selling costs and contingency.
 
 # Research Lifecycle
 
-A property is not finished after the initial Investigator pass. Revisit it when:
-
-- unresolved P0/P1 tasks remain;
-- price/listing/offer status changes;
-- broadband deployment changes;
-- zoning/access/OGM/title evidence changes;
-- disclosures, surveys or inspections arrive;
-- finance assumptions/current-home sale become firmer;
-- market trajectory or permits materially change;
-- another property changes its relative attractiveness.
-
-Recommended operating loop:
-
 ```text
-Find property
-    ↓
-Investigator: ingest + initial research
-    ↓
-Researcher: close uncertainty
-    ↓
-Portfolio: compare/rank
-    ↓
-New evidence / price / status
-    └──────────────→ Researcher / Portfolio refresh
+Find parcel
+   ↓
+Investigator: screen + initial development concepts
+   ↓
+Researcher: verify yield / costs / market / entitlement
+   ↓
+Scenario models: compare alternatives
+   ↓
+Data build: Parquet + JSON
+   ↓
+Dashboard / Portfolio: compare capital-efficient opportunities
+   ↓
+New evidence / price / status / comp
+   └──────────────→ refresh analysis
 ```
-
-# Automation
-
-Once the Researcher has been tested manually, it can be scheduled to run periodically. A good default is nightly because most due-diligence facts do not change hourly.
-
-A scheduled run should instruct the Researcher to work the highest-priority unresolved tasks, update property records and `reports/research-queue.md`, and avoid repeatedly retrying BLOCKED items.
-
-Suggested automation prompt:
-
-```text
-Read researcher-instructions.md in the PropertyResearch GitHub repository. Run the Research backlog workflow against the highest-priority unresolved questions. Work a reasonable batch thoroughly, prioritize P0 before P1/P2/P3, update authoritative property records with findings and sources, mark unresolved non-public items BLOCKED with the required next action, flag RESCORE REQUIRED when material facts change, and update reports/research-queue.md. Report only meaningful completed work, new risks/opportunities, blocked actions and the next highest priorities.
-```
-
-# Adoption / Clean Fork
-
-A new adopter should keep the reusable framework and replace personal data.
-
-```text
-KEEP / REUSE
-├── README.md
-├── criteria.md
-├── project-instructions.md
-├── researcher-instructions.md
-├── portfolio-rules.md
-├── property-template.md
-├── asset-manifest-template.md
-└── finance/scenarios/
-
-REPLACE / RESET
-├── benchmarks/
-├── personas/
-├── finance/buyer-finance.md
-├── properties/
-└── reports/
-```
-
-Clean-fork prompt:
-
-```text
-I forked this PropertyResearch repository for my own use. Preserve the reusable framework and finance scenario files, but remove/reset the previous user's personal data: benchmarks, persona files, buyer-finance values, property records and generated reports. Preserve the directory structure. Then help me create my own personas, benchmark and finance profile.
-```
-
-Review destructive changes before authorizing them.
 
 # Design Principles
 
-1. **Portable:** work for properties in any U.S. state.
-2. **Evidence-driven:** research beyond listing claims.
-3. **Visual:** use the actual listing hero photo and authoritative parcel/aerial context when available.
-4. **Evidence-preserving:** store relevant due-diligence documents with the property.
-5. **Persona-driven:** different people/use cases can score the same property differently.
-6. **Finance-aware:** model payment, equity, cash, reserves and improvement capital.
-7. **Exit-aware:** consider resale liquidity, economic trajectory and development optionality.
-8. **Uncertainty-aware:** unanswered questions become prioritized research tasks rather than optimistic assumptions.
-9. **GitHub is durable:** property facts/evidence survive individual chats.
-10. **Automatable:** Researcher can systematically reduce uncertainty across a growing portfolio.
+1. **Profit-oriented:** evaluate realized investment return, not nominal acreage or maximum lot count.
+2. **Capital-efficient:** minimize upfront and peak cash exposure when returns are otherwise attractive.
+3. **Time-bounded:** target a roughly 24-month acquisition-to-profit cycle.
+4. **Market-driven:** optimize lot size/product for actual buyer demand and absorption.
+5. **Evidence-driven:** research beyond listing claims.
+6. **Scenario-driven:** compare multiple plausible development strategies.
+7. **Exit-aware:** preserve staged sales and alternative exits.
+8. **Uncertainty-aware:** unresolved questions become explicit research tasks.
+9. **Structured + readable:** Markdown for authoritative research; Parquet/JSON for analytics.
+10. **Static-first:** dashboard should remain useful without maintaining an application server.
+11. **GitHub durable:** property facts/evidence survive individual chats and generated-data rebuilds.
