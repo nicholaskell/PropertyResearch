@@ -16,73 +16,111 @@ research_date: 2026-09-17
 
 ## Property Card
 
-- **Confirmed:** Active MLS-fed Zillow listing at **$165,000** for **18.95 acres**; parcel **D0127 00310**; annual tax shown **$942**; no HOA; land only.
-- **Listing claim:** Level corner lot, cleared/wooded/private, water view, one or more potential build sites.
-- **Price history:** Listed 2026-03-30 at $200,000 and reduced repeatedly to $165,000 by 2026-08-28.
-- **Zoning:** Listing reports **CA — Conservation Agriculture**. Shelby County/Develop901 materials confirm CA is the rural conservation/agricultural district. Historical county cases establish a **2-acre minimum lot area** for CA and **120-foot minimum lot width**, subject to current UDC confirmation and septic/health requirements.
-- **Market evidence:** Recent Millington land sales include 11.36 acres on Bass Rd at $120,000 (Aug. 2026), 6.02 acres on Walsh Rd at $75,000 (Jul. 2026), and 1 acre on Quito Rd at $21,000 (Sep. 2026). Nearby 4.78 acres at 7980 Pleasant Ridge Rd sold for $164,990. These are screening comps only; buildability/utilities/location differ.
-- **Market trajectory:** Millington city population estimate increased from 10,582 in the 2020 Census to 12,953 estimated in 2025 (+22.4%). Treat as a meaningful growth signal, while the subject may be outside city limits and remains governed by parcel-specific county conditions.
+- **Confirmed:** Active MLS/RealTracs-fed listing at **$165,000** for **18.95 acres**; parcel **D0127 00310**; annual tax shown **$942**; land only.
+- **Confirmed listing data:** CA Conservation Agriculture zoning, public/county-road access, paved road, level/cleared/wooded land, water view.
+- **Price history:** Listed 2026-03-30 at $200,000 and reduced repeatedly to $165,000 by 2026-08-28. The unusually persistent series of reductions is a negotiating signal but not proof of a defect.
+- **Zoning:** CA — Conservation Agriculture. Prior Shelby County planning materials support approximately **2-acre minimum lot area / 120-ft minimum width** in CA, subject to current UDC, health/septic, frontage and plat confirmation.
+- **Utilities evidence:** Nearby 6648 Pleasant Ridge Rd (parcel D0127 00373, same D0127 map area) is a 5-acre residential parcel documented with **public water + septic**. Nearby newly subdivided 4-acre acreage lots north of Arlington advertise **water and power at the road and completed perc tests**. This materially improves the probability that a public-water/individual-septic model is realistic in the broader area, but it does NOT confirm a water main at the subject frontage.
+- **Immediate market evidence:** A newly subdivided 4-acre tract on Pleasant Ridge/Millington-Arlington sold **May 22, 2026 for $120,000** after listing at $123,720; listing stated public water/power at road and perc complete. A 4-acre lot at 6225 Ricks Rd sold **July 28, 2026 for $99,999**. Two 4.31-acre Pleasant Ridge parcels sold for **$105,000 each in 2025**. These indicate roughly $25k–$30k/acre for proven ~4-acre buildable products in the stronger Arlington-side submarket, materially above the subject's ~$8.7k/acre bulk basis.
+- **Large-tract competition:** Another 43.8-acre Sledge Rd tract is currently marketed around **$340,000 / $7,763 per acre**, also CA zoned. That supports the subject's bulk-land basis but also demonstrates that the value creation thesis depends on subdivision/buildability rather than simple acreage appreciation.
 
 ## Fatal-Flaw Screen
 
-- **Legal/practical access:** INVESTIGATE — listing says county-road frontage/corner lot and asphalt/concrete road surface, but survey/frontage lengths and driveway approvals not yet verified.
-- **Subdivision/buildability:** INVESTIGATE — CA zoning appears compatible with rural residential lots at roughly 2-acre minimums, but septic suitability, exact frontage, plat standards and current UDC must be verified before assuming yield.
-- **Flood/wetlands:** INVESTIGATE — listing/consumer risk source reports minimal flood risk, but FEMA/NWI parcel-level overlays are not yet verified.
-- **Broadband:** INVESTIGATE — no parcel-level wired-service confirmation yet. Use 6599 Sledge Rd / nearest occupied neighbor only as a lookup proxy, not proof of service to vacant land.
-- **RV occupancy during construction:** UNKNOWN — must obtain written county confirmation of temporary construction occupancy, septic/wastewater and permit prerequisites.
-- **Restrictions/easements/title:** UNKNOWN.
+- **Legal/practical access:** **INVESTIGATE / encouraging.** Listing confirms public/county-road frontage and paved surface. Exact subject geometry and frontage lengths remain unverified from official parcel GIS/survey.
+- **Subdivision/buildability:** **INVESTIGATE / encouraging.** CA zoning and nearby acreage subdivisions support the concept. Yield remains dependent on frontage, septic fields, current plat rules and parcel geometry.
+- **Water:** **INVESTIGATE / encouraging.** Public water is documented on nearby D0127-area acreage and on nearby new acreage subdivisions. Need utility-provider confirmation/map for subject frontage.
+- **Sewer/septic:** **INVESTIGATE.** Nearby rural parcels use septic. Treat individual septic as the likely model; each proposed lot needs soil/perc approval. This is now one of the two largest remaining yield risks.
+- **Flood/wetlands/drainage:** **INVESTIGATE.** No authoritative parcel-level FEMA/NWI geometry has yet been captured. The listing's water-view description makes drainage/pond/stream constraints worth treating seriously until mapped.
+- **Broadband:** **INVESTIGATE.** No parcel-level wired-service confirmation. Use 6599 Sledge Rd or a verified occupied neighbor only as a broadband lookup proxy; service there does not prove service to future lots.
+- **RV occupancy during construction:** **UNKNOWN.** Written Shelby County/Develop901 confirmation still required; do not assume vacant-land RV residence is permitted merely because agricultural zoning is permissive.
+- **Restrictions/easements/title:** **UNKNOWN.** Need title commitment/deed/covenant/easement review before final yield assumptions.
 
 ## Development Persona
 
-**Development Score: 72/100 (provisional)**
+**Development Score: 78/100 (provisional; raised from 72 after comp/utility pass)**
 
-- **Preferred Development Strategy:** pursue a low-infrastructure frontage subdivision first; likely 5–8 rural homesites depending on frontage, septic and geometry. Avoid committing to an internal road or multiple speculative vertical builds until survey/perc work proves yield.
-- **Highest Expected Profit Strategy:** potentially subdivide and selectively build modest homes on the best lots, but economics remain unverified.
-- **Best Capital-Efficient Strategy:** subdivide/perc/survey, improve access/utilities only as necessary, then sell buildable acreage lots in stages.
-- **Optimal Lot-Size Mix:** provisional **2–4 acre** lots, preserving any constrained/wooded/water-feature area as premium residual acreage.
-- **Realistic Saleable Lot Yield:** **5–8 provisional**; theoretical gross yield at a 2-acre minimum is higher but should not be used until frontage, septic and constrained acreage are known.
-- **Entitlement Status:** PLAUSIBLE / INVESTIGATE.
-- **24-Month Feasibility:** PLAUSIBLE if a frontage-only subdivision works; TIGHT if internal road/public improvements or rezoning are required.
-- **Infrastructure Burden:** potentially LOW–MODERATE for frontage lots; UNKNOWN until water/septic/electric data are confirmed.
-- **Market Demand / Absorption:** ADEQUATE with growth tailwind; local new homes around the upper-$200Ks/low-$300Ks are actively closing, but acreage-lot absorption needs direct comp work.
-- **Best Product Type:** raw or lightly improved rural homesites first; vertical construction only after lot-sales evidence.
+- **Preferred Development Strategy:** frontage-oriented acreage subdivision, ideally avoiding a new internal public road. Survey/soil/perc first; create the maximum number of independently buildable lots that the frontage and soils support, then sell in stages.
+- **Highest Expected Profit Strategy:** subdivide, sell enough buildable lots to recover basis/development capital, then selectively build one market-tested modest house/shop or barndo product at a time on retained lots only if vertical comps justify it.
+- **Best Capital-Efficient Strategy:** raw/lightly improved acreage lots with documented perc, survey, recorded plat, driveway approval and utility availability. Do not start with multiple spec houses.
+- **Optimal Lot-Size Mix:** current evidence favors **roughly 2.5–4 acres**, not automatic 2-acre minimum slicing. Four-acre proven lots near Arlington have sold around $100k–$120k; subject's exact location likely warrants a discount until direct Sledge/Millington comps establish otherwise.
+- **Realistic Saleable Lot Yield:** **5–7 is now the underwriting range; 8 remains upside, not base case.** A frontage-only layout is the key objective.
+- **Entitlement Status:** **PLAUSIBLE / INVESTIGATE.**
+- **24-Month Feasibility:** **PLAUSIBLE**, potentially STRONG if survey/perc produces frontage lots without road construction.
+- **Infrastructure Burden:** **LOW–MODERATE potential** if public water/power are at frontage and lots use septic; **HIGH** if an internal road or major water extension is needed.
+- **Market Demand / Absorption:** **ADEQUATE–STRONG for correctly priced acreage homesites**, based on recent 4-acre transactions; direct subject-side absorption still needs confirmation.
+- **Best Product Type:** perc-certified acreage homesites first; vertical construction only after the lot-sale phase proves pricing.
 - **Asking Price:** $165,000 (~$8,707/acre).
-- **Estimated Maximum Land Basis:** not yet defensible; requires sellout comps and sitework budget.
-- **Conservative Sellout Value / Total Project Cost / Gross Profit:** pending parcel geometry, septic and sold-lot comp pass.
-- **Minimum Practical Upfront Capital:** acquisition + survey/engineering/perc/plat/closing; exact estimate pending.
-- **Biggest Risk / Unknown:** whether the parcel has enough independent public-road frontage and septic-capable area to produce multiple marketable lots without expensive road/infrastructure construction.
-- **VERDICT:** **DEVELOPMENT CANDIDATE — worth the next diligence pass.**
+
+### Preliminary Sellout Model
+
+These are **screening estimates**, not appraisals. Nearby proven 4-acre products show ~$100k–$120k sales, but the subject should be underwritten below the strongest Arlington-side comp until exact utilities/buildability are proven.
+
+| Scenario | Illustrative avg lot price | Gross lot sellout | Comment |
+|---|---:|---:|---|
+| 5 lots | $85k | $425k | larger/premium acreage lots; lowest infrastructure/absorption risk |
+| 6 lots | $80k | $480k | current preferred base-case concept |
+| 7 lots | $75k | $525k | requires stronger frontage/perc yield |
+| 8 lots | $70k | $560k | upside only; near-minimum sizing and higher execution burden |
+
+A conservative planning allowance of roughly **$75k–$125k beyond acquisition** for survey, soils/percs, engineering/plat, legal/recording, driveway/site prep, utility taps/extensions, clearing, carry, marketing/selling costs and contingency would put preliminary all-in project basis around **$240k–$290k before vertical construction**. This range must be replaced with quotes after concept plan and utility confirmation.
+
+At a 6-lot/$480k screening sellout, the spread before tax/finance and before refining actual development costs is large enough to justify diligence. At $290k all-in, gross project spread would be about $190k; at $240k all-in, about $240k. Do not count this as profit until sale commissions, financing/carry, tax, exact improvements and absorption are modeled.
+
+- **Estimated Maximum Land Basis:** not final, but current $165k ask appears potentially supportable under a 5–7 lot frontage subdivision if lot values remain at least ~$70k–$85k and infrastructure stays modest.
+- **Minimum Practical Upfront Capital:** purchase/closing plus approximately $20k–$40k diligence/entitlement reserve before committing to larger infrastructure; exact quotes needed.
+- **Peak Capital at Risk:** potentially purchase plus ~$75k–$125k development reserve if no vertical construction is undertaken.
+- **Time to First Recoverable Sale:** screening estimate **6–12 months** if minor subdivision/perc/plat path is straightforward.
+- **Base-Case Completion:** **12–24 months** for staged lot sellout; absorption is likely a larger uncertainty than construction if no houses are built.
+- **Best Exit Pivot:** sell recorded/perc-approved lots individually; alternatively retain residual acreage or sell the entitled package to another builder/developer.
+- **Biggest Risk / Unknown:** exact road frontage/geometry plus per-lot septic suitability. Those two variables control whether this is a 5–7-lot low-cost subdivision or merely inexpensive bulk acreage.
+- **VERDICT:** **DEVELOPMENT CANDIDATE — materially stronger after second-pass comp work, but survey/GIS + soil work are the go/no-go gates.**
+
+## Comparable Evidence
+
+- **4 acres, Millington-Arlington/Pleasant Ridge area:** sold 2026-05-22 for **$120,000**; listed $123,720; level; water/power at road; perc reported complete.
+- **6225 Ricks Rd, Arlington:** 4 acres sold 2026-07-28 for **$99,999**.
+- **Pleasant Ridge Rd / 8210 Pleasant Ridge Rd:** 4.31-acre land transactions reported at **$105,000** in 2025.
+- **Nearby active 4-acre Pleasant Ridge tract:** $123,720 asking; 210x831 approximate dimensions; public water/power/perc claimed.
+- **Subject-road bulk competition:** 43.8 acres on Sledge Rd asking **$340,000** (~$7,763/acre), CA zoning.
+- **Subject:** 18.95 acres asking **$165,000** (~$8,707/acre).
+
+The spread between bulk acreage (~$8k–$9k/acre) and proven smaller buildable acreage (~$25k–$30k/acre in stronger nearby locations) is the core development thesis. The entire opportunity depends on converting bulk land into *proven buildable product* without consuming the spread in roads, utility extensions, failed perc areas or entitlement delay.
 
 ## Benchmark Comparison
 
-Compared with the De Pere/Brown County current-home benchmark, this is a materially lower-tax raw-land position with far more development optionality but materially greater entitlement, infrastructure and resale-execution risk. Millington shows a strong recent population-growth signal; a direct long-term appreciation comparison remains incomplete.
+Compared with the De Pere/Brown County current-home benchmark, this is a materially lower-tax raw-land position with far more development optionality but materially greater entitlement, infrastructure and resale-execution risk. Millington's growth/metro access gives it a credible development-demand tailwind; De Pere remains the more established/liquid conventional owner-occupant market.
 
 ## Dating Market Access
 
-Not yet fully scored. The parcel is in the Memphis metro orbit rather than an isolated rural market, so the practical pool should be materially larger than many rural candidates; exact drive-time and target-age/single-status analysis remains to be completed.
+Still requires a dedicated score. The parcel is within the Memphis metro orbit and should have substantially better dating-pool access than isolated rural Tennessee/Kentucky candidates, but exact drive-time and target-market analysis has not been completed in this development-focused pass.
 
 ## Distance to Green Bay / Current Home
 
-Approximate long-distance drive remains to be verified with a routing source; expect roughly a full-day interstate trip between the Memphis area and Green Bay/De Pere.
+Still to be verified with routing source; treat as a long interstate relocation rather than regional access.
 
 ## Financial Fit
 
-Buyer-finance scenarios are not populated with expected/conservative/optimistic home-sale proceeds, so a defensible cash-to-goal/down-payment model cannot yet be calculated. Raw-land financing may also differ materially from standard owner-occupied mortgage assumptions.
+Buyer-finance scenarios remain unpopulated with sale proceeds, so personal cash-to-goal cannot be defensibly calculated. For the development persona, raw-land/acquisition financing and development capital should be modeled separately from a normal owner-occupied mortgage.
 
-## Next Diligence
+## Remaining Go/No-Go Diligence
 
-1. Pull official Shelby County parcel GIS geometry/survey and measure each road frontage.
-2. Confirm jurisdiction (unincorporated Shelby County vs Millington limits) and current CA bulk/subdivision rules in writing.
-3. Confirm public water/sewer availability; if septic, obtain soil/perc feasibility for each proposed lot.
-4. Overlay FEMA floodplain, NWI wetlands, soils and drainage.
-5. Identify electric and wired broadband plant at the road; obtain nearest occupied address/FCC location proxy.
-6. Pull sold vacant-land comps for 2–5 acre buildable lots within the immediate Millington/Arlington submarket and model 5-, 6-, 7- and 8-lot sellouts.
-7. Verify easements, covenants, title exceptions and temporary RV/construction occupancy rules.
+1. **Official parcel polygon + frontage:** obtain Shelby County GIS/survey geometry for D0127 00310; measure every Sledge/Pleasant Ridge frontage segment and identify whether 5–7 independent driveway/frontage lots physically fit.
+2. **Concept plat:** have a surveyor sketch 5-, 6-, and 7-lot frontage concepts under current CA dimensional/subdivision rules before closing.
+3. **Soils/percs:** preliminary soil mapping plus field perc/soil evaluation at each proposed homesite and reserve field. Do not buy on one successful perc.
+4. **Water:** obtain written confirmation from the actual water provider showing main location, size, tap availability/fees and whether extensions/upgrades are required for 5–7 services.
+5. **Flood/wetlands/drainage:** capture FEMA FIRM/NFHL, NWI and drainage/topography against the official polygon.
+6. **Electric/broadband:** identify electric plant and FCC/ISP wired service at occupied neighboring addresses; obtain construction estimates to likely homesites.
+7. **Current subdivision procedure:** verify whether the proposed yield qualifies as minor/major subdivision, road/fire-access requirements, plat/engineering review timeline and fees.
+8. **Title/restrictions:** title commitment, deed, easements, ROW, covenants and any drainage/utility easements.
+9. **RV occupancy:** written zoning/building answer on occupying an RV while developing/building, including septic/wastewater prerequisites and duration.
+10. **Direct subject-side comps:** confirm at least 3 closed buildable-lot sales in the immediate Millington/Sledge/Pleasant Ridge catchment and interview 2 local land agents/builders on realistic absorption at $70k/$80k/$90k.
 
 ## Sources
 
-- Zillow / RealTracs MLS, checked 2026-09-17.
-- Develop901 Unified Development Code landing page, checked 2026-09-17.
-- Shelby County CA subdivision/variance staff reports (CA 2-acre minimum and 120-ft width evidence), checked 2026-09-17.
-- U.S. Census QuickFacts, Millington city 2020–2025 estimates, checked 2026-09-17.
-- Current Millington sold/listing market results, checked 2026-09-17.
+- Zillow / RealTracs MLS and LandSearch subject listing, checked 2026-09-17.
+- Shelby County / Develop901 zoning and prior CA planning materials, checked 2026-09-17.
+- Zillow/MAAR recent sold land results, checked 2026-09-17.
+- Trulia/MAAR closed 4-acre Millington-Arlington Rd tract, $120,000 on 2026-05-22.
+- Zillow sold results: 6225 Ricks Rd, 4 acres, $99,999 on 2026-07-28; Pleasant Ridge 4.31-acre transactions, $105,000 in 2025.
+- Redfin public/MLS data for 6648 Pleasant Ridge Rd: 5 acres, public water + septic, parcel D0127 00373.
+- Compass/MAAR active Pleasant Ridge 4-acre tract: 210x831, water/power at road, perc claimed complete.
