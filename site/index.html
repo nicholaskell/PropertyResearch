@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Property Development Portfolio</title>
+<style>
+:root{color-scheme:dark;background:#111827;color:#e5e7eb;font-family:Inter,system-ui,sans-serif}body{margin:0;padding:24px}main{max-width:1500px;margin:auto}h1{margin-bottom:4px}.sub{color:#9ca3af;margin-top:0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:24px 0}.card{background:#1f2937;border:1px solid #374151;border-radius:10px;padding:16px}.value{font-size:28px;font-weight:700}.label{color:#9ca3af;font-size:13px}.controls{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}input,select{background:#1f2937;color:#e5e7eb;border:1px solid #4b5563;border-radius:7px;padding:9px}table{width:100%;border-collapse:collapse;background:#1f2937;font-size:13px}th,td{text-align:left;padding:10px;border-bottom:1px solid #374151;white-space:nowrap}th{position:sticky;top:0;background:#111827;cursor:pointer}.wrap{overflow:auto;border:1px solid #374151;border-radius:10px}.good{color:#86efac}.warn{color:#fde68a}.bad{color:#fca5a5}.muted{color:#9ca3af}a{color:#93c5fd}</style>
+</head>
+<body><main>
+<h1>Property Development Portfolio</h1>
+<p class="sub">Capital-efficient land subdivision and build-to-sell screening dashboard.</p>
+<div class="cards">
+ <div class="card"><div class="value" id="propertyCount">—</div><div class="label">Properties</div></div>
+ <div class="card"><div class="value" id="scenarioCount">—</div><div class="label">Modeled Scenarios</div></div>
+ <div class="card"><div class="value" id="twoYearCount">—</div><div class="label">Strong/Plausible ≤24 mo</div></div>
+ <div class="card"><div class="value" id="preferredCount">—</div><div class="label">Preferred Scenarios</div></div>
+</div>
+<div class="controls"><input id="search" placeholder="Search property or strategy"><select id="fit"><option value="">All 24-month ratings</option><option>STRONG</option><option>PLAUSIBLE</option><option>TIGHT</option><option>UNLIKELY</option><option>UNKNOWN</option></select></div>
+<div class="wrap"><table><thead><tr><th>Property</th><th>Asking</th><th>Acres</th><th>Preferred Strategy</th><th>Lot Yield</th><th>Max Land Basis</th><th>Min Upfront</th><th>Peak Capital</th><th>Profit</th><th>Margin</th><th>24-Month Fit</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="muted">Generated data is an analytical index. Markdown property records and supporting evidence remain authoritative.</p>
+<script>
+const money=v=>v==null?'—':(typeof v==='number'?'$'+Math.round(v).toLocaleString():v);
+const val=v=>v==null||v===''?'—':v;
+let data={properties:[],scenarios:[]};
+function fitClass(v){v=String(v||'').toUpperCase();return v.includes('STRONG')||v.includes('PLAUSIBLE')?'good':v.includes('TIGHT')?'warn':v.includes('UNLIKELY')?'bad':''}
+function render(){const q=document.querySelector('#search').value.toLowerCase(),f=document.querySelector('#fit').value;const rows=data.properties.filter(p=>JSON.stringify(p).toLowerCase().includes(q)&&(!f||String(p.twenty_four_month_feasibility||'').toUpperCase().includes(f)));document.querySelector('#rows').innerHTML=rows.map(p=>`<tr><td>${val(p.address||p.property_id)}</td><td>${money(p.asking_price)}</td><td>${val(p.acreage)}</td><td>${val(p.preferred_development_strategy)}</td><td>${val(p.realistic_saleable_lot_yield)}</td><td>${money(p.maximum_land_basis)}</td><td>${money(p.minimum_upfront_capital)}</td><td>${money(p.peak_capital_at_risk)}</td><td>${money(p.estimated_gross_profit)}</td><td>${val(p.profit_margin_on_cost)}</td><td class="${fitClass(p.twenty_four_month_feasibility)}">${val(p.twenty_four_month_feasibility)}</td><td>${val(p.status||p.research_status)}</td></tr>`).join('');}
+fetch('site-data.json').then(r=>r.json()).then(d=>{data=d;propertyCount.textContent=d.properties.length;scenarioCount.textContent=d.scenarios.length;twoYearCount.textContent=d.properties.filter(p=>/STRONG|PLAUSIBLE/i.test(p.twenty_four_month_feasibility||'')).length;preferredCount.textContent=d.scenarios.filter(s=>s.preferred||s.capital_efficient_preferred).length;render()}).catch(e=>{document.querySelector('#rows').innerHTML='<tr><td colspan="12">Run scripts/build_data.py to generate site-data.json.</td></tr>'});
+search.oninput=render;fit.onchange=render;
+</script>
+</main></body></html>
