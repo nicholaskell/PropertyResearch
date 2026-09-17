@@ -4,8 +4,10 @@ state: KY
 county: Warren County
 listing_url: https://www.zillow.com/homedetails/54-Wand-Cemetery-Rd-Bowling-Green-KY-42101/461176063_zpid/
 property_type: vacant land
-acres_listing_marketing: 54
-acres_user_google_earth_trace: 53.13
+acres_mls_current: 27
+apn_current: 013A-41
+acres_historic_marketing_image: 54
+acres_user_google_earth_trace_combined: 53.13
 asking_price_snapshot: 199000
 asking_price_checked: 2026-09-17
 status: active
@@ -13,10 +15,10 @@ status: active
 
 # 54 Wand Cemetery Rd — Property Card
 
-## Critical acreage correction — 2026-09-17
-User-supplied listing imagery and Google Earth work materially change the earlier record. The marketing aerial explicitly labels the subject **“54 Acres Approx”**. The user's Google Earth trace, following the visible listing/parcel boundary, measures **53.13 acres** with an approximately **2,000 m perimeter**. Treat 54 acres as the listing claim and 53.13 acres as a user-derived mapping estimate, **not a survey**.
+## Critical parcel correction — 2026-09-17
+Current MLS/public-record evidence identifies **54 Wand Cemetery Rd as a 27-acre tract, APN 013A-41**. The user-supplied marketing aerial labeled “54 Acres Approx” and the 53.13-acre Google Earth trace appear to depict an earlier/larger combined marketing boundary rather than proving that the current listing conveys 54 acres. **Do not underwrite this purchase as 54 acres unless deed/survey/title confirms it.**
 
-At a ~$199,000 asking-price snapshot, this implies approximately **$3,685–$3,746/acre**, not the earlier ~$7,370/acre calculation based on an incorrect 27-acre interpretation. This materially improves the acquisition basis and development thesis.
+At $219,000 current MLS ask, 27 acres is ~$8,111/acre. The prior ~$3.7k/acre thesis is withdrawn pending title confirmation.
 
 ## User-supplied parcel evidence
 - Listing satellite screenshot shows a long tract with extensive frontage along Wand Cemetery Rd and a northern boundary near/under a major overhead transmission corridor.
@@ -53,7 +55,7 @@ The corrected ~54-acre scale plus apparent extensive road frontage changes this 
 5. **Vertical builds:** optional later phase after lot residual values and local home comps are proven.
 
 ## Active Persona — Land Development / Build-to-Sell
-**Development Score: 74/100 preliminary (raised from 63; confidence MEDIUM-LOW)**
+**Development Score: 61/100 preliminary (confidence MEDIUM-LOW; acreage/title conflict unresolved)**
 - Preferred Development Strategy: staged frontage acreage lots, potentially retaining a larger wooded core/rear tract.
 - Highest Expected Profit Strategy: likely mixed frontage subdivision with selective vertical build only if finished-home residuals justify it.
 - Best Capital-Efficient Strategy: survey + perc multiple frontage sites + minor/low-infrastructure subdivision + staged raw/improved lot sales.
@@ -63,11 +65,11 @@ The corrected ~54-acre scale plus apparent extensive road frontage changes this 
 - 24-Month Feasibility: PLAUSIBLE if frontage subdivision avoids internal road construction.
 - Infrastructure Burden: LOW-MODERATE for frontage splits; HIGH if internal road is required.
 - Market Demand / Absorption: ADEQUATE.
-- Asking Price: ~$199,000 snapshot.
-- Acquisition basis: approximately **$3.7k/acre** using 53.13–54 acres.
+- Asking Price: **$219,000 current MLS snapshot**.
+- Acquisition basis: approximately **$8,111/acre if the current 27-acre MLS acreage is correct**.
 - Best Exit Pivot: retain/resell as a ~54-acre recreational/building tract.
 - Biggest Risks: septic yield, exact zoning/frontage standards, transmission easement, slope/drainage, and wired broadband extension cost.
-- **VERDICT: DEVELOPMENT CANDIDATE / potentially STRONG if 4+ frontage perc sites and economical broadband are confirmed.**
+- **VERDICT: DEVELOPMENT CANDIDATE, but acreage/title reconciliation is now a first-order due-diligence item.**
 
 ## Market / Location
 Warren County remains a growth market. Bowling Green is the daily market; Nashville is a larger but higher-friction extension. Dating Market Access remains **67/100, confidence MEDIUM** pending no change in location assumptions.
