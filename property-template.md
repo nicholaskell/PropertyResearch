@@ -40,6 +40,14 @@ legal_access_status:
 rv_occupancy_status:
 rv_occupancy_max_duration:
 market_access_rating:
+rdc_30_est:
+rdc_45_est:
+rdc_60_est:
+rdc_confidence:
+rdc_suburban_pool_depth:
+rdc_rural_interface:
+rdc_date_friction:
+rdc_growth_direction:
 dating_market_access_score:
 dating_market_access_confidence:
 dating_market_primary_pool:
@@ -170,6 +178,23 @@ Well/septic, gas/propane, electric service, 3-phase potential and infrastructure
 - Shopping:
 - Hospital:
 - Major highway/interstate:
+
+## Rural Dating Catchment (RDC)
+Use `rural-dating-catchment.md`.
+
+- **RDC-30:**
+- **RDC-45 (primary):**
+- **RDC-60:**
+- **RDC Confidence:** LOW / MEDIUM / HIGH
+- **Suburban Pool Depth:** SMALL / MEDIUM / LARGE / VERY LARGE / ENORMOUS
+- **Rural Interface:** POOR / FAIR / GOOD / EXCELLENT / EXCEPTIONAL
+- **Date Friction:** LOW / LOW-MODERATE / MODERATE / HIGH
+- **Growth Direction:**
+- Suburban dating belt:
+- Rural property belt/interface:
+- Urban core excluded / treatment:
+- RDC × Development intersection:
+- Data/MOE limitations:
 
 ## Dating Market Access
 Evaluate for Nicholas as a 42-year-old heterosexual single man seeking a roughly 34–39-year-old, physically active/fit partner compatible with an outdoors/property-oriented lifestyle. This is a location-access estimate, not a judgment about individual residents.
