@@ -11,14 +11,14 @@ asking_price_checked: 2026-09-17
 acres_listing: 36.03
 zoning_listing: R-1
 parcel_id_listing: "0534-L-00045-0000-00"
-research_checked: 2026-09-17
+research_checked: 2026-09-18
 ---
 
 # 0 Indiana Rd, Verona, PA 15147
 
 ## Property Card
 
-- **Current asking price:** $235,000 shown by Realtor.com on 2026-09-17; Zillow/Redfin/Compass snapshots still show $250,000. Confirm with listing agent/MLS before underwriting.
+- **Current asking price:** $235,000 confirmed by current Zillow/Realtor snapshots on 2026-09-18 after an 8/26/2026 $15,000 price cut. Earlier Redfin/Compass snapshots still show $250,000; confirm MLS before underwriting.
 - **Listing:** active vacant land, 36.03 acres, Penn Hills, Allegheny County.
 - **Listing claims:** 627 ft frontage, gravel access road, rolling/wooded terrain with some flat areas; public water and sewer available at Indiana Road.
 - **Zoning:** R-1 Single-Family Residential.
@@ -33,7 +33,7 @@ research_checked: 2026-09-17
 
 ## Development Analysis
 
-**Development Score: 62/100 (provisional)**
+**Development Score: 64/100 (provisional)**
 
 **Preferred Development Strategy:** pursue a low-capital frontage/utility-served subdivision first, avoiding a new internal public road if parcel geometry permits. A 3-9 lot minor-subdivision path could be materially simpler than a 10+ lot/new-road project, but the 627-ft listing frontage and actual parcel geometry must be surveyed.
 
@@ -50,7 +50,7 @@ research_checked: 2026-09-17
 **Infrastructure Burden:** MODERATE for frontage lots; HIGH for interior major subdivision.  
 **Market Demand / Absorption:** ADEQUATE, but local finished-home pricing is modest and raw-lot comps are inexpensive, limiting infrastructure tolerance.  
 **Best Product Type:** buildable utility-served lots first; modest conventional homes only selectively/presold.  
-**Asking Price:** $235,000 current aggregator snapshot.  
+**Asking Price:** $235,000 current Zillow/Realtor snapshot (checked 2026-09-18).  
 **Estimated Maximum Land Basis:** not defensible until yield/sitework are known.  
 **Conservative Sellout Value / Total Project Cost / Gross Profit:** UNKNOWN pending concept plan, utility letters, topo and lot comps.  
 **Minimum Practical Upfront Capital:** purchase + survey/engineering/title/entitlement; exact amount TBD.  
@@ -85,3 +85,13 @@ Penn Hills itself has been losing population (Census estimate: 41,061 base in 20
 5. Run title/OGM review, including surface-use rights.
 6. Verify nearby FCC serviceable locations and ISP extension cost.
 7. Pull recent vacant-lot and new-construction sold comps within Penn Hills/Verona before assigning residual land value.
+
+
+## 2026-09-18 Research Refresh
+
+- Current listing sources now converge on **$235,000**, 36.03 acres, R-1, MLS 1729799, with 627 ft stated frontage and public water/sewer available at Indiana Road.
+- Penn Hills R-1 code confirms **8,400 sf minimum lot area, 60 ft frontage/average width and up to 5 DU/acre**; single-family residences are permitted. These dimensional rules do **not** imply a practical 5-DU/acre yield.
+- Penn Hills subdivision standards require lots to front a municipal street. A subdivision of **10+ lots or any proposal with a new street/public improvement is major**, materially increasing engineering and infrastructure exposure.
+- Local market evidence remains a constraint: Penn Hills median home sale price was about **$189k for the three months ending Aug. 2026**, while current larger raw-land asks include ~10.27 acres at $74.9k, ~17.4 acres at $174.9k, and this 36.03-acre tract at $235k. This reinforces the strategy of **frontage lots / phased entitlement first**, rather than immediately financing an internal road and speculative houses.
+- Listing imagery confirms an existing gravel track and visibly rolling/wooded ground with some open/cleared areas, but no authoritative parcel-boundary/topographic overlay has yet been established. **PARCEL MAP — NOT A SURVEY remains outstanding.**
+- Prior same-APN MLS evidence remains a major diligence item: the 2024 record described 7 acres and stated mineral rights did not transfer. Current title/legal description must reconcile that history before acquisition.
