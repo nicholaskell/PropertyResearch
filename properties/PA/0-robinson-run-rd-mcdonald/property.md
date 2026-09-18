@@ -1,103 +1,146 @@
 # 0 Robinson Run Rd, McDonald, PA 15057
 
 ## Property Card
-- Status: Active as of 2026-09-18 (current syndicated sources show $199,500 after 2026-08-25 price cut; some MLS mirrors remain stale at $219,500)
+- Status: Active as of 2026-09-18
 - Asking price: $199,500
 - Parcel: 0583-K-00003-0000-00
-- Acreage: 17.2 acres
+- Acreage: 17.2 acres (county/secondary parcel sources)
 - Municipality: South Fayette Township, Allegheny County, PA (McDonald mailing address)
 - Zoning: R-3 Medium Density Residential
-- Road frontage: ~492 ft, state-road access (listing)
-- Terrain: listing describes “slope to flat”; aerial shows a substantial open/cleared interior area plus woods. Exact slope/buildable-acre model remains unverified.
+- Road frontage: ~492 ft (MLS)
+- Terrain: listing says “slope to flat.” Listing aerial shows a broad wooded tract with a substantial cleared/interior bench or field area, but exact contour/slope percentages are not yet established from authoritative elevation data.
 - Taxes: listing reports $1,760/year; assessment $45,000
 - Prior sale: $110,000 on 2021-07-09
-- Listing history: marketed around $339k in 2023-25, $291.5k in 2025-26, $219.5k Mar 2026, reduced to $199.5k Aug 25 2026.
+- Current list history: marketed far higher in prior years; reduced to $199,500 in Aug 2026.
 - Primary listing: https://www.zillow.com/homedetails/0-Robinson-Run-Rd-Mc-Donald-PA-15057/2071230020_zpid/
 
+## Critical 2026-09-18 Update
+The earlier first-pass interpretation of South Fayette Resolution 2026-2 was too optimistic. The resolution does **not** establish a new sewer extension to this parcel. It adopts an Act 537 special study tied to transfer of the existing Robinson Run interceptor/trunkline and pump-station assets to ALCOSAN and wet-weather/consent-decree compliance. It proves the Robinson Run sewer system is a major existing regional asset, but **does not prove this parcel can connect or that a main is at the frontage**.
+
+That said, nearby Robinson Run Rd properties provide materially better evidence that utility infrastructure exists in the corridor:
+- 3105 Robinson Run Rd (3.7 ac) sold in 2025 and MLS reported **public sewer + public water**.
+- 3166 Robinson Run Rd (2.01 ac residence) was reported with **septic + public water**, showing service is not uniform parcel-to-parcel.
+- A separate 14.53-acre Robinson Run Rd listing reported **sewer available + water available**.
+Conclusion: public sewer appears present/available in at least portions of Robinson Run Rd, but parcel-specific availability, elevation/gravity connection, capacity, easement and extension cost remain the single most important diligence item.
+
 ## Fatal-Flaw Screen
-- Legal/practical access: INVESTIGATE / likely clear. Listing reports ~492 ft frontage and state-road access.
-- Zoning/buildability: CLEAR at concept level. R-3 expressly supports medium-density single-family development.
-- Sewer: INVESTIGATE — pivotal. R-3 minimum single-family lot is 10,500 sf with public sewer versus 43,500 sf (1 acre) without sewer. South Fayette adopted a 2026 Act 537 revision for the Robinson Run Interceptor, but parcel-specific present/future connection availability and tap/extension cost must be confirmed.
-- Topography/usable acres: INVESTIGATE. Aerial imagery suggests meaningful usable/open ground but exact contours and steep-slope constraints are not yet modeled.
-- Flood/wetlands: INVESTIGATE. Secondary parcel data reports FEMA B/X (moderate/low mapped hazard), but exact parcel intersection and stream/wetland buffers require GIS confirmation.
-- RV while building: FAIL for Nicholas-style occupied camper. Township zoning states an RV parked/stored on residential property may not be occupied or used as a dwelling. A construction office trailer is a separate conditional/temporary use and is not residential RV permission.
-- OGM/mineral rights: UNKNOWN. Pennsylvania rights must not be assumed to convey; deed/title and DEP well/pipeline checks remain required.
-- Broadband: UNKNOWN parcel-specific. Because parcel is vacant, use a neighboring Robinson Run Rd serviceable address plus FCC/ISP plant check; proxy service does not prove parcel availability.
+- Legal/practical access: INVESTIGATE / likely favorable. Listing reports ~492 ft frontage and state-road access.
+- Zoning/buildability: CLEAR at concept level. R-3 allows single-family dwellings and is explicitly a medium-density residential district.
+- Sewer: INVESTIGATE — pivotal. R-3 minimum single-family lot is 10,500 sf with public sewer versus 43,500 sf without public sewer. Nearby corridor evidence is mixed (public sewer on some Robinson Run properties; septic on others).
+- Water: INVESTIGATE / likely favorable corridor evidence. Nearby Robinson Run listings report public water or water available.
+- Topography/usable acres: INVESTIGATE. South Fayette requires steep-slope mapping for major subdivisions. Slopes 25–40% can require a geotechnical report; >40% disturbance is heavily constrained.
+- Flood/wetlands: INVESTIGATE. Secondary parcel source reports FEMA zones B/X. Exact mapped intersection, stream location, wetlands and buffers still need GIS/field confirmation.
+- RV while building: FAIL for occupied camper strategy. Township rules do not allow an RV stored/parked on residential property to be occupied as a dwelling.
+- OGM/mineral rights: UNKNOWN. Pennsylvania subsurface rights must not be assumed to convey.
+- Broadband: UNKNOWN parcel-specific. Use nearby serviceable Robinson Run Rd addresses only as proxy evidence, then verify actual plant/location.
 - HOA/deed restrictions/easements: UNKNOWN pending title/deed.
 
+## Subdivision Rules That Matter
+- **Minor subdivision:** no more than 4 lots, all fronting an improved public street, with no new/improved public street.
+- **Major subdivision:** 5+ lots **or any subdivision requiring creation/extension/improvement of a public street**.
+- Major subdivision submittals require considerably more civil work: existing-conditions survey, grading, utility plans, road profiles, E&S plan, stormwater plan/report, sanitary profiles, wetland report, geotechnical/slope analysis, utility-availability letters and other approvals.
+- Every residential subdivision/land development with 2+ dwelling units is subject to a **10% open-space requirement** or township-approved equivalent/payment structure.
+- Lots must front a public street.
+- Proposed streets must follow topography where practicable and meet Township construction standards.
+- Watercourses require a drainage/stormwater easement at least 20 ft wide.
+- Major plans must map 15–25% and >25% slopes. Single-family plans are subject to special steep-slope development restrictions.
+
+This sharply favors a **4-lot frontage-first strategy** if the geometry permits four compliant frontage lots without a new public street. That is the cleanest way to stay in the minor-subdivision process and minimize peak capital.
+
 ## Development Read
-The acquisition basis is unusually low relative to South Fayette finished-lot asking prices and current new-construction pricing, but the opportunity is dominated by sewer and civil/sitework economics.
+The acquisition basis remains unusually low for South Fayette, but development economics hinge on three physical facts:
+1. exact frontage geometry and whether four compliant lots can directly front Robinson Run Rd;
+2. whether public sewer can serve the subject tract economically;
+3. how much of the rear/interior is constrained by slope, drainage and road grades.
 
-R-3 dimensional rules:
-- With public sewer: minimum 10,500 sf and 80 ft lot width.
-- Without public sewer: minimum 43,500 sf and 150 ft lot width.
-- 35% maximum lot coverage; 30 ft front, 35 ft rear, 10 ft side yards for single-family.
+### Scenario A — 4-lot minor subdivision / frontage-first
+This is now the **preferred first strategy to test**.
+- Goal: create up to four compliant lots that all front Robinson Run Rd and require no public-road construction.
+- If sewer is available, lot sizes could theoretically be well below an acre, but market and geometry may favor larger homesites.
+- Without sewer, 1-acre minimum and 150-ft lot-width requirements control; 492 ft of reported total frontage means four conventional 150-ft frontage lots would **not** fit purely along the reported frontage. This is critical.
+- Therefore, a no-sewer four-lot concept may be impossible without alternative geometry, additional frontage, or fewer lots.
+- A 2–3 lot acreage split could be the low-complexity no-sewer fallback.
 
-The 17.2 gross acres theoretically supports far more density with sewer, but gross zoning arithmetic is not saleable yield. Roads, stormwater, grades, open-space/design rules, utilities and parcel geometry will reduce yield.
+### Scenario B — 5–9 acreage lots / major subdivision
+- Requires major-subdivision process once 5+ lots are created.
+- Without sewer, each lot generally requires at least 1 acre and 150 ft width.
+- Internal public street may become necessary, dramatically increasing cost.
+- Perc testing becomes essential.
 
-### Scenario A — No public sewer / acreage lots
-- Concept: frontage/short-access 1–2 acre homesites using on-lot sewage if soils permit.
-- Realistic preliminary yield: ~5–9 lots, not yet engineered.
-- Advantage: lower peak capital and simpler phasing.
-- Risk: perc/soil, frontage geometry and internal access.
-- Likely best capital-efficient strategy if sewer extension is expensive.
+### Scenario C — sewer-served conventional subdivision
+- R-3: 10,500 sf minimum lot, 80-ft width with public sewer.
+- Preliminary gross zoning arithmetic supports much greater density, but the earlier 18–35-lot range remains only a feasibility envelope, not a yield estimate.
+- Any internal road triggers major-subdivision engineering, stormwater, grading and utility work.
+- Steep-slope and stormwater constraints can materially reduce net acreage.
 
-### Scenario B — Sewer-served conventional subdivision
-- Concept: roughly 0.25–0.5 acre lots, likely requiring internal street, stormwater and utility infrastructure.
-- Preliminary realistic yield: ~18–35 lots depending on net developable area, road/stormwater geometry and sewer availability; this is explicitly NOT an entitlement estimate.
-- Local current asking evidence: several South Fayette/McDonald 0.5–0.83 ac finished/buildable lots are marketed around $120k–$160k, while South Fayette new construction commonly starts around the high-$500ks to $600ks.
-- Advantage: very large gross-value uplift if infrastructure can be delivered economically.
-- Risk: roads, sewer, stormwater, grading and entitlement can consume the apparent spread quickly.
+### Scenario D — phased hybrid
+1. Entitle/sell easiest road-front lots first.
+2. Use sale proceeds to finance deeper civil work.
+3. Preserve rear acreage until sewer/topography are proven.
+This remains the strongest capital-risk-control concept.
 
-### Scenario C — Mixed/phased
-Preserve the road-accessible/open portion for an initial minor subdivision or first phase, recycle early lot-sale proceeds, and defer expensive rear/internal-road development until demand and infrastructure are validated. This currently appears to be the most attractive risk-control concept.
+## Geometry / Topography Observations
+Authoritative Allegheny County GIS confirms the parcel layer and supports polygon geometry for PIN 0583-K-00003-0000-00, but the current research environment has not yet successfully extracted the coordinate ring. The listing aerial is consistent with the subject boundary shown across Robinson Run Rd frontage, a large wooded middle/rear, and a substantial cleared/open interior area.
 
-## Market Context
-South Fayette Township estimated population was 18,648 in 2025, +1.6% from the 2020 estimate base; 2010 Census population was 14,416 versus 18,358 in 2020. The local housing market is substantially stronger than many rural western-PA candidates: Realtor.com reported Aug 2026 median sold price about $460,000 and median DOM about 23 days. This is a Pittsburgh suburban/exurban development market, not a remote rural liquidity play.
+Important ordinance implications:
+- 15–25% and >25% slope areas must be separately mapped on major subdivision plans.
+- On single-family subdivision lots, steep slopes over 25% receive additional building-line restrictions.
+- 25–40% slope disturbance can require geotechnical evidence of stable soils/slopes.
+- Slopes >40% are generally to remain undisturbed except limited allowed situations.
 
-## Development Persona — provisional
-- Development Score: 82/100
-- Preferred Development Strategy: phased subdivision; validate sewer first, then optimize lot mix.
-- Highest Expected Profit Strategy: sewer-served conventional subdivision if connection and civil costs pencil.
-- Best Capital-Efficient Strategy: 5–9 larger homesites / first-phase frontage lots if on-lot sewage is feasible.
-- Optimal Lot-Size Mix: UNKNOWN pending sewer + topo; likely 0.25–0.5 ac with sewer or 1–2 ac without.
-- Realistic Saleable Lot Yield: prelim. 5–9 no-sewer; 18–35 sewer-served.
+Therefore **net developable acreage may be substantially less than 17.2 acres even if the aerial looks roomy**.
+
+## Market Evidence
+The local finished-home market is strong enough to support development analysis:
+- 3105 Robinson Run Rd, 3.7 ac, 4/3, sold for **$645,000 in 2025**; public sewer/public water reported.
+- 3166 Robinson Run Rd, 2.01 ac, 3/1.5, sold for **$342,000 in Mar 2025**; septic/public water reported.
+- 1369 Sandstone Dr, ~0.48 ac, sold for **$520,000 in Apr 2025**.
+- 3007 Sir Charles Dr, ~0.22 ac, sold for **$480,000 in Mar 2025**.
+These are house sales, not vacant-lot comps, but they confirm that South Fayette supports mid/high-$400k to $600k+ finished product.
+
+A nearby 38-acre South Fayette farm at 291 Sygan Rd reportedly sold for **$1.9M in Dec 2025**, showing that large acreage in the township can command substantial value when location/development characteristics are favorable; it is not a direct comp.
+
+## Development Persona — Revised Provisional Score
+- **Development Score: 80/100**
+- Preferred Development Strategy: test 2–4 frontage lots first, then phase rear acreage.
+- Highest Expected Profit Strategy: sewer-served major subdivision if connection + grading + road costs pencil.
+- Best Capital-Efficient Strategy: minor subdivision using direct Robinson Run frontage.
+- Optimal Lot-Size Mix: unresolved; likely larger frontage lots initially, smaller lots only if sewer and internal-road economics are favorable.
+- Realistic Saleable Lot Yield: 2–4 low-complexity frontage lots; 5–9 acreage lots only with major-subdivision feasibility; higher sewer-served yield remains unengineered.
 - Entitlement Status: PLAUSIBLE
-- 24-Month Feasibility: PLAUSIBLE for small phased/acreage strategy; TIGHT for full sewer-served subdivision.
-- Infrastructure Burden: MODERATE to HIGH; potentially HIGH/EXTREME if sewer/road extension is substantial.
-- Market Demand / Absorption: STRONG at metro/suburban level; product-specific lot absorption still needs sold-comp study.
-- Best Product Type: buildable lots first; avoid simultaneous vertical construction until lot economics are proven.
+- 24-Month Feasibility: STRONGER for 2–4 lot minor split; PLAUSIBLE/TIGHT for major subdivision.
+- Infrastructure Burden: LOW–MODERATE for simple frontage split; HIGH for internal-road subdivision.
+- Market Demand / Absorption: STRONG finished-home market; vacant-lot absorption still requires sold-lot comps.
 - Asking Price: $199,500
-- Estimated Maximum Land Basis: not defensible until sewer/sitework budget and sold-lot comps are established.
-- Conservative Sellout Value / project cost / profit / return metrics: pending engineering-level yield and infrastructure pricing.
-- Time to First Sale: estimate 8–15 months for a simple phase if approvals/perc are favorable; longer for major subdivision.
-- Best Exit Pivot: retain/sell as acreage, carve a limited number of buildable lots, or phase rather than fully build out.
-- Biggest Risk / Unknown: parcel-specific sewer availability/cost followed by topography/stormwater and exact net developable acreage.
-- VERDICT: DEVELOPMENT CANDIDATE, potentially STRONG after sewer/topo validation.
-
-## Lifestyle / RDC note
-This parcel sits in the Pittsburgh suburban fringe rather than an isolated rural market, which should materially improve dating/social-market access versus remote western-PA acreage. Formal RDC-30/45/60 counts and Dating Market Access score remain to be calculated from drive-time/ACS catchments rather than inferred from the MSA.
+- Estimated Maximum Land Basis: still not defensible until sewer + topo + yield are known.
+- Time to First Recoverable Sale: potentially 6–12 months for a clean minor split; major plan materially longer.
+- Best Exit Pivot: sell as acreage / 2–4 frontage lots / retain rear development tract.
+- Biggest Risk / Unknown: **sewer at the parcel and buildable geometry behind the frontage**.
+- VERDICT: DEVELOPMENT CANDIDATE; potentially STRONG if sewer and topography cooperate.
 
 ## OGM Warning
-Oil, gas, mineral and other subsurface rights must not be assumed to convey. Current deed/title instruments and PA DEP mapping must be reviewed. Rights Disturbance Risk: ⚫ UNKNOWN pending title and site-specific resource/infrastructure search.
+Oil, gas, mineral, coal and other subsurface rights must not be assumed to convey. Rights Disturbance Risk remains ⚫ UNKNOWN until deed/title and PA DEP mapping are reviewed.
 
 ## Broadband Lookup Proxy
-Because the parcel has no street number, nearby Robinson Run Rd residences (e.g. 3131–3137 Robinson Run Rd shown in listing-neighbor data) can be used only as BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS. Verify FCC location points and provider plant at the actual future homesite.
+Nearby Robinson Run Rd residential addresses may be used only as **BROADBAND LOOKUP PROXY — NOT THE PROPERTY ADDRESS**. Service at neighboring homes does not prove service at a future homesite.
 
-## Priority Questions
-1. Is sanitary sewer currently available at this parcel, or will the Robinson Run Interceptor project make it available? Where is the nearest main, what is the schedule, and what are tap/extension/capacity charges?
-2. Obtain county/township GIS parcel geometry, contours, streams, floodplain and wetlands; calculate net developable acreage and likely road alignment.
-3. Confirm minor/major subdivision thresholds, open-space design implications, street standards, stormwater obligations and approval timeline with South Fayette Planning.
-4. Perc/probe representative 1-acre lot locations if sewer is not immediately economical.
-5. Pull deed/title for easements, covenants and OGM reservations; check PA DEP wells/pipelines/mining layers.
-6. Run sold (not asking) lot comps by lot size and finished-home residual analysis.
-7. Verify electric, water and wired broadband extension cost at the parcel.
+## Priority Diligence — in order
+1. **Call South Fayette/MATSF/ALCOSAN and ask parcel-specific sewer question for PIN 0583-K-3:** nearest main/manhole, gravity vs pump, capacity, tap fee, developer extension requirements and whether road crossing/easements are needed.
+2. Get the official parcel polygon + contours and calculate: frontage lengths, slope bands, likely driveway/internal road alignment, net <15%, 15–25%, 25–40%, >40% acres.
+3. Ask township whether a proposed 2-, 3- or 4-lot frontage split qualifies as a minor subdivision on this exact parcel and whether any road/frontage improvement would escalate it to major.
+4. Determine public-water main location and extension/tap cost.
+5. Wetland/stream/flood GIS + field reconnaissance.
+6. Title/deed: easements, covenants, oil/gas/mineral reservations, utility rights-of-way.
+7. Sold vacant-lot comps by 0.25–0.5 ac, ~1 ac, and 2–5 ac product to calculate residual land value.
+8. Only then commission a sketch yield plan/civil feasibility study.
 
 ## Sources checked 2026-09-18
 - Zillow / West Penn MLS mirrors
-- Realtor.com listing and South Fayette market data
-- South Fayette Township zoning ordinance (R-3)
+- Realtor.com / Redfin / Homes.com corridor listings and solds
+- LoopNet parcel record
+- Allegheny County GIS parcel layer
+- South Fayette Township Zoning Ordinance, R-3
 - South Fayette Subdivision and Land Development Ordinance
-- South Fayette 2026 Resolution 2 / Robinson Run Interceptor Act 537 revision
-- U.S. Census QuickFacts
-- PA DEP Oil & Gas mapping (site-specific result still pending)
+- South Fayette SALDO application checklist
+- South Fayette Resolution 2026-2 / Act 537 Robinson Run Interceptor
+- MATSF Robinson Run Interceptor materials
