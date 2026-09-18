@@ -35,15 +35,27 @@ research_date: 2026-09-17
 - **RV occupancy during construction:** **UNKNOWN.** Written Shelby County/Develop901 confirmation still required; do not assume vacant-land RV residence is permitted merely because agricultural zoning is permissive.
 - **Restrictions/easements/title:** **UNKNOWN.** Need title commitment/deed/covenant/easement review before final yield assumptions.
 
+## 2026-09-18 User Map / Terrain Evidence Update
+
+The user supplied a Zillow lot-line satellite screenshot plus three Google Earth screenshots tracing the subject parcel. Treat all traced geometry as **PARCEL MAP — NOT A SURVEY**.
+
+- User Google Earth polygon: **~19.22 acres / 6,038 ft perimeter**, which closely reconciles to the listing's 18.95 acres.
+- The imagery strongly supports the unusual configuration: a long wooded rear tract with a narrow eastward stem reaching Sledge Rd and existing residential lots lining much of the east side.
+- Long-axis Google Earth profile: **~1,394 ft**, elevation roughly **310–337 ft**, median sampled slope **0.6°**, maximum sampled slope **10.3°**. This materially reduces topographic/site-grading concern.
+- Sledge Rd stem profile: **~477 ft**, elevation roughly **284–288 ft**, median sampled slope **0.2°**, maximum sampled slope **3.6°**. The road-access leg itself appears essentially level.
+- Important geometry implication: the parcel's apparent Sledge Rd connection is valuable for legal access, but it does **not** appear to provide enough independent public-road frontage to simply carve 5–7 conventional frontage lots. The earlier “frontage-oriented acreage subdivision” thesis therefore needs revision. A 5–7 lot yield likely requires an approved shared/private internal access arrangement or a dedicated subdivision street, which can materially increase cost and entitlement burden.
+- Revised development interpretation: **4–6 lots is the safer concept-planning range until a surveyor/OPD confirms private-street/shared-access rules; 5–7 remains possible upside, not base underwriting.** The flat terrain makes an internal drive/road physically easier, but road/fire-access/utility standards now become a central go/no-go issue.
+
+
 ## Development Persona
 
-**Development Score: 78/100 (provisional; raised from 72 after comp/utility pass)**
+**Development Score: 75/100 (provisional; strong terrain/basis offset by access-layout uncertainty)**
 
 - **Preferred Development Strategy:** frontage-oriented acreage subdivision, ideally avoiding a new internal public road. Survey/soil/perc first; create the maximum number of independently buildable lots that the frontage and soils support, then sell in stages.
 - **Highest Expected Profit Strategy:** subdivide, sell enough buildable lots to recover basis/development capital, then selectively build one market-tested modest house/shop or barndo product at a time on retained lots only if vertical comps justify it.
 - **Best Capital-Efficient Strategy:** raw/lightly improved acreage lots with documented perc, survey, recorded plat, driveway approval and utility availability. Do not start with multiple spec houses.
 - **Optimal Lot-Size Mix:** current evidence favors **roughly 2.5–4 acres**, not automatic 2-acre minimum slicing. Four-acre proven lots near Arlington have sold around $100k–$120k; subject's exact location likely warrants a discount until direct Sledge/Millington comps establish otherwise.
-- **Realistic Saleable Lot Yield:** **5–7 is now the underwriting range; 8 remains upside, not base case.** A frontage-only layout is the key objective.
+- **Realistic Saleable Lot Yield:** **4–6 base concept range; 5–7 possible upside if an approved private/shared access or economical subdivision street works.** The user-provided parcel imagery makes a frontage-only multi-lot layout unlikely.
 - **Entitlement Status:** **PLAUSIBLE / INVESTIGATE.**
 - **24-Month Feasibility:** **PLAUSIBLE**, potentially STRONG if survey/perc produces frontage lots without road construction.
 - **Infrastructure Burden:** **LOW–MODERATE potential** if public water/power are at frontage and lots use septic; **HIGH** if an internal road or major water extension is needed.
@@ -72,7 +84,7 @@ At a 6-lot/$480k screening sellout, the spread before tax/finance and before ref
 - **Time to First Recoverable Sale:** screening estimate **6–12 months** if minor subdivision/perc/plat path is straightforward.
 - **Base-Case Completion:** **12–24 months** for staged lot sellout; absorption is likely a larger uncertainty than construction if no houses are built.
 - **Best Exit Pivot:** sell recorded/perc-approved lots individually; alternatively retain residual acreage or sell the entitled package to another builder/developer.
-- **Biggest Risk / Unknown:** exact road frontage/geometry plus per-lot septic suitability. Those two variables control whether this is a 5–7-lot low-cost subdivision or merely inexpensive bulk acreage.
+- **Biggest Risk / Unknown:** internal access/road approval and cost plus per-lot septic suitability. The user-provided geometry substantially clarifies that the rear acreage is flat, but also shows why access design—not slope—is now the dominant subdivision question.
 - **VERDICT:** **DEVELOPMENT CANDIDATE — materially stronger after second-pass comp work, but survey/GIS + soil work are the go/no-go gates.**
 
 ## Comparable Evidence
