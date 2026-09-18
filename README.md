@@ -34,6 +34,7 @@ PropertyResearch/
 ├── README.md
 ├── criteria.md
 ├── rural-dating-catchment.md
+├── rdc-areas-of-interest.md
 ├── project-instructions.md
 ├── researcher-instructions.md
 ├── portfolio-rules.md
@@ -156,7 +157,7 @@ If repository Actions permissions prevent workflow commits, enable the repositor
 
 # Rural Dating Catchment (RDC)
 
-Property discovery now uses `rural-dating-catchment.md` to prioritize the overlap between a substantial suburban dating population and the first genuinely rural acreage/development belt. Use RDC-30 / RDC-45 / RDC-60, suburban pool depth, rural-interface quality, date friction and growth direction. **RDC-45 is the primary comparison band.** Initial discovery priority is **LARGE-or-better suburban pool + EXCELLENT-or-better rural interface + LOW or LOW-MODERATE date friction**. Corridor conclusions remain hypotheses until tract/drive-time evidence validates them.
+Property discovery now uses `rural-dating-catchment.md`, with the current corridor shortlist and discovery questions maintained in `rdc-areas-of-interest.md` to prioritize the overlap between a substantial suburban dating population and the first genuinely rural acreage/development belt. Use RDC-30 / RDC-45 / RDC-60, suburban pool depth, rural-interface quality, date friction and growth direction. **RDC-45 is the primary comparison band.** Initial discovery priority is **LARGE-or-better suburban pool + EXCELLENT-or-better rural interface + LOW or LOW-MODERATE date friction**. Corridor conclusions remain hypotheses until tract/drive-time evidence validates them.
 
 # Property Investigator
 
