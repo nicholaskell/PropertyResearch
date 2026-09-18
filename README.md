@@ -33,6 +33,7 @@ Ranks property + strategy combinations
 PropertyResearch/
 ├── README.md
 ├── criteria.md
+├── rural-dating-catchment.md
 ├── project-instructions.md
 ├── researcher-instructions.md
 ├── portfolio-rules.md
@@ -152,6 +153,10 @@ It can be hosted later with GitHub Pages or another static host. The repository 
 `.github/workflows/build-dashboard.yml` runs the structured-data generator after relevant changes on `main` and can also be triggered manually. It installs the small build dependency set in `requirements-build.txt`, generates Parquet/JSON, and commits changed generated data back to the repository.
 
 If repository Actions permissions prevent workflow commits, enable the repository's GitHub Actions workflow write permission or change the deployment approach. Do not treat a failed generated-data build as loss of authoritative research; Markdown records remain intact.
+
+# Rural Dating Catchment (RDC)
+
+Property discovery now uses `rural-dating-catchment.md` to prioritize the overlap between a substantial suburban dating population and the first genuinely rural acreage/development belt. Use RDC-30 / RDC-45 / RDC-60, suburban pool depth, rural-interface quality, date friction and growth direction. **RDC-45 is the primary comparison band.** Initial discovery priority is **LARGE-or-better suburban pool + EXCELLENT-or-better rural interface + LOW or LOW-MODERATE date friction**. Corridor conclusions remain hypotheses until tract/drive-time evidence validates them.
 
 # Property Investigator
 
