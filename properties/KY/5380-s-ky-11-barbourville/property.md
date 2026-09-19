@@ -9,7 +9,7 @@ status: active
 asking_price: 90000
 gross_acres: 54
 date_checked: 2026-09-19
-research_status: preliminary-critical-unknowns
+research_status: user-aerial-and-fcc-evidence-added
 ---
 # 5380 S KY-11 — Property Card
 
@@ -32,7 +32,7 @@ research_status: preliminary-critical-unknowns
 | Issue | State | Evidence / action |
 |---|---|---|
 | Legal access | INVESTIGATE | State-road frontage claimed; confirm both sides are part of conveyance, permitted driveway locations and title |
-| Broadband | INVESTIGATE | Blink local FTTH network exists; no parcel-specific serviceability established |
+| Broadband | INVESTIGATE | User FCC screenshot (Dec 31 2025 data, updated Sep 15 2026) at NEARBY 5407 S KY 11: Zito Media cable 1000/25, Windstream Kentucky East copper 200/20, satellite; NO fiber listed. Proxy does not prove availability at subject 5380 or future upland homesite. Blink remains unconfirmed. |
 | Flood | INVESTIGATE | Listing admits river side floodplain; FEMA parcel overlay and high-water history needed |
 | Usable land | INVESTIGATE | Gross 54 acres; acreage by road side, slope, soils, flood constraints unknown |
 | Septic/water | INVESTIGATE | Utilities at road claimed, actual meter/tap availability and upland septic test unknown |
@@ -40,6 +40,10 @@ research_status: preliminary-critical-unknowns
 | Mineral/coal/timber | INVESTIGATE | Rights not established; title and KY mine map review essential |
 | Subdivision | INVESTIGATE | AR/Farm is listing field, not confirmed county approval; road access, soils, plat rules and demand unknown |
 | Market exit | INVESTIGATE | Remote rural market; independent comps and liquidity needed |
+
+## User-supplied evidence, 2026-09-19
+- Two Google satellite screenshots with listing-derived white parcel outlines show a substantial wooded upland tract southeast/east of KY-11 and a narrower clearing/riverfront strip northwest of road along Cumberland River, with irregular boundary and road curve. These are NOT A SURVEY or official GIS; screenshot does not permit defensible acreage split. The southeast tract is wooded and appears dissected by drainage/terrain; aerial cannot establish slopes, flat pads or septic suitability. Existing houses at southwest edge appear on separately outlined neighboring parcels; do not assume included.
+- FCC National Broadband Map screenshot for 5407 S KY 11 BARBOURVILLE KY 40906, status Served, Residential 1 unit; data as of Dec 31 2025, map last updated Sep 15 2026: Zito Media cable 1000 down/25 up; Windstream Kentucky East copper 200 down/20 up; Starlink 280/30; HughesNet 50/5; Viasat 150/3; no fiber listed. This is a NEARBY ADDRESS PROXY, NOT SUBJECT PROPERTY OR SERVICE CONFIRMATION. Confirm exact property 5380 and intended homesite/driveway with providers; verify coax/copper extension and upload capability.
 
 ## Land model
 Total 54 ac; constrained ac UNKNOWN; usable ac UNKNOWN; prime operational ac UNKNOWN. Do not assume all non-floodplain land is flat, septic-suitable or legally buildable.
@@ -54,7 +58,7 @@ Upland across road: primary residence, barn, equipment, animals and possible add
 All active-persona scores PENDING until complete active-persona inventory and key fatal-flaw evidence can be obtained. No fabricated numerical scores. Dating Market Access and RDC-30/45/60 pending drive-time demographic model. Broad provisional observation: small local catchment and long distance to a substantial metro versus Nashville corridor.
 
 ## Research tasks
-- [ ] Obtain official PVA parcel geometry and deed/legal description; confirm acreage each side of KY-11 and show aerial overlay labelled NOT A SURVEY.
+- [ ] Obtain official PVA parcel geometry and deed/legal description; confirm acreage each side of KY-11 and show authoritative aerial overlay labelled NOT A SURVEY. User supplied Google listing-outline screenshots only; do not treat them as survey.
 - [ ] FEMA NFHL parcel intersection, floodway vs 1% annual chance, historical flood, flood-safe access.
 - [ ] LiDAR slope, NRCS soils, hydric/wetland and onsite septic suitability.
 - [ ] Verify Blink/other wired ISP at intended homesite and extension quote.
